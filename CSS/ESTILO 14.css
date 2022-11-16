@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "TITULO";
+    src: url(../FONTS/STOREB__.ttf);
+}
+
+@font-face {
+    font-family: "TEXTO";
+    src: url(../FONTS/Sriracha-Regular.ttf);
+}
+
+body {
+    background-image: linear-gradient(to top, rgb(66, 8, 21), red, blue);
+}
+
+.TITULO {
+    font-size: 3em;
+    font-family: "TITULO";
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: "TITULO";
+    font-weight: bolder;
+    text-decoration: underline;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    font-family: "TEXTO";
+    font-size: 22px;
+    text-indent: 30px;
+}
+
+img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+p:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.FIM {
+    font-size: 4em;
+    text-align: center;
+    font-weight: bolder;
+    font-family: "TITULO";
+}

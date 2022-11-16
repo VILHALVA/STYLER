@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'HAPPY';
+    src: url('../FONTS/Happy\ Holiday.ttf');
+}
+
+@font-face {
+    font-family: 'DAYS';
+    src: url('../FONTS/Olive\ Days.ttf');
+}
+
+@font-face {
+    font-family: 'STOREB';
+    src: url('../FONTS/STOREB.ttf');
+}
+
+body {
+    background-image: linear-gradient(to top, #FC2414, #2D95FC, #055BB0);
+    
+}
+
+p {
+    font-size: 29px;
+    text-indent: 30px;
+    text-align: left;
+    font-family: 'HAPPY';
+}
+
+ul {
+    text-indent: 10px;
+    text-align: left;
+    font-family: 'STOREB';
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'DAYS';
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'DAYS';
+}

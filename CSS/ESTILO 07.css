@@ -1,0 +1,27 @@
+body {
+    background-image: linear-gradient(to top, #0D0126, #150140, #310273, #3C038C, #621FBF);
+    color: aliceblue;
+    font-size: 22px;
+}
+
+pre {
+    font-weight: bolder;
+    color: black;
+    background-color: greenyellow;
+}
+
+em {
+    color: red;
+}
+
+h1#titulo {
+    text-align: center;
+    background-color: blue;
+    font-size: 3em;
+}
+
+.subtitulo {
+    background-color: aqua;
+    color: black;
+    font-size: 30px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05) ID CLASS</title>
+    <link rel="shortcut icon" href="../MIDIAS/Social-Media-Icons-Glossy-Social-HTML-3.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/ESTILO 07.css">
+</head>
+<body>
+    <h1 id="titulo">ID e CLASS:</h1><hr>
+    <h1 class="subtitulo">01) Usando o ID e CLASS com CSS:</h1>
+    <iframe width="500" height="300" src="https://www.youtube.com/embed/TZuVpJmSNSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+    <p>Para começar a dar mais poder às CSS, criando estilos
+        personalizados, precisamos aprender a utilizar os seletores de id
+        (#) e de class (.) de maneira eficiente. Ao criar nosso conteúdo
+        em HTML, podemos identificar um determinado elemento único
+        com um id, ou agrupar elementos múltiplos que tenham
+        características semelhantes com um class. Vamos olhar um
+        exemplo simples de documento HTML, com propriedades
+        identificadoras:</p>
+    <img width="400" height="280" src="../MIDIAS/Seletor.png" alt=""><br>
+    <p>Olhando atentamente para a linha 23, vimos que o  h1 principal se diferencia dos
+        demais que estão nas linhas 24 e 27, pois ele possui um id.
+        Agora foque sua atenção nas linhas 25 e 28 e perceba que os dois títulos h2
+        possuem o mesmo class.
+        Um id vai identificar um elemento único dentro da página atual.
+        Essa identificação vai nos permitir criar um estilo especial para um
+        elemento isolado. Já um class vai identificar uma classe à qual
+        um ou mais elementos pertençam, compartilhando características
+        em comum a todos os que façam parte desse grupo.</p>
+    <p><em>SE LIGA NA REGRA:</em> Em um mesmo documento HTML, só podemos
+        usar um id para um único elemento, o que significa que não podemos
+        ter dois elementos com um mesmo id dentro de uma mesma página.
+        Porém, podemos atribuir um mesmo class para vários elementos que
+        possuam essa mesma característica</p>
+    <p><em>MAIS UMA REGRA:</em> Todo id em HTML é identificado nas CSS por
+        um símbolo #. Toda class em HTML é identificada nas CSS por um
+        ponto</p>
+    <h1 class="subtitulo">02) Propriedades herdadas:</h1>
+    <iframe width="500" height="300" src="https://www.youtube.com/embed/zXfTjPrMC_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+    <p>No Capítulo 12, discutimos três técnicas usadas para aplicar estilos
+        aos nossos documentos HTML: inline, local e externa. Durante os
+        nossos vídeos de acompanhamento do material em PDF,
+        demonstramos que as três técnicas podem ser usadas em conjunto, e
+        os estilos de cada serão combinados nessa ordem:</p>
+    <pre><code>
+        1º lugar: CSS externo
+        2º lugar: CSS interno/local
+        3º lugar: CSS inline
+    </code></pre>
+    <p>Sendo assim, caso haja duplicidade nas configurações, o que fica valendo no final é a
+        propriedade especificada nas configurações inline. Cada camada de aplicação de
+        estilos vai adicionando propriedades novas e sobrescrevendo as configurações do nível
+        anterior.
+        Quando nós aplicamos configurações personalizadas de id ou de class, também vai
+        existir uma combinação de configurações, como você já deve ter percebido ao analisar
+        o exemplo que apresentamos nas páginas anteriores.</p>
+</body>
+</html>

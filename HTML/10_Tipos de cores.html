@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>09) Tipos de Cores</title>
+    <link rel="stylesheet" href="../CSS/ESTILO 04.css">
+    <link rel="shortcut icon" href="../MIDIAS/Social-Media-Icons-Glossy-Social-HTML-3.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Escala de cores:</h1><hr>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/uKjKnztS3cY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+    <h2>01) O círculo cromático:</h2>
+    <p>Dentro da teoria das cores, precisamos separá-las em grupos para que possamos
+        decidir se as escolhas que vamos fazer para o nosso site vão fazer um sentido
+        harmônico e para que os nossos visitantes olhem para o nosso projeto e
+        instintivamente pense: “- nossa, que bonito!”.
+        A base para isso é conhecer o círculo cromático e compreender as suas sub-divisões.
+        E ele está logo aí abaixo, olhe atentamente, se possível para uma versão colorida. Se
+        por acaso você está vendo uma versão impressa em preto-e-branco, acesse agora o
+        meu repositório e veja o PDF diretamente na tela do seu computador ou celular. Vai
+        ficar tudo mais claro pra você, pode acreditar!</p>
+    <img src="../MIDIAS/Circulo Cromático.png" alt="Circulo cromático">
+    <p>Analisando atentamente o círculo cromático, percebemos as três cores primárias,
+        que estão destacadas com o texto mais escuro: amarelo, vermelho e azul.
+        Da junção das cores primárias, temos as três cores secundárias, que são o laranja
+        (amarelo+vermelho), o violeta/roxo (azul+vermelho) e o verde (azul+amarelo).
+        Da junção de uma cor primária com uma secundária, temos as seis cores terciárias:</p>
+    <ul>
+        <li>Amarelo-esverdeado (amarelo+verde)</li>
+        <li>Amarelo-alaranjado (amarelo+laranja)</li>
+        <li>Vermelho-alaranjado (vermelho+laranja)</li>
+        <li>Vermelho-arroxeado (vermelho+roxo)</li>
+        <li>Azul-arroxeado (azul+roxo)</li>
+        <li>Azul-esverdeado (azul+verde)</li>
+    </ul>
+    <h2>Como representar uma cor?</h2>
+    <img src="../MIDIAS/Representar uma cor.png" alt="">
+    <p>Você já deve ter ouvido falar que as cores em uma
+        tela são compostas da junção de três cores primárias:
+        vermelho (red), verde (green) e azul (blue).
+        Analisando a imagem ao lado, vemos que a junção de
+        algumas cores primárias nos leva a a outras cores
+        como o magenta, amarelo e ciano. Se usarmos
+        todas as cores primárias no máximo, chegamos ao
+        branco. Com todas as três no mínimo, obtemos o
+        preto.
+        Cada cor primária pode ter um valor entre 0 e 255,
+        totalizando 256 possibilidades para cada elemento.
+        Vejamos alguns exemplos de cores e seus respectivos códigos.
+        Vamos tomar como exemplo a cor Teal na tabela da página a seguir. Seu código
+        rgb(0, 171, 169) indica que existe quantidade 0 de vermelho nessa cor, 171 de
+        verde e 169 de azul. No código de cores hexadecimal (iniciado sempre com #) indica
+        que 00 é a quantidade de vermelho, AB é a quantidade de verde e A9 é a quantidade
+        de azul.
+        Esta mesma cor indicada acima, pode ser representada em CSS com um outro
+        formato baseado na maneira como o olho humano enxerga as cores: o padrão HSL. A
+        função hsl(179, 100%, 34%) indica que temos 179 de hue (matiz), 100% de saturation (saturação) e 34% de
+        lightness (luminância).
+        Para obter versões de cores com
+        transparência, basta arrastar a
+        barra de transparência indicada à
+        direita e perceber que mais um
+        valor (alpha) será adicionado ao
+        código.</p>
+    <h2>03) Usando Gradientes em CSS:</h2>
+    <img src="../MIDIAS/Gradiente em uma tela.png" alt="">
+    <p>Po d em o s g e r a r g r a d i e n t e s e
+        aplicarmos a componentes visuais
+        usando folhas de estilo. Vamos usar
+        um exemplo simples no nosso
+        exercício atual. Vá até o documento
+        e modifique a declaração do nosso
+        seletor body.</p>
+    <img src="../MIDIAS/Style Body CSS.png" alt="">
+    <p>Pode parecer esquisito no início, mas um gradiente é considerado pelo navegador
+        como se fosse uma imagem, por isso usamos a propriedade background-image na
+        declaração CSS. A função linear-gradient é auto-explicativa e gera um gradiente
+        linear angular. O primeiro parâmetro da função, indica o ângulo de inclinação de 90
+        graus (90deg) e as seguintes indicam as cores do degradê a ser criado. Você pode
+        indicar quantas cores quiser e o navegador vai saber se virar pra gerar seu degradê
+        personalizado. Experimente na sua casa outros valores de ângulo também, incluindo
+        negativos (45deg, -90deg, 25deg,…) e note as diferenças.</p><br>
+</body>
+</html>

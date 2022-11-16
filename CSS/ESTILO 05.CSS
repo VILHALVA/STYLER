@@ -1,0 +1,21 @@
+body {
+    background-image: linear-gradient(to top, #EB2200, #083D9E, #1762EB, #DBF227);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2 {
+    color: #062f2b;
+    text-align: center;
+    text-shadow: 10px 10px 12px, #042940;
+}
+
+a {
+    color: #042940;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+}
+
+p {
+    text-align: center;
+    color: #D6D58E;
+}
