@@ -1,26 +1,21 @@
 body {
-    background-color: black;
+    background-image: linear-gradient(to top, #EB2200, #083D9E, #1762EB, #DBF227);
+    color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1,h2 {
-    color: darkred;
-    background-color: blue;
+    color: #062f2b;
     text-align: center;
-}
-
-p{
-    color: aliceblue;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-ol,ul {
-    color: blueviolet;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 10px 10px 12px, #042940;
 }
 
 a {
-    color: red;
-    background-color: rgb(35, 84, 174);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #042940;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+}
+
+p {
+    text-align: center;
+    color: #D6D58E;
 }

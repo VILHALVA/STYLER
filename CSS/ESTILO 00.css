@@ -12,13 +12,13 @@
 }
 
 :root {
-    --cor0: #4bed93;
-    --cor1: #28a561;
-    --cor2: #168e4c;
-    --cor3: #1a7443;
-    --cor4: #0a311b;
-    --cor5: #041e0f;
-    --cor6: #456ad7;
+    --cor0: #d43499;
+    --cor1: #df1b1b;
+    --cor2: #096324;
+    --cor3: #8a159c;
+    --cor4: #230a31;
+    --cor5: #1f1888;
+    --cor6: #0e8f57;
     --fonte-padrão: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursiva;
     --fonte-android: 'Android', cursive;
@@ -91,7 +91,7 @@ main {
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
-    background-image: linear-gradient(to top, #3C36D9, #268ed3, #d42a2a);
+    background-image: linear-gradient(to top, #9e1414, #263dd3, #16af3f);
     box-shadow: 1px 1px 15px black;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
