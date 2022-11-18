@@ -1,89 +1,62 @@
-@charset "UTF-8";
-
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-
 body {
-    background-image: linear-gradient(to bottom, #2D33A6, #F28705)
-}
-
-h1,h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 3em;
-    font-weight: bolder;
-    text-decoration: underline;
-    font-style: oblique;
-    color: rgb(15, 15, 77);
-    text-align: center;
-    text-shadow: 4px 4px 5px #153f7d;
-}
-
-h3,h4 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
-    font-weight: bold;
-    text-decoration: underline;
-    font-style: italic;
-    color: rgb(11, 44, 12);
-    text-shadow: 3px 4px 5px #1d5f24;
-}
-
-hr {
     background-color: black;
-    color: darkmagenta;
-}
+    color: white;
+    font-size: 1.1em;
+    }
 
-ul {
-    color: aliceblue;
-    background-color: #093e2b;
-}
+    header {
+        background-image: linear-gradient(to bottom, red, green);
+        min-height: 150px;
+        text-align: center;
+        padding-top: 30px;
+        border-radius: 20px;
+    }
+    
+    header > h1 {
+        color: white;
+        font-size: 3em;
+        margin-bottom: 20px;
+        font-weight: normal;
+        text-shadow: 4px 3px 2px black;
+    }
+    
+    header > p {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
+        max-width: 600px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin: auto;
+        margin-bottom: 20px;
+        text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.689);
+    }
 
-div > p {
-    display: none;
-}
+    main > ol {
+        text-align: left;
+    }
 
-div:hover > p {
-   display: block;
-   color: white;
-   background-color: red;
-   width: 400px;
-}
+    main > p {
+        text-align: center;
+        text-indent: 30px;
+    }
 
-div:hover {
-    color: red;
-}
+    main > h2 {
+        text-align: center;
+        font-size: 2em;
+        font-weight: bolder;
+     }
 
-div {
-    font-size: 2em;
-    color: rgb(79, 17, 64);
-}
-
-a {
-    color: red;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 22px;
-}
-
-a:visited {   
-    color: blue;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: black;
-}
-
-a:active {
-    color: yellow;
-}
-
-a::before {
-    content: '⇒ ';
-}
-a::after {
-    content: ' ⇐';
-   
-}
+     footer {
+        background-color: red;
+        color: white;
+        text-align: center;
+        font-size: 1em;
+        padding: 2px;
+    }
+    
+    footer a {
+        color: white;
+        font-weight: bolder;
+        text-decoration: none;
+    }
