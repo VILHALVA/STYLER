@@ -6,11 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QR CODE</title>
     <link rel="shortcut icon" href="../MIDIAS/ICONE CSS.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../CSS/ESTILO 04.CSS">
+    <style>
+        body {
+        background-color: black;
+        }
+
+        header {
+            background-image: linear-gradient(to bottom, red, blue);
+            min-height: 150px;
+            text-align: center;
+            padding-top: 40px;
+        }
+        
+        header > h1 {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 3em;
+            margin-bottom: 20px;
+            font-weight: normal;
+            text-shadow: 4px 3px 2px black;
+        }
+        
+        header > p {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2em;
+            color: white;
+            max-width: 600px;
+            padding-right: 10px;
+            padding-left: 10px;
+            margin: auto;
+            margin-bottom: 20px;
+            text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.689); 
+        }
+        footer {
+            background-color: blue;
+            color: white;
+            text-align: center;
+            font-size: 1em;
+            padding: 3px;
+        }
+        
+        footer a {
+            color: white;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-    <h1>QR CODE</h1>
-    <p>Aponte sua câmera para acessar o site:</p>
-    <img width="50%" height="50%" src="../MIDIAS/QR CODE.png" alt="">
+    <header>
+        <h1>QR CODE</h1>
+        <p>Clique Na Imagem do QR CODE Para Baixar!</p>
+    </header>
+    <ul>
+        <li><a href="../MIDIAS/QR CODE.zip" download="../MIDIAS/QR CODE.zip" type="application/zip"><img src="../MIDIAS/QR CODE.png" width="50%" height="50%" alt=""></a></li>
+    </ul>
+    <footer>
+        <p>
+        <a href="01_MENU.html">CLIQUE AQUI PARA VOLTAR AO MENU PRINCIPAL</a>
+        </p>
+    </footer>
 </body>
 </html>

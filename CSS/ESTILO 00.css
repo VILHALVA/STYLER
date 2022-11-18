@@ -137,19 +137,17 @@ footer {
     background-color: var(--cor5);
     color: white;
     text-align: center;
-    font-size: 0.8em;
-    padding: 5px;
+    font-size: 1em;
+    padding: 10px;
 }
 
 footer a {
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
     text-decoration: none;
 }
 
-footer a:hover {
-    text-decoration: underline;
-    font-weight: bolder;
-    color: blue;
+footer:hover {
+    background-color: red;
 }
 
