@@ -12,13 +12,13 @@
 }
 
 :root {
-    --cor0: #d43499;
-    --cor1: #df1b1b;
-    --cor2: #096324;
-    --cor3: #8a159c;
-    --cor4: #230a31;
-    --cor5: #1f1888;
-    --cor6: #0e8f57;
+    --cor1: #ee1414;
+    --cor2: #3417b7;
+    --cor3: #630958;
+    --cor4: #0c81db;
+    --cor5: #1a0328;
+    --cor6: #0ac12b;
+    --cor7: #2a0e8f;
     --fonte-padrão: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursiva;
     --fonte-android: 'Android', cursive;
@@ -31,13 +31,13 @@
 }
 
 body {
-    background-color: var(--cor0);
+    background-color: var(--cor6);
     font-family: var(--fonte-padrão);
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
-    min-height: 150px;
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    min-height: 180px;
     text-align: center;
     padding-top: 40px;
 }
@@ -45,7 +45,7 @@ header {
 header > h1 {
     color: white;
     font-family: var(--fonte-destaque);
-    font-size: 3em;
+    font-size: 3.2em;
     margin-bottom: 20px;
     font-weight: normal;
     text-shadow: 4px 3px 2px black;
@@ -66,7 +66,7 @@ header > p {
 }
 
 nav {
-    background-color: var(--cor4);
+    background-color: var(--cor3);
     padding: 10px;
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.756);
 }
@@ -90,8 +90,8 @@ main {
     max-width: 1000px;
     margin: auto;
     margin-bottom: 30px;
-    padding: 20px;
-    background-image: linear-gradient(to top, #9e1414, #263dd3, #16af3f);
+    padding: 40px;
+    background-image: linear-gradient(to top, var(--cor4), var(--cor6));
     box-shadow: 1px 1px 15px black;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -107,7 +107,7 @@ main > h1 {
 }
 
 .BOTAO {
-    background-color: var(--cor5);
+    background-color: var(--cor7);
     color: white;
     text-align: center;
     font-size: 1em;
