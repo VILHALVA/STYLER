@@ -54,10 +54,6 @@ a {
     font-weight: bolder;
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -105,4 +101,12 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+footer a {
+    display: block;
+}
+
+footer:hover {
+    background-color: blue;
 }

@@ -39,7 +39,7 @@ header {
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
     min-height: 150px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 header > h1 {
@@ -126,12 +126,8 @@ main > h1 {
 
 .BOTAO:hover {
     background-color: red;
-    text-decoration: underline;
-}
-
-.BOTAO:active {
-    background-color: blue;
-    text-decoration: dotted;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 footer {
@@ -146,9 +142,17 @@ footer a {
     color: white;
     font-weight: bolder;
     text-decoration: none;
+    display: block;
 }
 
 footer:hover {
     background-color: red;
+    font-size: 18px;
+}
+
+footer:active {
+    background-color: chocolate;
+    color: red;
+    font-size: 18px;
 }
 
