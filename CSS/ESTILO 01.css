@@ -37,15 +37,15 @@ body {
 
 header {
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
-    min-height: 180px;
+    min-height: 150px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 header > h1 {
     color: white;
     font-family: var(--fonte-destaque);
-    font-size: 3.2em;
+    font-size: 3em;
     margin-bottom: 20px;
     font-weight: normal;
     text-shadow: 4px 3px 2px black;
