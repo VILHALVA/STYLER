@@ -73,6 +73,8 @@ iframe {
     width: 410px;
     padding: 10px;
     border-radius: 30px;
+    display: block;
+    margin: auto;
 }
 
 div {
@@ -85,6 +87,13 @@ div {
     margin-bottom: 20px;
     overflow-x: auto;
     text-align: center;
+}
+
+div > h2 {
+    background-color: rgba(255, 0, 0, 0.381);
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 25px;
 }
 
 footer {
