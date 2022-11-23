@@ -83,7 +83,7 @@ main > h1 {
 }
 
 .BOTAO {
-    background-color: var(--cor7);
+    background-color: red;
     color: white;
     text-align: center;
     font-size: 1em;
@@ -101,7 +101,7 @@ main > h1 {
 }
 
 .BOTAO:hover {
-    background-color: red;
+    background-color: black;
     text-decoration: none;
     font-size: 18px;
 }
@@ -122,7 +122,7 @@ footer a {
 }
 
 footer:hover {
-    background-color: red;
+    background-color: darkred;
     font-size: 18px;
 }
 
