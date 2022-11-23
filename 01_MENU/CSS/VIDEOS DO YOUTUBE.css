@@ -2,81 +2,92 @@
 
 body {
     background-color: black;
-    }
+}
 
-    header {
-        background-image: linear-gradient(to bottom, red, green, blue);
-        min-height: 150px;
-        text-align: center;
-        padding-top: 40px;
-    }
+header {
+    background-image: linear-gradient(to bottom, red, green, blue);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
     
-    header > h1 {
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 3em;
-        margin-bottom: 20px;
-        font-weight: normal;
-        text-shadow: 4px 3px 2px black;
-    }
-    
-    header > p {
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.2em;
-        max-width: 600px;
-        padding-right: 10px;
-        padding-left: 10px;
-        margin: auto;
-        margin-bottom: 20px;
-        text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.689); 
-    }
+header > h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: normal;
+    text-shadow: 4px 3px 2px black;
+}
 
-    .BOTAO {
-        background-color: red;
-        color: white;
-        text-align: center;
-        font-size: 1.2em;
-        display: block;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        border-radius: 10px;
-        box-shadow: 5px 3px 2px black;    
-        text-decoration: none;
-        font-weight: bolder;
-        font-family: Arial, Helvetica, sans-serif;
-        width: auto;
-    }
-    
-    .BOTAO:hover {
-        background-color: rgb(18, 192, 41);
-        text-decoration: none;
-        font-size: 20px;
-    }
+header > p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.689); 
+}
 
-    iframe {
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 0px;
+    padding: 40px;
+    background-image: linear-gradient(to bottom, rgb(6, 6, 95), rgb(24, 117, 24));
+    box-shadow: 1px 1px 15px black;
+}
+
+.BOTAO {
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 3px 2px black;    
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+}
+
+.BOTAO:hover {
+    background-color: rgb(18, 192, 41);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+iframe {
     height: 25%;
     width: 25%;
     padding: 30px;
-    }
+}
 
-    footer {
-        background-color: blue;
-        color: white;
-        text-align: center;
-        font-size: 1em;
-        padding: 1px;
-    }
-    
-    footer a {
-        color: white;
-        font-weight: bolder;
-        text-decoration: none;
-        display: block;
-    }
+footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+}
 
-    footer:hover {
-        background-color: green;
-    }
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    display: block;
+}
+
+footer:hover {
+    background-color: black;
+}
