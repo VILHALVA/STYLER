@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background-color: black;
+    background-image: linear-gradient(to left, rgb(14, 14, 114), rgb(208, 52, 52), rgb(29, 104, 29));
 }
 
 header {
@@ -54,6 +54,7 @@ main {
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 10px;
+    margin-top: 20px;
     box-shadow: 5px 3px 2px black;    
     text-decoration: none;
     font-weight: bolder;
@@ -68,9 +69,12 @@ main {
 }
 
 iframe {
-    height: 25%;
-    width: 25%;
-    padding: 30px;
+    height: 280px;
+    width: 400px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 footer {
@@ -78,7 +82,7 @@ footer {
     color: white;
     text-align: center;
     font-size: 1em;
-    padding: 10px;
+    padding: 5px;
 }
 
 footer a {
@@ -89,5 +93,5 @@ footer a {
 }
 
 footer:hover {
-    background-color: black;
+    background-color: rgb(218, 16, 157);
 }

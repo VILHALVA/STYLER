@@ -39,7 +39,7 @@ main {
     margin: auto;
     margin-bottom: 0px;
     padding: 40px;
-    background-image: linear-gradient(to bottom, rgb(6, 6, 95), rgb(24, 117, 24));
+    background-image: linear-gradient(to bottom, rgb(14, 14, 114), rgb(24, 117, 24));
     box-shadow: 1px 1px 15px black;
 }
 
@@ -53,28 +53,19 @@ main {
     padding-right: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
-    border-radius: 10px;
+    border-radius: 40px;
     box-shadow: 5px 3px 2px black;    
     text-decoration: none;
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
     width: auto;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .BOTAO:hover {
     background-color: rgb(18, 192, 41);
     text-decoration: none;
     font-size: 20px;
-}
-
-iframe {
-    height: 250px;
-    width: 410px;
-    padding: 10px;
-    border-radius: 30px;
-    display: block;
-    margin: auto;
 }
 
 div {

@@ -53,7 +53,7 @@ main > h1 {
     border-radius: 20px;
 }
 
-main > pre {
+div {
     font-size: 18px;
     color: white;
     font-weight: bold;
@@ -63,13 +63,19 @@ main > pre {
     padding-top: 30px;
     padding-bottom: 30px;
     border-radius: 30px;
-    overflow-x: auto;  
+}
+
+ div > p {
+   text-align: center;
 }
 
 iframe {
-    height: 25%;
-    width: 25%;
-    padding: 30px;
+    height: 280px;
+    width: 400px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 footer {
