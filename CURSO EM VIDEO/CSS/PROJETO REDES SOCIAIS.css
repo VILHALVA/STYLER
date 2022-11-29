@@ -62,24 +62,3 @@ section#redes-sociais img:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
     transition: transform 0.3s, border 0.5s;
 }
-
-footer {
-    background-color: red;
-    color: white;
-    text-align: center;
-    font-size: 1em;
-    padding: 10px;
-}
-
-footer a {
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    display: block;
-}
-
-footer:hover {
-    text-decoration: none;
-    font-weight: bolder;
-    background-color: blue;
-}
