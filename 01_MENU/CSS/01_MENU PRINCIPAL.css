@@ -142,6 +142,7 @@ footer a {
 }
 
 footer:hover {
+    background-image: linear-gradient(to right, rgb(255, 0, 144), red, yellow, green, blue, black);
     font-size: 18px;
 }
 

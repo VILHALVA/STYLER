@@ -66,6 +66,7 @@ main > h1 {
     margin-bottom: 30px;
     margin-top: 30px;
     border-radius: 15px;
+    padding: 8px;
 }
 
 main > h2 {
@@ -80,6 +81,7 @@ main > h2 {
     margin-bottom: 20px;
     margin-top: 20px;
     border-radius: 12px;
+    padding: 8px;
 }
 
 main > p {

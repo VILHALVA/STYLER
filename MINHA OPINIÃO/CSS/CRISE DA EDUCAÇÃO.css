@@ -58,7 +58,7 @@ main {
 
 main > h1 {
     font-family: var(--fonte-destaque);  
-    font-size: 2.7em;
+    font-size: 2em;
     text-align: center;
     background-color: black;
     color: white;
@@ -68,11 +68,12 @@ main > h1 {
     margin-bottom: 30px;
     margin-top: 30px;
     border-radius: 15px;
+    padding: 9px;
 }
 
 main > h2 {
     font-family: var(--fonte-destaque);  
-    font-size: 1.9em;
+    font-size: 1.5em;
     text-align: center;
     background-color: red;
     color: white;
@@ -82,6 +83,7 @@ main > h2 {
     margin-bottom: 20px;
     margin-top: 20px;
     border-radius: 12px;
+    padding: 9px;
 }
 
 main > p {
