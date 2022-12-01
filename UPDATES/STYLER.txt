@@ -1,0 +1,12 @@
+=========🔘LEGENDA:===============
+🈯️Correções/melhorias apenas no código;
+✅Correções/melhorias funcionais;
+❇️Acréscimo de uma nova função/módulo;
+✳️Nova compatibilidade/conversão do script;
+❎função/módulo removido.
+🔸Subdivisão/Subsídio.
+
+======== ♎️LANÇAMENTO: ===========
+🌹NOVIDADES 2.1 (dd/mm/aa):
+
+======== ♎️PEDENTE: ================
