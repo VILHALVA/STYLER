@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="shortcut icon" href="../MIDIAS/ICONE HTML.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/LOGIN SENHA.css">
+</head>
+<body>
+    <header>
+        <h1>AUTENTICAR COM SENHA</h1>
+        <p>PREENCHA O FORMULÁRIO CORRETAMENTE PARA ENTRAR!</p> 
+    </header>
+    <form method="post" action="01_MENU PRINCIPAL.html" autocomplete="on">
+        <fieldset>
+            <p><label for="INOME">NOME:</label> 
+                <input type="text" required minlength="5" maxlength="40" size="40" autocomplete="name" placeholder="SEU NOME" name="NOME" id="INOME">
+            </p>
+            
+            <p>
+            <label for="ISENHA">SENHA:</label>
+                <input type="tel" name="SENHA" id="ISENHA" autocomplete="off" size="40" required pattern="^\(\d{2}\)-\d{4}-\d{4}$" placeholder="(00)-0000-0000">
+            </p>
+
+            <p>
+                <input type="checkbox" name="ENTRAR" id="IENTRAR" required><label for="IENTRAR"> QUERO ENTRAR.</label><br>
+
+                <input type="checkbox" name="ROBO" id="IROBO" required><label for="IROBO"> NÃO SOU UM ROBÔ.</label><br>
+            </p>
+
+            <p>
+                <input class="BOTAO" type="submit" value="ENTRAR">
+                <input class="BOTAO" type="reset" value="LIMPAR">
+            </p>
+        </fieldset>
+    </form>
+    <footer>
+        <a href="../../STYLER.html">REINICIAR</a>
+    </footer>
+</body>
+</html>
