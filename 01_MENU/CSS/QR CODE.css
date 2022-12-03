@@ -16,7 +16,7 @@
 }
 
 body {
-    background-image: url(../MIDIAS/QR\ CODE.png);
+    background-image: linear-gradient(to top, red, blue);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -57,7 +57,7 @@ header > p {
 
 main {
     margin-top: 50px;
-    background-color: rgba(0, 0, 0, 0.811);
+    background-color: rgba(0, 0, 0, 0.608);
     color: white;
     font-weight: bolder;
     font-size: 20px;
