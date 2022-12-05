@@ -9,7 +9,7 @@
 [![GitHub Repo stars](https://img.shields.io/badge/GRUPO%20CHAT-TELEGRAM-03A9F4?logo=telegram)](https://t.me/GUPOCN)
 [![GitHub Repo stars](https://img.shields.io/badge/CANAL%20OFICIAL-TELEGRAM-03A9F4?logo=telegram)](https://t.me/CANALCN) <br>
 
-[![GitHub Repo stars]("https://img.shields.io/badge/ENTRE%20NO-SITE-03A9F4?logo=web")](https://vilhalva.github.io/STYLER/STYLER.html) 
+[![GitHub Repo stars](https://img.shields.io/badge/ENTRE%20NO-SITE-03A9F4?logo=web)](https://vilhalva.github.io/STYLER/STYLER.html) 
 
 ## ATUALIZAÇÕES
 * ✅ Introdução
