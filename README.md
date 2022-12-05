@@ -12,6 +12,22 @@
 [![GitHub Repo stars](https://img.shields.io/badge/ENTRE%20NO-SITE-df1010?logo=github)](https://vilhalva.github.io/STYLER/STYLER.html) 
 
 # ATUALIZAÇÕES
+## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.2%20--%2018%2F11%2F2022-blueviolet)
+* ✅Colocamos emojis em cada botão apenas no menu principal;
+* ❇️No fim do MENU principal, colocamos o botão para acessar outro MENU: Contendo os melhores sites que já visitei;
+* ❇️No final do Menu Principal, tem o link para acessar ao Menu de Agradecimentos (Créditos) e também um pouco sobre o criador do Site;
+* ❇️Agora todas as páginas tem o botão no final para voltar ao MENU;
+* 🈯️Tiramos todos os "targets" de todas as páginas;
+* ✅Agora é possivel baixar a imagem do QR CODE do site em formato de zip apenas clicando na imagem; 
+* ✅A página "VIDEOS INTEGRADOS" mudou de nome, agora é "VIDEOS DO YOUTUBE". Nessa página, fizemos grandes melhorias:
+* 🔸O designer da página está linda.
+* 🔸Tem 3 videos de cada canal.
+* 🔸O titulo é hiperlink.
+* ❎Duas páginas inutéis foram apagadas;
+* ❇️Adicionamos 4 Submenus vinculados ao MENU PRINCIPAL. Cada página tem sua própria categoria;
+* ✅Arredodamos as bordas dos botões dos MENUS;
+* 🈯️Erros com relação a compatibilidade do HTML com CSS externos foram corrigidos. Sendo que a maioria usa o CSS interno.
+
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.1%20--%2015%2F11%2F2022-blueviolet)
 * ✳️Mudamos o nome do site para STYLER. Sabendo disso, sua url mudou;
 * ❎Algumas páginas irrelavantes foram removidas;
