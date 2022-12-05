@@ -12,6 +12,14 @@
 [![GitHub Repo stars](https://img.shields.io/badge/ENTRE%20NO-SITE-df1010?logo=github)](https://vilhalva.github.io/STYLER/STYLER.html) 
 
 # ATUALIZAÇÕES
+## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.1%20--%2015%2F11%2F2022-blueviolet)
+* ✳️Mudamos o nome do site para STYLER. Sabendo disso, sua url mudou;
+* ❎Algumas páginas irrelavantes foram removidas;
+* ❎Tiramos a numeração tanto dos arquivos quanto no menu principal;
+* ❎Apagamos mídias e CSS que nunca são chamadas pelo HTML;
+* ✅Colocamos um padrão na favicon: HTML para menu principal e CSS para outras páginas;
+* ✅Trocamos a cor do menu principal; Tendo mais contraste no degradê.
+
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.0%20--%2006%2F10%2F2022-blueviolet)
 * ❇️Foi lançado agora o meu primeiro site. Se trata de um menu com botões contendo hiperlinks que fazem você navegar pelas principais faqs do meu curso de HTML e CSS: Como se fosse um mini navegador. Atualmente contém apenas 20 artigos com textos, estilos e mídias. Atualmente o código está sendo executado através do recurso do GITHUB PAGES.
 
