@@ -1,7 +1,7 @@
 # STYLER
 👨‍⚖️STYLER É UM SITE QUE RODA NO PAGES.
 
-<img src="01_MENU/MIDIAS/ICONE HTML" align="right" width="300">
+<img src="01_MENU/MIDIAS/ICONE HTML.ico" align="right" width="300">
 
 [![GitHub Repo stars](https://img.shields.io/badge/MEU%20PERFIL-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA)
 [![GitHub Repo stars](https://img.shields.io/badge/ENTRE%20EM%20CONTATO-TELEGRAM-03A9F4?logo=telegram)](https://t.me/VILHALVA20_BOT) <br>
