@@ -8,10 +8,10 @@
 
 ======== ♎️LANÇAMENTO: ===========
 🌹NOVIDADES 1.4 (01/12/2022):
-✅Ao clicar no "QR CODE", será perguntado se o usuário quer mesmo baixar o QR CODE do site. Se clicar em "SIM" será feito o download automaticamente. Se clicar em "NÃO" voltará ao inicio.
+✅Ao clicar no "QR CODE", será perguntado se o usuário se ele quer mesmo baixar o QR CODE do site. Se clicar em "SIM" será feito o download automaticamente. Se clicar em "NÃO" voltará ao inicio.
 ✅Corrigimos a centralização das fontes de algumas páginas.
-✅Todos os botões do "nav" do menu principal forma movidos para o inicio. Além de imprementarmos links de canais parceiros do Telegram.
-❇️Ao iniciar: O usuário poderá escolher navegar na versão iframe do site. Usamos a moldura de um tablete colorido (Ele é responsivo).
+✅Todos os botões do "nav" do menu principal foram movidos para o inicio. Além de imprementarmos links de canais parceiros do Telegram.
+❇️Ao iniciar: O usuário poderá escolher navegar na versão iframe do site ou a versão compreta. Usamos a moldura de um tablete colorido.
 ✅Correções de bugs e pequenas melhorias.
 
 ======== ♎️PEDENTE: ================
