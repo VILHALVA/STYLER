@@ -1,5 +1,5 @@
 # STYLER
-👨‍⚖️STYLER É UM SITE QUE RODA NO PAGES.
+👨‍⚖️STYLER É UM SITE QUE RODA NO GITHUB PAGES.
 
 <img src="01_MENU/MIDIAS/ICONE HTML.ico" align="right" width="300">
 
