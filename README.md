@@ -27,6 +27,7 @@
 * ❇️Foi adicionado um novo elemento ao MENU PRINCIPAL: "MELHORES MUSICAS". Onde temos a incorporação de videos do YouTube com a letra de cada música.
 * ✅Corrigirmos erros ortograficos e falhas na formatação do HTML;
 * ✅Correções de bugs e pequenas melhorias.
+![](https://i.imgur.com/waxVImv.png)
 
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.2%20--%2018%2F11%2F2022-blueviolet)
 * ✅Colocamos emojis em cada botão apenas no menu principal;
@@ -43,6 +44,7 @@
 * ❇️Adicionamos 4 Submenus vinculados ao MENU PRINCIPAL. Cada página tem sua própria categoria;
 * ✅Arredodamos as bordas dos botões dos MENUS;
 * 🈯️Erros com relação a compatibilidade do HTML com CSS externos foram corrigidos. Sendo que a maioria usa o CSS interno.
+![](https://i.imgur.com/waxVImv.png)
 
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.1%20--%2015%2F11%2F2022-blueviolet)
 * ✳️Mudamos o nome do site para STYLER. Sabendo disso, sua url mudou;
@@ -51,7 +53,9 @@
 * ❎Apagamos mídias e CSS que nunca são chamadas pelo HTML;
 * ✅Colocamos um padrão na favicon: HTML para menu principal e CSS para outras páginas;
 * ✅Trocamos a cor do menu principal; Tendo mais contraste no degradê.
+![](https://i.imgur.com/waxVImv.png)
 
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.0%20--%2006%2F10%2F2022-blueviolet)
 * ❇️Foi lançado agora o meu primeiro site. Se trata de um menu com botões contendo hiperlinks que fazem você navegar pelas principais faqs do meu curso de HTML e CSS: Como se fosse um mini navegador. Atualmente contém apenas 20 artigos com textos, estilos e mídias. Atualmente o código está sendo executado através do recurso do GITHUB PAGES.
+![](https://i.imgur.com/waxVImv.png)
 
