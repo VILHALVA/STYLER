@@ -12,6 +12,22 @@
 [![GitHub Repo stars](https://img.shields.io/badge/ENTRE%20NO-SITE-df1010?logo=github)](https://vilhalva.github.io/STYLER/STYLER.html) 
 
 # ATUALIZAÇÕES
+## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.3%20--%2028%2F11%2F2022-blueviolet)
+* ❇️Agora o CSS está separado de todos os HTMLs em arquivos diferentes. Além dos arquivos terem o mesmo nome que o HTML.
+* 🈯️O HTML, CSS e MIDIAS agora estão separados por pastas com base no nome das páginas.
+* ❇️Criamos uma página inicial padrão para o site, através dele você irá acessar ao menu principal. Isso é para evitar problemas com a URL, caso mudemos algum Arquivo/Pasta de lugar. Nela temos:
+* 🔸ENTRAR
+* 🔸QR CODE 
+* 🔸GITHUB
+* 🔸CRIADOR
+* 🔸CONTATO
+* 🔸CREDITOS
+* ✅Agora você pode baixar o QR CODE apenas apertando o botão "QR CODE" no inicio.
+* 🈯️Criamos um arquivo CSS só para os SUBMENUS. Também incrementamos novas Tipografias para os MENUS.
+* ❇️Foi adicionado um novo elemento ao MENU PRINCIPAL: "MELHORES MUSICAS". Onde temos a incorporação de videos do YouTube com a letra de cada música.
+* ✅Corrigirmos erros ortograficos e falhas na formatação do HTML;
+* ✅Correções de bugs e pequenas melhorias.
+
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.2%20--%2018%2F11%2F2022-blueviolet)
 * ✅Colocamos emojis em cada botão apenas no menu principal;
 * ❇️No fim do MENU principal, colocamos o botão para acessar outro MENU: Contendo os melhores sites que já visitei;
