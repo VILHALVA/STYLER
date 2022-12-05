@@ -11,14 +11,7 @@
 
 [![GitHub Repo stars](https://img.shields.io/badge/ENTRE%20NO-SITE-df1010?logo=github)](https://vilhalva.github.io/STYLER/STYLER.html) 
 
-## ATUALIZAÇÕES
-* ✅ Introdução
-* ✅ Instalando o Pycharm
-* ✅ Primeiros Comandos
-* ✅ Conhecendo o Input
-* ✅ Variáveis Simples
-* ✅ Estruturas Condicionais Simples
-* ✅ Operadores Aritméticas
-* ✅ Utilizando Módulos
-* ✅ Operações de Strings
-* ✅ Cores no Console
+# ATUALIZAÇÕES
+## VERSÃO 1.0 (06/10/2022):
+* ❇️Foi lançado agora o meu primeiro site. Se trata de um menu com botões contendo hiperlinks que fazem você navegar pelas principais faqs do meu curso de HTML e CSS: Como se fosse um mini navegador. Atualmente contém apenas 20 artigos com textos, estilos e mídias. Atualmente o código está sendo executado através do recurso do GITHUB PAGES.
+
