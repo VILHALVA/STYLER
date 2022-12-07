@@ -1,15 +1,15 @@
 # STYLER
 👨‍⚖️STYLER É UM SITE QUE RODA NO GITHUB PAGES.
 
-<img src="01_MENU/MIDIAS/ICONE HTML.ico" align="right" width="300">
-
 [![GitHub Repo stars](https://img.shields.io/badge/MEU%20PERFIL-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA)
 [![GitHub Repo stars](https://img.shields.io/badge/ENTRE%20EM%20CONTATO-TELEGRAM-03A9F4?logo=telegram)](https://t.me/VILHALVA20_BOT) <br>
 
 [![GitHub Repo stars](https://img.shields.io/badge/GRUPO%20CODERS-TELEGRAM-03A9F4?logo=telegram)](https://t.me/CODIGOGP)
 [![GitHub Repo stars](https://img.shields.io/badge/CANAL%20CODERS-TELEGRAM-03A9F4?logo=telegram)](https://t.me/CODIGOCN) <br>
 
-[![GitHub Repo stars](https://img.shields.io/badge/ENTRE%20NO-SITE-df1010?logo=github)](https://vilhalva.github.io/STYLER/STYLER.html) 
+[![GitHub Repo stars](https://img.shields.io/badge/ENTRE%20NO-SITE-df1010?logo=github)](https://vilhalva.github.io/STYLER/STYLER.html) <br>
+
+<img src="01_MENU/MIDIAS/ICONE HTML.ico" align="center" width="250"> <br>
 
 # ATUALIZAÇÕES
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.3%20--%2028%2F11%2F2022-blueviolet)
