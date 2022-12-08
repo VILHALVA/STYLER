@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+    
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 0px;
+    padding: 40px;
+    background-image: linear-gradient(to bottom, rgb(6, 6, 95), rgb(24, 117, 24));
+    box-shadow: 1px 1px 15px black;
+}
+
+main > h1 {
+    background-image: linear-gradient(to right, blue, green, red);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;  
+    font-size: 2em;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    font-weight: normal;
+    text-shadow: 4px 3px 2px black;  
+}
+
+div {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.342);
+    border-radius: 23px;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.BOTAO {
+    background-image: linear-gradient(to left, red, yellow, green, blue);
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 50px;
+    box-shadow: 5px 3px 2px black;    
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+}
+
+.BOTAO:hover {
+    background-image: linear-gradient(to right, rgb(255, 0, 144), red, yellow, green, blue, black);
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+} 
+
+footer {
+    background-image: radial-gradient(circle, rgb(255, 0, 132), rgb(22, 224, 22), rgb(63, 63, 11), rgb(4, 4, 64), black);
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    display: block;
+}
+
+footer:hover {
+    background-image: linear-gradient(to right, rgb(219, 25, 90), rgb(10, 216, 196), rgb(210, 210, 10), rgb(7, 214, 87), rgb(11, 11, 204), black);
+    font-size: 18px;
+}

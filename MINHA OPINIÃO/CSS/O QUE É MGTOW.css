@@ -91,7 +91,7 @@ main > p {
     font-size: 1.3em;
 }
 
-main > ol {
+main > div {
     color: white;
     background-color: rgba(0, 0, 0, 0.488);
     font-weight: bolder;

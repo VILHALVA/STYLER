@@ -1,23 +1,10 @@
-=========🔘LEGENDA:===============
-🈯️Correções/melhorias apenas no código;
-✅Correções/melhorias funcionais;
-❇️Acréscimo de uma nova função/módulo;
-✳️Nova compatibilidade/conversão do script;
-❎função/módulo removido.
-🔸Subdivisão/Subsídio.
+🌹NOVIDADES 1.4 (07/12/2022):
 
-======== ♎️LANÇAMENTO: ===========
-🌹NOVIDADES 1.4 (01/12/2022):
-✅Ao clicar no "QR CODE", será perguntado se o usuário se ele quer mesmo baixar o QR CODE do site. Se clicar em "SIM" será feito o download automaticamente. Se clicar em "NÃO" voltará ao inicio.
+✅Ao clicar no "QR CODE": Será perguntado se o usuário quer mesmo baixar o QR CODE do site. Se clicar em "SIM" será feito o download automaticamente. Se clicar em "NÃO" voltará ao inicio.
 ✅Corrigimos a centralização das fontes de algumas páginas.
-✅Todos os botões do "nav" do menu principal foram movidos para o inicio. Além de imprementarmos links de canais parceiros do Telegram.
-❇️Ao iniciar: O usuário poderá escolher navegar na versão iframe do site ou a versão compreta. Usamos a moldura de um tablete colorido.
-✅Correções de bugs e pequenas melhorias.
-
-======== ♎️PEDENTE: ================
-❇️Ao clicar em entrar: O usuário será direcionado a um formulário de autenticação. Ele só consiguirá entrar no site, se preenche-lo corretamente. Feito com apenas HTML, nós temos:
-🔸NOME;
-🔸SENHA (4N-4N);
-🔸O SITE É TOP;
-🔸NÃO SOU UM ROBÔ.
-❇️Agora temos o suporte do CSS externo para suportar a incrementação de Tabelas em todo o site.
+✅Todos os botões do "nav" do menu principal foram movidos para o inicio. Além de imprementarmos links de grupos e canais parceiros do Telegram.
+❇️Ao iniciar: O usuário poderá escolher navegar na versão iframe do site ou a versão compreta. Usamos a moldura de um "tablet colorido".
+✅No fim do inicio: Foi colocado a data de criação com o hyperlink do seu repositório.
+❇️Agora temos o suporte do CSS externo para a execução de Tabelas.
+❇️O JavaScript foi imprementado agora pelo projeto "MENU RESPONSIVO" do Curso em Video.
+✅Correções de bugs e grandes melhorias.
