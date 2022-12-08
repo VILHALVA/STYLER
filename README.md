@@ -13,7 +13,7 @@
 
 # ATUALIZAÇÕES
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.4%20--%2007%2F12%2F2022-blueviolet)
-* ✅Ao clicar no "QR CODE": Será perguntado se o usuário quer mesmo baixar o QR CODE do site. Se clicar em "SIM" será feito o download automaticamente. Se clicar em "NÃO" voltará ao inicio.
+* ✅Ao clicar no "QR CODE" : Será perguntado se o usuário quer mesmo baixar o QR CODE do site. Se clicar em "SIM" será feito o download automaticamente. Se clicar em "NÃO" voltará ao inicio.
 * ✅Corrigimos a centralização das fontes de algumas páginas.
 * ✅Todos os botões do "nav" do menu principal foram movidos para o inicio. Além de imprementarmos links de grupos e canais parceiros do Telegram.
 * ❇️Ao iniciar: O usuário poderá escolher navegar na versão iframe do site ou a versão compreta. Usamos a moldura de um "tablet colorido".
