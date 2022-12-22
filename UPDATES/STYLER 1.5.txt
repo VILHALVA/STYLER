@@ -1,0 +1,23 @@
+=========🔘LEGENDA:===============
+🈯️Correções/melhorias apenas no código;
+✅Correções/melhorias funcionais;
+❇️Acréscimo de uma nova função/módulo;
+✳️Nova compatibilidade/conversão do script;
+❎função/módulo removido.
+🔸Subdivisão/Subsídio.
+
+======== ♎️LANÇAMENTO: ===========
+🌹NOVIDADES 1.5 (dd/mm/aa):
+❇️Mudamos um pouco o inicio: 
+🔸No lugar da enorme quantidade de botões: Colocamos o menu "hamburguinho". Nele foram inseridas todas as opções; Exceto "ENTRAR".
+🔸Criamos um submenu apenas para grupos e canais parceiros do Telegram.
+🔸Ao clicar em "ENTRAR" irá aparecer a opção: VERSÃO COMPRETA OU IFRAME?.
+❎O botão footer foi apagado. A data do site está no texto e source code está no menu "hamburguinho".
+
+======== ♎️PEDENTE: ================
+✅Tivemos que refazer todas as CSS do site; Primeiro para Mobile e depois para telas grandes. Tornando nosso site RESPONSIVO para mais de 90% dos aparelhos:
+🔸Smartphones;
+🔸Tablets;
+🔸Laptops;
+🔸Desktops;
+🔸SmartTVS.
