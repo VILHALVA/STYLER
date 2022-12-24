@@ -15,8 +15,6 @@
 ❎O botão footer foi apagado. A data do site está no texto e source code está no menu "hamburguinho".
 ❎O botão de voltar foi apagado em todo o site. Achamanos que não tem necessidade em mantê-lo, pois os navegadores já tem a função nativamente (E até melhor).
 ✅No painel do titulo do MENU PRINCIPAL: Foi incerido as melhores páginas do site.
-✅A versão IFRAME do site está incerido no IPHONE.
-
 ======== ♎️PEDENTE: ================
 ✅Tivemos que refazer todas as CSS do site; Primeiro para Mobile e depois para telas grandes. Tornando nosso site RESPONSIVO para mais de 90% dos aparelhos:
 🔸Smartphones;
