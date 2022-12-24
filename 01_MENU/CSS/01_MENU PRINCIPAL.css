@@ -124,25 +124,3 @@ main > h1 {
     text-decoration: none;
     font-size: 18px;
 }
-
-footer {
-    background-image: radial-gradient(circle, red, green, yellow, blue, black);
-    color: white;
-    text-align: center;
-    font-size: 1em;
-    padding: 10px;
-    border: 2px solid black;
-}
-
-footer a {
-    color: white;
-    font-weight: bolder;
-    text-decoration: none;
-    display: block;
-}
-
-footer:hover {
-    background-image: linear-gradient(to right, rgb(255, 0, 144), red, yellow, green, blue, black);
-    font-size: 18px;
-}
-

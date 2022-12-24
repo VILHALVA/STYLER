@@ -55,22 +55,3 @@ dd {
     background-color: rgba(0, 128, 0, 0.382);
 }
 
-footer {
-    background-color: blue;
-    color: white;
-    text-align: center;
-    font-size: 1em;
-    padding: 10px;
-    margin-top: 40px;
-}
-
-footer a {
-    color: white;
-    font-weight: bolder;
-    text-decoration: none;
-    display: block;            
-}
-
-footer:hover {
-    background-color: green;
-}

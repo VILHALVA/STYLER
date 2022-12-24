@@ -81,21 +81,3 @@ main a {
     color: white;
 }
 
-footer {
-    background-color: red;
-    color: white;
-    text-align: center;
-    font-size: 1em;
-    padding: 10px;
-}
-
-footer a {
-    color: white;
-    font-weight: bolder;
-    text-decoration: none;
-    display: block;
-}
-
-footer:hover {
-    background-color: green;
-}

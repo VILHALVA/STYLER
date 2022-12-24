@@ -77,26 +77,6 @@ article > p {
     text-indent: 20px;
 }
 
-footer {
-    background-color: blue;
-    color: white;
-    text-align: center;
-    font-size: 16px;
-    padding: 12px;
-    margin-top: 30px;
-}
-
-footer a {
-    color: white;
-    font-weight: bolder;
-    text-decoration: none;
-    display: block;
-}
-
-footer:hover {
-    background-color: black;
-}
-
 @media screen and (min-width: 768px) {
     span#burguer {
         display: none;

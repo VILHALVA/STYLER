@@ -43,22 +43,3 @@ div {
     width: 100vw;
 }
 
-footer {
-    background-color: green;
-    color: white;
-    text-align: center;
-    font-size: 16px;
-    padding: 20px;
-    margin-top: 30px;
-}
-
-footer a {
-    color: white;
-    font-weight: bolder;
-    text-decoration: none;
-    display: block;
-}
-
-footer:hover {
-    background-color: black;
-}

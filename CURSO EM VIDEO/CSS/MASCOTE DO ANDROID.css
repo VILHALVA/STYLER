@@ -201,27 +201,25 @@ aside > ul {
     list-style-type: '\2714\00A0\00A0';
     list-style-position: inside;
     columns: 2;
-
 }
 
 footer {
     background-color: var(--cor5);
     color: white;
     text-align: center;
-    font-size: 1em;
-    padding: 10px;
+    font-size: 0.8em;
+    padding: 5px;
 }
 
 footer a {
     color: white;
     font-weight: bold;
     text-decoration: none;
-    display: block;
 }
 
-footer:hover {
-    text-decoration: none;
+footer a:hover {
+    text-decoration: underline;
     font-weight: bolder;
-    background-color: blue;
+    color: blue;
 }
 

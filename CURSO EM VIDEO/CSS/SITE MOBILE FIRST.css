@@ -108,24 +108,3 @@ img#tv {display: none;}
     img#tv {display: block;}    
 }
 
-footer {
-    display: block;
-    background-color: blue;
-    color: white;
-    text-align: center;
-    font-size: 16px;
-    padding: 10px;
-    margin-top: 190px;
-}
-
-footer a {
-    color: white;
-    font-weight: bolder;
-    text-decoration: none;
-    display: block;
-}
-
-footer:hover {
-    background-color: black;
-}
-

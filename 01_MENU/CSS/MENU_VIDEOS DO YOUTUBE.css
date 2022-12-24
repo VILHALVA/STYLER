@@ -76,22 +76,3 @@ iframe {
     padding: 10px;
     border-radius: 20px;
 }
-
-footer {
-    background-color: blue;
-    color: white;
-    text-align: center;
-    font-size: 1em;
-    padding: 5px;
-}
-
-footer a {
-    color: white;
-    font-weight: bolder;
-    text-decoration: none;
-    display: block;
-}
-
-footer:hover {
-    background-color: rgb(218, 16, 157);
-}
