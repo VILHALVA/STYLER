@@ -10,11 +10,6 @@
     src: url(../FONTES/PassionOne-Regular.ttf);
 }
 
-body {
-    background-color: black;
-    color: white;
-}
-
 header {
     background-image: linear-gradient(to bottom, rgb(6, 6, 93), rgb(154, 17, 17));
     width: 100vw;
@@ -46,24 +41,40 @@ header > p {
     text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.689);
 }
 
-div {
-   display: block;
-   margin: auto;
-   width: 450px;
-   height: 0px;
-   position: relative;
-   padding-top: 25px;
-   padding-bottom: 56.25%;
-   background-color: black;
-   border-radius: 30px;
-   border: 25px solid rgb(133, 40, 156);
-   margin-bottom: 30px;
+html, body {
+    height: 100vh;
+    width: 100vw;
 }
 
-div iframe {
+body {
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    position: relative;
+    height: 100vh;  
+}
+
+section#telefone {
     position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    width: 500px;
+    background-image: url(../MIDIAS/IPHONE.png);
+    background-repeat: no-repeat;
+    height: 627px;
+    width: 311px;
+    margin-top: 30px;
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 267px;
+    height: 471px;
 }
