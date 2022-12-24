@@ -64,12 +64,12 @@ header > p {
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.689);
 }
 
 span#burguer {
-    background-color: rgb(44, 13, 31);
+    background-color: #630958;
     color: white;
     display: block;
     text-align: center;
@@ -112,7 +112,7 @@ main {
     margin: auto;
     margin-bottom: 0px;
     padding: 40px;
-    background-image: linear-gradient(to bottom, rgb(6, 6, 95), rgb(24, 117, 24));
+    background-image: linear-gradient(to top, rgb(6, 6, 95), rgb(24, 117, 24));
     box-shadow: 1px 1px 15px black;
 }
 
