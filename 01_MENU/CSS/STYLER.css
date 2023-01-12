@@ -82,6 +82,21 @@ span#burguer:hover {
     color: rgb(241, 235, 235);
 }
 
+span#entrada {
+    background-color: #07be29;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    margin: 0px;
+}
+
+span#entrada:hover {
+    background-color: rgb(185, 17, 22);
+    color: rgb(241, 235, 235);
+}
+
 menu {
     display: none;
 }
@@ -152,7 +167,13 @@ div {
 } 
 
 menu#SITE > ul > li > a {
+    background-color: #1a0328;
     display: block;
     border-radius: 50px;
     padding: 14px;
+}
+
+ul#versao {
+    background-color: #1a0328;
+    padding: 30px;
 }
