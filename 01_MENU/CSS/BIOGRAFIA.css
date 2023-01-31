@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'TITULO';
+    src: url(../../01_MENU/FONTES/BebasNeue-Regular.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0pxf;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #b71365, #230a31);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header > h1 {
+    color: white;
+    font-family: "TITULO";
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: normal;
+    text-shadow: 4px 3px 2px black;
+}
+
+header > p {
+    color: white;
+    font-family: var(--fonte-padrão);
+    font-size: 1.2em;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.689);
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-image: linear-gradient(to top, #0f0fc9, #0cc613, #d20d0d);
+    box-shadow: 1px 1px 15px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 630px;
+    height: 480px;
+}
+
+main > h1 {
+    font-family: var(--fonte-destaque);  
+    font-size: 2em;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: normal;
+    text-shadow: 4px 3px 2px black;  
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+main > p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+    font-size: 1.3em;
+}
+
+main > ul {
+text-align: left;
+color: white;
+font-size: 1.4em;
+}

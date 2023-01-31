@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "TITULO";
+    src: url(../FONTES/Anton-Regular.ttf);
+}
+
+@font-face {
+    font-family: "SUBTITULO";
+    src: url(../FONTES/BebasNeue-Regular.ttf);
+}
+
+:root {
+    --cor1: #b41047;
+    --cor2: #0e0ca0;
+    --cor3: #208c46;
+    --cor4: #39189d;
+    --cor5: #890989;
+    --cor6: #0db413;
+    --cor7: #933a0a;
+    --cor8: #8a0b5f;
+}
+
+* {
+    margin: 0px;
+    padding: 0pxf;
+    text-align: center;
+}
+
+body {
+    background-color: var(--cor6);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header > h1 {
+    color: white;
+    font-family: "TITULO";
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: normal;
+    text-shadow: 4px 3px 2px black;
+}
+
+header > p {
+    color: white;
+    font-family: "SUBTITULO";
+    font-size: 1.8em;
+    color: white;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.689);
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 40px;
+    background-image: linear-gradient(to top, var(--cor4), var(--cor6));
+    box-shadow: 1px 1px 15px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main > h1 {
+    font-family: Arial, Helvetica, sans-serif;  
+    font-size: 2.7em;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: normal;
+    text-shadow: 4px 3px 2px black;  
+}
+
+.BOTAO {
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 3px 2px black;    
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+}
+
+.BOTAO:hover {
+    background-color: black;
+    text-decoration: none;
+    font-size: 18px;
+}

@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to left, #21cf0e, #140552);
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+header > h1 {
+    color: white;
+    font-family: "TITULO";
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    text-shadow: 4px 3px 2px black;
+}
+
+header > p {
+    color: white;
+    font-family: var(--fonte-padrão);
+    font-size: 1em;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    margin: auto;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.689);
+}
+
+table {
+    width: 1000px;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: aquamarine;
+}
+
+div#container {
+    overflow-x: auto;
+}

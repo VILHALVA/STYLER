@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0pxf;
+}
+
+body {
+    background-image: url(../MIDIAS/HACKER.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    font-size: 1.1em;
+}
+
+header {
+    background-image: linear-gradient(to bottom, red, green);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+header > h1 {
+    color: white;
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: normal;
+    text-shadow: 4px 3px 2px black;
+}
+
+header > p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.689);
+}
+
+main {
+    display: block;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.692);
+    text-shadow: 2px 2px 3px black;
+}
+
+main > p {
+    text-align: center;
+    text-indent: 30px;
+    font-weight: bolder;
+}
+
+main > h2 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+   

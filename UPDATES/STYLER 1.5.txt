@@ -1,0 +1,10 @@
+🌹NOVIDADES 1.5 (18/01/2023):
+
+❇️Mudamos um pouco o inicio: 
+🔸No lugar da enorme quantidade de botões: Colocamos o menu "hamburguinho". Nele foram inseridas todas as opções; Exceto "ENTRAR".
+🔸Criamos um submenu apenas para grupos e canais parceiros do Telegram.
+❎O botão footer foi apagado. A data do site está no texto e source code está no menu "hamburguinho".
+❎O botão de voltar foi apagado em todo o site. Achamanos que não tem necessidade em mantê-lo, pois os navegadores já tem a função nativamente (E até melhor).
+✅No painel do titulo do MENU PRINCIPAL: Foi incerido as melhores páginas do site.
+❇️Agora quando o usuário clica para entrar no site: Aparece um formulário com a pergunta: "Que ano esse site foi criado?". Caso o usuário acerte, entrará na versão completa. Caso erre, ele poderá optar apenas pela versão IFRAME.
+✅Correções de bugs e pequenas melhorias.
