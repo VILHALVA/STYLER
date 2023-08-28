@@ -1,0 +1,9 @@
+🌹NOVIDADES 1.6 (dd/mm/aa):
+
+❇️Mudamos o formulário de entrada:
+🔸Agora o site abre na mesma aba quando o usuário digita a resposta certa.
+🔸Foi adicionado uma validação para o usuário não entrar no site antes de passar pelo formulário.
+🔸Mudamos a cor e background da resposta final (Se acertou ou errou).
+🔸Foi adicionado uma animação de "uma bolinha" antes de entrar no site.
+🔸O botão "IFRAME" foi trocado para o botão "FAZER DOAÇÃO". Assim o usuário só conseguirá entrar no site se responder a pergunda corretamente ou baixar o arquivo ZIP para fazer a doação.
+❎O SUBMENU com as páginas "MINHA OPINIÃO" Foram excluidas

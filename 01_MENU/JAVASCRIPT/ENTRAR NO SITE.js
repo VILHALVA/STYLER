@@ -2,23 +2,41 @@ function sleep(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-async function entrar() {
-    var NUM = window.document.querySelector('input#VEL')
-    var res = window.document.querySelector('div#res')
-    var ano = Number(NUM.value)
+async function fazerDoacao() {
+    var loading = window.document.querySelector('div#loading');
+    loading.style.display = 'block'; 
 
-    if (ano == 2022) {
-        res.innerHTML = `PARABÉNS! VOCÊ ACERTOU! É ${ano}!`
-        res.style.color = 'green'
-        await sleep(2000);
-        window.open("../HTML/01_MENU PRINCIPAL.html")
-    }
-    else {
-        res.innerHTML = `RESPOSTA ERRADA! NÃO É ${ano}!`
-        res.style.color = 'red'
-    }
+    var link = document.createElement('a');
+    link.href = '../MIDIAS/DOACAO.zip';
+    link.download = 'DOACAO.zip';
+    document.body.appendChild(link);
+    link.click();
+
+    await sleep(1000);
+
+    loading.style.display = 'none'; 
+
+    window.location.href = '../HTML/01_MENU PRINCIPAL.html';
 }
 
-function IFRAME() {
-    window.open('../HTML/IFRAME DO STYLER.html')
+async function entrar() {
+    var NUM = window.document.querySelector('input#VEL');
+    var res = window.document.querySelector('div#res');
+    var loading = window.document.querySelector('div#loading');
+    var ano = Number(NUM.value);
+
+    if (ano == 2022) {
+        res.innerHTML = `PARABÉNS! VOCÊ ACERTOU! É ${ano}!`;
+        res.style.background = 'green';
+        res.style.color = 'white';
+        loading.style.display = 'block'; 
+        await sleep(2000);
+        loading.style.display = 'none'; 
+        window.location.href = '../HTML/01_MENU PRINCIPAL.html'; 
+    } 
+    else {
+        res.innerHTML = `RESPOSTA ERRADA! NÃO É ${ano}!`;
+        res.style.background = 'red';
+        res.style.color = 'white';
+    }
 }
