@@ -28,8 +28,6 @@ var countdownTimer = setInterval(function() {
       voltar.id = "voltar";
       voltar.innerHTML = "FECHAR";
       document.querySelector("#countdownContainer").appendChild(voltar);
-
-      // Ocultar a bolinha da contagem
       document.querySelector(".countdown-circle").style.display = "none";
   
       voltar.addEventListener("click", function() {
@@ -46,5 +44,5 @@ function fazerVoltar() {
     setTimeout(function() {
         loading.style.display = 'none';
         window.location.href = '../HTML/ENTRAR NO SITE.html';
-    }, 1000); // Aguardar 10 segundos antes de redirecionar
+    }, 1000); 
 }

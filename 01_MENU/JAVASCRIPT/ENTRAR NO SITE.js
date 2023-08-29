@@ -5,11 +5,8 @@ function sleep(ms) {
 async function voltar() {
     var loading = window.document.querySelector('div#loading');
     loading.style.display = 'block'; 
-
     await sleep(1000);
-
     loading.style.display = 'none'; 
-
     window.location.href = '../HTML/FAZER DOACAO.html';
 }
 
