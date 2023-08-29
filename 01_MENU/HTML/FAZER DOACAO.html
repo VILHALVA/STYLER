@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAZER DOACAO</title>
+    <link rel="shortcut icon" href="../MIDIAS/ICONE HTML.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/FAZER DOACAO.css">
+    
+</head>
+<body>
+    <header>
+        <h1>FAÇA UMA DOAÇÃO</h1>
+        <p>ENVIE QUALQUER VALOR VIA PIX!</p> 
+    </header>
+    <main>
+        <div class="TEXTO">
+            <p>🤑VOCÊ PODE NOS AJUDAR DOANDO QUALQUER VALOR PIX: <br>
+                <ul>
+                    <li>🔰CLIQUE NO BOTÃO DE DOWNLOAD PARA BAIXAR O ARQUIVO ZIP COM O QR CODE DO NOSSO PIX E SER DIRECIONADO PARA O NOSSO SITE.</li>
+                    <li>🔰ESPERE 30 SEGUNDOS PARA FECHAR ESSA PÁGINA E SER DIRECIONADO PARA O FORMULÁRIO AO CLICAR NO BOTÃO FECHAR.</li>
+                </ul>
+                     
+            </p><br>
+        </div>
+
+        <div>
+            <input class="BOTAO" type="button" value="DOWNLOAD" onclick="fazerDoacao()">
+            <p>OU</p><br>  
+            <div id="countdownContainer">
+                <div id="countdownCircle" class="countdown-circle">
+                    <div id="countdownText" class="countdown-text">30</div>
+                
+                    <span id="spanButton" style="display: none;">
+                        <button id="voltar" class="BOTAO" onclick="voltar()">FECHAR</button>
+                    </span>
+                </div>
+                
+            </div>   
+        </div>
+        
+        <div id="loading" class="loading-spinner">
+            <div class="spinner"></div>
+        </div>
+    </main>
+</body>
+    <script src="../JAVASCRIPT/FAZER DOACAO.js"></script>
+</html>

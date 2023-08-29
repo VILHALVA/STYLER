@@ -2,21 +2,15 @@ function sleep(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-async function fazerDoacao() {
+async function voltar() {
     var loading = window.document.querySelector('div#loading');
     loading.style.display = 'block'; 
-
-    var link = document.createElement('a');
-    link.href = '../MIDIAS/DOACAO.zip';
-    link.download = 'DOACAO.zip';
-    document.body.appendChild(link);
-    link.click();
 
     await sleep(1000);
 
     loading.style.display = 'none'; 
 
-    window.location.href = '../HTML/01_MENU PRINCIPAL.html';
+    window.location.href = '../HTML/FAZER DOACAO.html';
 }
 
 async function entrar() {
