@@ -13,4 +13,5 @@
 🔸APLICATIVOS
 🔸CALCULADORA
 🔸JOGOS
+✅Refizemos o Submenu "CANAIS DO YOUTUBE" com apenas botões que direcionam aos respectivos canais.
 ✅Correções de bugs e pequenas melhorias.
