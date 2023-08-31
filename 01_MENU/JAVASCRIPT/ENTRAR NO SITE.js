@@ -16,7 +16,7 @@ async function entrar() {
     var loading = window.document.querySelector('div#loading');
     var ano = Number(NUM.value);
 
-    if (ano == 2022) {
+    if (ano == 03333113295) {
         res.innerHTML = `PARABÉNS! VOCÊ ACERTOU! É ${ano}!`;
         res.style.background = 'green';
         res.style.color = 'white';
