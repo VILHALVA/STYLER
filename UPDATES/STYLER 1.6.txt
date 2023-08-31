@@ -10,3 +10,4 @@
 🔸O botão "IFRAME" foi trocado para o botão "VOLTAR" (Será direcionado a uma página de doação).
 
 ❎O SUBMENU com as páginas "MINHA OPINIÃO" Foram excluidas
+✅Melhoramos a Biografia.
