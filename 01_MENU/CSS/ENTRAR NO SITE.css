@@ -93,6 +93,10 @@ input {
     background-color: red;
 }
 
+#res {
+    border-radius: 30px;
+}
+
 .loading-spinner {
     position: fixed;
     top: 50%;

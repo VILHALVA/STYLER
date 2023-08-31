@@ -63,11 +63,13 @@ main {
 }
 
 .TEXTO {
-    font-weight: bolder;
+    font-size: 14px;
+    font-weight: bold;
     color: white;
-    text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    background-color: rgba(0, 0, 0, 0.342);
+    border-radius: 23px;
+    padding: 30px;
+    margin-bottom: 40px;
 }
 
 main > div {
