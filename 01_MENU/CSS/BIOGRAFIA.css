@@ -1,90 +1,199 @@
-@charset "UTF-8";
-
-@font-face {
-    font-family: 'TITULO';
-    src: url(../../01_MENU/FONTES/BebasNeue-Regular.ttf);
-}
-
-* {
-    margin: 0px;
-    padding: 0pxf;
-}
-
 body {
-    background-color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: white;
 }
 
-header {
-    background-image: linear-gradient(to bottom, #b71365, #230a31);
-    min-height: 150px;
+header, .portfolio, footer {
+    padding: 40px;
     text-align: center;
-    padding-top: 40px;
 }
 
-header > h1 {
+h1, h2, h3 {
+    color: #3498db;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.descricao {
     color: white;
-    font-family: "TITULO";
-    font-size: 3em;
-    margin-bottom: 20px;
-    font-weight: normal;
-    text-shadow: 4px 3px 2px black;
 }
 
-header > p {
+.profile img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.buttons .button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #3498db;
     color: white;
-    font-family: var(--fonte-padrão);
-    font-size: 1.2em;
-    max-width: 600px;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin: auto;
-    margin-bottom: 20px;
-    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.689);
+    text-decoration: none;
 }
 
-main {
-    min-width: 300px;
-    max-width: 1000px;
-    margin: auto;
-    margin-bottom: 30px;
-    padding: 20px;
-    background-image: linear-gradient(to top, #0f0fc9, #0cc613, #d20d0d);
-    box-shadow: 1px 1px 15px black;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+.buttons .button.blue {
+    background-color: #3498db;
 }
 
-img {
-    display: block;
-    margin: auto;
-    width: 630px;
-    height: 480px;
+.buttons .button.purple {
+    background-color: #8e44ad;
 }
 
-main > h1 {
-    font-family: var(--fonte-destaque);  
-    font-size: 2em;
-    text-align: center;
-    background-color: black;
-    color: white;
-    margin-bottom: 20px;
-    font-weight: normal;
-    text-shadow: 4px 3px 2px black;  
-    margin-bottom: 30px;
-    margin-top: 30px;
+.buttons .button.green {
+    background-color: #27ae60;
+}
+
+.round {
+    border-radius: 50px;
+}
+
+.portfolio {
+    background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
-    padding: 10px;
+    margin: 20px auto;
+    padding: 20px;
 }
 
-main > p {
+.project {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.project h3 {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-indent: 30px;
-    font-size: 1.3em;
 }
 
-main > ul {
-text-align: left;
-color: white;
-font-size: 1.4em;
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    filter: invert(1);
+}
+
+/* ... (código CSS existente) ... */
+
+.portfolio {
+    /* ... (código CSS existente) ... */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+ /* wildcard styling */
+ * {
+    box-sizing: border-box;
+}
+  
+/* padding for whole body */
+body {
+    padding: 15px;
+}
+  
+/* styling body */
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+  
+h1 {
+    color: green;
+}
+  
+/* anchor tag decoration */
+a {
+    text-decoration: none;
+    color: #5673C8;
+}
+  
+a:hover {
+    color: lightblue;
+}
+  
+/* paragraph tga decoration */
+p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    color: #222;
+
+}
+  
+/* row and column decoration */
+.row {
+    margin: 0px -18px;
+    padding: 8px;
+}
+  
+.row > .column {
+    padding: 6px;
+}
+  
+.column {
+    float: left;
+    width: 25%;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+/* content decoration */
+.content {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid gray;
+}
+  
+/* window size 850 width set */
+@media screen and (max-width: 850px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* window size 400 width set */
+@media screen and (max-width: 400px) {
+    .column {
+        width: 100%;
+    }
 }
