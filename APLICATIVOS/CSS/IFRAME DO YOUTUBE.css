@@ -1,0 +1,41 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+  
+h1 {
+    font-size: 24px;
+}
+
+#youtubeLink {
+    width: 400px;
+    height: 30px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 16px;
+}
+
+#playButton {
+    background-color: #4CAF50;
+}
+
+#stopButton {
+    background-color: #f44336;
+}
+
+#clearButton {
+    background-color: #808080;
+}
