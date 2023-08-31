@@ -31,7 +31,6 @@ async function entrar() {
         res.style.color = 'white';
     }
 
-    // Apagar a resposta após 3 segundos
     setTimeout(function() {
         NUM.value = '';
         res.innerHTML = '';
