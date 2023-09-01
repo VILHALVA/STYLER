@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIPOTENUSA</title>
+    <link rel="shortcut icon" href="../../01_MENU/MIDIAS/ICONE CSS.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/CALCULAR HIPOTENUSA.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CALCULAR HIPOTENUSA</h1>
+        <div class="input-container">
+            <label for="catetoOposto">OPOSTO:</label>
+            <input type="number" id="catetoOposto" placeholder="Valor do cateto oposto">
+        </div>
+        <div class="input-container">
+            <label for="catetoAdjacente">ADJACENTE:</label>
+            <input type="number" id="catetoAdjacente" placeholder="Valor do cateto adjacente">
+        </div>
+        <button onclick="calcularHipotenusa()">CALCULAR</button>
+        <button onclick="limparCampos()">LIMPAR</button>
+        <p id="resultado"></p>
+    </div>
+    <script src="../JAVASCRIPT/CALCULAR HIPOTENUSA.js"></script>
+</body>
+</html>
