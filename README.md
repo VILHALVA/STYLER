@@ -7,8 +7,8 @@
 
 <img src="01_MENU/MIDIAS/ICONE HTML.ico" align="center" width="250"> <br>
 
-# VIDEOS DO YOUTUBE:
-* [CLIQUE AQUI PARA ASSISTIR A VERSÃO 1.5 DO SITE EM EZECUÇÃO](https://youtu.be/HvZFPuhs05Q?si=eZyXjo23zIge4kLB)
+# 📹VIDEOS DO YOUTUBE:
+* [SITE STYLER VERSÃO 1.5](https://youtu.be/HvZFPuhs05Q?si=eZyXjo23zIge4kLB)
 
 # ATUALIZAÇÕES
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.5%20--%2018%2F01%2F2023-blueviolet)
