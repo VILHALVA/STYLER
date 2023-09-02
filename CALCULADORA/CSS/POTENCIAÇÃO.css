@@ -1,0 +1,58 @@
+body {
+    background-color: #555;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 1.5em;
+}
+
+main {
+    background-color: #63ae42;
+    padding: 20px;
+    text-align: center;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.BOTAO {
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.BOTAO:hover {
+    background-color: #555;
+}
+
+#resultado {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}

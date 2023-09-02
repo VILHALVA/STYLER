@@ -18,7 +18,8 @@ document.addEventListener("DOMContentLoaded", function () {
             const media = (nota1 + nota2 + nota3 + nota4) / 4;
             mediaSpan.textContent = media.toFixed(2);
             resultadoDiv.style.display = "block";
-        } else {
+        } 
+        else {
             alert("Por favor, digite todas as 4 notas válidas.");
         }
     });

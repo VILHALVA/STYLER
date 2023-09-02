@@ -16,7 +16,7 @@ async function entrar() {
     var loading = window.document.querySelector('div#loading');
     var ano = Number(NUM.value);
 
-    if (ano == 03333113295) {
+    if (ano == "1996") {
         res.innerHTML = `PARABÉNS! VOCÊ ACERTOU! É ${ano}!`;
         res.style.background = 'green';
         res.style.color = 'white';
@@ -24,6 +24,11 @@ async function entrar() {
         await sleep(2000);
         loading.style.display = 'none'; 
         window.location.href = '../HTML/01_MENU PRINCIPAL.html'; 
+    }
+    else if (ano == " ") {
+        res.innerHTML = `POR FAVOR! PREENCHA O FORMULÁRIO CORRETAMENTE!`;
+        res.style.background = 'blue';
+        res.style.color = 'white'; 
     } 
     else {
         res.innerHTML = `RESPOSTA ERRADA! NÃO É ${ano}!`;
