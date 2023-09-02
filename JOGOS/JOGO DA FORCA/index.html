@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/iconMorte.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="timer/js/jquery.plugin.js"></script>
+    <script type="text/javascript" src="timer/js/jquery.countdown.js"></script>
+    <script src="js/dicas.js" defer></script>
+    <script src="js/resto.js" defer></script>
+    <script src="js/forca.js" defer></script>
+</head>
+
+<body>
+    <img src="imagens/background.jpg" draggable="false" id="background">
+    <img src="imagens/chao.gif" draggable="false"  id="chao">
+    <div id="menu">
+        <p class="title">Jogo da Forca</p>
+        <p class="title" id="select">Selecione o número de letras!</p>
+        <div id=levels>
+            <p id=facil>Fácil</p>
+            <p id=medio>Médio</p>
+            <p id=dificil>Difícil</p>
+            <p id=insano>Insano</p>
+        </div>
+
+        <div id="botoesLevel">
+            <button class="botoesLevel facil" onclick="start(1)">4</button>
+            <button class="botoesLevel facil" onclick="start(2)">5</button>
+            <button class="botoesLevel facil" onclick="start(3)">6</button>
+            <button class="botoesLevel medio" onclick="start(4)">7</button>
+            <button class="botoesLevel medio" onclick="start(5)">8</button>
+            <button class="botoesLevel medio" onclick="start(6)">9</button>
+            <button class="botoesLevel dificil" onclick="start(7)">10</button>
+            <button class="botoesLevel dificil" onclick="start(8)">11</button>
+            <button class="botoesLevel dificil" onclick="start(9)">12</button>
+            <button class="botoesLevel insano" onclick="start(10)">13</button>
+            <button class="botoesLevel insano" onclick="start(11)">14</button>
+            <button class="botoesLevel insano" onclick="start(12)">15</button>
+        </div>
+    </div>
+    <img draggable="false"  src="imagens/sol.gif" id="sol" onclick="reset()">
+    <main>
+        <img src="imagens/background1.png" draggable="false" id="backgroundPage">
+            <div id="erros">
+            <p class="sobra"></p>
+            <p class="sobra"></p>
+            <p class="sobra"></p>
+            <p class="sobra"></p>
+            <p class="sobra"></p>
+            <p class="sobra"></p> 
+            </div>
+        <div class=gameBox id=lose>
+            <p class="gameover">Fim de jogo!</p>
+        </div>
+        <p id="contador">Erro</p>
+        <div id=morte><img  draggable="false" src="imagens/iconMorte.png" width="40px" id=iconMorte><span id="mortec"></span></div>
+        <div class="itens" id="level">
+            <p id=nivel>Erro</p>
+        </div>
+        <div class="itens" id="display"><img  draggable="false" src="imagens/0.gif" id="displayImg"></div>
+        <img  draggable="false" src="imagens/seta.png" onclick=sair() id="seta">
+        <div class="itens" id="selecao">
+            <button class="botoes" id="ok" tabindex="-1" onclick="verificar()"><img draggable="false"  src="imagens/ok.png"
+                    class="sign"></button>
+            <div class=botoes id="letra"></div>
+            <button class="botoes" id="not" tabindex="-1" onclick="apagar()"> <img  draggable="false" src="imagens/no.png"
+                    class="sign"></button>
+            <p class="back" id=back>Tempo: 00:00</p>
+        </div>
+        <div class="itens" id="letras" style="transform: rotate(1deg);">
+            <div id="blocos"></div>
+        </div>
+    </main>
+</body>
+
+</html>
