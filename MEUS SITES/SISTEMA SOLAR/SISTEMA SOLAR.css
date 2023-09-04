@@ -13,7 +13,7 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-image: url(../MIDIAS/sol.jpg);
+    background-image: url(MIDIAS/sol.jpg);
     background-size: cover;
   }
   
@@ -28,42 +28,42 @@ body {
   }
   
   #mercury {
-    background-image: url(../MIDIAS/mercurio.png); 
+    background-image: url(MIDIAS/mercurio.png); 
     animation: orbit-mercury 4s linear infinite;
   }
   
   #venus {
-    background-image: url(../MIDIAS/venus.jpeg);
+    background-image: url(MIDIAS/venus.jpeg);
     animation: orbit-venus 6s linear infinite;
   }
   
   #earth {
-    background-image: url(../MIDIAS/terra.jpg); 
+    background-image: url(MIDIAS/terra.jpg); 
     animation: orbit-earth 8s linear infinite;
   }
   
   #mars {
-    background-image: url(../MIDIAS/marte.jpg); 
+    background-image: url(MIDIAS/marte.jpg); 
     animation: orbit-mars 10s linear infinite;
   }
   
   #jupiter {
-    background-image: url(../MIDIAS/jupiter.jpg); 
+    background-image: url(MIDIAS/jupiter.jpg); 
     animation: orbit-jupiter 14s linear infinite;
   }
   
   #saturn {
-    background-image: url(../MIDIAS/saturno.jpg); 
+    background-image: url(MIDIAS/saturno.jpg); 
     animation: orbit-saturn 18s linear infinite;
   }
   
   #uranus {
-    background-image: url(../MIDIAS/urano.jpg); 
+    background-image: url(MIDIAS/urano.jpg); 
     animation: orbit-uranus 22s linear infinite;
   }
   
   #neptune {
-    background-image: url(../MIDIAS/netuno.jpg); 
+    background-image: url(MIDIAS/netuno.jpg); 
     animation: orbit-neptune 26s linear infinite;
   }
   

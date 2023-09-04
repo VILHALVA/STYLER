@@ -21,7 +21,7 @@ h1, h2, h3 {
     justify-content: flex-start;
     margin-top: 20px;
     background-color: #030856;
-    padding: 10px;
+    padding: 20px;
     border-radius: 30px;
 }
 
@@ -126,7 +126,7 @@ a:hover {
 p {
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 20;
     overflow: hidden;
     color: black;
 }
@@ -198,6 +198,7 @@ footer {
     }
     .content {
         width: 100%;
+        display: flexbox; 
     }
     #git {
         width: 400px;
@@ -219,11 +220,12 @@ footer {
 
 @media screen and (max-width: 700px) {
     .profile img {
-        width: 170px;
-        height: 170px;
+        align-items: center;
+        width: 120px;
+        height: 120px;
     }
     .descricao {
-        font-size: 14px;
+        font-size: 12px;
     }
     .portfolio {
         width: 60%; 
@@ -238,7 +240,9 @@ footer {
         margin-bottom: 10px;       
     }
     .content {
-        width: 150px;        
+        width: 150px;
+        margin-right: auto;
+        margin-left: -20px;        
     }
     #git {
         width: 200px;
