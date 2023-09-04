@@ -11,6 +11,27 @@
 * [SITE STYLER VERSÃO 1.5](https://youtu.be/HvZFPuhs05Q?si=eZyXjo23zIge4kLB)
 
 # ATUALIZAÇÕES
+## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.6%20--%2003%2F09%2F2023-blueviolet)
+* ❇️Quando o usuário clicar para entrar no site, ele será direcionado a uma página de doação: Ele só será redirecionado ao formulário se baixar o ZIP da doação ou esperar 60 segundos para clicar no botão "FECHAR".
+* ❇️Mudamos o formulário de entrada:
+* 🔸Mudamos a pergunta para: "EM QUE ANO O CRIADOR DO SITE NASCEU?";
+* 🔸Agora o site abre na mesma aba quando o usuário digita a resposta certa.
+* 🔸Mudamos a cor e background da resposta final (Se acertou, errou ou deixou vazio).
+* 🔸Foi adicionado uma animação de "uma bolinha" antes de entrar no site.
+* 🔸O botão "IFRAME" foi trocado para o botão "VOLTAR" (Será direcionado a uma página de doação).
+* ❎O SUBMENU com as páginas "MINHA OPINIÃO" Foram excluidas
+* ✅Melhoramos a Biografia.
+* ❇️Adicionamos novos Submenus ao Menu Principal:
+* 🔸MEUS SITES
+* 🔸APLICATIVOS
+* 🔸CALCULADORA
+* 🔸JOGOS
+* 🔸SITES DE NOTICIAS
+* 🔸INTELIGÊNCIAS ARTIFICIAIS
+* 🔸PLAYLISTS DO YOUTUBE
+* ✅Refizemos o Submenu "CANAIS DO YOUTUBE" com apenas botões que direcionam aos respectivos canais.
+* ✅Correções de bugs e pequenas melhorias.
+
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.5%20--%2018%2F01%2F2023-blueviolet)
 * ❇️Mudamos um pouco o inicio: 
 * 🔸No lugar da enorme quantidade de botões: Colocamos o menu "hamburguinho". Nele foram inseridas todas as opções; Exceto "ENTRAR".
