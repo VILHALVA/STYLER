@@ -9,6 +9,7 @@
 
 # 📹VIDEOS DO YOUTUBE:
 * [SITE STYLER VERSÃO 1.5](https://youtu.be/HvZFPuhs05Q?si=eZyXjo23zIge4kLB)
+* [SITE STYLER DA VERSÃO 1.0 ATÉ 1.6](https://youtu.be/1hpkAbvTLuI?si=eI-arbPJEPq226Fv)
 
 # ATUALIZAÇÕES
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.6%20--%2003%2F09%2F2023-blueviolet)
