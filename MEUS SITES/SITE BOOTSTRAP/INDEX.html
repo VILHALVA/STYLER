@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projeto Página Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="shortcut icon" href="imagens/kindpng_2258787.png" type="image/x-icon">
+    <style>
+        img{
+            width: 50%;
+        }
+        header{
+            background-image: linear-gradient(to right,grey,darkgrey,lightgrey);
+        }
+        .menu-header{
+            font-size: 1.5em;
+            font-weight: bold;
+            text-shadow: 3px 3px 7px rgb(0, 0, 0);
+        }
+        h1,h2,h3,h4,h5{
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.274);
+            margin: 30px 0px 30px 0px;
+        }
+        p{
+            text-align: justify;
+            margin: 10px;
+        }
+        nav{
+            background-color: #573F7E;
+        }
+        article{
+            background-color: rgb(230, 228, 228);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+        }
+        aside{
+            background-color: #573f7e36;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+        }
+        footer{
+            background-color: #573F7E;
+            color: darkgray;
+            font-size: 1.5em;
+            text-shadow: 3px 3px 7px rgb(0, 0, 0);
+        }
+        .link-footer{
+            text-decoration: none; color:darkgray
+        }
+        .link-footer:hover{
+            color:lightgray;
+        }
+    </style>
+</head>
+<body>
+    <header class="p-0 justify-content-center d-flex">
+        <img src="imagens/pngwing.com.png" alt="banner-bootstrap">
+        <h1 class="m-auto align-self-center">Modelo de site Bootstrap</h1>
+    </header>
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container-fluid justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item mx-5">
+                    <a href="#" class="nav-link menu-header">Home</a>
+                </li>
+                <li class="nav-item mx-5">
+                    <a href="#" class="nav-link menu-header">Arquivos</a>
+                </li>
+                <li class="nav-item mx-5">
+                    <a href="#" class="nav-link menu-header">Repositório</a>
+                </li>
+                <li class="nav-item mx-5">
+                    <a href="#" class="nav-link menu-header">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="container mt-5">
+        <div class="row">
+            <section class="col-sm-8">
+
+                <article class="rounded p-2 mb-5">
+                    <h2>O que é Bootstrap?</h2>
+                        <p>Bootstrap é um framework de código aberto utilizado no desenvolvimento de sites e aplicações web. Ele combina CSS e JavaScript para estilizar elementos de páginas escritas em HTML. É um dos frameworks mais populares do mundo.</p>
+
+                        <p>O Bootstrap traz um conjunto de códigos prontos para agilizar o desenvolvimento web.</p>
+                        
+                        <p>Elementos como menus, formulários, paginação, validação de dados e padrões de segurança, que são comuns a vários sites, são disponibilizados pela comunidade de desenvolvedores a qualquer profissional que queira utilizá-los.</p>
+                        
+                        <p>O framework é usado para o desenvolvimento front-end (a interface com o usuário) de sites. Ele também traz uma vantagem, que é oferecer componentes responsivos, ou seja, que se adaptam a qualquer tamanho de tela.</p>
+                        
+                        <p>Dessa maneira, os sites que utilizam sua estrutura proporcionam uma experiência otimizada de navegação aos usuários de dispositivos móveis.</p>
+                        
+                    <h4>O que é framework?</h4>
+
+                        <p>Para entender o que é Bootstrap, é bom também conhecer o conceito de framework no desenvolvimento web.</p>
+                        
+                        <p>Um framework é uma estrutura genérica de códigos que permite resolver demandas recorrentes, sem que o desenvolvedor precise programar tudo do zero. Ele traz mais produtividade e agilidade ao trabalho com uma série de funcionalidades, comandos e estruturas prontas que se repetem em diferentes projetos.</p>
+                        
+                        <p>Muitos frameworks como o Bootstrap podem ser encontrados em comunidades de desenvolvedores e utilizados gratuitamente, já que na maioria das vezes os próprios profissionais desenvolvem e disponibilizam seus pacotes de códigos.</p>
+                        
+                        <p>Você também pode contribuir para o desenvolvimento dos frameworks, se tiver conhecimentos para isso e seguir as diretrizes da comunidade.</p>
+                </article>
+
+                <article class="rounded p-2 mb-5">
+                    <h2>Para que serve o Bootstrap?</h2>
+                
+                    <p>O Bootstrap serve para facilitar o desenvolvimento de sites para a web. A ferramenta ajuda a implementar elementos comuns aos sites de maneira mais rápida e com uma interface amigável.</p>
+
+                    <p>Tudo o que o desenvolvedor precisa fazer é baixar o código-fonte e personalizar os componentes e layouts para os seus projetos.</p>
+                        
+                    <p>Em suas atualizações, o Bootstrap passou a adotar elementos responsivos e considerar o desenvolvimento para dispositivos móveis como prioridade ( mobile-first design ). Por isso, hoje ele serve especialmente para desenvolver sites responsivos, uma tendência já consolidada na web.</p>
+                </article>
+
+                <article class="rounded p-2 mb-5">
+                    <h2>Quem criou o Bootstrap?</h2>
+                    <p>O Bootstrap foi criado por Mark Otto e Jacob Thornton para construir o Twitter. Lançado em meados de 2010, inicialmente o framework tinha o nome de Twitter Blueprint, até ter seu lançamento público em 2011 e se tornar open-source.</p>
+
+                    <p>A intenção dos desenvolvedores era padronizar as ferramentas internas, uma vez que os projetos anteriores utilizaram diferentes bibliotecas, que geraram inconsistências entre os códigos e gastos com manutenção.</p>
+                        
+                    <p>Com a construção do Bootstrap, eles puderam documentar e compartilhar os padrões de design comuns dentro da empresa.</p>
+                        
+                    <p>O framework já passou por mais de 20 atualizações, principalmente com foco no design responsivo. Atualmente está na versão 4.1 e é mantido por uma comunidade de desenvolvedores no GitHub, plataforma que hospeda códigos-fontes de projetos privados e open source.</p>
+                </article>
+
+                <article class="rounded p-2 mb-5">
+                    <h2>Como começar a usar o Bootstrap?</h2>
+                    <p>Então, você quer dar os primeiros passos no Bootstrap? Vamos entender o que você precisa para começar.</p>
+
+                    <p>Antes de baixar qualquer arquivo, é essencial que você entenda um pouco de HTML, CSS e JavaScript. O framework é simples de usar, mas demanda um conhecimento mínimo de programação. Pode ser que você precise fazer ajustes pontuais, mesmo nos códigos prontos, que exigem domínio dessas linguagens.</p>
+                        
+                    <p>Então, se você ainda não entende bem essas linguagens, o primeiro passo é aprender sobre elas. Existem vários cursos online para isso. Aproveite e use o buscador de cursos da Classpert para procurar a melhor opção.</p>
+                        
+                    <p>Além disso, é importante que você leia a documentação do Bootstrap disponível no site oficial e entenda todas as funcionalidades do framework. Interagir com a comunidade de desenvolvedores também é bom para quem quer iniciar no assunto.</p>
+                        
+                    <p>Depois, a sugestão é que você faça cursos sobre o Bootstrap. Mais uma vez, apesar de ser fácil de mexer, o framework pode ser melhor aproveitado se você conhecer a fundo os componentes e os recursos do sistema. A seguir, você vai ver os cursos que recomendamos.</p>
+                </article>
+
+            </section>
+            <aside class="col-sm-4 rounded mb-5">
+                <h2>Exemplos de Bootstrap: o que é possível fazer?</h2>
+            
+                <p class="mt-3">Quer entender melhor que tipo de componentes você pode usar para desenvolver um site com Bootstrap? É possível incluir:</p>
+    
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" id="n1" style="color:#573F7E;" onmouseover="marcar(this.id)" onmouseout="desmarcar(this.id)"><strong>Álbum</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" id="n2" style="color:#573F7E;" onmouseover="marcar(this.id)" onmouseout="desmarcar(this.id)"><strong>Tabela de Preços</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" id="n3" style="color:#573F7E;" onmouseover="marcar(this.id)" onmouseout="desmarcar(this.id)"><strong>Formulários de Checkout</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" id="n4" style="color:#573F7E;" onmouseover="marcar(this.id)" onmouseout="desmarcar(this.id)"><strong>Blog</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" id="n5" style="color:#573F7E;" onmouseover="marcar(this.id)" onmouseout="desmarcar(this.id)"><strong>Carousel</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" id="n6" style="color:#573F7E;" onmouseover="marcar(this.id)" onmouseout="desmarcar(this.id)"><strong>Página de Login</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" id="n7" style="color:#573F7E;" onmouseover="marcar(this.id)" onmouseout="desmarcar(this.id)"><strong>Layout em Grid</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" id="n8" style="color:#573F7E;" onmouseover="marcar(this.id)" onmouseout="desmarcar(this.id)"><strong>Barras de Navegação</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" id="n9" style="color:#573F7E;" onmouseover="marcar(this.id)" onmouseout="desmarcar(this.id)"><strong>Bordas</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" id="n10" style="color:#573F7E;" onmouseover="marcar(this.id)" onmouseout="desmarcar(this.id)"><strong>Menu Sandwich</strong></a>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+    </main>
+    <footer class="p-3">
+        <p class="text-center">Página feita por <a class="link-footer" href="https://github.com/VILHALVA"><strong>Vilhalva</strong></a></p><a class="link-footer" href="https://github.com/VILHALVA" target="_blank"><strong>GitHub</strong></a></p>
+    </footer>
+<script>
+    const marcar=(obj)=>{
+        document.getElementById(obj).style.backgroundColor='#573f7e'
+        document.getElementById(obj).style.color='#DBD6E4'
+    }
+    const desmarcar=(obj)=>{
+        document.getElementById(obj).style.backgroundColor='#DBD6E4'
+        document.getElementById(obj).style.color='#573F7E'
+    }
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

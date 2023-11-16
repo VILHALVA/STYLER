@@ -16,4 +16,5 @@ function copiarTexto() {
 
 function limparTexto() {
     document.getElementById("texto").value = "";
+    document.getElementById("textoConvertido").textContent = "";
 }

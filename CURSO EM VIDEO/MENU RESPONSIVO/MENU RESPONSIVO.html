@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU RESPONSIVO</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <link rel="shortcut icon" href="../../01_MENU/MIDIAS/ICONE CSS.ico" type="image/x-icon">
+    <script src="MENU RESPONSIVO.js"></script>
+    <link rel="stylesheet" href="MENU RESPONSIVO.css">
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>MENU RESPONSIVO</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/Media_Queries/Using_media_queries" target="_blank">MEDIA QUERIES</a></li>
+                <li><a href="https://blog.apiki.com/mobile-first-o-conceito-e-sua-aplicabilidade/" target="_blank">MOBILE FIRST</a></li>
+                <li><a href="https://learn.microsoft.com/pt-br/windows/apps/design/layout/screen-sizes-and-breakpoints-for-responsive-design" target="_blank">DEVICE BREAKPOINTS</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Media_type" target="_blank">MEDIA TYPE</a></li>
+                <li><a href="https://web.dev/learn/design/media-features/" target="_blank">MEDIA FEATURES</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>MEDIA QUERIES</h2>
+            <p>Uma media query consiste de um media type e pelo menos uma expressão que limita o escopo das folhas de estilo usando media features, tal como largura, altura e cor. Media queries, adicionadas no CSS3, deixam a apresentação do conteúdo adaptado a uma gama especifica de dispositivos não precisando mudar o conteúdo em si.</p>
+
+            <p>Media queries consistem de um media type e podem, a partir de uma especificação CSS3, contendo uma ou mais expressões, expressa em media features, que determinam ou verdadeiro ou falso. Os resultados da query são verdadeiros se o media type especificado na media query corresponde ao tipo do documento exibido no dispositivo e todas as expressões na media query são verdadeiras.
+            </p>
+
+            <p>Quando uma media query é verdadeira, a camada de estilo ou as regras de estilos correspondentes são aplicadas, seguindo o padrão de regras de cascatas. Camadas de estilos com media queries ligadas a tag vão fazer download mesmo se suas medias queries retornarem falso (eles não se aplicam, no entanto). A menos que você use os operadores not ou only, o media type é opcional e o tipo all será implícito.</p>
+
+            <p>Você pode compor media queries complexos usando operadores lógicos, incluindo not, and, e only. O operador and é usado para combinar múltiplas media features em uma mesma media query, requerendo que cada sequência de características, retorne verdadeiro na ordem para que a query seja verdadeiro. O operador not é usado para negar uma media query inteira. O operador only é usado para aplicar um estilo apenas se a query inteira for igual, útil para previnir que navegadores antigos apliquem os estilos selecionados. Se você usar os operadores not ou only, você tem que especificar um tipo de media explícito. Você também pode combinar múltiplas medias queries em uma lista separadas por vírgulas, se qualquer uma das media queries na lista é verdadeira, toda a instrução retorna verdadeira. Isto é equivalente a um operador or.</p>
+        </article>
+    </main>
+</body>
+</html>

@@ -65,7 +65,19 @@ var audioContext;
 
     function clearInput() {
       youtubeLinkInput.value = '';
-    }
+      var playerDiv = document.getElementById('player');
+      playerDiv.innerHTML = '';
+      if (sourceNode) {
+        sourceNode.disconnect();
+        sourceNode = null;
+      }
+    
+      if (audioContext) {
+        audioContext.close().then(function () {
+          audioContext = null;
+        });
+      }
+    }    
 
     function extractVideoId(url) {
       var videoId = null;

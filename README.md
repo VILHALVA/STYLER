@@ -2,16 +2,25 @@
 👨‍⚖️STYLER É UM SITE QUE RODA NO GITHUB PAGES.
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA)
+[![GitHub Repo stars](https://img.shields.io/badge/VEJA%20OS-VIDEOS-03A9F4?logo=youtube)](https://www.youtube.com/@vilhalva100/search?query=STYLER)
 
 [![GitHub Repo stars](https://img.shields.io/badge/ENTRE%20NO-SITE-df1010?logo=google)](https://vilhalva.github.io/STYLER/STYLER.html) <br>
 
 <img src="01_MENU/MIDIAS/ICONE HTML.ico" align="center" width="250"> <br>
 
-# 📹VIDEOS DO YOUTUBE:
-* [SITE STYLER VERSÃO 1.5](https://youtu.be/HvZFPuhs05Q?si=eZyXjo23zIge4kLB)
-* [SITE STYLER DA VERSÃO 1.0 ATÉ 1.6](https://youtu.be/1hpkAbvTLuI?si=eI-arbPJEPq226Fv)
-
 # ATUALIZAÇÕES
+## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.7%20--%2016%2F11%2F2023-blueviolet)
+* ❇️Com exceção do menu `BOAS MUSICAS`, todos os diretórios foram reogarnizados em pastas raizes de projetos solos.
+* ✅Favicon dos jogos foram corrigidos.
+* ❇️Mais conteúdo foram publicados no:
+*   🔸CURSO EM VIDEO;
+*   🔸MEUS SITES.
+* ✅Todas as músicas de `BOAS MÚSICAS` teve uma repaginação no designer; Ficando mais responsivo e suave.
+* ✅O `WORD BÁSICO` teve uma repaginação no designer; Ficando mais responsivo e suave.
+* ✅A função `LIMPAR` foi corrigido de `CONVERTER UPPER`. Agora todos os campos são limpos.
+* ✅A função `LIMPAR` foi corrigido de `IFRAME DO YOUTUBE`. Agora todos os campos são limpos.
+* ✅Correções de bugs e pequenas melhorias.
+
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.6%20--%2003%2F09%2F2023-blueviolet)
 * ❇️Quando o usuário clicar para entrar no site, ele será direcionado a uma página de doação: Ele só será redirecionado ao formulário se baixar o ZIP da doação ou esperar 60 segundos para clicar no botão "FECHAR".
 * ❇️Mudamos o formulário de entrada:
