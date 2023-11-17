@@ -11,6 +11,7 @@
 # ATUALIZAÇÕES
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.8%20--%2017%2F11%2F2023-blueviolet)
 * ✅Com exceção de páginas puramente ortodoxas, o site inteiro está responsivo.
+* ❇️Foi adicionado um buscador em JavaScript que permite o usuário digitar o nome da música e ele abre a página (VERSÃO ALPHA). Pra funcionar, ele segue esse modelo de link: "https://vilhalva.github.io/STYLER...{NOME DA MUSICA QUE USUARIO DIGITOU}.html". Se der o erro 404, que apareça o aviso que ele digitou errado, ou a música não existe nesse site. EX: Quando o usuário digitar no buscador "EU AMO" (Os espaços adicionam "%20" no script, ficando "EU%20AMO"), ele abre a nova página através da requisição: "https://vilhalva.github.io/STYLER/.../EU%20TE%20AMO.html".
 * ✅Correções de bugs e pequenas melhorias.
 
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.7%20--%2016%2F11%2F2023-blueviolet)
