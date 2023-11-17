@@ -43,6 +43,6 @@ function fazerVoltar() {
 
     setTimeout(function() {
         loading.style.display = 'none';
-        window.location.href = '../HTML/ENTRAR NO SITE.html';
+        window.location.href = '../HTML/CADASTRO.html';
     }, 1000); 
 }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRO</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="../../01_MENU/MIDIAS/ICONE HTML.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/CADASTRO.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">FORMULARIO DE CADASTRO</h1>
+        <form id="formulario">
+            <div class="form-group">
+                <label for="nome">NOME COMPLETO:</label>
+                <input type="text" class="form-control" id="nome" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">EMAIL:</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="idade">IDADE:</label>
+                <input type="number" class="form-control" id="idade" required>
+            </div>
+
+            <div class="form-group">
+                <label for="ano-atual">ANO ATUAL:</label>
+                <input type="number" class="form-control" id="ano-atual" min="2023" max="2100">
+            </div>
+
+            <div class="text-center">
+                <button type="button" class="btn btn-success" id="cadastrar">CADASTRAR</button>
+                <button type="button" class="btn btn-success" id="login">LOGIN</button>
+                <button type="button" class="btn btn-primary" id="limpar">LIMPAR</button>
+            </div>
+        </form>
+        <div class="loading-spinner text-center" id="loading">
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="../JAVASCRIPT/CADASTRO.js"></script>
+</body>
+</html>

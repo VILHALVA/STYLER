@@ -11,26 +11,28 @@
 }
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-image: url(../MIDIAS/BOMHACKER.jpg);
+    color: aliceblue;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.505);
+    background-color: rgba(0, 0, 0, 0.929);
     height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 header {
     background-image: linear-gradient(to left, #8b0b4b, #7714b1);
     width: 100%;
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding: 40px 0 20px;
     margin-bottom: 20px;
 }
 
@@ -40,17 +42,13 @@ header > h1 {
     font-size: 2em;
     margin-bottom: 20px;
     font-weight: bolder;
-    text-shadow: 4px 3px 2px black;
 }
 
 header > p {
     color: white;
-    font-family: var(--fonte-padrão);
     font-size: 1em;
     font-weight: bold;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-bottom: 15px;
+    padding: 0 10px 15px;
     margin: auto;
     text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.689);
 }
@@ -60,21 +58,24 @@ main {
     border: 5px solid black;
     border-radius: 30px;
     margin: 10px;
+    padding: 20px;
 }
 
 main > div {
     font-weight: bolder;
-    color: white;
+    color: rgb(197, 6, 6);
     text-align: center;
     margin: 10px;
 }
 
 input {
+    border: none;
     border-radius: 25px;
-    padding-left: 10px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding: 10px;
+    margin: 5px 0;
     font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
 }
 
 .BOTAO {
@@ -87,6 +88,7 @@ input {
     background-color: blue;
     color: white;
     padding: 8px;
+    cursor: pointer;
 }
 
 .BOTAO:hover {
@@ -119,6 +121,3 @@ input {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
-
-
-
