@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const errorMessage = document.getElementById('errorMessage');
     const musicNameInput = document.getElementById('musicName');
 
-    const baseURL = "https://vilhalva.github.io/STYLER/BOAS%20MUSICAS/";
+    const baseURL = "https://vilhalva.github.io/STYLER/BOAS%20MUSICAS/HTML/";
 
     searchButton.addEventListener('click', function () {
         const userInput = musicNameInput.value.trim().toUpperCase();
