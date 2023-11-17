@@ -3,18 +3,22 @@ body {
     color: #fff;
     font-family: Arial, sans-serif;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px; 
+    margin: 0;
 }
-  
+
 h1 {
-    font-size: 24px;
+    font-size: 2em; 
 }
 
 #youtubeLink {
-    width: 400px;
+    width: 100%; 
+    max-width: 400px; 
     height: 30px;
-    font-size: 16px;
+    font-size: 1em; 
+    margin: 0 auto; 
     margin-bottom: 10px;
+    box-sizing: border-box; 
 }
 
 .button {
@@ -25,7 +29,7 @@ h1 {
     border: none;
     cursor: pointer;
     margin: 10px;
-    font-size: 16px;
+    font-size: 1em; 
 }
 
 #playButton {
@@ -38,4 +42,10 @@ h1 {
 
 #clearButton {
     background-color: #808080;
+}
+
+@media screen and (max-width: 768px) {
+    #youtubeLink {
+        max-width: 100%; 
+    }
 }

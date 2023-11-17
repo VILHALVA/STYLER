@@ -9,6 +9,10 @@
 <img src="01_MENU/MIDIAS/ICONE HTML.ico" align="center" width="250"> <br>
 
 # ATUALIZAÇÕES
+## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.8%20--%2017%2F11%2F2023-blueviolet)
+* ✅Com exceção de páginas puramente ortodoxas, o site inteiro está responsivo.
+* ✅Correções de bugs e pequenas melhorias.
+
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.7%20--%2016%2F11%2F2023-blueviolet)
 * ❇️Com exceção do menu `BOAS MUSICAS`, todos os diretórios foram reogarnizados em pastas raizes de projetos solos.
 * ✅Favicon dos jogos foram corrigidos.

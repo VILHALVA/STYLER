@@ -22,6 +22,7 @@ textarea {
     border: none;
     background-color: #333;
     color: #fff;
+    box-sizing: border-box; 
 }
 
 button {
@@ -57,4 +58,16 @@ button.copy-btn {
 
 button.copy-btn:hover {
     background-color: #45a049;
+}
+
+@media screen and (max-width: 768px) {
+    textarea,
+    button {
+        width: auto;
+    }
+
+    button {
+        display: block;
+        margin: 0 auto;
+    }
 }
