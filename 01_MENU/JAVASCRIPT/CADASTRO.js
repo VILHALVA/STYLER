@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             window.location.href = '../../01_MENU/HTML/01_MENU PRINCIPAL.html';
         } else {
-            alert('Por favor, preencha todos os campos antes de cadastrar.');
+            alert('😡POR FAVOR, PREENCHA TODOS OS CAMPOS ANTES DE CADASTRAR!');
         }
     });
 
