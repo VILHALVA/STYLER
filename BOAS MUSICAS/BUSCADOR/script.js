@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const userInput = musicNameInput.value.trim().toUpperCase();
 
         if (userInput === "") {
-            showError("Digite o nome da música");
+            showError("😒O CAMPO ESTÁ VAZIO. DIGITE O NOME DA MÚSICA!");
             return;
         }
 
@@ -34,12 +34,12 @@ document.addEventListener('DOMContentLoaded', function () {
                 if (response.ok) {
                     window.location.href = url;
                 } else {
-                    showError("Música não encontrada");
+                    showError("🤬ERRO 404: A MÚSICA NÃO FOI ENCONTRADA! TALVEZ VOCÊ TENHA DIGITADO O NOME ERRADO, OU A MÚSICA NÃO EXISTE NESSE SITE!");
                 }
             })
             .catch(error => {
-                console.error('Erro na requisição HEAD:', error);
-                showError("Erro ao verificar a música");
+                console.error('🥵ERRO NA REQUISIÇÃO HEAD:', error);
+                showError("🥵ERRO NA REQUESIÇÃO HEAD: PODE TER OCORRIDO ALGUMA FALHA NO SERVIDOR! ENTRE EM CONTATO COM O @VILHALVA100 NO TELEGRAM PARA REPORTAR!");
             });
     }
 
