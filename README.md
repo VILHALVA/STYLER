@@ -13,13 +13,18 @@
 * 🈯️Em relação ao `MENU DE DOAÇÃO` o botão `fechar` trocou de nomeclatura: De `Voltar` para `Fechar`.
 * 🈯️Os formulários(`FAZER DOAÇÃO`, `CADASTRO` e `LOGIN`), `BIOGRIA`, `PARCERIA` e `QR CODE` foram movidos para um diretório próprio.
 * 🈯️Foram adicionados mais arquivos no `QR CODE.zip` e `DOACAO.zip`.
-* 🈯️O `CSS` e `JS` da página principal (home - `STYLER.html`) são internos.
-* ✅Na página `STYLER.html` foi adicionado um rodapé com as redes sociais.
+* 🈯️O `CSS` e `JS` da página principal (home - `STYLER.html`) agora são internos.
+* ✅Na página `STYLER.html` foi adicionado um rodapé com as redes sociais do dono.
 * ✅Em relação ao formulário de cadastro houve grandes mudanças:
 *   🔸O designer do formulário foi refeito.
 *   🔸Os campos `idade` e `ano atual` foram apagados, ficando apenas `nome` e `email`.
+*   🔸Aprimoramos a validação dos campos para garantir maior precisão. Agora, para que o cadastro seja aprovado, é necessário que o nome contenha apenas letras e tenha mais de 10 caracteres. Quanto ao campo de e-mail, é imprescindível a presença do símbolo "@" e a extensão ".com".
 *   🔸Os campos de textos do arquivo `txt` foram refeitos: Foi adicionado mais informações além de estarem separadas por categorias.
 *   🔸Sempre que o usuário fizer o cadastro, será direcionado para a página de login (Antigamente entrava direto no site).
+* ✅O formulário de login foi cuidadosamente aprimorado para oferecer uma experiência mais segura e eficiente. Agora, ele apresenta uma validação refinada para garantir a integridade do processo de cadastro. Se um usuário tentar enviar múltiplos arquivos com o padrão `STYLER (n).txt`, será exibido um aviso especial indicando que o cadastramento múltiplo não é permitido. Além disso, para um cadastro individual ser aprovado, é essencial que o arquivo enviado tenha o nome exato `STYLER.txt`. Essas melhorias visam proporcionar uma interação mais intuitiva e evitar possíveis equívocos durante o procedimento de login."
+* ✅Implementamos melhorias no buscador de músicas (`BOAS MÚSICAS`) para proporcionar uma experiência mais eficiente e informativa. Agora, ao ocorrer um erro 404, indicando que a música não foi encontrada no site, o sistema exibirá dois botões para facilitar a pesquisa em outros sites.
+Esses botões, intitulados "VAGALUME" e "LETRAS", aparecerão de maneira clara e intuitiva, permitindo que o usuário clique em qualquer um deles para abrir uma nova aba no navegador. Além disso, o texto digitado pelo usuário no campo de busca será automaticamente incluído na consulta aos outros sites, proporcionando uma transição suave entre a pesquisa local e a web. 
+Essa atualização visa oferecer aos usuários uma solução prática e rápida quando a música desejada não está disponível no site atual, incentivando uma busca mais abrangente em outras plataformas de letras de músicas.
 * ✅Correções de bugs e pequenas melhorias.
 
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.8%20--%2017%2F11%2F2023-blueviolet)

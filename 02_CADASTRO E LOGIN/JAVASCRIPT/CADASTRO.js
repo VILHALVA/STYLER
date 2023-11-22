@@ -14,7 +14,10 @@ document.addEventListener('DOMContentLoaded', function () {
         const email = document.getElementById('email').value;
         const res = document.getElementById('res');
 
-        if (nome && email) {
+        const nomeValido = /^[a-zA-Z\s]{10,}$/.test(nome);
+        const emailValido = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+
+        if ((nome && email) && (nomeValido && emailValido)) {
             loading.style.display = 'block';
 
             const texto = `
@@ -55,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             window.location.href = '../HTML/LOGIN.html';
         } else {
-            alert('😡POR FAVOR, PREENCHA TODOS OS CAMPOS ANTES DE CADASTRAR!');
+            alert('😡POR FAVOR, PREENCHA TODOS OS CAMPOS CORRETAMENTE ANTES DE CADASTRAR!');
         }
     });
 
