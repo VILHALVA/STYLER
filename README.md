@@ -12,9 +12,11 @@
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.9%20--%2022%2F11%2F2023-blueviolet)
 * 🈯️Em relação ao `MENU DE DOAÇÃO` o botão `fechar` trocou de nomeclatura: De `Voltar` para `Fechar`.
 * ✅Em relação ao formulário de cadastro houve grandes mudanças:
+*   🔸O designer do formulário foi refeito.
 *   🔸Os campos `idade` e `ano atual` foram apagados, ficando apenas `nome` e `email`.
 *   🔸Os campos de textos do arquivo `txt` foram refeitos: Foi adicionado mais informações além de estarem separadas por categorias.
 *   🔸Sempre que o usuário fizer o cadastro, será direcionado para a página de login (Antigamente entrava direto no site).
+
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.8%20--%2017%2F11%2F2023-blueviolet)
 * ✅Com exceção de páginas puramente ortodoxas, o site inteiro está responsivo.
 * ❇️No menu de `BOAS MÚSICAS`foi adicionado um botão de  buscador em JavaScript que permite o usuário digitar o nome da música e ele abre a página (VERSÃO ALPHA). Pra funcionar, ele segue esse modelo de link: "https://vilhalva.github.io/STYLER...{NOME DA MUSICA QUE USUARIO DIGITOU}.html". Se der o erro 404, aparece o aviso que ele digitou errado, ou a música não existe nesse site. EX: Quando o usuário digitar no buscador "EU AMO" (Os espaços adicionam "%20" no script, ficando "EU%20AMO"), ele abre a nova página através da requisição: "https://vilhalva.github.io/STYLER/.../EU%20TE%20AMO.html".
