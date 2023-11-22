@@ -13,9 +13,7 @@ async function fazerDoacao() {
     link.click();
 
     await sleep(3000);
-
     loading.style.display = 'none'; 
-
     window.location.href = '../HTML/01_MENU PRINCIPAL.html';
 }
 
@@ -24,20 +22,20 @@ var countdownTimer = setInterval(function() {
     countdownText.innerHTML--;
   
     if (countdownText.innerHTML == 0) {
-      var voltar = document.createElement("button");
-      voltar.id = "voltar";
-      voltar.innerHTML = "FECHAR";
-      document.querySelector("#countdownContainer").appendChild(voltar);
+      var fechar = document.createElement("button");
+      fechar.id = "fechar";
+      fechar.innerHTML = "FECHAR";
+      document.querySelector("#countdownContainer").appendChild(fechar);
       document.querySelector(".countdown-circle").style.display = "none";
   
-      voltar.addEventListener("click", function() {
+      fechar.addEventListener("click", function() {
         clearInterval(countdownTimer);
-        fazerVoltar();
+        fazerFechar();
       });
     }
 }, 1000);
 
-function fazerVoltar() {
+function fazerFechar() {
     var loading = window.document.querySelector('div#loading');
     loading.style.display = 'block';
 

@@ -12,19 +12,31 @@ document.addEventListener('DOMContentLoaded', function () {
     cadastrarBotao.addEventListener('click', async function () {
         const nome = document.getElementById('nome').value;
         const email = document.getElementById('email').value;
-        const idade = document.getElementById('idade').value;
-        const anoAtual = document.getElementById('ano-atual').value;
         const res = document.getElementById('res');
 
-        if (nome && email && idade && anoAtual) {
+        if (nome && email) {
             loading.style.display = 'block';
 
             const texto = `
-            SITE: "https://vilhalva.github.io/STYLER/STYLER.html"
-            NOME: "${nome}"
-            EMAIL: "${email}"
-            IDADE: "${idade}"
-            ANO ATUAL: "${anoAtual}"
+            #==========🚀SOBRE O SITE:=================
+            🔵SITE: https://vilhalva.github.io/STYLER/STYLER.html
+            🔵CRIADOR: SAMUEL MARTINS VILHALVA
+            🔵GITHUB: https://github.com/VILHALVA
+            🔵CANAL CODERS: https://t.me/CODIGOCN
+            🔵CANAL DO VILHALVA: https://t.me/VILHALVA100_CANAL
+            🔵CANAL NO YOUTUBE: https://www.youtube.com/channel/UCmSPU_gp3NA7a8pb5Iwy3lQ
+            🔵PERFIL NO FACEBOOK: https://facebook.com/VILHALVA100
+            🔵PERFIL NO LINKEDIN: http://www.linkedin.com/in/vilhalva
+            🔵SOU FREELANCER: https://telegra.ph/FREELANCER-10-19-9
+            🔵PARCERIA: https://t.me/DIVULGACAO2023
+
+            #===========👥SOBRE O USUÁRIO:================
+            🔵NOME: "${nome}"
+            🔵EMAIL: "${email}"
+
+            #==========🤑FAÇA UMA DOAÇÃO:==================
+            Contribua para o avanço contínuo deste projeto enviando qualquer valor via PIX para a chave 03333113295 (SAMUEL MARTINS VILHALVA). 
+            Sua generosidade nos auxilia a manter e aprimorar este projeto, permitindo o lançamento constante de novas atualizações. Agradecemos imensamente pelo seu apoio!
             `;
 
             const blob = new Blob([texto], { type: 'text/plain' });
@@ -41,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             loading.style.display = 'none';
 
-            window.location.href = '../../01_MENU/HTML/01_MENU PRINCIPAL.html';
+            window.location.href = '../HTML/LOGIN.html';
         } else {
             alert('😡POR FAVOR, PREENCHA TODOS OS CAMPOS ANTES DE CADASTRAR!');
         }

@@ -11,7 +11,7 @@
     <div class="container">
         <h1>FORMULARIO DE LOGIN:</h1>
         <form id="loginForm">
-            <label for="arquivo">FAÇA UPLOAD DO ARQUIVO QUE VOCÊ BAIXOU DO CADASTRO:</label>
+            <label for="arquivo">FAÇA UPLOAD DO PRIMEIRO ARQUIVO QUE VOCÊ BAIXOU DO CADASTRO:</label>
             <input type="file" id="arquivo" accept=".txt">
 
             <div class="botoes">
@@ -19,6 +19,10 @@
             </div>
         </form>
         <button type="button" id="cadastrar" onclick="window.location.href='../HTML/CADASTRO.html'">CADASTRAR</button>
+
+        <div class="loading-spinner text-center" id="loading">
+            <div class="spinner"></div>
+        </div>
     </div>
 
     <script src="../JAVASCRIPT/LOGIN.js"></script>
