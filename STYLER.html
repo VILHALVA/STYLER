@@ -7,8 +7,218 @@
     <title>STYLER</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
     <link rel="shortcut icon" href="01_MENU/MIDIAS/ICONE HTML.ico" type="image/x-icon">
-    <script src="01_MENU/JAVASCRIPT/STYLER.js"></script>
-    <link rel="stylesheet" href="01_MENU/CSS/STYLER.css">
+    <style>
+        @charset "UTF-8";
+
+        @font-face {
+            font-family: "TITULO";
+            src: url(01_MENU/FONTES/idroid.otf);
+        }
+
+        @font-face {
+            font-family: "SUBTITULO";
+            src: url(01_MENU/FONTES/PassionOne-Regular.ttf);
+        }
+
+        body {
+            background-color: black;
+        }
+            
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        :root {
+            --cor1: #ee1414;
+            --cor2: #3417b7;
+            --cor3: #630958;
+            --cor4: #0c81db;
+            --cor5: #1a0328;
+            --cor6: #0ac12b;
+            --cor7: #2a0e8f;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0pxf;
+        }
+
+        body {
+            background-color: var(--cor6);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+            min-height: 150px;
+            text-align: center;
+            padding-top: 40px;
+        }
+
+        header > h1 {
+            color: white;
+            font-family: "TITULO";
+            font-size: 3em;
+            margin-bottom: 20px;
+            font-weight: normal;
+            text-shadow: 4px 3px 2px black;
+        }
+
+        header > p {
+            color: white;
+            font-family: "SUBTITULO";
+            font-size: 1.4em;
+            color: white;
+            max-width: 600px;
+            padding-right: 10px;
+            padding-left: 10px;
+            margin: auto;
+            margin-bottom: 40px;
+            text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.689);
+        }
+
+        span#burguer {
+            background-color: #630958;
+            color: white;
+            display: block;
+            text-align: center;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        span#burguer:hover {
+            background-color: rgb(18, 18, 18);
+            color: rgb(241, 235, 235);
+        }
+
+        span#entrada {
+            background-color: #07be29;
+            color: white;
+            display: block;
+            text-align: center;
+            padding: 10px;
+            cursor: pointer;
+            margin: 0px;
+        }
+
+        span#entrada:hover {
+            background-color: rgb(185, 17, 22);
+            color: rgb(241, 235, 235);
+        }
+
+        menu {
+            display: none;
+        }
+
+        menu > ul {
+            list-style-type: none;
+        }
+
+        menu > ul > li > a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            font-weight: bolder;
+            text-align: center;
+            background-image: linear-gradient(to left, red, yellow, green, blue);
+            color: white;
+            border-top: 2px solid gray;
+            margin-left: 5px;
+        }
+
+        menu > ul > li > a:hover {
+            background-image: linear-gradient(to right, rgb(255, 0, 144), red, yellow, green, blue, black);
+        }
+
+        main {
+            min-width: 300px;
+            max-width: 1000px;
+            margin: auto;
+            margin-bottom: 0px;
+            padding: 40px;
+            background-image: linear-gradient(to top, rgb(6, 6, 95), rgb(24, 117, 24));
+            box-shadow: 1px 1px 15px black;
+        }
+
+        article {
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.342);
+            border-radius: 23px;
+            padding: 30px;
+            margin-bottom: 40px;
+        }
+
+        #BOTAO {
+            background-image: linear-gradient(to left, red, yellow, green, blue);
+            color: white;
+            text-align: center;
+            font-size: 1em;
+            display: block;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border-radius: 50px;
+            box-shadow: 5px 3px 2px black;    
+            text-decoration: none;
+            font-weight: bolder;
+            font-family: Arial, Helvetica, sans-serif;
+            width: auto;
+        }
+
+        #BOTAO:hover {
+            background-image: linear-gradient(to right, rgb(255, 0, 144), red, yellow, green, blue, black);
+            color: white;
+            text-decoration: none;
+            font-size: 19px;
+        } 
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+            filter: invert(1);
+        }
+
+        .h1social {
+            color: white;
+            font-size: 26px;
+        }
+
+        footer {
+            background-image: linear-gradient(to bottom, rgb(151, 4, 82), rgb(224, 16, 82), rgb(87, 5, 202));
+            margin: 0px;
+            text-align: center;
+            padding: 10px;
+            padding-bottom: 50px;
+        }
+    </style>
+
+    <script>
+        function clickMenu() {
+            if (MENU.style.display == 'block') {
+                MENU.style.display = 'none'
+            }
+        
+            else {
+                MENU.style.display = 'block'
+            }
+        }        
+    </script>
 </head>
 <body>
     <header>
@@ -17,29 +227,42 @@
         <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
         <menu id="MENU">
             <ul>
-                <li><a href="01_MENU/HTML/QR CODE.html">QR CODE</a></li>
+                <li><a href="QR_CODE/CODIGO.html">QR CODE</a></li>
                 <li><a href="https://github.com/VILHALVA" target="_blank">GITHUB</a></li>
                 <li><a href="https://t.me/VILHALVA100" target="_blank">CONTATO</a></li>
-                <li><a href="01_MENU/HTML/BIOGRAFIA.html">BIOGRAFIA</a></li>
-                <li><a href="01_MENU/HTML/MENU_PARCERIA.html">PARCERIA</a></li>
+                <li><a href="BIOGRAFIA/CODIGO.html">BIOGRAFIA</a></li>
+                <li><a href="https://telegra.ph/FREELANCER-10-19-9" target="_blank">SOU FREELANCER</a></li>
+                <li><a href="PARCERIA/CODIGO.html">PARCERIA</a></li>
                 <li><a href="01_MENU/HTML/MENU_CREDITOS.html">CREDITOS</a></li>
                 <li><a href="https://github.com/VILHALVA/STYLER" target="_blank">SOURCE CODE</a></li>
             </ul>
         </menu>
     </header>
     <main>
-        <div>
+        <article>
             <p>&#x1F60E Obrigado por comparecer. Antes de entrar no site, você precisa saber de algumas coisas:</p><br>
             <p>&#x1F449 Esse site foi produzido por um desenvolvedor indepedente.</p>
             <p>&#x1F449 Talvez você não goste do excesso de cores. Isso ocorre porque o desenvolvedor o criou com base no gosto pessoal.</p>
             <p>&#x1F449 Temos a total liberdade de colocar, alterar ou remover qualquer página ou função do site sem qualquer aviso.</p>
             <p>&#x1F449 Nesse site você encontra de tudo: Tem músicas, Jogos, Aplicações, Calculadoras, Canais do YouTube, Indicação dos melhores sites e muito mais.</p>
             <p>&#x1F449 Caso você encontre: Algum bug, erro ou falha durante a sua navegação, você pode entrar em contato com o desenvolvedor.</p>
-            <p>&#x1F449 CLIQUE NO BOTÃO ABAIXO PARA ENTRAR NO SITE!</p>
-        </div> 
-        <div>
-            <a id="BOTAO" href="01_MENU/HTML/FAZER DOACAO.html">ENTRAR NO SITE</a>
-        </div>
+            <p>&#x1F449 CLIQUE NO BOTÃO ABAIXO PARA ENTRAR NO SITE!</p><br>
+        </<article>
+
+        <article>
+            <a id="BOTAO" href="02_CADASTRO E LOGIN/HTML/FAZER DOACAO.html">ENTRAR NO SITE</a>
+        </article>
     </main>
+    <footer>
+        <h1 class="h1social">REDES SOCIAIS:</h1>
+        <hr>
+        <div class="social-icons">
+            <a href="https://github.com/VILHALVA" target="_blank"><img src="https://cdn-icons-png.flaticon.com/256/25/25231.png" alt="GITHUB"></a>
+            <a href="https://www.youtube.com/@vilhalva100" target="_blank"><img src="https://cdn-icons-png.flaticon.com/256/3670/3670163.png" alt="YouTube"></a>
+            <a href="https://facebook.com/VILHALVA100" target="_blank"><img src="https://images.vexels.com/media/users/3/223136/isolated/lists/984f500cf9de4519b02b354346eb72e0-m-dias-sociais-do-cone-do-facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com/VILHALVA100" target="_blank"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/91/ef/67/91ef67ae-4877-1286-a4d6-fb04f6f37e9e/ProductionAppIcon-2x-4-0-0-85-220.png/256x256bb.png" alt="Twitter"></a>
+            <a href="https://t.me/VILHALVA100_CANAL" target="_blank"><img src="https://osx.telegram.org/updates/site/logo.png" alt="Telegram"></a>
+        </div>
+    </footer>
 </body>
 </html>

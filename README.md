@@ -11,11 +11,16 @@
 # ATUALIZAÇÕES
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.9%20--%2022%2F11%2F2023-blueviolet)
 * 🈯️Em relação ao `MENU DE DOAÇÃO` o botão `fechar` trocou de nomeclatura: De `Voltar` para `Fechar`.
+* 🈯️Os formulários(`FAZER DOAÇÃO`, `CADASTRO` e `LOGIN`), `BIOGRIA`, `PARCERIA` e `QR CODE` foram movidos para um diretório próprio.
+* 🈯️Foram adicionados mais arquivos no `QR CODE.zip` e `DOACAO.zip`.
+* 🈯️O `CSS` e `JS` da página principal (home - `STYLER.html`) são internos.
+* ✅Na página `STYLER.html` foi adicionado um rodapé com as redes sociais.
 * ✅Em relação ao formulário de cadastro houve grandes mudanças:
 *   🔸O designer do formulário foi refeito.
 *   🔸Os campos `idade` e `ano atual` foram apagados, ficando apenas `nome` e `email`.
 *   🔸Os campos de textos do arquivo `txt` foram refeitos: Foi adicionado mais informações além de estarem separadas por categorias.
 *   🔸Sempre que o usuário fizer o cadastro, será direcionado para a página de login (Antigamente entrava direto no site).
+* ✅Correções de bugs e pequenas melhorias.
 
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.8%20--%2017%2F11%2F2023-blueviolet)
 * ✅Com exceção de páginas puramente ortodoxas, o site inteiro está responsivo.

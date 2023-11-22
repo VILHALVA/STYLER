@@ -14,7 +14,7 @@ async function fazerDoacao() {
 
     await sleep(3000);
     loading.style.display = 'none'; 
-    window.location.href = '../HTML/01_MENU PRINCIPAL.html';
+    window.location.href = '../../01_MENU/HTML/01_MENU PRINCIPAL.html';
 }
 
 var countdownTimer = setInterval(function() {
@@ -41,6 +41,6 @@ function fazerFechar() {
 
     setTimeout(function() {
         loading.style.display = 'none';
-        window.location.href = '../HTML/CADASTRO.html';
+        window.location.href = 'CADASTRO.html';
     }, 1000); 
 }
