@@ -9,12 +9,18 @@
     <link rel="shortcut icon" href="../MIDIAS/ICONE HTML.ico" type="image/x-icon">
     <link rel="stylesheet" href="../CSS/01_MENU PRINCIPAL.css">
     <script>
-        var ano = true; // Defina como "false" se a resposta estiver incorreta
-    
-        if (!ano) {
-            alert("Você precisa responder à pergunta corretamente para acessar esta página.");
-            window.location.href = 'ENTRAR NO SITE.html'; // Redirecionar de volta ao formulário
-        }
+        document.addEventListener('DOMContentLoaded', function () {
+            const previousPage = document.referrer;
+            const allowedPages = [
+                'https://vilhalva.github.io/STYLER/02_CADASTRO%20E%20LOGIN/HTML/LOGIN.html',
+                'https://vilhalva.github.io/STYLER/02_CADASTRO%20E%20LOGIN/HTML/FAZER%20DOACAO.html'
+            ];
+
+            if (!allowedPages.includes(previousPage)) {
+                alert('FOI DETECTADO QUE VOCÊ ACESSOU ESSA PÁGINA SEM PASSAR PELA PÁGINA DE LOGIN OU DOAÇÃO! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
+                window.location.href = 'https://vilhalva.github.io/STYLER/STYLER.html';
+            }
+        });
     </script>
     
 </head>
