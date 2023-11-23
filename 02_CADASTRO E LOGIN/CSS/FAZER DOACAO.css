@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: "TITULO";
-    src: url(../FONTES/Anton-Regular.ttf);
+    src: url(../../01_MENU/FONTES/Anton-Regular.ttf);
 }
 
 @font-face {
     font-family: "SUBTITULO";
-    src: url(../FONTES/BebasNeue-Regular.ttf);
+    src: url(../../01_MENU/FONTES/BebasNeue-Regular.ttf);
 }
 
 * {
@@ -60,31 +60,23 @@ main {
     border: 5px solid black;
     border-radius: 30px;
     margin: 10px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column; /* Empilha os elementos verticalmente */
 }
 
 .TEXTO {
-    font-size: 20px;
+    font-size: 14px;
     font-weight: bold;
     color: white;
     background-color: rgba(0, 0, 0, 0.342);
     border-radius: 23px;
     padding: 30px;
-    margin-top: 20px;
-    margin-left: 100px;
     margin-bottom: 40px;
-    width: 60%; 
-    text-align: left;
 }
 
-footer {
+main > div {
     font-weight: bolder;
     color: white;
     text-align: center;
     margin: 10px;
-    margin-top: 10px; /* Adiciona espaço entre o .TEXTO e o footer */
 }
 
 input {

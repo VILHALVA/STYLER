@@ -23,9 +23,10 @@
 *   🔸Sempre que o usuário fizer o cadastro, será direcionado para a página de login (Antigamente entrava direto no site).
 * ✅O formulário de login foi cuidadosamente aprimorado para oferecer uma experiência mais segura e eficiente. Agora, ele apresenta uma validação refinada para garantir a integridade do processo de cadastro. Se um usuário tentar enviar múltiplos arquivos com o padrão `STYLER (n).txt`, será exibido um aviso especial indicando que o cadastramento múltiplo não é permitido. Além disso, para um cadastro individual ser aprovado, é essencial que o arquivo enviado tenha o nome exato `STYLER.txt`. Essas melhorias visam proporcionar uma interação mais intuitiva e evitar possíveis equívocos durante o procedimento de login."
 * ✅Implementamos melhorias no buscador de músicas (`BOAS MÚSICAS`) para proporcionar uma experiência mais eficiente e informativa. Agora, ao ocorrer um erro 404, indicando que a música não foi encontrada no site, o sistema exibirá dois botões para facilitar a pesquisa em outros sites.
-Esses botões, intitulados "VAGALUME" e "LETRAS", aparecerão de maneira clara e intuitiva, permitindo que o usuário clique em qualquer um deles para abrir uma nova aba no navegador. Além disso, o texto digitado pelo usuário no campo de busca será automaticamente incluído na consulta aos outros sites, proporcionando uma transição suave entre a pesquisa local e a web. 
+Esses botões, intitulados "VAGALUME", "LETRAS" e "YOUTUBE"(Abre o site oficial do Youtube em nova aba, e após 3 segundos na local abre o `IFRAME DE VIDEOS` - Você pode copiar o link da música para reproduzir em iframe), aparecerão de maneira clara e intuitiva, permitindo que o usuário clique em qualquer um deles para abrir uma nova aba no navegador. Além disso, o texto digitado pelo usuário no campo de busca será automaticamente incluído na consulta aos outros sites, proporcionando uma transição suave entre a pesquisa local e a web. 
 Essa atualização visa oferecer aos usuários uma solução prática e rápida quando a música desejada não está disponível no site atual, incentivando uma busca mais abrangente em outras plataformas de letras de músicas.
 * ✅Correções de bugs e pequenas melhorias.
+![](https://i.imgur.com/waxVImv.png)
 
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.8%20--%2017%2F11%2F2023-blueviolet)
 * ✅Com exceção de páginas puramente ortodoxas, o site inteiro está responsivo.
@@ -37,6 +38,7 @@ formulário de cadastro permite aos usuários inserir informações pessoais, co
 O formulário de login apresenta instruções claras sobre como proceder: o usuário deve fazer upload do arquivo que baixou do cadastro para acessar o site. Após o upload do arquivo, o sistema verifica se o mesmo está correto. Se o usuário enviar o arquivo errado ou não enviar nenhum arquivo, uma mensagem de erro é exibida. No entanto, devido à natureza estática do GitHub Pages, não há suporte para processamento de backend ou banco de dados. Portanto, essas verificações são limitadas ao escopo do front-end, utilizando JavaScript no navegador do usuário.
 * ✅Em relação a página de doação: O tempo de espera para o botão `FECHAR` aparecer, foi reduzido de 60 para 30 segundos. Quando o usuário clica nesse botão, ele será redirecionado para a página de `CADASTRO`.
 * ✅Correções de bugs e pequenas melhorias.
+![](https://i.imgur.com/waxVImv.png)
 
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.7%20--%2016%2F11%2F2023-blueviolet)
 * ❇️Com exceção do menu `BOAS MUSICAS`, todos os diretórios foram reogarnizados em pastas raizes de projetos solos.
@@ -49,6 +51,7 @@ O formulário de login apresenta instruções claras sobre como proceder: o usu�
 * ✅A função `LIMPAR` foi corrigido de `CONVERTER UPPER`. Agora todos os campos são limpos.
 * ✅A função `LIMPAR` foi corrigido de `IFRAME DO YOUTUBE`. Agora todos os campos são limpos.
 * ✅Correções de bugs e pequenas melhorias.
+![](https://i.imgur.com/waxVImv.png)
 
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.6%20--%2003%2F09%2F2023-blueviolet)
 * ❇️Quando o usuário clicar para entrar no site, ele será direcionado a uma página de doação: Ele só será redirecionado ao formulário se baixar o ZIP da doação ou esperar 60 segundos para clicar no botão "FECHAR".
@@ -70,6 +73,7 @@ O formulário de login apresenta instruções claras sobre como proceder: o usu�
 * 🔸PLAYLISTS DO YOUTUBE
 * ✅Refizemos o Submenu "CANAIS DO YOUTUBE" com apenas botões que direcionam aos respectivos canais.
 * ✅Correções de bugs e pequenas melhorias.
+![](https://i.imgur.com/waxVImv.png)
 
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.5%20--%2018%2F01%2F2023-blueviolet)
 * ❇️Mudamos um pouco o inicio: 

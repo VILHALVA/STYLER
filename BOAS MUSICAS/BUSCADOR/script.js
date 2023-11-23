@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const baseURL = "https://vilhalva.github.io/STYLER/BOAS%20MUSICAS/HTML/";
     const baseURL2 = "https://www.vagalume.com.br/search?q="
     const baseURL3 = "https://www.letras.mus.br/?q="
+    const baseURL4 = "https://www.youtube.com/results?search_query=musica+"
 
     searchButton.addEventListener('click', function () {
         const userInput = musicNameInput.value.trim().toUpperCase();
@@ -39,11 +40,11 @@ document.addEventListener('DOMContentLoaded', function () {
                     window.location.href = url;
                 } 
                 else {
-                    showError("🤬ERRO 404: A MÚSICA NÃO FOI ENCONTRADA! TALVEZ VOCÊ TENHA DIGITADO O NOME ERRADO, OU A MÚSICA NÃO EXISTE NESSE SITE. CLIQUE EM UM DESSES BOTÕES PARA PESQUISAR EM OUTROS SITES:");
+                    showError("🤬ERRO 404: A música não foi encontrada! Pode ter ocorrido por um dos dois motivos:\n 1️⃣ Você pode ter digitado o nome incorreto. Verifique os títulos das músicas disponíveis no menu de Boas Músicas e tente novamente.\n 2️⃣ A música não existe neste site. Clique em um dos botões abaixo para buscar em outros sites:");
                 
                     const link1 = document.createElement('a');
                     link1.href = `${baseURL2}${formattedInput}`;
-                    link1.textContent = 'VAGULE';
+                    link1.textContent = 'VAGALUME';
                     link1.target = '_blank';
                     errorContainer.appendChild(link1);
                 
@@ -54,7 +55,20 @@ document.addEventListener('DOMContentLoaded', function () {
                     link2.textContent = 'LETRAS';
                     link2.target = '_blank';
                     errorContainer.appendChild(link2);
-                }                
+
+                    errorContainer.appendChild(document.createElement('br'));
+
+                    const link3 = document.createElement('a');
+                    link3.href = `${baseURL4}${formattedInput}`;
+                    link3.textContent = 'YOUTUBE';
+                    link3.target = '_blank';
+                    link3.addEventListener('click', function () {
+                        setTimeout(function () {
+                            window.location.href = '../../APLICATIVOS/IFRAME YOUTUBE/IFRAME DO YOUTUBE.html';
+                        }, 3000);
+                    });
+                    errorContainer.appendChild(link3);
+                }        
             })
             .catch(error => {
                 console.error('🥵ERRO NA REQUISIÇÃO HEAD:', error);
