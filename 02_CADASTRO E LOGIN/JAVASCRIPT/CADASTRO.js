@@ -59,6 +59,7 @@ document.addEventListener('DOMContentLoaded', function () {
             window.location.href = '../HTML/LOGIN.html';
         } else {
             alert('😡POR FAVOR, PREENCHA TODOS OS CAMPOS CORRETAMENTE ANTES DE CADASTRAR!');
+            formulario.reset();
         }
     });
 

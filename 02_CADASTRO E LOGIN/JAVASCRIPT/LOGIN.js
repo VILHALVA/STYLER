@@ -1,10 +1,17 @@
 document.addEventListener('DOMContentLoaded', function () {
     const loginForm = document.getElementById('loginForm');
+    const limparBotao = document.getElementById('limpar');
     const loginBotao = document.getElementById('login');
     const arquivoInput = document.getElementById('arquivo');
     const loading = document.getElementById('loading');
 
-    loginBotao.addEventListener('click', async function () {
+    limparBotao.addEventListener('click', function () {
+        loginForm.reset();
+    });
+
+    loginBotao.addEventListener('click', async function (event) {
+        event.preventDefault(); 
+
         const nomeArquivoPadrao = /^STYLER \(\d+\)\.txt$/;
 
         if (arquivoInput.files.length > 0) {
@@ -14,6 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             if (arquivosMultiplos) {
                 alert('😳VOCÊ SE CADASTROU MAIS DE UMA VEZ. ISSO NÃO É PERMITIDO. APAGUE TODOS ESSES ARQUIVOS MÚLTIPLOS E SE CADASTRE NOVAMENTE!');
+                loginForm.reset();
             } 
             else if (arquivosEnviados.length === 1 && arquivosEnviados[0].name === 'STYLER.txt') {
                 loading.style.display = 'block';
@@ -23,6 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
             } 
             else {
                 alert('🤬ARQUIVO INCORRETO. FAÇA UPLOAD DO ARQUIVO QUE VOCÊ BAIXOU AO SE CADASTRAR!');
+                loginForm.reset();
             }
         } 
         else {
