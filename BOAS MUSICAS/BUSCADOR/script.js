@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const errorContainer = document.getElementById('errorContainer');
     const musicNameInput = document.getElementById('musicName');
 
-    const baseURL = "https://vilhalva.github.io/STYLER/BOAS%20MUSICAS/HTML/";
+    const baseURL1 = "https://vilhalva.github.io/STYLER/BOAS%20MUSICAS/HTML/";
     const baseURL2 = "https://www.vagalume.com.br/search?q="
     const baseURL3 = "https://www.letras.mus.br/?q="
     const baseURL4 = "https://www.youtube.com/results?search_query=musica+"
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         const formattedInput = userInput.replace(/\s+/g, '%20');
-        const musicURL = `${baseURL}${formattedInput}.html`;
+        const musicURL = `${baseURL1}${formattedInput}.html`;
 
         checkMusicExistence(musicURL, formattedInput);
     });
