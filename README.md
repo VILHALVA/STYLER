@@ -9,6 +9,9 @@
 <img src="01_MENU/MIDIAS/ICONE HTML.ico" align="center" width="250"> <br>
 
 # ATUALIZAÇÕES
+## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%202.0%20--%2024%2F11%2F2023-blueviolet)
+* 🈯️Para garantir uma experiência segura e autenticada, foi implementado um recurso de validação no lado do cliente que verifica se o usuário acessou determinadas páginas essenciais (como a página principal) após passar pela página de login ou de doação. Isso ajuda a garantir que o usuário tenha cumprido os requisitos necessários antes de acessar áreas restritas do site. Ao detectar que o usuário acessou uma página crítica sem passar pelos processos de login ou doação, uma mensagem de alerta é exibida, informando sobre a detecção dessa atividade. O usuário é então redirecionado automaticamente para a página inicial. Isso ajuda a garantir que o acesso às seções principais do site seja restrito apenas aos usuários que seguiram os passos adequados.
+
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%201.9%20--%2022%2F11%2F2023-blueviolet)
 * 🈯️Em relação ao `MENU DE DOAÇÃO` o botão `fechar` trocou de nomeclatura: De `Voltar` para `Fechar`.
 * 🈯️Os formulários(`FAZER DOAÇÃO`, `CADASTRO` e `LOGIN`), `BIOGRIA`, `PARCERIA` e `QR CODE` foram movidos para um diretório próprio.
