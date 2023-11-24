@@ -7,19 +7,7 @@
     <title>MENU DE BOAS MUSICAS</title>
     <link rel="shortcut icon" href="../MIDIAS/ICONE HTML.ico" type="image/x-icon">
     <link rel="stylesheet" href="../CSS/02_SUBMENU.css">
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const previousPage = document.referrer;
-            const allowedPages = [
-                'https://vilhalva.github.io/STYLER/01_MENU/HTML/01_MENU%20PRINCIPAL.html'
-            ];
-
-            if (!allowedPages.includes(previousPage)) {
-                alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSA PÁGINA SEM PASSAR PELO MENU PRINCIPAL! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
-                window.location.href = 'https://vilhalva.github.io/STYLER/STYLER.html';
-            }
-        });
-    </script>
+    <script src="../../03_PAGINACAO/SUBMENU.js"></script>
 </head>
 <body>
     <header>

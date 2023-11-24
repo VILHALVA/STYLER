@@ -8,21 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
     <link rel="shortcut icon" href="../MIDIAS/ICONE HTML.ico" type="image/x-icon">
     <link rel="stylesheet" href="../CSS/01_MENU PRINCIPAL.css">
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const previousPage = document.referrer;
-            const allowedPages = [
-                'https://vilhalva.github.io/STYLER/02_CADASTRO%20E%20LOGIN/HTML/LOGIN.html',
-                'https://vilhalva.github.io/STYLER/02_CADASTRO%20E%20LOGIN/HTML/FAZER%20DOACAO.html'
-            ];
-
-            if (!allowedPages.includes(previousPage)) {
-                alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSA PÁGINA SEM PASSAR PELA PÁGINA DE LOGIN OU DOAÇÃO! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
-                window.location.href = 'https://vilhalva.github.io/STYLER/STYLER.html';
-            }
-        });
-    </script>
-    
+    <script src="../../03_PAGINACAO/MENU_PRINCIPAL.js"></script>
 </head>
 <body>
     <header>
