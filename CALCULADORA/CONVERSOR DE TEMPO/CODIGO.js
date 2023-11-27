@@ -8,7 +8,7 @@ function convertUnit() {
 
     if (isNaN(value) || value < 0) {
         document.getElementById('value').value = '';
-        alert('Por favor, insira um valor válido.');
+        alert('POR FAVOR, INSIRA UM VALOR VÁLIDO!');
         return;
     }    
 
