@@ -9,9 +9,13 @@
 <img src="01_MENU/MIDIAS/ICONE HTML.ico" align="center" width="250"> <br>
 
 # ATUALIZAÇÕES
-## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%202.0%20--%2024%2F11%2F2023-blueviolet)
+## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%202.0%20--%2027%2F11%2F2023-blueviolet)
 * 🈯️Foi implementado um recurso de validação que verifica se o usuário acessou o `MENU PRINCIPAL` após passar pela página de login ou de doação, ou acessou algum `SUBMENU` após passar pelo `MENU PRINCIPAL`. Ao detectar que o usuário acessou o `MENU PRINCIPAL` sem passar pelos processos de login ou doação, ou acessou algum `SUBMENU` sem passar pelo `MENU PRINCIPAL`, uma mensagem de alerta é exibida, informando sobre a detecção dessa atividade. O usuário é então redirecionado automaticamente para a página inicial. Isso ajuda a garantir que o acesso às seções principais do site seja restrito apenas aos usuários que seguiram os passos requeridos.
 * 🈯️Houve uma pequena melhoria nos formulários de `CADASTRO` e `LOGIN`: Se o usuário não seguir algum requerimento, todos os campos serão limpos após o alerta de erro. também foi adicionado o botão de `LIMPAR` do formulário de `LOGIN`.
+* ✅O submenu `BOAS MÚSICAS` passou pelas seguintes modificações:
+*   🔸As músicas gospels vem antes das músicas seculares.
+*   🔸As músicas gospels estão definidas com "🔴", enquanto as músicas seculares são "🔵".
+*   🔸Músicas novas foram adicionadas.
 
 ![](https://i.imgur.com/waxVImv.png)
 
