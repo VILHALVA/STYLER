@@ -9,9 +9,4 @@ document.addEventListener('DOMContentLoaded', function () {
         alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSA PÁGINA SEM PASSAR PELA PÁGINA DE LOGIN OU DOAÇÃO! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
         window.location.href = 'https://vilhalva.github.io/STYLER/STYLER.html';
     }
-
-    if (!navigator.cookieEnabled) {
-        alert('😡ATENÇÃO: FOI DETECTADO QUE OS COOKIES ESTÃO DESABILITADOS. ISSO NÃO É PERMITIDO! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
-        window.location.href = 'https://vilhalva.github.io/STYLER/STYLER.html';
-    }
 });
