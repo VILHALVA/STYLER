@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONVERSOR DE TEMPO</title>
+    <link rel="shortcut icon" href="../../01_MENU/MIDIAS/ICONE CSS.ico" type="image/x-icon">
+    <link rel="stylesheet" href="CODIGO.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>CONVERSOR DE TEMPO</h1>        
+            <label for="value">VALOR:</label>
+            <input type="number" id="value">
+
+            <div id="inp1" class="input-section">
+                <label for="unit">ESCOLHA A UNIDADE:</label>
+                <select id="unit">
+                    <option value="segundos">SEGUNDOS</option>
+                    <option value="minutos">MINUTOS</option>
+                    <option value="horas">HORAS</option>
+                    <option value="dias">DIAS</option>
+                    <option value="meses">MESES</option>
+                    <option value="anos">ANOS</option>
+                </select>
+            
+            <button onclick="convertUnit()">CONVERTER</button>
+        </div>
+        
+        <div class="input-section">
+            <button id="btnR" onclick="reset()">LIMPAR</button>
+        </div>
+
+        <div id="result" style="display: none;"></div>
+    </div>
+
+    <script src="CODIGO.js"></script>
+</body>
+
+</html>

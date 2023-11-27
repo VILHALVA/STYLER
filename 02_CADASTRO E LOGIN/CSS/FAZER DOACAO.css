@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: "TITULO";
-    src: url(../../01_MENU/FONTES/Anton-Regular.ttf);
+    src: url(../../01_MENU/FONTES/Hurry\ Loves.otf);
 }
 
 @font-face {
     font-family: "SUBTITULO";
-    src: url(../../01_MENU/FONTES/BebasNeue-Regular.ttf);
+    src: url(../../01_MENU/FONTES/idroid.otf);
 }
 
 * {
@@ -45,7 +45,7 @@ header > h1 {
 
 header > p {
     color: white;
-    font-family: var(--fonte-padrão);
+    font-family: 'SUBTITULO';
     font-size: 1em;
     font-weight: bold;
     padding-right: 10px;
