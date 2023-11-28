@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const baseURL1 = "https://vilhalva.github.io/STYLER/BOAS%20MUSICAS/HTML/";
     const baseURL2 = "https://www.vagalume.com.br/search?q="
     const baseURL3 = "https://www.letras.mus.br/?q="
-    const baseURL4 = "https://www.youtube.com/results?search_query=musica+"
+    const baseURL4 = "https://www.youtube.com/results?search_query=musica:+"
 
     searchButton.addEventListener('click', function () {
         const userInput = musicNameInput.value.trim().toUpperCase();
