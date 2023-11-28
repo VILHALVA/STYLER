@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CODIGO.css">
+  <title>FORMATADOR DE LETRAS</title>
+  <link rel="shortcut icon" href="../../01_MENU/MIDIAS/ICONE CSS.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="container">
+    <textarea id="inputText" placeholder="Digite o texto"></textarea>
+    <div id="linkContainer" class="hidden">
+        <label for="link">Link:</label>
+        <input type="text" id="link">
+    </div>
+    <select id="conversionType">
+      <option value="grassetto">grassetto</option>
+      <option value="italico">italico</option>
+      <option value="code">code</option>
+      <option value="link">hyperlinks</option>
+      <option value="blu">azul</option>
+      <option value="barrato">barrato</option>
+      <option value="sottolineato">sottolineato</option>
+      <option value="grande">grande</option>
+      <option value="maiuscoletto">maiuscoletto</option>
+      <option value="bolle">bolle</option>
+    </select>
+    
+    <div class="output" id="outputText" style="display: none;"></div>
+    <button onclick="convertText()">CONVERTER</button>
+    <button onclick="copyText()">COPIAR</button>
+    <button onclick="clearFields()">LIMPAR</button>
+  </div>
+  <script src="CODIGO.js"></script>
+</body>
+</html>
