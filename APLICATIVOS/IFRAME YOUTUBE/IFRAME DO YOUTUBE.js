@@ -1,26 +1,16 @@
-window.onload = function () {
-  const previousPage = document.referrer;
-  const allowedPages = [
-      'https://vilhalva.github.io/STYLER/BOAS%20MUSICAS/BUSCADOR/index.html'
-  ];
+var audioContext;
+    var sourceNode;
+    var playButton = document.getElementById('playButton');
+    var stopButton = document.getElementById('stopButton');
+    var clearButton = document.getElementById('clearButton');
+    var youtubeLinkInput = document.getElementById('youtubeLink');
 
-  if (allowedPages.includes(previousPage)) {
-      alert('🌹ATENÇÃO: VOCÊ PODE COLAR AQUI O LINK DA MÚSICA PARA OUVIR EM IFRAME. SE QUIZER RETORNAR AO SISTEMA DE BUSCA, É SÓ CLICAR EM <-');
-  }
-
-  const audioContext;
-  const sourceNode;
-  const playButton = document.getElementById('playButton');
-  const stopButton = document.getElementById('stopButton');
-  const clearButton = document.getElementById('clearButton');
-  const youtubeLinkInput = document.getElementById('youtubeLink');
-
-  function playAudio() {
+    function playAudio() {
       var youtubeLink = youtubeLinkInput.value;
       var videoId = extractVideoId(youtubeLink);
       if (!videoId) {
-          console.error('URL do YouTube inválida');
-          return;
+        console.error('URL do YouTube inválida');
+        return;
       }
 
       var embedUrl = 'https://www.youtube.com/embed/' + videoId;
@@ -36,8 +26,8 @@ window.onload = function () {
       playerDiv.appendChild(iframe);
 
       if (!audioContext) {
-          audioContext = new (window.AudioContext || window.webkitAudioContext)();
-          audioContext.resume();
+        audioContext = new (window.AudioContext || window.webkitAudioContext)();
+        audioContext.resume();
       }
 
       var audioUrl = 'https://www.youtube.com/watch?v=' + videoId;
@@ -50,63 +40,62 @@ window.onload = function () {
       var merger = audioContext.createChannelMerger(2);
 
       sourceNode.connect(splitter);
-      splitter.connect(merger, 0, 0);
-      splitter.connect(merger, 1, 1);
+      splitter.connect(merger, 0, 0); 
+      splitter.connect(merger, 1, 1); 
 
       merger.connect(audioContext.destination);
       audioElement.play();
-  }
+    }
 
-  function stopAudio() {
+    function stopAudio() {
       var playerDiv = document.getElementById('player');
       playerDiv.innerHTML = '';
 
       if (sourceNode) {
-          sourceNode.disconnect();
-          sourceNode = null;
+        sourceNode.disconnect();
+        sourceNode = null;
       }
 
       if (audioContext) {
-          audioContext.close().then(function () {
-              audioContext = null;
-          });
+        audioContext.close().then(function() {
+          audioContext = null;
+        });
       }
-  }
+    }
 
-  function clearInput() {
+    function clearInput() {
       youtubeLinkInput.value = '';
       var playerDiv = document.getElementById('player');
       playerDiv.innerHTML = '';
       if (sourceNode) {
-          sourceNode.disconnect();
-          sourceNode = null;
+        sourceNode.disconnect();
+        sourceNode = null;
       }
-
+    
       if (audioContext) {
-          audioContext.close().then(function () {
-              audioContext = null;
-          });
+        audioContext.close().then(function () {
+          audioContext = null;
+        });
       }
-  }
+    }    
 
-  function extractVideoId(url) {
+    function extractVideoId(url) {
       var videoId = null;
       var match;
       match = url.match(/[?&]v=([^&#]+)/);
       if (match) {
-          videoId = match[1];
+        videoId = match[1];
       }
       else {
-          match = url.match(/youtu\.be\/([^&#]+)/);
-          if (match) {
-              videoId = match[1];
-          }
+        match = url.match(/youtu\.be\/([^&#]+)/);
+        if (match) {
+          videoId = match[1];
+        }
       }
-
+      
       return videoId;
-  }
+    }
 
-  playButton.addEventListener('click', playAudio);
-  stopButton.addEventListener('click', stopAudio);
-  clearButton.addEventListener('click', clearInput);
-};
+    playButton.addEventListener('click', playAudio);
+    stopButton.addEventListener('click', stopAudio);
+    clearButton.addEventListener('click', clearInput);
