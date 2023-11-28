@@ -6,6 +6,13 @@ function copyText() {
     textarea.select();
     document.execCommand('copy');
     document.body.removeChild(textarea);
+
+    var copiadoMensagem = document.getElementById("copiadoMensagem");
+    copiadoMensagem.style.display = 'block';
+
+    setTimeout(function () {
+        copiadoMensagem.style.display = 'none';
+    }, 2000);
 }
 
 function clearFields() {
