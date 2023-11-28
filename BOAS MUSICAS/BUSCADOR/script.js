@@ -40,7 +40,9 @@ document.addEventListener('DOMContentLoaded', function () {
                     window.location.href = url;
                 } 
                 else {
-                    showError("🤬ERRO 404: A música não foi encontrada! Pode ter ocorrido por um dos dois motivos:\n 1️⃣ Você pode ter digitado o nome incorreto. Verifique os títulos das músicas disponíveis no menu de Boas Músicas e tente novamente. (Não se esqueça do UTF-8).\n 2️⃣ A música não existe neste site. Clique em um dos botões abaixo para buscar em outros sites:");
+                    errorMessage.textContent = "";
+                    errorContainer.innerHTML = ""; 
+                    showError(`🤬ERRO 404: A música "${formattedInput}" não foi encontrada! Pode ter ocorrido por um dos dois motivos:\n 1️⃣ Você pode ter digitado o nome incorreto. Verifique os títulos das músicas disponíveis no menu de Boas Músicas e tente novamente. (Não se esqueça do UTF-8).\n 2️⃣ A música não existe neste site. Clique em um dos botões abaixo para buscar em outros sites:`);
                 
                     const link1 = document.createElement('a');
                     link1.href = `${baseURL2}${formattedInput}`;
