@@ -8,4 +8,6 @@ document.addEventListener('DOMContentLoaded', function () {
         alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSA PÁGINA SEM PASSAR PELO MENU PRINCIPAL! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
         window.location.href = 'https://vilhalva.github.io/STYLER/STYLER.html';
     }
+
+    document.body.classList.add('js-enabled');
 });

@@ -37,10 +37,6 @@ body.js-enabled {
     display: block;
 }
 
-#noscript-warning {
-    color: red;
-}
-
 header {
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
     min-height: 150px;
