@@ -28,13 +28,14 @@ textarea {
     box-sizing: border-box; 
 }
 
-button {
+button, select {
     padding: 10px 20px;
     font-size: 14px;
     background-color: #4caf50;
     color: #fff;
     border: none;
     cursor: pointer;
+    margin-right: 10px;
 }
 
 .caixa-texto {
@@ -42,6 +43,7 @@ button {
     padding: 10px;
     margin-bottom: 10px;
     background: linear-gradient(to bottom, #333, #444);
+    display: none;
 }
 
 #textoConvertido {
@@ -63,14 +65,28 @@ button.copy-btn:hover {
     background-color: #45a049;
 }
 
+#copiadoMensagem {
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    display: none;
+}
+
+footer {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
     textarea,
-    button {
+    button,
+    select {
         width: auto;
     }
 
-    button {
+    button, select {
         display: block;
         margin: 0 auto;
+        margin-bottom: 10px;
     }
 }
