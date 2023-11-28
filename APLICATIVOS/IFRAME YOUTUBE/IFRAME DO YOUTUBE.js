@@ -99,3 +99,14 @@ var audioContext;
     playButton.addEventListener('click', playAudio);
     stopButton.addEventListener('click', stopAudio);
     clearButton.addEventListener('click', clearInput);
+
+window.onload = function () {
+const previousPage = document.referrer;
+const allowedPages = [
+    'https://vilhalva.github.io/STYLER/BOAS%20MUSICAS/BUSCADOR/index.html'
+];
+
+if (allowedPages.includes(previousPage)) {
+    alert('🌹ATENÇÃO: VOCÊ PODE COLAR AQUI O LINK DA MÚSICA PARA OUVIR EM IFRAME. SE QUIZER RETORNAR AO SISTEMA DE BUSCA, É SÓ CLICAR EM <-!');
+  }
+};
