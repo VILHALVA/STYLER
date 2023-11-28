@@ -9,7 +9,7 @@
 <img src="01_MENU/MIDIAS/ICONE HTML.ico" align="center" width="250"> <br>
 
 # ATUALIZAÇÕES
-## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%202.0%20--%2027%2F11%2F2023-blueviolet)
+## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%202.0%20--%2028%2F11%2F2023-blueviolet)
 * 🈯️Foi implementado um recurso de validação que verifica se o usuário acessou o `MENU PRINCIPAL` após passar pela página de login ou de doação, ou acessou algum `SUBMENU` após passar pelo `MENU PRINCIPAL`. Ao detectar que o usuário acessou o `MENU PRINCIPAL` sem passar pelos processos de login ou doação, ou acessou algum `SUBMENU` sem passar pelo `MENU PRINCIPAL`, uma mensagem de alerta é exibida, informando sobre a detecção dessa atividade. O usuário é então redirecionado automaticamente para a página inicial. Isso ajuda a garantir que o acesso às seções principais do site seja restrito apenas aos usuários que seguiram os passos requeridos.
 * 🈯️Você pode ter notado que, ao acessar nosso site, algumas funcionalidades ficam indisponíveis ou o layout não é exibido corretamente. Isso acontece quando o JavaScript está desabilitado no seu navegador. Se você o desabilitou ou está usando um navegador que não o suporta, você verá tanto o `MENU PRINCIPAL` quanto os `SUBMENUS` em branco (Sem conteúdo).
 * 🈯️Houve uma pequena melhoria nos formulários de `CADASTRO` e `LOGIN`: Se o usuário não seguir algum requerimento, todos os campos serão limpos após o alerta de erro. também foi adicionado o botão de `LIMPAR` do formulário de `LOGIN`.
