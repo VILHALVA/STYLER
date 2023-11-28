@@ -6,7 +6,7 @@ function convertUnit() {
 
     resultContainer.innerHTML = '';
 
-    if (isNaN(value) || value < 0) {
+    if (isNaN(value) || value <= 0) {
         document.getElementById('value').value = '';
         alert('POR FAVOR, INSIRA UM VALOR VÁLIDO!');
         return;
