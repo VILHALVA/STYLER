@@ -2,6 +2,7 @@ let currentPlayer = "X";
 let gameActive = false;
 let board = ["", "", "", "", "", "", "", "", ""];
 let singlePlayerMode = true;
+let modeChosen = false;
 
 const winningCombinations = [
   [0, 1, 2],
@@ -15,13 +16,19 @@ const winningCombinations = [
 ];
 
 function startGame(singlePlayer) {
+  modeChosen = true;
   singlePlayerMode = singlePlayer;
   gameActive = true;
+  document.getElementById("board").style.display = "grid";
   document.getElementById("mode-selection").style.display = "none";
   document.getElementById("result").innerText = "";
 }
 
 function placeMark(cell) {
+  if (!modeChosen) {
+    alert("Escolha o modo de jogo antes de jogar!");
+    return;
+  }
   if (board[cell] === "" && gameActive) {
     board[cell] = currentPlayer;
     document.getElementsByClassName("cell")[cell].innerText = currentPlayer;
@@ -90,7 +97,6 @@ function makeAIMove() {
       return acc;
     }, []);
   
-    // Check if the player is about to win and block the move
     for (let i = 0; i < winningCombinations.length; i++) {
       const [a, b, c] = winningCombinations[i];
   
@@ -104,8 +110,7 @@ function makeAIMove() {
         return;
       }
     }
-  
-    // If no defensive move is needed, make a random move
+
     const randomIndex = Math.floor(Math.random() * emptyCells.length);
     const cell = emptyCells[randomIndex];
     placeMark(cell);
