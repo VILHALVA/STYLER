@@ -9,6 +9,12 @@
 <img src="01_MENU/MIDIAS/ICONE HTML.ico" align="center" width="250"> <br>
 
 # ATUALIZAÇÕES
+## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%202.1%20--%2001%2F12%2F2023-blueviolet)
+* ✅Houve algumas melhorias no `BUSCADOR DE BOAS MÚSICAS`:
+*   🔸Agora aparece um sistema de `SUGESTÃO`. Enquanto o usuário estiver digitando o nome de uma música, irá aparecer seção de músicas sugeridas.
+*   🔸Foi criado dois botões diferentes para `YOUTUBE`: `⬆️YOUTUBE` Significa que não irá abrir o `IFRAME DE VIDEOS` na mesma aba quando for clicado, enquanto o `⬇️YOUTUBE` significa que irá abrir o `IFRAME DE VIDEOS` depois de 3 segundos.
+
+![](https://i.imgur.com/waxVImv.png)
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%202.0%20--%2028%2F11%2F2023-blueviolet)
 * 🈯️Foi implementado um recurso de validação que verifica se o usuário acessou o `MENU PRINCIPAL` após passar pela página de login ou de doação, ou acessou algum `SUBMENU` após passar pelo `MENU PRINCIPAL`. Ao detectar que o usuário acessou o `MENU PRINCIPAL` sem passar pelos processos de login ou doação, ou acessou algum `SUBMENU` sem passar pelo `MENU PRINCIPAL`, uma mensagem de alerta é exibida, informando sobre a detecção dessa atividade. O usuário é então redirecionado automaticamente para a página inicial. Isso ajuda a garantir que o acesso às seções principais do site seja restrito apenas aos usuários que seguiram os passos requeridos.
 * 🈯️Você pode ter notado que, ao acessar nosso site, algumas funcionalidades ficam indisponíveis ou o layout não é exibido corretamente. Isso acontece quando o JavaScript está desabilitado no seu navegador. Se você o desabilitou ou está usando um navegador que não o suporta, você verá tanto o `MENU PRINCIPAL` quanto os `SUBMENUS` em branco (Sem conteúdo).

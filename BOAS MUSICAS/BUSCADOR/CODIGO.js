@@ -48,8 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     link1.href = `${baseURL2}${formattedInput}`;
                     link1.textContent = 'VAGALUME';
                     link1.target = '_blank';
-                    errorContainer.appendChild(link1);
-                
+                    errorContainer.appendChild(link1);                
                     errorContainer.appendChild(document.createElement('br'));
                 
                     const link2 = document.createElement('a');
@@ -57,19 +56,26 @@ document.addEventListener('DOMContentLoaded', function () {
                     link2.textContent = 'LETRAS';
                     link2.target = '_blank';
                     errorContainer.appendChild(link2);
-
                     errorContainer.appendChild(document.createElement('br'));
 
                     const link3 = document.createElement('a');
                     link3.href = `${baseURL4}${formattedInput}`;
-                    link3.textContent = 'YOUTUBE';
+                    link3.textContent = '⬆️YOUTUBE';
                     link3.target = '_blank';
-                    link3.addEventListener('click', function () {
+                    errorContainer.appendChild(link3);
+                    errorContainer.appendChild(document.createElement('br'));
+
+                    const link4 = document.createElement('a');
+                    link4.href = `${baseURL4}${formattedInput}`;
+                    link4.textContent = '⬇️YOUTUBE';
+                    link4.target = '_blank';
+                    link4.addEventListener('click', function () {
                         setTimeout(function () {
                             window.location.href = '../../APLICATIVOS/IFRAME YOUTUBE/IFRAME DO YOUTUBE.html';
                         }, 3000);
-                    });
-                    errorContainer.appendChild(link3);
+                    });  
+                    errorContainer.appendChild(link4);                  
+                    errorContainer.appendChild(document.createElement('br'));                    
                 }        
             })
             .catch(error => {
