@@ -6,7 +6,7 @@
 
 [![GitHub Repo stars](https://img.shields.io/badge/ENTRE%20NO-SITE-df1010?logo=google)](https://vilhalva.github.io/STYLER/STYLER.html) <br>
 
-<img src="01_MENU/MIDIAS/ICONE HTML.ico" align="center" width="250"> <br>
+<img src="FOTO.jpg" align="center" width="450"> <br>
 
 # ATUALIZAÇÕES
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%202.1%20--%2001%2F12%2F2023-blueviolet)
