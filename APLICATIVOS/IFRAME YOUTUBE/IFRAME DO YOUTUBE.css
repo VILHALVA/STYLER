@@ -47,6 +47,10 @@ h1 {
     background-color: #808080;
 }
 
+#voltarButton {
+    background-color: #5e06c2;
+}
+
 @media screen and (max-width: 768px) {
     #youtubeLink {
         max-width: 100%; 
