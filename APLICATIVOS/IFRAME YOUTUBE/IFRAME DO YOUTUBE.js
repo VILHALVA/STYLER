@@ -3,6 +3,7 @@ var audioContext;
     var playButton = document.getElementById('playButton');
     var stopButton = document.getElementById('stopButton');
     var clearButton = document.getElementById('clearButton');
+    var voltarButton = document.getElementById('voltarButton');
     var youtubeLinkInput = document.getElementById('youtubeLink');
 
     function playAudio() {

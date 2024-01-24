@@ -2,6 +2,7 @@
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%202.2%20--%2024%2F01%2F2024-blueviolet)
 * ✅Semelhante ao `MENU-PRINCIPAL` e `SUBMENUS` foi adicionado um sistema de validação para detectar se o usuário passou pela pagina de Login ou Doação ao acessar o `BUSCADOR DE BOAS MÚSICAS`.
 * 🈯️Os links do `nav` do "MENU-PRINCIPAL" foram editados, tendo os links do canal Vilhalva, Canal Coders e Github.
+* ✅Foi adicionado o botão de `VOLTAR` no app `IFRAME DO TOUTUBE`.
 
 ![](https://i.imgur.com/waxVImv.png)
 
