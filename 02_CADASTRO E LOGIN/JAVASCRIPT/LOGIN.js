@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 await new Promise(resolve => setTimeout(resolve, 3000));
                 loading.style.display = 'none';
                 window.location.href = '../../01_MENU/HTML/01_MENU PRINCIPAL.html';
+                loginForm.reset();
             } 
             else {
                 alert('🤬ARQUIVO INCORRETO. FAÇA UPLOAD DO ARQUIVO QUE VOCÊ BAIXOU AO SE CADASTRAR!');

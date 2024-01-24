@@ -23,22 +23,25 @@ document.addEventListener('DOMContentLoaded', function () {
                 alert('😳PARECE QUE VOCÊ FEZ MAIS DE UM DOWNLOAD! RECOMENDO VOCÊ APAGAR ESSES ARQUIVOS MULTIPLOS MAIS TARDER!');
                 loading.style.display = 'none';
                 window.location.href = '../../01_MENU/HTML/01_MENU PRINCIPAL.html';
+                entrarForm.reset();
             } else if (arquivosEnviados.length === 1 && arquivosEnviados[0].name === 'DOACAO.zip') {
                 loading.style.display = 'block';
                 try {
                     await new Promise(resolve => setTimeout(resolve, 3000));
                     loading.style.display = 'none';
                     window.location.href = '../../01_MENU/HTML/01_MENU PRINCIPAL.html';
+                    entrarForm.reset();
                 } catch (error) {
                     console.error('Erro durante o processamento assíncrono:', error);
                     alert('Ocorreu um erro durante o processamento. Tente novamente mais tarde.');
+                    entrarForm.reset();
                 }
             } else {
-                alert('🤬ARQUIVO INCORRETO. FAÇA UPLOAD DO ARQUIVO QUE VOCÊ BAIXOU AO SE CADASTRAR!');
+                alert('🤬ARQUIVO INCORRETO. FAÇA UPLOAD DO ARQUIVO QUE VOCÊ BAIXOU AO FAZER O DOWNLOAD!');
                 entrarForm.reset();
             }
         } else {
-            alert('😡VOCÊ NÃO ENVIOU O ARQUIVO. POR FAVOR, FAÇA UPLOAD DO MESMO QUE VOCÊ BAIXOU AO SE CADASTRAR!');
+            alert('😡VOCÊ NÃO ENVIOU O ARQUIVO. POR FAVOR, FAÇA UPLOAD DO MESMO QUE VOCÊ BAIXOU AO FAZER O DOWNLOAD!');
         }
     });
 });
