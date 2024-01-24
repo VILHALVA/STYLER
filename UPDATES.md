@@ -3,6 +3,7 @@
 * ✅Semelhante ao `MENU-PRINCIPAL` e `SUBMENUS` foi adicionado um sistema de validação para detectar se o usuário passou pela pagina de Login ou Doação ao acessar o `BUSCADOR DE BOAS MÚSICAS`.
 * 🈯️Os links do `nav` do "MENU-PRINCIPAL" foram editados, tendo os links do canal Vilhalva, Canal Coders e Github.
 * ✅Foi adicionado o botão de `VOLTAR` no app `IFRAME DO TOUTUBE`.
+* ✅Muito semelhante ao formulário de `LOGIN`, foi adicionado o formulário de `AUTENTICAÇÃO (ENTRAR)`. Quando o usuário faz o DOWNLOAD do arquivo de Doação, terá que fazer upload do mesmo nesse formulário para entrar. A principal diferença é que esse formulário aceita os arquivos multiplos.
 
 ![](https://i.imgur.com/waxVImv.png)
 
