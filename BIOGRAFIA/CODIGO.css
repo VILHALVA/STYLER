@@ -32,6 +32,25 @@ h1, h2, h3 {
     margin-right: 20px;
 }
 
+#banner {
+    max-width: 100%; 
+    margin: auto; 
+}
+
+#imagens img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel {
+    max-width: 100%;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+}
+
 .buttons .button {
     color: white;
     display: inline-block;
@@ -105,12 +124,6 @@ h1, h2, h3 {
     filter: invert(1);
 }
 
-.container {
-    max-width: 100%;
-    margin: auto;
-    padding: 10px;
-}
-
 a {
     text-decoration: none;
     color: #5673C8;
@@ -160,13 +173,6 @@ p {
     background-color: white;
     padding: 10px;
     border: 1px solid gray;
-}
-
-iframe {
-    max-width: 100%;
-    height: 200px;
-    width: 200px;
-    height: auto;
 }
 
 footer {
@@ -230,6 +236,9 @@ footer {
     .portfolio {
         width: 60%; 
     }
+    #banner {
+        max-width: 100%; 
+    }
     .row {
         width: 400px;
     }
@@ -259,5 +268,8 @@ footer {
     }
     a {
         font-size: 10px;
+    }
+    .row {
+        width: 100%;
     }
 }

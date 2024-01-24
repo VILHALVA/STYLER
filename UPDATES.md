@@ -1,10 +1,14 @@
 # ATUALIZAÇÕES:
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%202.2%20--%2024%2F01%2F2024-blueviolet)
-* ✅Semelhante ao `MENU-PRINCIPAL` e `SUBMENUS` foi adicionado um sistema de validação para detectar se o usuário passou pela pagina de Login ou Doação ao acessar o `BUSCADOR DE BOAS MÚSICAS`.
-* 🈯️Os links do `nav` do "MENU-PRINCIPAL" foram editados, tendo os links do canal Vilhalva, Canal Coders e Github.
-* ✅Foi adicionado o botão de `VOLTAR` no app `IFRAME DO TOUTUBE`.
-* ✅Muito semelhante ao formulário de `LOGIN`, foi adicionado o formulário de `AUTENTICAÇÃO (ENTRAR)`. Quando o usuário faz o DOWNLOAD do arquivo de Doação, terá que fazer upload do mesmo nesse formulário para entrar. A principal diferença é que esse formulário aceita os arquivos multiplos.
-
+* ✅Adicionamos um sistema de validação semelhante ao `MENU-PRINCIPAL` e `SUBMENUS` para detectar se o usuário passou pela página de Login ou Doação ao acessar o `BUSCADOR DE BOAS MÚSICAS`.
+* 🈯️Editamos os links do `nav` do "MENU-PRINCIPAL", incluindo os links do canal Vilhalva, Canal Coders e Github.
+* ✅Implementamos o botão de `VOLTAR` no aplicativo `IFRAME DO YOUTUBE`.
+* ✅Introduzimos o botão de `MISTO` no aplicativo `CONVERTER PARA UPPER`.
+* ✅Criamos o formulário de `AUTENTICAÇÃO (ENTRAR)`, semelhante ao formulário de `LOGIN`. Ao fazer o DOWNLOAD do arquivo de Doação, o usuário precisará fazer o upload do mesmo neste formulário para acessar. A principal diferença é que este formulário aceita arquivos múltiplos.
+* ✅Realizamos pequenas modificações na seção da `BIOGRAFIA`:
+  * 🔸Removemos os Iframes de vídeos;
+  * 🔸Adicionamos mais de 18 fotos de Projetos, utilizando o recurso de SLIDES CAROUSEL do `BOOTSTRAP`.
+* ✅Correções de bugs e pequenas melhorias.
 ![](https://i.imgur.com/waxVImv.png)
 
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%202.1%20--%2001%2F12%2F2023-blueviolet)
