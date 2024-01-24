@@ -35,6 +35,16 @@ button {
     cursor: pointer;
 }
 
+.BOTAO {
+    width: 100%;
+    padding: 10px;
+    background-color: #190dc2;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 button:hover {
     background-color: #45a049;
 }
