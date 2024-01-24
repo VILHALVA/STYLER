@@ -14,7 +14,7 @@ async function fazerDoacao() {
 
     await sleep(3000);
     loading.style.display = 'none'; 
-    window.location.href = '../../01_MENU/HTML/01_MENU PRINCIPAL.html';
+    window.location.href = '../HTML/ENTRAR.html';
 }
 
 var countdownTimer = setInterval(function() {
