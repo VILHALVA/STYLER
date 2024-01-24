@@ -147,7 +147,7 @@ p {
 .row > .column {
     padding: 6px;
     float: left;
-    width: 25%;
+    width: 90%;
 }
 
 .row:after {
