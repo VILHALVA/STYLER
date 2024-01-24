@@ -1,4 +1,9 @@
 # ATUALIZAÇÕES:
+## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%202.2%20--%2024%2F01%2F2024-blueviolet)
+* ✅Semelhante ao `MENU-PRINCIPAL` e `SUBMENUS` foi adicionado um sistema de validação para detectar se o usuário passou pela pagina de Login ou Doação ao acessar o `BUSCADOR DE BOAS MÚSICAS`.
+
+![](https://i.imgur.com/waxVImv.png)
+
 ## ![GitHub Repo stars](https://img.shields.io/badge/-VERS%C3%83O%202.1%20--%2001%2F12%2F2023-blueviolet)
 * ✅Houve algumas melhorias no `BUSCADOR DE BOAS MÚSICAS`:
 *   🔸Agora aparece o painel de `SUGESTÃO`. Enquanto o usuário estiver digitando o nome de uma música, irá aparecer seção de músicas sugeridas.

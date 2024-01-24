@@ -7,7 +7,7 @@ window.onload = function () {
 
     if (!allowedPages.includes(previousPage)) {
         document.body.style.display = 'none';
-        alert('😡 ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSA PÁGINA SEM PASSAR PELA PÁGINA DE LOGIN OU DOAÇÃO! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
+        alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSA PÁGINA SEM PASSAR PELA PÁGINA DE LOGIN OU DOAÇÃO! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
         window.location.href = 'https://vilhalva.github.io/STYLER/STYLER.html';
     }
 
