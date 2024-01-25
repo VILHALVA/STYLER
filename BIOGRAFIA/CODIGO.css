@@ -225,6 +225,10 @@ footer {
 }
 
 @media screen and (max-width: 700px) {
+    body {
+        width: 100vh;
+    }
+
     .profile img {
         align-items: center;
         width: 120px;
@@ -234,7 +238,7 @@ footer {
         font-size: 12px;
     }
     .portfolio {
-        width: 60%; 
+        width: 100%; 
     }
     #banner {
         max-width: 100%; 
