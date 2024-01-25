@@ -17,6 +17,11 @@ body {
     width: 300px;
 }
 
+#texto {
+    height: 100px; 
+    resize: vertical; 
+}
+
 input, select, button {
     margin: 10px 0;
     padding: 10px;
@@ -36,4 +41,10 @@ button {
     padding: 10px;
     background-color: #444;
     border-radius: 5px;
+}
+
+.copiado-mensagem {
+    background-color: #4CAF50;
+    font-size: 14px;
+    margin-top: 10px;
 }

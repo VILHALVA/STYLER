@@ -10,7 +10,7 @@
 <body>
 <div id="container">
   <label for="texto">TEXTO/BINÁRIO:</label>
-  <input type="text" id="texto" placeholder="DIGITE O TEXTO OU COLE O TEXTO...">
+  <input type="text" id="texto" placeholder="DIGITE OU COLE O TEXTO...">
   <label for="tipoConversao">TIPO DE CONVERSÃO:</label>
   <select id="tipoConversao">
     <option value="binario">TEXTO PARA BINÁRIO</option>
@@ -20,6 +20,8 @@
   <div id="resultado"></div>
   <button onclick="copiar()">COPIAR</button>
   <button onclick="limpar()">LIMPAR</button>
+
+  <div id="copiadoMensagem" class="copiado-mensagem"></div>
 </div>
 <script src="CODIGO.js"></script>
 </body>
