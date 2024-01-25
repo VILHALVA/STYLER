@@ -16,13 +16,12 @@ function converterTexto() {
     } else if (converterPara === 'lower') {
         textoConvertido = texto.toLowerCase();
     } else if (converterPara === 'misto') {
-        var palavras = texto.split(' ');
+        var palavras = texto.toLowerCase().split(' '); 
         var palavrasConvertidas = palavras.map(function(palavra) {
             return palavra.charAt(0).toUpperCase() + palavra.slice(1);
         });
         textoConvertido = palavrasConvertidas.join(' ');
-    }
-    
+    }   
     document.getElementById("textoConvertido").textContent = textoConvertido;
     footer.style.display = 'block';
     resultadoContainer.style.display = 'block';
