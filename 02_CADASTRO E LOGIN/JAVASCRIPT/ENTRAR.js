@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', function () {
             const arquivosMultiplos = arquivosEnviados.some(arquivo => nomeArquivoPadrao.test(arquivo.name));
 
             if (arquivosMultiplos) {
-                alert('😳PARECE QUE VOCÊ FEZ MAIS DE UM DOWNLOAD! RECOMENDO VOCÊ APAGAR ESSES ARQUIVOS MULTIPLOS MAIS TARDER!');
                 loading.style.display = 'none';
+                alert('😳PARECE QUE VOCÊ FEZ MAIS DE UM DOWNLOAD! RECOMENDO VOCÊ APAGAR ESSES ARQUIVOS MULTIPLOS MAIS TARDER!');
                 window.location.href = '../../01_MENU/HTML/01_MENU PRINCIPAL.html';
                 entrarForm.reset();
             } else if (arquivosEnviados.length === 1 && arquivosEnviados[0].name === 'DOACAO.zip') {
@@ -32,11 +32,13 @@ document.addEventListener('DOMContentLoaded', function () {
                     window.location.href = '../../01_MENU/HTML/01_MENU PRINCIPAL.html';
                     entrarForm.reset();
                 } catch (error) {
+                    loading.style.display = 'none';
                     console.error('Erro durante o processamento assíncrono:', error);
                     alert('Ocorreu um erro durante o processamento. Tente novamente mais tarde.');
                     entrarForm.reset();
                 }
             } else {
+                loading.style.display = 'none';
                 alert('🤬ARQUIVO INCORRETO. FAÇA UPLOAD DO ARQUIVO QUE VOCÊ BAIXOU AO FAZER O DOWNLOAD!');
                 entrarForm.reset();
             }

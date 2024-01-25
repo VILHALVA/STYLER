@@ -20,17 +20,18 @@ document.addEventListener('DOMContentLoaded', function () {
             const arquivosMultiplos = arquivosEnviados.some(arquivo => nomeArquivoPadrao.test(arquivo.name));
 
             if (arquivosMultiplos) {
+                loading.style.display = 'none';
                 alert('😳VOCÊ SE CADASTROU MAIS DE UMA VEZ. ISSO NÃO É PERMITIDO. APAGUE TODOS ESSES ARQUIVOS MÚLTIPLOS E SE CADASTRE NOVAMENTE!');
                 loginForm.reset();
             } 
             else if (arquivosEnviados.length === 1 && arquivosEnviados[0].name === 'STYLER.txt') {
-                loading.style.display = 'block';
                 await new Promise(resolve => setTimeout(resolve, 3000));
                 loading.style.display = 'none';
                 window.location.href = '../../01_MENU/HTML/01_MENU PRINCIPAL.html';
                 loginForm.reset();
             } 
             else {
+                loading.style.display = 'none';
                 alert('🤬ARQUIVO INCORRETO. FAÇA UPLOAD DO ARQUIVO QUE VOCÊ BAIXOU AO SE CADASTRAR!');
                 loginForm.reset();
             }
