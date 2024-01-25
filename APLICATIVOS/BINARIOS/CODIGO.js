@@ -29,7 +29,7 @@ function copiar() {
   const copiarMensagem = resultadoDiv.innerText;
 
   if (copiarMensagem === "") {
-      alert("Nada para copiar.");
+      alert("😡NADA PARA COPIAR!");
       return;
   }
 

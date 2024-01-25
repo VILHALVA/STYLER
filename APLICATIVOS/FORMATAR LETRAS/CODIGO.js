@@ -183,7 +183,7 @@ function convertText() {
 
         case 'link':
             if (!inputLink) {
-                alert('POR FAVOR, DIGITE O LINK!');
+                alert('😡POR FAVOR, DIGITE O LINK!');
                 outputText.style.display = 'none';
                 return;
             }
