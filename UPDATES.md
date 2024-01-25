@@ -5,9 +5,14 @@
 * ✅Implementamos o botão de `VOLTAR` no aplicativo `IFRAME DO YOUTUBE`.
 * ✅Introduzimos o botão de `MISTO` no aplicativo `CONVERTER PARA UPPER`.
 * ✅Criamos o formulário de `AUTENTICAÇÃO (ENTRAR)`, semelhante ao formulário de `LOGIN`. Ao fazer o DOWNLOAD do arquivo de Doação, o usuário precisará fazer o upload do mesmo neste formulário para acessar. A principal diferença é que este formulário aceita arquivos múltiplos.
-* ✅Realizamos pequenas modificações na seção da `BIOGRAFIA`:
-  * 🔸Removemos os Iframes de vídeos;
-  * 🔸Adicionamos mais de 18 fotos de Projetos, utilizando o recurso de SLIDES CAROUSEL do `BOOTSTRAP`.
+* ✅Na página de `DOAÇÃO`, adicionamos um novo botão chamado `ENTRAR`. Ao ser clicado, o usuário será direcionado exclusivamente para o formulário de autenticação (Sem a necessidade de baixar o pix de doação novamente).
+* 🈯️Realizamos pequenas modificações na seção da `BIOGRAFIA`:
+*   🔸Removemos os Iframes de vídeos;
+*   🔸Adicionamos mais de 18 fotos de Projetos, utilizando o recurso de SLIDES CAROUSEL do `BOOTSTRAP`.
+* 🈯️O `FORMATADOR DE LETRAS` passou pelas seguintes modificações:
+*   🔸Todos `CASES` foram corrigidos com suas arrays;
+*   🔸Novos `MENUS DE FORMATOS` foram adicionados.
+* ✅Em `APLICATIVOS` o `CONVERSOR DE BINARIOS` foi adicionado.
 * ✅Correções de bugs e pequenas melhorias.
 ![](https://i.imgur.com/waxVImv.png)
 
@@ -26,7 +31,7 @@
 *   🔸As músicas gospels vem antes das músicas seculares.
 *   🔸As músicas gospels estão definidas com "🔴", enquanto as músicas seculares são "🔵".
 *   🔸Mais músicas foram adicionadas.
-* ❇️ 2 `SUBMENUS` foram adicionados:
+* ❇️2 `SUBMENUS` foram adicionados:
 *   🔸 `SITES CIENTIFICOS`
 *   🔸 `FILMES E SÉRIES`
 * ✅Correções de bugs e pequenas melhorias.

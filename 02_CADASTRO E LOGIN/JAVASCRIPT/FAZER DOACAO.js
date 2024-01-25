@@ -17,6 +17,14 @@ async function fazerDoacao() {
     window.location.href = '../HTML/ENTRAR.html';
 }
 
+async function entrar() {
+    var loading = window.document.querySelector('div#loading');
+    loading.style.display = 'block';
+    await sleep(3000);
+    loading.style.display = 'none'; 
+    window.location.href = '../HTML/ENTRAR.html';
+}
+
 var countdownTimer = setInterval(function() {
     var countdownText = document.querySelector(".countdown-circle .countdown-text");
     countdownText.innerHTML--;
