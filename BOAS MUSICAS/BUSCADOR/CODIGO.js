@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     link4.target = '_blank';
                     link4.addEventListener('click', function () {
                         setTimeout(function () {
-                            window.location.href = '../../APLICATIVOS/IFRAME YOUTUBE/IFRAME DO YOUTUBE.html';
+                            window.location.href = '../../APLICATIVOS/IFRAME DO YOUTUBE VOLUME 1/CODIGO.html';
                         }, 3000);
                     });  
                     errorContainer.appendChild(link4);                  
