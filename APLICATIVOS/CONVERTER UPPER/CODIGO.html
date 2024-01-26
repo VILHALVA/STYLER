@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONVERSOR UPPER</title>
+    <link rel="shortcut icon" href="../../01_MENU/MIDIAS/ICONE CSS.ico" type="image/x-icon">
+    <link rel="stylesheet" href="CODIGO.css">
+</head>
+<body>
+    <div class="container">
+        <h2>CONVERSOR DE TEXTO</h2>
+        <label for="text">TEXTO:</label>
+        <textarea id="text" placeholder="Digite ou cole seu texto aqui..." required></textarea>
+
+        <label for="conversion">CONVERTER PARA:</label>
+        <select id="conversion">
+            <option value="upper" selected>UPPER</option>
+            <option value="lower">LOWER</option>
+            <option value="mixed">MISTO</option>
+        </select>
+
+        <button id="convertButton">CONVERTER</button>       
+        <div class="converted-text" id="convertedText"></div>
+        <button class="copy-button" id="copyButton">COPIAR</button>
+        <button class="limpar" id="clearButton">LIMPAR</button>
+
+        <div class="success-message" id="successMessage">TEXTO COPIADO PARA A ÁREA DE TRANSFERÊNCIA!</div>
+    </div>
+    <script src="CODIGO.js"></script>
+</body>
+</html>
