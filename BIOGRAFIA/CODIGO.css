@@ -191,7 +191,7 @@ footer {
         font-size: 20px;
     }
     .portfolio {
-       width: 70%; 
+       width: 85%; 
     }
     .row {
         width: 100%;
@@ -225,10 +225,6 @@ footer {
 }
 
 @media screen and (max-width: 700px) {
-    body {
-        width: 100vh;
-    }
-
     .profile img {
         align-items: center;
         width: 120px;
@@ -238,13 +234,10 @@ footer {
         font-size: 12px;
     }
     .portfolio {
-        width: 100%; 
+        width: 90%; 
     }
     #banner {
         max-width: 100%; 
-    }
-    .row {
-        width: 400px;
     }
     .column {
         width: 200px;
