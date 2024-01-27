@@ -2,7 +2,6 @@ var audioContext;
 var sourceNode;
 var playButton = document.getElementById('playButton');
 var stopButton = document.getElementById('stopButton');
-var voltarButton = document.getElementById('voltarButton');
 var youtubeLinkInput = document.getElementById('youtubeLink');
 
 function playAudio() {
@@ -109,10 +108,5 @@ function extractVideoId(url) {
   return videoId;
 }
 
-function voltar() {
-  window.history.back();
-}
-
 playButton.addEventListener('click', playAudio);
 stopButton.addEventListener('click', stopAudio);
-voltarButton.addEventListener('click', voltar);
