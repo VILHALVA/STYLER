@@ -110,7 +110,7 @@ function extractVideoId(url) {
 }
 
 function voltar() {
-  window.history.go(-1);
+  window.history.back();
 }
 
 playButton.addEventListener('click', playAudio);
