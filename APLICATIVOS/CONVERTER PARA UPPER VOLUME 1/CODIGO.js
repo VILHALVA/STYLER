@@ -6,7 +6,7 @@ function converterTexto() {
     var textoConvertido = '';
 
     if (!texto) {
-        alert('😡POR FAVOR, DIGITE ALGUM TEXTO!');
+        alert('😡POR FAVOR, DIGITE ALGO!');
         resultadoContainer.style.display = 'none';
         return;
     }
