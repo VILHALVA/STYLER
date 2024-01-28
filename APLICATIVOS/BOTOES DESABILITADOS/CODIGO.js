@@ -8,12 +8,18 @@ const nameInput = document.getElementById('name');
     ageInput.addEventListener('input', validateInputs);
 
     function validateInputs() {
-        exibirButton.disabled = !nameInput.value || !ageInput.value;
-        limparButton.disabled = !nameInput.value && !ageInput.value;
-
+        const containsNumbers = /\d/.test(nameInput.value);
+    
+        const isNameFilled = nameInput.value.trim() !== '';
+        const isAgeFilled = ageInput.value.trim() !== '';
+    
+        exibirButton.disabled = containsNumbers || !isNameFilled || !isAgeFilled;
+    
+        limparButton.disabled = !isNameFilled || !isAgeFilled;
+    
         exibirButton.classList.toggle('enabled', !exibirButton.disabled);
         limparButton.classList.toggle('enabled', !limparButton.disabled);
-    }
+    }    
 
     exibirButton.addEventListener('click', function() {
         if (nameInput.value && ageInput.value) {
