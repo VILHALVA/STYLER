@@ -27,6 +27,12 @@ const nameInput = document.getElementById('name');
             resDiv.appendChild(idadeParagrafo);
             
             resDiv.style.display = 'block';
+
+            document.getElementById('name').disabled = true;
+            document.getElementById('age').disabled = true;
+            document.getElementById('exibir').disabled = true; 
+            nameInput.style.color = '#444'; 
+            ageInput.style.color = '#444'; 
         }
     });    
 
@@ -36,4 +42,9 @@ const nameInput = document.getElementById('name');
         resDiv.textContent = '';
         resDiv.style.display = 'none';
         validateInputs();
+
+        document.getElementById('name').disabled = false;
+        document.getElementById('age').disabled = false;
+        nameInput.style.color = '#fff'; 
+        ageInput.style.color = '#fff'; 
     });
