@@ -2,13 +2,12 @@ document.addEventListener("DOMContentLoaded", function () {
     const anoInput = document.getElementById("ano");
     const verificarButton = document.getElementById("verificar");
     const resultadoDiv = document.getElementById("resultado");
-
-    // Preencher automaticamente o ano atual
     const anoAtual = new Date().getFullYear();
     anoInput.value = anoAtual;
 
     verificarButton.addEventListener("click", function () {
         const ano = parseInt(anoInput.value);
+        resultadoDiv.style.display = 'block';
 
         if (!isNaN(ano)) {
             const ehBissexto = verificarAnoBissexto(ano);
