@@ -41,7 +41,14 @@ label {
     margin-bottom: 5px;
 }
 
+.result-container label,
+.result-container span {
+    display: inline-block;
+    vertical-align: middle; 
+}
+
 .result-container {
+    display: none;
     margin: 20px 0;
 }
 

@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const calcularButton = document.getElementById("calcular");
     const limparButton = document.getElementById("limpar");
+    const resultado = document.querySelector('.result-container');
     const resultadoSpan = document.getElementById("resultado");
 
     calcularButton.addEventListener("click", calcularMDC);
@@ -9,11 +10,13 @@ document.addEventListener("DOMContentLoaded", function() {
     function calcularMDC() {
         const numero1 = parseInt(document.getElementById("numero1").value);
         const numero2 = parseInt(document.getElementById("numero2").value);
+        resultado.style.display = 'block';
 
         if (!isNaN(numero1) && !isNaN(numero2)) {
             const mdc = calcularMDCRecursivo(numero1, numero2);
             resultadoSpan.textContent = mdc;
-        } else {
+        } 
+        else {
             resultadoSpan.textContent = "Por favor, insira dois números válidos.";
         }
     }
@@ -29,6 +32,6 @@ document.addEventListener("DOMContentLoaded", function() {
     function limparCampos() {
         document.getElementById("numero1").value = "";
         document.getElementById("numero2").value = "";
-        resultadoSpan.textContent = "";
+        resultado.style.display = 'none';
     }
 });
