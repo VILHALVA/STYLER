@@ -1,3 +1,5 @@
+const footer = document.querySelector("footer");
+
 function calcularTrigonometria() {
     const anguloGraus = parseFloat(document.getElementById("angulo").value);
 
@@ -7,6 +9,7 @@ function calcularTrigonometria() {
         const cosseno = Math.cos(anguloRadianos);
         const tangente = Math.tan(anguloRadianos);
 
+        footer.style.display = 'block';
         document.getElementById("seno").innerHTML = `SENO: ${seno.toFixed(4)}`;
         document.getElementById("cosseno").innerHTML = `COSSENO: ${cosseno.toFixed(4)}`;
         document.getElementById("tangente").innerHTML = `TANGENTE: ${tangente.toFixed(4)}`;
@@ -19,8 +22,6 @@ function calcularTrigonometria() {
 }
 
 function limparCampos() {
+    footer.style.display = 'none';
     document.getElementById("angulo").value = "";
-    document.getElementById("seno").innerHTML = "Seno: ";
-    document.getElementById("cosseno").innerHTML = "Cosseno: ";
-    document.getElementById("tangente").innerHTML = "Tangente: ";
 }

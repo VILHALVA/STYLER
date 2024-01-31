@@ -29,6 +29,12 @@ body {
     align-items: center;
 }
 
+.input-res {
+    display: none;
+    padding: 15px;
+    background-color: #444444ab;
+}
+
 label {
     width: 40%;
     text-align: left;

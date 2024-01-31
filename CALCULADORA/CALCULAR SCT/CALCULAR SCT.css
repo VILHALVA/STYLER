@@ -58,6 +58,14 @@ button:hover {
     background-color: #0056b3;
 }
 
+footer {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #12121254;
+    display: none;
+    border-radius: 30px;
+}
+
 #seno, #cosseno, #tangente {
     margin-top: 20px;
     font-size: 18px;

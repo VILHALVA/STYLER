@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
     limparButton.addEventListener("click", limparResultado);
 
     function calcularTabuada() {
-        resultadoDiv.innerHTML = ""; // Limpa o conteúdo anterior
+        resultadoDiv.innerHTML = ""; 
         const numero = parseInt(numeroInput.value);
         const operacao = operacaoSelect.value;
 
@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
             return;
         }
 
+        resultadoDiv.style.display = 'block';
         resultadoDiv.innerHTML = "<h2>TABUADA:</h2>";
 
         for (let i = 0; i <= 10; i++) {
@@ -36,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     resultado = numero / i;
                     break;
             }
-            resultadoDiv.innerHTML += `<p>${numero} ${operacaoSimbolo(operacao)} ${i} = ${resultado.toFixed(2)}</p>`;
+            resultadoDiv.innerHTML += `<p>${numero} ${operacaoSimbolo(operacao)} ${i} = ${resultado.toFixed(0)}</p>`;
         }
     }
 
@@ -58,6 +59,6 @@ document.addEventListener("DOMContentLoaded", function() {
     function limparResultado() {
         numeroInput.value = "";
         operacaoSelect.value = "adicao";
-        resultadoDiv.innerHTML = "";
+        resultadoDiv.style.display = 'none';
     }
 });

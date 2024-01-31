@@ -47,3 +47,8 @@ button {
 #outputValue {
     margin-top: 0;
 }
+
+#result {
+    padding: 10px;
+    background-color: #222222ac;
+}

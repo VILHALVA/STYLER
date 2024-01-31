@@ -53,8 +53,11 @@ button:hover {
 }
 
 .resultado {
+    display: none;
     margin-top: 20px;
-    text-align: left;
+    text-align: center;
+    padding: 20px;
+    background-color: #3806ac6c;
 }
 
 .resultado table {
