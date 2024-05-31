@@ -1,0 +1,16 @@
+body {
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+
+h1, h2, p {
+    color: #fff;
+}
+
+textarea, .button {
+    margin-bottom: 10px;
+}

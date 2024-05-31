@@ -1,0 +1,42 @@
+body {
+  background-color: #333;
+}
+  
+.outer-container {
+  width: 300px;
+  margin: 50px auto;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+  
+.form-container,
+.footer-container {
+  padding: 20px;
+}
+  
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container input[type="email"],
+.form-container input[type="tel"],
+.form-container input[type="submit"] {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+  
+.form-container input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.form-container input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.footer-container {
+  color: white;
+}
