@@ -1,0 +1,46 @@
+body {
+  background:#111;
+  font-family:"Oswald",sans-serif;
+}
+
+.text-animation {
+  color:#fff;
+  opacity:0;
+}
+
+.text-animation span {
+  position:relative;
+  top:10px;
+  left:10px;
+  font-size:50px;
+  font-weight:600;
+  opacity:0;
+  text-transform:uppercase;
+  animation:fade 400ms ease-in-out forwards;
+}
+
+.center {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+@keyframes fade {
+  0% {
+    top:10px;
+    left:10px;
+    filter:blur(15px);
+    opacity:0;
+  }
+  50% {
+    filter:blur(10px);
+    opacity:0.9;
+  }
+  100% {
+    top:0px;
+    left:0px;
+    filter:blur(0px);
+    opacity:1;
+  }  
+}

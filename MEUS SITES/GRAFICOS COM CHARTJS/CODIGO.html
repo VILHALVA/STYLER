@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GRAFICOS COM CHARTJS</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="CODIGO.css">
+</head>
+<body>
+  <div class="header">
+    <h1>GRAFICOS DINÂMICOS COM CHARTJS</h1>
+  </div>
+
+  <div class="container">
+    <div class="chart-container">
+      <canvas id="barChart" width="400" height="200"></canvas>
+      <button class="btn btn-custom" onclick="changeBarData()">MUDAR</button>
+    </div>
+
+    <div class="chart-container">
+      <canvas id="lineChart" width="400" height="200"></canvas>
+      <button class="btn btn-custom" onclick="changeLineData()">MUDAR</button>
+    </div>
+
+    <div class="chart-container">
+      <canvas id="pieChart" width="400" height="200"></canvas>
+      <button class="btn btn-custom" onclick="changePieData()">MUDAR</button>
+    </div>
+
+    <div class="chart-container">
+      <canvas id="radarChart" width="400" height="200"></canvas>
+      <button class="btn btn-custom" onclick="changeRadarData()">MUDAR</button>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>PROJETO CRIADO PELO GITHUB -> @VILHALVA</p>
+  </div>
+
+  <script src="CODIGO.js"></script>
+</body>
+</html>

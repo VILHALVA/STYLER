@@ -1,0 +1,36 @@
+/* Estilo do cabeçalho */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Estilo da navegação no cabeçalho */
+.header nav {
+    text-align: center;
+}
+
+.header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Adicione estilos de margem superior ao conteúdo para evitar sobreposição */
+body {
+    margin-top: 60px; /* Ajuste conforme necessário para a altura do cabeçalho */
+}

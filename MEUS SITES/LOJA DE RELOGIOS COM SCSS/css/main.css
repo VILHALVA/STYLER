@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+header h1 {
+  text-align: center;
+  margin: auto;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+header nav ul li {
+  margin: 0 1rem;
+}
+header nav ul li a {
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.products {
+  padding: 2rem;
+  background-color: white;
+}
+.products h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.products .product1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.products .product1 img {
+  width: 400px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+.products .product1 img:hover {
+  transform: scale(1.05);
+}
+.products .product1 h3 {
+  margin: 0.5rem 0;
+  color: #666;
+}
+.products .product1 p {
+  color: #333;
+}
+.products .product2 {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+.products .product2 img {
+  width: 400px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+.products .product2 img:hover {
+  transform: scale(1.05);
+}
+.products .product2 h3 {
+  margin: 0.5rem 0;
+  color: #666;
+}
+.products .product2 p {
+  color: #333;
+}
+.products .product3 {
+  text-align: right;
+  margin-top: 40px;
+}
+.products .product3 img {
+  width: 400px;
+  height: min-content;
+  transition: transform 0.3s ease-in-out;
+}
+.products .product3 img:hover {
+  transform: scale(1.05);
+}
+.products .product3 h3 {
+  margin: 0.5rem 0;
+  color: #666;
+}
+.products .product3 p {
+  color: #333;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.no-bullets li {
+  margin: 0.5rem 0;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #0066cc;
+}
+a:hover {
+  color: #004d99;
+}
+
+/*# sourceMappingURL=main.css.map */
