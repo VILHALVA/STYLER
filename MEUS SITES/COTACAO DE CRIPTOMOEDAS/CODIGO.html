@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="../../01_MENU/MIDIAS/ICONE CSS.ico" type="image/x-icon">
+    <link rel="stylesheet" href="CODIGO.css">
+    <title>Cotação de Criptomoedas</title>
+</head>
+<body>
+    <h3>Aplicação cliente que usa a API do serviço bitfinex</h3>
+    <p>Usa a <a href="https://docs.bitfinex.com/reference/ws-public-ticker">API</a> do bitfinex para obter a cotação do bitcoin (e outras criptomoedas) em tempo real.
+        Ela envia um requisição para assinar um canal por onde receberá notificações sempre que o preço 
+        da criptomoeda solicitada mudar.
+        Tal aplicação utiliza apenas os recursos de <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSocket">WebSockets do HTML5</a> disponibilizados pelo navegador.
+        Assim, ela não depende de uma aplicação servidora para obter a cotação da moeda.
+        O projeto Node.js existente é uma aplicação servidora independente,
+        mostrando como fazer a mesma coisa do lado do servidor e obter
+        cotação em background.
+    </p>
+    <h4>
+        <div id="message"></div>
+    </h4>
+    <i><div id="status"></div></i>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="CODIGO.js"></script>
+</body>
+</html>
