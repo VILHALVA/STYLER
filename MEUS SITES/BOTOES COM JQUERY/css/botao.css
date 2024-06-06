@@ -1,0 +1,33 @@
+html {
+	font: normal 14px/1.6 "Helvetica Neue", Arial, sans-serif;
+}
+
+.btn .icone, 
+.btn .contador {
+	float: left;
+	line-height: 32px;
+	text-align: center;
+	user-select: none;
+	width: 50%;
+	background-color: #666;
+}
+
+.btn .contador {
+	font-weight: 600;
+}
+
+.btn .icone img {
+	display: block;
+	margin: 0 auto;
+	width: 32px;
+}
+
+#thumbs {
+	border: 1px solid #ff0984;
+	width: 80px;
+}
+
+#thumbs .contador {
+	background: #ff0984;
+	color: #fff;
+}

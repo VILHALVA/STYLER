@@ -1,0 +1,49 @@
+.btn {
+	background: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	float: left;
+	font: normal 14px/1.6 "Helvetica Neue", Arial, sans-serif;
+	height: 32px;
+	margin-right: 10px;
+}
+
+.btn .icone,
+.btn .contador {
+	float: left;
+	line-height: 32px;
+	text-align: center;
+	user-select: none;
+	width: 50%;
+}
+
+.btn .icone img {
+	display: block;
+	margin: 0 auto;
+	width: 32px;
+}
+
+.btn .icone span {
+	text-align: center;
+	width: 32px;
+}
+
+.btn .contador {
+	color: #333;
+	font-weight: 600;
+}
+
+#quantidade {
+	border: 1px solid #0984ff;
+	width: 120px;
+}
+
+#quantidade .icone, 
+#quantidade .contador {
+	width: 33.333%
+}
+
+#quantidade .contador {
+	background: #0984ff;
+	color: #fff;
+}
