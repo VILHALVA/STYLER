@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
             🔵EMAIL: "${email}"
 
             #==========🤑FAÇA UMA DOAÇÃO:==================
-            Contribua para o avanço contínuo deste projeto enviando qualquer valor via PIX para a chave 03333113295 (SAMUEL MARTINS VILHALVA). 
+            Contribua para o avanço contínuo deste projeto enviando qualquer valor via PIX para a chave a35d34e8-f02c-4e50-a2de-9315cc000739 (SAMUEL MARTINS VILHALVA). 
             Sua generosidade nos auxilia a manter e aprimorar este projeto, permitindo o lançamento constante de novas atualizações. Agradecemos imensamente pelo seu apoio!
             `;
 
