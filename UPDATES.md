@@ -14,12 +14,14 @@
 *   🔸Novos `MENUS DE FORMATOS` foram adicionados.
 * ✅Em `APLICATIVOS` o `CONVERSOR DE BINARIOS` foi adicionado.
 * ✅Correções de bugs e pequenas melhorias.
+---
 
 ## VERSÃO 2.1 - 01/12/2023:
 * ✅Houve algumas melhorias no `BUSCADOR DE BOAS MÚSICAS`:
 *   🔸Agora aparece o painel de `SUGESTÃO`. Enquanto o usuário estiver digitando o nome de uma música, irá aparecer seção de músicas sugeridas.
 *   🔸Foi criado dois botões diferentes para `YOUTUBE`: `⬆️YOUTUBE` Significa que não irá abrir o `IFRAME DE VIDEOS` na mesma aba quando for clicado, enquanto o `⬇️YOUTUBE` significa que irá abrir o `IFRAME DE VIDEOS` depois de 3 segundos.
 * ✅Correções de bugs e pequenas melhorias.
+---
 
 ## VERSÃO 2.0 - 28/11/2023:
 * ✅Foi implementado um recurso de validação que verifica se o usuário acessou o `MENU PRINCIPAL` após passar pela página de login ou de doação, ou acessou algum `SUBMENU` após passar pelo `MENU PRINCIPAL`. Ao detectar que o usuário acessou o `MENU PRINCIPAL` sem passar pelos processos de login ou doação, ou acessou algum `SUBMENU` sem passar pelo `MENU PRINCIPAL`, uma mensagem de alerta é exibida, informando sobre a detecção dessa atividade. O usuário é então redirecionado automaticamente para a página inicial. Isso ajuda a garantir que o acesso às seções principais do site seja restrito apenas aos usuários que seguiram os passos requeridos.
@@ -33,6 +35,7 @@
 *   🔸 `SITES CIENTIFICOS`
 *   🔸 `FILMES E SÉRIES`
 * ✅Correções de bugs e pequenas melhorias.
+---
 
 ## VERSÃO 1.9 - 22/11/2023:
 * ✅Em relação ao `MENU DE DOAÇÃO` o botão `fechar` trocou de nomeclatura: De `Voltar` para `Fechar`.
@@ -51,6 +54,7 @@
 Esses botões, intitulados "VAGALUME", "LETRAS" e "YOUTUBE"(Abre o site oficial do Youtube em nova aba, e após 3 segundos na local abre o `IFRAME DE VIDEOS` - Você pode copiar o link da música para reproduzir em iframe), aparecerão de maneira clara e intuitiva, permitindo que o usuário clique em qualquer um deles para abrir uma nova aba no navegador. Além disso, o texto digitado pelo usuário no campo de busca será automaticamente incluído na consulta aos outros sites, proporcionando uma transição suave entre a pesquisa local e a web. 
 Essa atualização visa oferecer aos usuários uma solução prática e rápida quando a música desejada não está disponível no site atual, incentivando uma busca mais abrangente em outras plataformas de letras de músicas.
 * ✅Correções de bugs e pequenas melhorias.
+---
 
 ## VERSÃO 1.8 - 17/11/2023:
 * ✅Com exceção de páginas puramente ortodoxas, o site inteiro está responsivo.
@@ -62,6 +66,7 @@ formulário de cadastro permite aos usuários inserir informações pessoais, co
 O formulário de login apresenta instruções claras sobre como proceder: o usuário deve fazer upload do arquivo que baixou do cadastro para acessar o site. Após o upload do arquivo, o sistema verifica se o mesmo está correto. Se o usuário enviar o arquivo errado ou não enviar nenhum arquivo, uma mensagem de erro é exibida. No entanto, devido à natureza estática do GitHub Pages, não há suporte para processamento de backend ou banco de dados. Portanto, essas verificações são limitadas ao escopo do front-end, utilizando JavaScript no navegador do usuário.
 * ✅Em relação a página de doação: O tempo de espera para o botão `FECHAR` aparecer, foi reduzido de 60 para 30 segundos. Quando o usuário clica nesse botão, ele será redirecionado para a página de `CADASTRO`.
 * ✅Correções de bugs e pequenas melhorias.
+---
 
 ## VERSÃO 1.7 - 16/11/2023:
 * ✅Com exceção do menu `BOAS MUSICAS`, todos os diretórios foram reogarnizados em pastas raizes de projetos solos.
@@ -74,6 +79,7 @@ O formulário de login apresenta instruções claras sobre como proceder: o usu�
 * ✅A função `LIMPAR` foi corrigido de `CONVERTER UPPER`. Agora todos os campos são limpos.
 * ✅A função `LIMPAR` foi corrigido de `IFRAME DO YOUTUBE`. Agora todos os campos são limpos.
 * ✅Correções de bugs e pequenas melhorias.
+---
 
 ## VERSÃO 1.6 - 03/09/2023:
 * ✅Quando o usuário clicar para entrar no site, ele será direcionado a uma página de doação: Ele só será redirecionado ao formulário se baixar o ZIP da doação ou esperar 60 segundos para clicar no botão "FECHAR".
@@ -95,6 +101,7 @@ O formulário de login apresenta instruções claras sobre como proceder: o usu�
 * 🔸PLAYLISTS DO YOUTUBE
 * ✅Refizemos o Submenu "CANAIS DO YOUTUBE" com apenas botões que direcionam aos respectivos canais.
 * ✅Correções de bugs e pequenas melhorias.
+---
 
 ## VERSÃO 1.5 - 18/01/2023:
 * ✅Mudamos um pouco o inicio: 
@@ -105,6 +112,7 @@ O formulário de login apresenta instruções claras sobre como proceder: o usu�
 * ✅No painel do titulo do MENU PRINCIPAL: Foi incerido as melhores páginas do site.
 * ✅Agora quando o usuário clica para entrar no site: Aparece um formulário com a pergunta: "Que ano esse site foi criado?". Caso o usuário acerte, entrará na versão completa. Caso erre, ele poderá optar apenas pela versão IFRAME.
 * ✅Correções de bugs e pequenas melhorias.
+---
 
 ## VERSÃO 1.4 - 07/12/2022:
 * ✅Ao clicar no "QR CODE" : Será perguntado se o usuário quer mesmo baixar o QR CODE do site. Se clicar em "SIM" será feito o download automaticamente. Se clicar em "NÃO" voltará ao inicio.
@@ -115,6 +123,7 @@ O formulário de login apresenta instruções claras sobre como proceder: o usu�
 * ✅Agora temos o suporte do CSS externo para a execução de Tabelas.
 * ✅O JavaScript foi imprementado agora pelo projeto "MENU RESPONSIVO" do Curso em Video.
 * ✅Correções de bugs e grandes melhorias.
+---
 
 ## VERSÃO 1.3 - 28/11/2022:
 * ✅Agora o CSS está separado de todos os HTMLs em arquivos diferentes. Além dos arquivos terem o mesmo nome que o HTML.
@@ -131,6 +140,7 @@ O formulário de login apresenta instruções claras sobre como proceder: o usu�
 * ✅Foi adicionado um novo elemento ao MENU PRINCIPAL: "MELHORES MUSICAS". Onde temos a incorporação de videos do YouTube com a letra de cada música.
 * ✅Corrigirmos erros ortograficos e falhas na formatação do HTML;
 * ✅Correções de bugs e pequenas melhorias.
+---
 
 ## VERSÃO 1.2 - 18/11/2022:
 * ✅Colocamos emojis em cada botão apenas no menu principal;
@@ -147,6 +157,7 @@ O formulário de login apresenta instruções claras sobre como proceder: o usu�
 * ✅Adicionamos 4 Submenus vinculados ao MENU PRINCIPAL. Cada página tem sua própria categoria;
 * ✅Arredodamos as bordas dos botões dos MENUS;
 * ✅Erros com relação a compatibilidade do HTML com CSS externos foram corrigidos. Sendo que a maioria usa o CSS interno.
+---
 
 ## VERSÃO 1.1 - 15/11/2022:
 * ✅Mudamos o nome do site para STYLER. Sabendo disso, sua url mudou;
@@ -155,6 +166,7 @@ O formulário de login apresenta instruções claras sobre como proceder: o usu�
 * ✅Apagamos mídias e CSS que nunca são chamadas pelo HTML;
 * ✅Colocamos um padrão na favicon: HTML para menu principal e CSS para outras páginas;
 * ✅Trocamos a cor do menu principal; Tendo mais contraste no degradê.
+---
 
 ## VERSÃO 1.0 - 06/10/2022:
 * ✅Foi lançado agora o meu primeiro site. Se trata de um menu com botões contendo hiperlinks que fazem você navegar pelas principais faqs do meu curso de HTML e CSS: Como se fosse um mini navegador. Atualmente contém apenas 20 artigos com textos, estilos e mídias. Atualmente o código está sendo executado através do recurso do GITHUB PAGES.
