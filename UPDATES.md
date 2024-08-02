@@ -1,25 +1,26 @@
 # ATUALIZAÇÕES:
 ## VERSÃO 2.3 - 02/08/2024:
-* ✅A seção de `BIOGRAFIA` foi apagado.
-* ✅Na seção do `MENU PRINCIPAL`, foram removidos:
-*   🔸SITES DE NOTICIAS
-*   🔸INTELIGÊNCIAS ARTIFICIAIS
-*   🔸PLAYLISTS DO YOUTUBE
-*   🔸CANAIS DO YOUTUBE
-*   🔸SITES CIENTIFICOS
-*   🔸FILMES E SÉRIES
-*   🔸MELHORES SITES
-*   🔸SITES INUTEIS
-* ✅Agora esses submenus, que são `MENUS DE LINKS` estão em um arquivo zip na página inicial, porque foram descontinuados, e não irei mas precisa deles.
-* ✅ O menu de `FAZER DOAÇÃO`, foi removido, no lugar inserimos outros metodos para você entrar no SITE:
-*   🔸SE CADASTRAR
-*   🔸FAZER LOGIN
-*   🔸RESPONDER PERGUNTA SOBRE O SITE
-*   🔸RESPONDER PERGUNTA DE MATEMATICA
-*   🔸JOGAR NO SORTEIO
-*   🔸JOGAR BINGO
-* ✅Agora todas as opções de `MENU DE ENTRADA`, leva a uma mesma página de `VALIDAÇÃO`.
-* ✅Correções de bugs e pequenas melhorias.
+* ✅ **Remoção da seção de `BIOGRAFIA`.**
+* ✅ **Atualizações no `MENU PRINCIPAL`:** 
+  * Foram removidos os seguintes itens:
+    * 🔸 SITES DE NOTÍCIAS
+    * 🔸 INTELIGÊNCIAS ARTIFICIAIS
+    * 🔸 PLAYLISTS DO YOUTUBE
+    * 🔸 CANAIS DO YOUTUBE
+    * 🔸 SITES CIENTÍFICOS
+    * 🔸 FILMES E SÉRIES
+    * 🔸 MELHORES SITES
+    * 🔸 SITES INÚTEIS
+  * Esses itens foram substituídos por `MENUS DE LINKS`, que estão disponíveis em um arquivo zip na página inicial, pois foram descontinuados e não serão mais utilizados.
+* ✅ **O menu de `FAZER DOAÇÃO` foi removido** e substituído por novos métodos de acesso ao site:
+  * 🔸 **CADASTRAR-SE**
+  * 🔸 **FAZER LOGIN**
+  * 🔸 **RESPONDER PERGUNTA SOBRE O SITE**
+  * 🔸 **RESPONDER PERGUNTA DE MATEMÁTICA**
+  * 🔸 **JOGAR NO SORTEIO**
+  * 🔸 **JOGAR BINGO**
+* ✅ **Unificação do `MENU DE ENTRADA`:** Todas as opções agora direcionam para uma única página de `VALIDAÇÃO`.
+* ✅ **Correções de bugs e pequenas melhorias.**
 ---
 
 ## VERSÃO 2.2 - 24/01/2024:
