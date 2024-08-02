@@ -16,7 +16,7 @@
 }
 
 body {
-    background-image: url(../MIDIAS/TORRE.jpg);
+    background-image: url(../MIDIAS/BINGO.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -60,6 +60,7 @@ main {
     border: 5px solid black;
     border-radius: 30px;
     margin: 10px;
+    padding: 20px;
 }
 
 main > div {
@@ -69,7 +70,7 @@ main > div {
     margin: 10px;
 }
 
-select {
+input {
     border-radius: 25px;
     padding-left: 10px;
     padding-top: 3px;
@@ -80,32 +81,65 @@ select {
 .BOTAO {
     border-radius: 30px;
     display: block;
-    margin: auto;
-    text-align: justify;
-    margin-bottom: 10px;
+    margin: 10px auto;
+    text-align: center;
     font-weight: bolder;
     background-color: blue;
     color: white;
-    padding: 8px;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
 }
 
 .BOTAO:hover {
     background-color: red;
 }
 
-.countdown-circle {
+.bingoCard {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    max-width: 300px;
+    margin: auto;
+}
+
+.bingoCell {
     width: 50px;
     height: 50px;
-    background-color: red;
-    border-radius: 50%;
+    background-color: #ddd;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px auto;    
-}
-      
-.countdown-text {
     font-size: 1.2em;
-    color: white;
-    font-weight: bold;
+    cursor: pointer;
 }
+
+.bingoCell.marked {
+    background-color: green;
+    color: white;
+}
+
+#numeroSorteado {
+    background-color: #7714b1;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    margin-top: 20px;
+}
+
+#res {
+    background-color: green;
+    padding: 15px;
+    margin: 6px;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+    margin-top: 20px;
+}
+

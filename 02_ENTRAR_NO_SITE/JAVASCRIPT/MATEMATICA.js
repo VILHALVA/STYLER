@@ -19,7 +19,7 @@ async function responder() {
     var responderButton = document.getElementById("responder");
 
     if (NUM.value === "") {
-        alert("Por favor, preencha o campo de resposta.");
+        alert("🤬POR FAVOR, PREENCHA O CAMPO DE RESPOSTA!");
         return;
     }
 

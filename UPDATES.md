@@ -11,8 +11,17 @@
 *   🔸MELHORES SITES
 *   🔸SITES INUTEIS
 * ✅Agora esses submenus, que são `MENUS DE LINKS` estão em um arquivo zip na página inicial, porque foram descontinuados, e não irei mas precisa deles.
-
+* ✅ O menu de `FAZER DOAÇÃO`, foi removido, no lugar inserimos outros metodos para você entrar no SITE:
+*   🔸SE CADASTRAR
+*   🔸FAZER LOGIN
+*   🔸RESPONDER PERGUNTA SOBRE O SITE
+*   🔸RESPONDER PERGUNTA DE MATEMATICA
+*   🔸JOGAR NO SORTEIO
+*   🔸JOGAR BINGO
+* ✅Agora todas as opções de `MENU DE ENTRADA`, leva a uma mesma página de `VALIDAÇÃO`.
+* ✅Correções de bugs e pequenas melhorias.
 ---
+
 ## VERSÃO 2.2 - 24/01/2024:
 * ✅Adicionamos um sistema de validação semelhante ao `MENU-PRINCIPAL` e `SUBMENUS` para detectar se o usuário passou pela página de Login ou Doação ao acessar o `BUSCADOR DE BOAS MÚSICAS`.
 * ✅Editamos os links do `nav` do "MENU-PRINCIPAL", incluindo os links do canal Vilhalva, Canal Coders e Github.
