@@ -1,14 +1,3 @@
-let numeroA, numeroB, respostaCorreta;
-
-function gerarPergunta() {
-    numeroA = Math.floor(Math.random() * 100) + 1;
-    numeroB = Math.floor(Math.random() * 100) + 1;
-    respostaCorreta = numeroA * numeroB;
-
-    document.getElementById("numeroA").textContent = numeroA;
-    document.getElementById("numeroB").textContent = numeroB;
-}
-
 function sleep(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
 }
@@ -16,24 +5,23 @@ function sleep(ms) {
 async function responder() {
     var NUM = window.document.querySelector('input#VEL');
     var res = window.document.querySelector('div#res');
+    var resposta = Number(NUM.value);
     var responderButton = document.getElementById("responder");
 
     if (NUM.value === "") {
-        alert("Por favor, preencha o campo de resposta.");
+        alert("🤬POR FAVOR, PREENCHA O CAMPO DE RESPOSTA!");
         return;
     }
 
-    var respostaUsuario = Number(NUM.value);
-
-    if (respostaUsuario === respostaCorreta) {
-        res.innerHTML = `PARABÉNS! VOCÊ ACERTOU! A RESPOSTA É ${respostaCorreta}!`;
+    if (resposta == 2022) {
+        res.innerHTML = `PARABÉNS! VOCÊ ACERTOU! É ${resposta}!`;
         res.style.color = 'green';
         await sleep(2000);
         window.location.href = '../HTML/ZZZ.html';
         document.getElementById("VEL").value = "";
     } 
     else {
-        res.innerHTML = `RESPOSTA ERRADA! NÃO É ${respostaUsuario}!`;
+        res.innerHTML = `RESPOSTA ERRADA! NÃO É ${resposta}!`;
         res.style.color = 'red';
         document.getElementById("VEL").value = "";
         responderButton.style.display = "none"; 
@@ -63,5 +51,3 @@ function iniciarContagemRegressiva(responderButton) {
 function VOLTAR() {
     window.history.back();
 }
-
-window.onload = gerarPergunta;
