@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "TITULO";
+    src: url(../../01_MENU/FONTES/STOREB__.ttf);
+}
+
+@font-face {
+    font-family: "SUBTITULO";
+    src: url(../../01_MENU/FONTES/BebasNeue-Regular.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(../MIDIAS/BOMHACKER.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.505);
+    height: 100vh;
+}
+
+header {
+    background-image: linear-gradient(to left, #8b0b4b, #7714b1);
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+header > h1 {
+    color: white;
+    font-family: "TITULO";
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    text-shadow: 4px 3px 2px black;
+}
+
+header > p {
+    color: white;
+    font-family: var(--fonte-padrão);
+    font-size: 1em;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    margin: auto;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.689);
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.803);
+    border: 5px solid black;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+main > div {
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+input {
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: bold;
+}
+
+.BOTAO {
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+    text-align: justify;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    background-color: blue;
+    color: white;
+    padding: 8px;
+}
+
+.BOTAO:hover {
+    background-color: red;
+}
+
+.countdown-circle {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;    
+}
+      
+.countdown-text {
+    font-size: 1.2em;
+    color: white;
+    font-weight: bold;
+}
+
