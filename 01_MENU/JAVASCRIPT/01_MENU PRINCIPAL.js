@@ -1,8 +1,10 @@
 window.onload = function () {
     const previousPage = document.referrer;
     const allowedPages = [
-        'https://vilhalva.github.io/STYLER/02_CADASTRO%20E%20LOGIN/HTML/LOGIN.html',
-        'https://vilhalva.github.io/STYLER/02_CADASTRO%20E%20LOGIN/HTML/ENTRAR.html'
+        // 'https://vilhalva.github.io/STYLER/02_CADASTRO%20E%20LOGIN/HTML/LOGIN.html',
+        // 'https://vilhalva.github.io/STYLER/02_CADASTRO%20E%20LOGIN/HTML/ENTRAR.html'
+        '../../02_CADASTRO E LOGIN/HTML/LOGIN.html',
+        '../../02_CADASTRO E LOGIN/HTML/ENTRAR.html'
     ];
 
     if (!allowedPages.includes(previousPage)) {
