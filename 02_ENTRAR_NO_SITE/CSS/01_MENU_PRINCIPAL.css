@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: "TITULO";
-    src: url(../../FONTES/Anton-Regular.ttf);
+    src: url(../../01_MENU/FONTES/Olive\ Days.ttf);
 }
 
 @font-face {
     font-family: "SUBTITULO";
-    src: url(../../FONTES/BebasNeue-Regular.ttf);
+    src: url(../../01_MENU//FONTES/Sriracha-Regular.ttf);
 }
 
 :root {
