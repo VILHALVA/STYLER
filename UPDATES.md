@@ -1,4 +1,18 @@
 # ATUALIZAÇÕES:
+## VERSÃO 2.3 - 02/08/2024:
+* ✅A seção de `BIOGRAFIA` foi apagado.
+* ✅Na seção do `MENU PRINCIPAL`, foram removidos:
+*   🔸SITES DE NOTICIAS
+*   🔸INTELIGÊNCIAS ARTIFICIAIS
+*   🔸PLAYLISTS DO YOUTUBE
+*   🔸CANAIS DO YOUTUBE
+*   🔸SITES CIENTIFICOS
+*   🔸FILMES E SÉRIES
+*   🔸MELHORES SITES
+*   🔸SITES INUTEIS
+* ✅Agora esses submenus, que são `MENUS DE LINKS` estão em um arquivo zip na página inicial, porque foram descontinuados, e não irei mas precisa deles.
+
+---
 ## VERSÃO 2.2 - 24/01/2024:
 * ✅Adicionamos um sistema de validação semelhante ao `MENU-PRINCIPAL` e `SUBMENUS` para detectar se o usuário passou pela página de Login ou Doação ao acessar o `BUSCADOR DE BOAS MÚSICAS`.
 * ✅Editamos os links do `nav` do "MENU-PRINCIPAL", incluindo os links do canal Vilhalva, Canal Coders e Github.
