@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const limparBotao = document.getElementById('limpar');
     const loginBotao = document.getElementById('login');
     const arquivoInput = document.getElementById('arquivo');
-    const loading = document.getElementById('loading');
 
     limparBotao.addEventListener('click', function () {
         loginForm.reset();
@@ -25,8 +24,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 loginForm.reset();
             } 
             else if (arquivosEnviados.length === 1 && arquivosEnviados[0].name === 'STYLER.txt') {
-                await new Promise(resolve => setTimeout(resolve, 1000));
-                loading.style.display = 'none';
                 window.location.href = '../HTML/ZZZ.html';
                 loginForm.reset();
             } 
