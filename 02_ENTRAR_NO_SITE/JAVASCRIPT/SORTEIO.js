@@ -20,6 +20,7 @@ async function responder() {
         res.style.color = 'green';
         await sleep(2000);
         window.location.href = '../HTML/ZZZ.html';
+        document.getElementById("res").value = "";
     } 
     else {
         res.innerHTML = `NÚMERO ERRADO! VOCÊ DISSE ${respostaUsuario}, PORÉM EU TINHA SORTEADO ${numeroCorreto}!`;
