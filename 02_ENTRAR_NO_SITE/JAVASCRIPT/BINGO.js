@@ -86,14 +86,17 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         if (win) {
-            numeroSorteadoElement.style.display = "none"; 
+            numeroSorteadoElement.style.display = "none";
             resultadoElement.style.display = "block"; 
-            redirectAfterDelay();
+            clearFieldsAndRedirect();
         }
     }
 
-    function redirectAfterDelay() {
+    function clearFieldsAndRedirect() {
         setTimeout(() => {
+            numeroAtualElement.textContent = '0';
+            bingoCardElement.innerHTML = '';
+            generateBingoCard();
             window.location.href = WINNING_PAGE;
         }, 2000);
     }
