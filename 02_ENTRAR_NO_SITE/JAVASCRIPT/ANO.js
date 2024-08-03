@@ -19,6 +19,7 @@ async function responder() {
         await sleep(2000);
         window.location.href = '../HTML/ZZZ.html';
         document.getElementById("VEL").value = "";
+        document.getElementById("res").value = "";
     } 
     else {
         res.innerHTML = `RESPOSTA ERRADA! NÃO É ${resposta}!`;
