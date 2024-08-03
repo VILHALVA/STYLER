@@ -96,7 +96,6 @@ document.addEventListener("DOMContentLoaded", function() {
         setTimeout(() => {
             numeroAtualElement.textContent = '0';
             bingoCardElement.innerHTML = '';
-            generateBingoCard();
             window.location.href = WINNING_PAGE;
         }, 2000);
     }
@@ -104,6 +103,8 @@ document.addEventListener("DOMContentLoaded", function() {
     function VOLTAR() {
         window.history.back();
     }
+
+    window.sortearNumero = sortearNumero;
 
     sortearButton.addEventListener('click', sortearNumero);
 
