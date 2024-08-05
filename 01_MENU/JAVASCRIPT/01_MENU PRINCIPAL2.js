@@ -17,6 +17,7 @@ window.onload = function () {
             document.body.classList.add('js-enabled');
             console.log('Acesso permitido via HTTPS com URL esperada');
         } else {
+            // Se a URL HTTPS não corresponde à esperada, exibe o alerta e redireciona
             document.body.style.display = 'none';
             alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSA PÁGINA SEM PASSAR PELA PÁGINA DE VALIDAÇÃO! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
             window.location.href = '../../STYLER.html';
