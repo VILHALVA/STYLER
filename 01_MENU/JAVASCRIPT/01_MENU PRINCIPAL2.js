@@ -2,7 +2,7 @@ window.onload = function () {
     const previousPage = document.referrer;
     const requiredSubstring = 'https://vilhalva.github.io/STYLER/02_ENTRAR_NO_SITE/HTML/ZZZ.html';
 
-    if (previousPage.startsWith('file://') || previousPage === requiredSubstring) {
+    if (previousPage.startsWith('file://')) {
         document.body.classList.add('js-enabled');
         return;
     }
