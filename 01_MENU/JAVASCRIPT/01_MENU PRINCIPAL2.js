@@ -12,9 +12,7 @@ window.onload = function () {
         document.body.style.display = 'none';
         alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSA PÁGINA SEM PASSAR PELO MENU PRINCIPAL! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
         window.location.href = '../../STYLER.html';
-    } 
-    else {
-        console.log("else");
-        document.body.classList.add('js-enabled');
     }
+
+    document.body.classList.add('js-enabled');
 };
