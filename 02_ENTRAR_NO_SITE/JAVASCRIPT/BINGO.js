@@ -89,13 +89,16 @@ document.addEventListener("DOMContentLoaded", function() {
             numeroSorteadoElement.style.display = "none";
             resultadoElement.style.display = "block"; 
             clearFieldsAndRedirect();
+            setTimeout(function() {
+                resultadoElement.style.display = 'none';
+            }, 3000);
+            generateBingoCard();
         }
     }
 
     function clearFieldsAndRedirect() {
         setTimeout(() => {
             numeroAtualElement.textContent = '0';
-            bingoCardElement.innerHTML = '';
             window.location.href = WINNING_PAGE;
         }, 2000);
     }
