@@ -6,8 +6,8 @@ window.onload = function () {
 
     if (!allowedPages.includes(previousPage)) {
         document.body.style.display = 'none';
-        alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSA PÁGINA SEM PASSAR PELA PÁGINA DE LOGIN OU DE AUTENTICAÇÃO! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
-        window.location.href = 'https://vilhalva.github.io/STYLER/STYLER.html';
+        alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSA PÁGINA SEM PASSAR PELA VALIDAÇÃO! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
+        window.location.href = '../../STYLER.html';
     }
 
     document.body.classList.add('js-enabled');
