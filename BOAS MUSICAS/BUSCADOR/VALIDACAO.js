@@ -1,14 +1,29 @@
 window.onload = function () {
     const previousPage = document.referrer;
-    const allowedPages = [
-        'https://vilhalva.github.io/STYLER/01_MENU/HTML/MENU_BOAS%20MUSICAS.html'
-    ];
+    const requiredSubstring = 'https://vilhalva.github.io/STYLER/01_MENU/HTML/MENU_BOAS%20MUSICAS.html';
 
-    if (!allowedPages.includes(previousPage)) {
+    function ALERTA() {
         document.body.style.display = 'none';
         alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSA PÁGINA SEM PASSAR PELO SUBMENU! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
         window.location.href = '../../STYLER.html';
     }
 
-    document.body.classList.add('js-enabled');
+    if (previousPage.startsWith('file://') || !previousPage) {
+        document.body.classList.add('js-enabled');
+        return;
+    }
+
+    else if (previousPage.startsWith('https://')) {
+        if (previousPage.includes(requiredSubstring)) {
+            document.body.classList.add('js-enabled');
+        } 
+        else {
+            ALERTA();   
+        }
+    } 
+    else {
+        ALERTA();  
+    }
 };
+
+
