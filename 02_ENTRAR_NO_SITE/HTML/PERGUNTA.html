@@ -11,24 +11,25 @@
 </head>
 <body>
     <header>
-        <h1>ANO DE CRIACAO DO SITE</h1>
-        <p>RESPONDA A PERGUNTA CORRETAMENTE PARA ENTRAR!</p> 
+        <h1>RESPONDAR PERGUNTA</h1>
+        <p>RESPONDA A PERGUNTA CORRETAMENTE PARA ENTRAR!</p>
     </header>
     <main>
         <div>
-            <p>⭐PERGUNTA: EM QUE ANO ESSE SITE FOI CRIADO?</p><br>
+            <p id="pergunta"></p><br>
         </div>
         <div>
-            <label for="VEL">RESPONDA:</label> 
-            <input type="number" name="VEL" id="VEL">
+            <label for="VEL">RESPONDA:</label>
+            <input type="text" name="VEL" id="VEL">
         </div>
         <div>
             <div id="countdownContainer">
                 <div id="countdownCircle" class="countdown-circle">
-                    <div id="countdownText" class="countdown-text">30</div> 
-                </div>       
+                    <div id="countdownText" class="countdown-text">30</div>
+                </div>
             </div>
             <button id="responder" class="BOTAO" onclick="responder()">RESPONDER</button>
+            <button class="BOTAO" onclick="PROXIMO()">PROXIMO</button>
             <button class="BOTAO" onclick="VOLTAR()">VOLTAR</button>
         </div>
         <div id="res"></div>
