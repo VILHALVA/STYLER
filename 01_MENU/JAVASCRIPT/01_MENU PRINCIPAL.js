@@ -1,17 +1,13 @@
 window.onload = function () {
     const previousPage = document.referrer;
-    const requiredSubstring = 'https://vilhalva.github.io/STYLER/02_ENTRAR_NO_SITE/HTML/ZZZ.html';
+    const allowedPages = [
+        'https://vilhalva.github.io/STYLER/02_ENTRAR_NO_SITE/HTML/ZZZ.html'
+    ];
 
-    if (previousPage.startsWith('file://')) {
-        document.body.classList.add('js-enabled');
-        return;
-    }
-
-    if (previousPage.startsWith('https://') && !previousPage.includes(requiredSubstring)) {
+    if (!allowedPages.includes(previousPage)) {
         document.body.style.display = 'none';
-        alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSA PÁGINA SEM PASSAR PELA VALIDAÇÃO! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
+        alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSA PÁGINA SEM PASSAR PELA PÁGINA DE LOGIN OU DE AUTENTICAÇÃO! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
         window.location.href = '../../STYLER.html';
-        
     }
 
     document.body.classList.add('js-enabled');
