@@ -7,7 +7,7 @@ window.onload = function () {
         return;
     }
 
-    if (previousPage.startsWith('http') && !previousPage.includes(requiredSubstring)) {
+    else if (previousPage.startsWith('http') && !previousPage.includes(requiredSubstring)) {
         document.body.style.display = 'none';
         alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSA PÁGINA SEM PASSAR PELO MENU PRINCIPAL! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
         window.location.href = '../../STYLER.html';
