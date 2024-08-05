@@ -100,13 +100,13 @@ document.addEventListener("DOMContentLoaded", function() {
         }, 2000);
     }
 
-    function VOLTAR() {
-        window.history.back();
-    }
-
     window.sortearNumero = sortearNumero;
 
     sortearButton.addEventListener('click', sortearNumero);
 
     generateBingoCard();
 });
+
+function VOLTAR() {
+    window.history.back();
+}
