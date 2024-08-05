@@ -13,7 +13,7 @@ window.onload = function () {
         return;
     }
 
-    else if (previousPage.startsWith('https://')) {
+    if (previousPage.startsWith('https://')) {
         if (previousPage.includes(requiredSubstring)) {
             document.body.classList.add('js-enabled');
         } 
