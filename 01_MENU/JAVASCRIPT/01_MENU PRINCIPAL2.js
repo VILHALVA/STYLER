@@ -2,9 +2,8 @@ window.onload = function () {
     const previousPage = document.referrer;
     const requiredSubstring = 'https://vilhalva.github.io/STYLER/02_ENTRAR_NO_SITE/HTML/ZZZ.html';
 
-    if (previousPage.startsWith('file://')) {
+    if (previousPage.startsWith('file://') || previousPage === requiredSubstring) {
         document.body.classList.add('js-enabled');
-        console.log("file://");
         return;
     }
 
@@ -14,5 +13,7 @@ window.onload = function () {
         window.location.href = '../../STYLER.html';
     }
 
-    document.body.classList.add('js-enabled');
+    if (previousPage.startsWith('https://') && previousPage.includes(requiredSubstring)) {
+        document.body.classList.add('js-enabled');
+    }
 };
