@@ -69,6 +69,11 @@ function iniciarContagemRegressiva(responderButton) {
     }, 1000);
 }
 
+function PROXIMO() {
+    gerarPergunta();
+
+}
+
 function VOLTAR() {
     window.history.back();
 }
