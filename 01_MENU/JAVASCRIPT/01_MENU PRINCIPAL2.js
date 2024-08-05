@@ -3,9 +3,9 @@ window.onload = function () {
     const requiredSubstring = 'https://vilhalva.github.io/STYLER/02_ENTRAR_NO_SITE/HTML/ZZZ.html';
 
     // Permitir acesso se a página foi carregada a partir de um arquivo local
-    if (previousPage.startsWith('file://')) {
+    if (previousPage.startsWith('file://') || !previousPage) {
         document.body.classList.add('js-enabled');
-        console.log('Acesso permitido via file://');
+        console.log('Acesso permitido via file:// ou referrer não disponível');
         return;
     }
 
@@ -20,10 +20,9 @@ window.onload = function () {
             window.location.href = '../../STYLER.html';
         }
     } else {
-        
-        //document.body.style.display = 'none';
-        //alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSA PÁGINA DE UMA LOCALIZAÇÃO NÃO PERMITIDA! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
-        // window.location.href = '../../STYLER.html';
-        console.log("ULTIMO ELSE");
+        // Para URLs que não são `file://` nem `https://`
+        document.body.style.display = 'none';
+        alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSA PÁGINA DE UMA LOCALIZAÇÃO NÃO PERMITIDA! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
+        window.location.href = '../../STYLER.html';
     }
 };
