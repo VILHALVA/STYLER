@@ -2,6 +2,8 @@ window.onload = function () {
     const previousPage = document.referrer;
     const requiredSubstring = 'https://vilhalva.github.io/STYLER/02_ENTRAR_NO_SITE/HTML/ZZZ.html';
 
+    console.log('Referrer:', previousPage);
+
     // Permitir acesso se a página foi carregada a partir de um arquivo local ou se referrer não estiver disponível
     if (previousPage.startsWith('file://') || !previousPage) {
         document.body.classList.add('js-enabled');
