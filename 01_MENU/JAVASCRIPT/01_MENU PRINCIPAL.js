@@ -11,7 +11,7 @@ window.onload = function () {
         return;
     }
 
-    // Verificar se a página anterior é uma URL HTTPS e contém a substring necessária
+    // Verificar se a página anterior é uma URL HTTPS
     if (previousPage.startsWith('https://')) {
         if (previousPage.includes(requiredSubstring)) {
             document.body.classList.add('js-enabled');
@@ -27,7 +27,7 @@ window.onload = function () {
         }
     }
 
-    // Se não for `file://` e nem começar com `https://`, bloqueia o acesso
+    // Bloquear todos os outros acessos
     console.log('Acesso não permitido: URL não é file:// nem HTTPS');
     document.body.style.display = 'none';
     alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSA PÁGINA DE UMA LOCALIZAÇÃO NÃO PERMITIDA! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
