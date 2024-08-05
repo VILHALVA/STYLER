@@ -14,19 +14,27 @@ async function responder() {
     }
 
     if (resposta == 2022) {
+        res.style.display = 'block';
+        res.style.backgroundColor = 'green';
         res.innerHTML = `PARABÉNS! VOCÊ ACERTOU! É ${resposta}!`;
-        res.style.color = 'green';
         await sleep(2000);
         window.location.href = '../HTML/ZZZ.html';
         document.getElementById("VEL").value = "";
-        document.getElementById("res").value = "";
+        setTimeout(function() {
+            res.style.display = 'none';
+        }, 3000);
     } 
     else {
+        res.style.display = 'block';
+        res.style.backgroundColor = 'red';
         res.innerHTML = `RESPOSTA ERRADA! NÃO É ${resposta}!`;
-        res.style.color = 'red';
-        document.getElementById("VEL").value = "";
         responderButton.style.display = "none"; 
         iniciarContagemRegressiva(responderButton);
+        setTimeout(function() {
+            res.style.display = 'none';
+        }, 3000);
+        await sleep(2000);
+        document.getElementById("VEL").value = "";
     }
 }
 

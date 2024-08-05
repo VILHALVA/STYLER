@@ -16,17 +16,24 @@ async function responder() {
     var respostaUsuario = Number(NUM.value);
 
     if (respostaUsuario === numeroCorreto) {
+        res.style.display = 'block';
+        res.style.backgroundColor = 'green';
         res.innerHTML = `PARABÉNS! VOCÊ ACERTOU! O NÚMERO SORTEADO ERA ${numeroCorreto}!`;
-        res.style.color = 'green';
         await sleep(2000);
         window.location.href = '../HTML/ZZZ.html';
-        document.getElementById("res").value = "";
+        setTimeout(function() {
+            res.style.display = 'none';
+        }, 3000);
     } 
     else {
+        res.style.display = 'block';
+        res.style.backgroundColor = 'red';
         res.innerHTML = `NÚMERO ERRADO! VOCÊ DISSE ${respostaUsuario}, PORÉM EU TINHA SORTEADO ${numeroCorreto}!`;
-        res.style.color = 'red';
         responderButton.style.display = "none"; 
         iniciarContagemRegressiva(responderButton);
+        setTimeout(function() {
+            res.style.display = 'none';
+        }, 3000);
         gerarNumero(); 
     }
 }
@@ -34,7 +41,7 @@ async function responder() {
 function iniciarContagemRegressiva(responderButton) {
     var countdownContainer = document.getElementById("countdownContainer");
     var countdownText = document.getElementById("countdownText");
-    var countdown = 11;
+    var countdown = 30;
 
     countdownContainer.style.display = "flex";
 

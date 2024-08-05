@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: "SUBTITULO";
-    src: url(../../01_MENU//FONTES/Sriracha-Regular.ttf);
+    src: url(../../01_MENU/FONTES/Sriracha-Regular.ttf);
 }
 
 :root {
@@ -47,7 +47,7 @@ header {
 header > h1 {
     color: white;
     font-family: "TITULO";
-    font-size: 3em;
+    font-size: 2.4em;
     margin-bottom: 20px;
     font-weight: normal;
     text-shadow: 4px 3px 2px black;
@@ -56,7 +56,7 @@ header > h1 {
 header > p {
     color: white;
     font-family: "SUBTITULO";
-    font-size: 1.8em;
+    font-size: 1.6em;
     color: white;
     max-width: 600px;
     padding-right: 10px;

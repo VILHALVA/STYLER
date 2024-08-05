@@ -93,6 +93,10 @@ select {
     background-color: red;
 }
 
+#countdownContainer {
+    display: none;
+}
+
 .countdown-circle {
     width: 50px;
     height: 50px;
@@ -108,4 +112,11 @@ select {
     font-size: 1.2em;
     color: white;
     font-weight: bold;
+}
+
+#res {
+    color: white;
+    padding: 6px;
+    margin: 5px;
+    border-radius: 20px;
 }
