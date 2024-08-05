@@ -5,14 +5,14 @@ window.onload = function () {
     console.log('Referrer:', previousPage);
 
     // Permitir acesso se a página foi carregada a partir de um arquivo local ou se referrer não estiver disponível
-    if (previousPage.startsWith('file://')) {
+    if (previousPage.startsWith('file://') || !previousPage) {
         document.body.classList.add('js-enabled');
         console.log('Acesso permitido via file:// ou referrer não disponível');
         return;
     }
 
     // Verificar se a página anterior é uma URL HTTPS
-    if (previousPage.startsWith('https://')) {
+    else if (previousPage.startsWith('https://')) {
         if (previousPage.includes(requiredSubstring)) {
             document.body.classList.add('js-enabled');
             console.log('Acesso permitido via HTTPS com URL esperada');
