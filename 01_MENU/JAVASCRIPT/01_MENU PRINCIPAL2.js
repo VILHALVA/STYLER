@@ -5,7 +5,7 @@ window.onload = function () {
     console.log('Referrer:', previousPage);
 
     // Permitir acesso se a página foi carregada a partir de um arquivo local ou se referrer não estiver disponível
-    if (previousPage.startsWith('file://') || !previousPage) {
+    if (previousPage.startsWith('file://')) {
         document.body.classList.add('js-enabled');
         console.log('Acesso permitido via file:// ou referrer não disponível');
         return;
