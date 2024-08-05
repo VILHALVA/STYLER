@@ -45,7 +45,7 @@ header > h1 {
 
 header > p {
     color: white;
-    font-family: var(--fonte-padrão);
+    font-family: "SUBTITULO";
     font-size: 1em;
     font-weight: bold;
     padding-right: 10px;

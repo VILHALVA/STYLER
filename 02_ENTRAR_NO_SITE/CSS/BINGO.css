@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: "SUBTITULO";
-    src: url(../../01_MENU/FONTES/BebasNeue-Regular.ttf);
+    src: url(../../01_MENU/FONTES/idroid.otf);
 }
 
 * {
@@ -45,8 +45,8 @@ header > h1 {
 
 header > p {
     color: white;
-    font-family: var(--fonte-padrão);
-    font-size: 1em;
+    font-family: "SUBTITULO";
+    font-size: 0.8em;
     font-weight: bold;
     padding-right: 10px;
     padding-left: 10px;
@@ -84,7 +84,7 @@ input {
     margin: 10px auto;
     text-align: center;
     font-weight: bolder;
-    background-color: blue;
+    background-color: green;
     color: white;
     padding: 8px 16px;
     border: none;
@@ -116,7 +116,7 @@ input {
 }
 
 .bingoCell.marked {
-    background-color: green;
+    background-color: red;
     color: white;
 }
 
