@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CODIGO.css">
+  <title>FORMATADOR DE LETRAS</title>
+  <link rel="shortcut icon" href="../../../02_MENU/MIDIAS/ICONE CSS.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="container">
+    <textarea id="inputText" placeholder="Digite o texto"></textarea>
+    <div id="linkContainer" class="hidden">
+        <label for="link">Link:</label>
+        <input type="text" id="link">
+    </div>
+    <select id="conversionType">
+      <option value="azul">AZUL</option>
+      <option value="topicos">TOPICOS</option>
+      <option value="barrato">BARRATO</option>
+      <option value="sottolineato">SOTTOLINEATO</option>
+      <option value="grande">GRANDE</option>
+      <option value="maiuscoletto">MAIUSCOLETTO</option>
+      <option value="bolha_preto">BOLHA PRETO</option>
+      <option value="bolha_branco">BOLHA BRANCO</option>
+      <option value="quadrado_preto">QUADRADO PRETO</option>
+      <option value="quadrado_branco">QUADRADO BRANCO</option>
+      <option value="ingles_antigo">INGLÊS ANTIGO</option>
+      <option value="cursivo_preto">CURSIVO PRETO</option>
+      <option value="cursivo_branco">CURSIVO BRANCO</option>
+      <option value="negrito">NEGRITO</option>
+      <option value="link">HYPERLINKS</option>
+    </select><br>
+    
+    <div class="output" id="outputText" style="display: none;"></div>
+    <button onclick="convertText()">CONVERTER</button>
+    <button onclick="copyText()">COPIAR</button>
+    <button onclick="clearFields()">LIMPAR</button><br>
+    <div id="copiadoMensagem" style="display: none;">COPIADO PARA ÁREA DE TRANSFERÊNCIA!</div>
+  </div>
+  <script src="CODIGO.js"></script>
+</body>
+</html>

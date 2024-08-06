@@ -1,0 +1,54 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px; 
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em; 
+}
+
+#youtubeLink {
+    width: 100%; 
+    max-width: 400px; 
+    height: 30px;
+    font-size: 1em; 
+    margin: 0 auto; 
+    margin-bottom: 10px;
+    box-sizing: border-box; 
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 1em; 
+}
+
+#playButton {
+    background-color: #4CAF50;
+}
+
+#stopButton {
+    background-color: #f44336;
+}
+
+#voltarButton {
+    background-color: #5e06c2;
+}
+
+@media screen and (max-width: 768px) {
+    #youtubeLink {
+        max-width: 100%; 
+    }
+}

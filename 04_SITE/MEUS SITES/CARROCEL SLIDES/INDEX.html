@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SLIDES</title>
+    <link rel="shortcut icon" href="../../../02_MENU/MIDIAS/ICONE CSS.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+      h1,h3{
+        margin: 50px 0px 50px 0px;
+        text-align: center;
+      }
+      h3{
+        background-color: darkkhaki;
+      }
+      img{
+        height: 700px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CFB Cursos - Curso de Bootstrap</h1>
+
+    <h3>Carousel funciona como um menu deslizante para o lado (banner rotativo), de maneira a mostrar diversas imagens lado a lado que vão passando para o lado. Ele possui um temporizador que faz com que os itens fiquem passando automaticamente depois de uma certa quantidade de tempo.</h3>
+
+    <div id="banner" class="carousel slide" data-bs-ride="carousel">
+        <div id="indicadores" class="carousel-indicators">
+            <button type="button" data-bs-target="#banner" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#banner" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#banner" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#banner" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#banner" data-bs-slide-to="4"></button>
+        </div>
+    
+
+        <div id="imagens" class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagens/b1.jpg" alt="imagens" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/b2.jpg" alt="imagens" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/b3.jpg" alt="imagens" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/b4.jpg" alt="imagens" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/b5.jpg" alt="imagens" class="d-block w-100">
+            </div>
+        </div>
+
+        <button type="button" class="carousel-control-prev" data-bs-target="#banner" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button type="button" class="carousel-control-next" data-bs-target="#banner" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

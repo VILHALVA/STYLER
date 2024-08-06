@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: "TITULO";
-    src: url(01_MENU/FONTES/idroid.otf);
+    src: url(02_MENU/FONTES/idroid.otf);
 }
 
 @font-face {
     font-family: "SUBTITULO";
-    src: url(01_MENU/FONTES/PassionOne-Regular.ttf);
+    src: url(02_MENU/FONTES/PassionOne-Regular.ttf);
 }
 
 body {

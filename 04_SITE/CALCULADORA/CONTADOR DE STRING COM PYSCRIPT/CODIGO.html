@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STRING</title>
+    <link rel="shortcut icon" href="../../../02_MENU/MIDIAS/ICONE CSS.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="CODIGO.css">
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Aprenda Manipulação do DOM usando PyScript</h1>
+        <h2>Contador Simples de Strings usando Python</h2>
+        <br>
+        <p>Texto de Entrada</p>
+        <textarea name="input_text" id="input_text" placeholder="Digite seu texto..."></textarea>
+        <br>
+        <button id="run" type="button" class="button is-primary" pys-onClick="count">CONTAR</button>
+        <button id="clear" type="button" class="button is-danger" pys-onClick="clear">LIMPAR</button>
+        <p>RESULTADO</p>
+        <p id="output"></p>
+        <py-script>
+            input_text = Element("input_text")
+            op = Element("output")
+
+            def clear(*args, **kwargs):
+                input_text.clear()
+
+            def count(*args, **kwargs):
+                number = len(input_text.value)
+                op.write(number)
+        </py-script>
+    </main>
+</body>
+</html>

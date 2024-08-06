@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CODIGO.css">
+    <title>INVESTIMENTO</title>
+    <link rel="shortcut icon" href="../../../02_MENU/MIDIAS/ICONE CSS.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1>CALCULADORA DE INVESTIMENTO</h1>
+        <form id="investmentForm">
+            <label for="quantia">QUANTIDADE INICIAL:</label>
+            <input type="number" id="quantia" required>
+
+            <label for="meses">QUANTIDADE DE MESES:</label>
+            <input type="number" id="meses" required>
+
+            <label for="jurosAnual">JUROS ANUAL (%):</label>
+            <input type="number" id="jurosAnual" required>
+
+            <button type="button" onclick="calcularInvestimento()">CALCULAR</button> <br>
+            <input class="BOTAO" type="button" value="LIMPAR" onclick="limpar()">
+        </form>
+
+        <div id="resultado"></div>
+    </div>
+
+    <script src="CODIGO.js"></script>
+</body>
+</html>

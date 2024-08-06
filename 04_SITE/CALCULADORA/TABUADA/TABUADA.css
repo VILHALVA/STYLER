@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #3498db;
+}
+
+.input-container {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-container input[type="number"],
+.input-container select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.resultado {
+    display: none;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: #3806ac6c;
+}
+
+.resultado table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.resultado th, .resultado td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 600px) {
+    .input-container input[type="number"],
+    .input-container select {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}

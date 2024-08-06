@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDADE EM ANOS</title>
+    <link rel="shortcut icon" href="../../../02_MENU/MIDIAS/ICONE CSS.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #121212;
+            color: #fff;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mb-4">IDADE EM ANOS</h1>
+        <form id="ageForm">
+            <div class="mb-3">
+                <label for="birthYear" class="form-label">ANO DE NASCIMENTO:</label>
+                <select id="birthYear" class="form-select">
+                </select>
+            </div>
+        </form>
+        <div class="mt-4">
+            <table class="table table-dark table-striped">
+                <thead>
+                    <tr>
+                        <th>ANO:</th>
+                        <th>IDADE:</th>
+                    </tr>
+                </thead>
+                <tbody id="ageTableBody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="CODIGO.js"></script>
+</body>
+</html>
