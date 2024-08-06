@@ -1,17 +1,19 @@
 window.onload = function () {
     const previousPage = document.referrer;
     const requiredSubstring = 'https://vilhalva.github.io/STYLER/02_ENTRAR_NO_SITE/HTML/ZZZ.html';
+    const currentPageProtocol = window.location.protocol;
 
     console.log('Referrer:', previousPage);
+    console.log('Current protocol:', currentPageProtocol);
 
     // Permitir acesso se a página foi carregada a partir de um arquivo local
-    if (previousPage.startsWith('file://')) {
+    if (currentPageProtocol === 'file:') {
         document.body.classList.add('js-enabled');
         console.log('Acesso permitido via file://');
         return;
     }
 
-    // Se não houver referrer, pode ser um acesso direto
+    // Se não houver referrer e não é acesso via file, tratar como acesso direto não permitido
     if (!previousPage) {
         console.log('Acesso direto sem referrer, não permitido');
         document.body.style.display = 'none';
