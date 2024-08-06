@@ -16,15 +16,14 @@ window.onload = function () {
         if (previousPage.includes(requiredSubstring)) {
             document.body.classList.add('js-enabled');
             console.log('Acesso permitido via HTTPS com URL esperada');
-            return;
         } else {
             // Se a URL HTTPS não corresponde à esperada, exibe o alerta e redireciona
             console.log('Acesso não permitido: URL HTTPS sem a substring esperada');
             document.body.style.display = 'none';
             alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSA PÁGINA SEM PASSAR PELA PÁGINA DE VALIDAÇÃO! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
             window.location.href = '../../STYLER.html';
-            return;
         }
+        return;
     }
 
     // Bloquear todos os outros acessos
