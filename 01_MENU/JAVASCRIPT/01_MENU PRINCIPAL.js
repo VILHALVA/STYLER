@@ -11,6 +11,15 @@ window.onload = function () {
         return;
     }
 
+    // Se não houver referrer, pode ser um acesso direto
+    if (!previousPage) {
+        console.log('Acesso direto sem referrer, não permitido');
+        document.body.style.display = 'none';
+        alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSA PÁGINA SEM PASSAR PELA PÁGINA DE VALIDAÇÃO! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
+        window.location.href = '../../STYLER.html';
+        return;
+    }
+
     // Verificar se a página anterior é uma URL HTTPS
     if (previousPage.startsWith('https://')) {
         if (previousPage.includes(requiredSubstring)) {
