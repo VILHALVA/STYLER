@@ -1,4 +1,11 @@
 # ATUALIZAÇÕES:
+## VERSÃO 2.4 - 07/08/2024:
+* ✅O nome do arquivo da `HOME` mudou de `STYLER.html` para `index.html`. Assim a URL do site deixou de ser [https://vilhalva.github.io/STYLER/STYLER.html](https://vilhalva.github.io/STYLER/STYLER.html); Passou a ser [https://vilhalva.github.io/STYLER/index.html](https://vilhalva.github.io/STYLER/index.html).
+* ✅Agora todos os componentes do site estão organizados em seus respectivos diretórios e subdiretórios, como: `01_ENTRAR`, `02_MENU`, `03_HOME` e `04_SITE`.
+* ✅Agora o sistema de `VALIDAÇÃO DE ENTRADA` suporta o acesso via `file`. (Muito bom para fazer diversos testes no servidor local).
+* ✅Todas as músicas de `MENU DE BOAS MÚSICAS` tem o seu próprio favicon.icon.
+---
+
 ## VERSÃO 2.3 - 02/08/2024:
 * ✅ **Remoção da seção de `BIOGRAFIA`.**
 * ✅ **Atualizações no `MENU PRINCIPAL`:** 
