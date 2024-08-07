@@ -9,10 +9,6 @@
     font-family: "SUBTITULO";
     src: url(../../02_MENU/FONTES/PassionOne-Regular.ttf);
 }
-
-body {
-    background-color: black;
-}
     
 * {
     margin: 0px;
@@ -27,11 +23,6 @@ body {
     --cor5: #1a0328;
     --cor6: #0ac12b;
     --cor7: #2a0e8f;
-}
-
-* {
-    margin: 0px;
-    padding: 0pxf;
 }
 
 body {
@@ -59,7 +50,6 @@ header > p {
     color: white;
     font-family: "SUBTITULO";
     font-size: 1.4em;
-    color: white;
     max-width: 600px;
     padding-right: 10px;
     padding-left: 10px;
@@ -69,31 +59,14 @@ header > p {
 }
 
 span#burguer {
-    background-color: #630958;
     color: white;
     display: block;
     text-align: center;
-    padding: 10px;
-    cursor: pointer;
+    padding: 8px;
 }
 
 span#burguer:hover {
-    background-color: rgb(18, 18, 18);
-    color: rgb(241, 235, 235);
-}
-
-span#entrada {
-    background-color: #07be29;
-    color: white;
-    display: block;
-    text-align: center;
-    padding: 10px;
-    cursor: pointer;
-    margin: 0px;
-}
-
-span#entrada:hover {
-    background-color: rgb(185, 17, 22);
+    background-color: var(--cor1);
     color: rgb(241, 235, 235);
 }
 
@@ -107,18 +80,14 @@ menu > ul {
 
 menu > ul > li > a {
     display: block;
-    padding: 10px;
+    padding: 5px;
     text-decoration: none;
-    font-weight: bolder;
     text-align: center;
-    background-image: linear-gradient(to left, red, yellow, green, blue);
     color: white;
-    border-top: 2px solid gray;
-    margin-left: 5px;
 }
 
 menu > ul > li > a:hover {
-    background-image: linear-gradient(to right, rgb(255, 0, 144), red, yellow, green, blue, black);
+    background-color: gray;
 }
 
 main {
@@ -127,7 +96,7 @@ main {
     margin: auto;
     margin-bottom: 0px;
     padding: 40px;
-    background-image: linear-gradient(to top, rgb(6, 6, 95), rgb(24, 117, 24));
+    background-image: linear-gradient(to top, var(--cor2), var(--cor6));
     box-shadow: 1px 1px 15px black;
 }
 
@@ -142,7 +111,7 @@ article {
 }
 
 #BOTAO {
-    background-image: linear-gradient(to left, red, yellow, green, blue);
+    background-image: linear-gradient(to left, var(--cor2), var(--cor5));
     color: white;
     text-align: center;
     font-size: 1em;
@@ -160,7 +129,7 @@ article {
 }
 
 #BOTAO:hover {
-    background-image: linear-gradient(to right, rgb(255, 0, 144), red, yellow, green, blue, black);
+    background-image: linear-gradient(to left, var(--cor6), var(--cor5));
     color: white;
     text-decoration: none;
     font-size: 19px;
@@ -190,11 +159,52 @@ article {
 }
 
 footer {
-    background-image: linear-gradient(to bottom, rgb(151, 4, 82), rgb(224, 16, 82), rgb(87, 5, 202));
+    background-image: linear-gradient(to left, var(--cor5), var(--cor1));
     margin: 0px;
     text-align: center;
     padding: 10px;
     padding-bottom: 50px;
 }
+
+@media screen and (min-width: 768px) {
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+        background-color: var(--cor3);
+        padding: 3px;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    menu > ul > li > a {
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition-duration: 0.2s;
+    }
+
+    main {
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 768px) { 
+    span#burguer {
+        padding: 7px;
+        background-color: var(--cor3);
+    }
+
+    menu > ul > li > a {
+        background-color: var(--cor3);
+        border-top: 3px solid gray;
+    }
+}
+
 
 

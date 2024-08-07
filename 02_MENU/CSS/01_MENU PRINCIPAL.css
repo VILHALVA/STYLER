@@ -22,7 +22,7 @@
 
 * {
     margin: 0px;
-    padding: 0pxf;
+    padding: 0px;
     text-align: center;
 }
 
@@ -64,26 +64,6 @@ header > p {
     margin: auto;
     margin-bottom: 20px;
     text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.689);
-}
-
-nav {
-    background-color: var(--cor3);
-    padding: 10px;
-    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.756);
-}
-
-nav > a {
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition-duration: 0.2s;
-}
-
-nav > a:hover {
-    background-color: var(--cor2);
-    color: red;
 }
 
 main {

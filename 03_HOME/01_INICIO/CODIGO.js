@@ -1,9 +1,19 @@
 function clickMenu() {
-    if (MENU.style.display == 'block') {
-        MENU.style.display = 'none'
+    if (itens.style.display == 'block') {
+        itens.style.display = 'none'
     }
-
+    
     else {
-        MENU.style.display = 'block'
+        itens.style.display = 'block'
     }
-}   
+}
+
+function mudouTamanho() {
+    if (window.innerWidth >= 768) {
+        itens.style.display = 'block' 
+    }
+    
+    else {
+        itens.style.display = 'none'
+    }
+}
