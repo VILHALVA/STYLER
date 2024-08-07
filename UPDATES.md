@@ -1,19 +1,19 @@
 # ATUALIZAÇÕES:
 ## VERSÃO 2.4 - 07/08/2024:
-* ✅Fizemos grandes mundanças na página `HOME`:
-    * 🔸 O nome do arquivo da `HOME` mudou de `STYLER.html` para `index.html`. Assim a URL do site deixou de ser [https://vilhalva.github.io/STYLER/STYLER.html](https://vilhalva.github.io/STYLER/STYLER.html); Passou a ser [https://vilhalva.github.io/STYLER/index.html](https://vilhalva.github.io/STYLER/index.html).
-    * 🔸 Os arquivos de `CSS` e `JS` estão em `./03_HOME/01_INICIO`.
-    * 🔸 Agora o `MENU DE ITENS` usa a tecnologia do `MENU HAMBURGUINHO`: Onde ele se espande ao máximo para telas grandes (Semelhante ao nav do `MENU PRINCIPAL`), e se oculta com telas pequenas.
-    * 🔸 Mudamos as cores de alguns componentes, dando prioridade ao uso de variveis de cores. Agora temos cores diferentes para cada tamanho de tela.
-* ✅Fizemos grandes mundanças nos `MENUS`:
-    * 🔸 O `nav` do `MENU PRINCIPAL` foi apagado.
-    * 🔸 Tanto o `MENU PRINCIPAL` quanto os `SUBMENUS` usam do mesmo css: `MENUS.css`.
-    * 🔸 Usando o recurso do css chamado `Media Queries`: As fontes e as cores dos componentes são diferentes para cada tamanho e tipo de tela (Celular/PC). (A página de `ENTRAR NO SITE` também usa essa mesma tecnologia).
-
-* ✅Foi adicionado o novo metodo de entrada, chamado [CAÇA NIQUEL](https://github.com/penguinuux/maquina-caca-niquel-ui).
-* ✅Agora todos os componentes do site estão organizados em seus respectivos diretórios e subdiretórios, como: `01_ENTRAR`, `02_MENU`, `03_HOME` e `04_SITE`.
-* ✅Agora o sistema de `VALIDAÇÃO DE ENTRADA` suporta o acesso via `file`. (Muito bom para fazer diversos testes no servidor local).
-* ✅Todas as músicas de `MENU DE BOAS MÚSICAS` tem o seu próprio favicon.icon.
+* ✅ **Grandes mudanças na página `HOME`:**
+    * 🔸 O nome do arquivo da `HOME` foi alterado de `STYLER.html` para `index.html`. A URL do site agora é [https://vilhalva.github.io/STYLER/index.html](https://vilhalva.github.io/STYLER/index.html) em vez de [https://vilhalva.github.io/STYLER/STYLER.html](https://vilhalva.github.io/STYLER/STYLER.html).
+    * 🔸 Os arquivos de `CSS` e `JS` foram movidos para `./03_HOME/01_INICIO`.
+    * 🔸 O `MENU DE ITENS` agora utiliza o estilo `MENU HAMBURGUINHO`, que é um menu responsivo com um ícone de "menu" (hambúrguer). Em telas grandes, o menu é exibido de forma expandida e sempre visível, enquanto em telas pequenas ele é oculto e só é revelado quando o ícone de menu é clicado. A visibilidade do menu é ajustada automaticamente com base na largura da tela.
+    * 🔸 Alteramos as cores de alguns componentes, priorizando o uso de variáveis de cor. Com o uso de `Media Queries`, temos cores diferentes para cada tamanho e tipo de tela.
+* ✅ **Mudanças nos `MENUS`e `SUBMENUS`:**
+    * 🔸 O `nav` do `MENU PRINCIPAL` foi removido.
+    * 🔸 Tanto o `MENU PRINCIPAL` quanto os `SUBMENUS` utilizam o mesmo arquivo CSS: `MENUS.css`.
+    * 🔸 Implementamos `Media Queries` para ajustar fontes e cores dos componentes conforme o tamanho e tipo de tela (Celular/PC). 
+* ✅ Adicionamos o novo método de Entrada, o [CAÇA NIQUEL](https://github.com/penguinuux/maquina-caca-niquel-ui).
+* ✅ Todos os componentes do site foram organizados em seus respectivos diretórios e subdiretórios: `01_ENTRAR`, `02_MENU`, `03_HOME` e `04_SITE`.
+* ✅ O sistema de `VALIDAÇÃO DE ENTRADA` agora suporta acesso via `file`, facilitando testes em servidores locais.
+* ✅ Todas as músicas do `MENU DE BOAS MÚSICAS` agora têm seu próprio ícone de favicon.
+* ✅ **Correções de bugs e pequenas melhorias.**
 ---
 
 ## VERSÃO 2.3 - 02/08/2024:
