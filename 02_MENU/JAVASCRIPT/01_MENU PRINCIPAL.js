@@ -6,7 +6,7 @@ window.onload = function () {
     function denyAccess() {
         document.body.style.display = 'none';
         alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSA PÁGINA SEM PASSAR PELA PÁGINA DE VALIDAÇÃO! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
-        window.location.href = '../../STYLER.html';
+        window.location.href = '../../index.html';
     }
 
     if (currentPageProtocol === 'file:') {
