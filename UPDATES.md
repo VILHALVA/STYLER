@@ -8,7 +8,7 @@
 * ✅Fizemos grandes mundanças nos `MENUS`:
     * 🔸 O `nav` do `MENU PRINCIPAL` foi apagado.
     * 🔸 Tanto o `MENU PRINCIPAL` quanto os `SUBMENUS` usam do mesmo css: `MENUS.css`.
-    * 🔸 Mudamos as cores de alguns componentes, agora temos cores diferentes para cada tamanho e tipo de tela.
+    * 🔸 Usando o recurso do css chamado `Media Queries`: As fontes e as cores dos componentes são diferentes para cada tamanho e tipo de tela (Celular/PC).
 
 * ✅Agora todos os componentes do site estão organizados em seus respectivos diretórios e subdiretórios, como: `01_ENTRAR`, `02_MENU`, `03_HOME` e `04_SITE`.
 * ✅Agora o sistema de `VALIDAÇÃO DE ENTRADA` suporta o acesso via `file`. (Muito bom para fazer diversos testes no servidor local).
