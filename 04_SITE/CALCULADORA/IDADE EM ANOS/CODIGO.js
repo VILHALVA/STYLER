@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     const birthYearSelect = document.getElementById('birthYear');
+    const ageTable = document.getElementById('ageTable');
     const ageTableBody = document.getElementById('ageTableBody');
+
     function populateBirthYearOptions() {
         const currentYear = new Date().getFullYear();
         for (let year = 1900; year <= currentYear + 200; year++) {
@@ -14,7 +16,12 @@ document.addEventListener('DOMContentLoaded', function() {
     function calculateAndDisplayAges() {
         const selectedYear = parseInt(birthYearSelect.value);
         const currentYear = new Date().getFullYear();
-        ageTableBody.innerHTML = ''; 
+        ageTableBody.innerHTML = '';
+
+        if (isNaN(selectedYear)) {
+            ageTable.style.display = 'none';
+            return;
+        }
 
         for (let year = selectedYear; year <= currentYear + 200; year++) {
             const age = year - selectedYear;
@@ -25,6 +32,8 @@ document.addEventListener('DOMContentLoaded', function() {
             `;
             ageTableBody.appendChild(row);
         }
+
+        ageTable.style.display = 'table';
     }
 
     birthYearSelect.addEventListener('change', calculateAndDisplayAges);
