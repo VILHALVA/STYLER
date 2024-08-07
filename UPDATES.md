@@ -4,8 +4,12 @@
     * 🔸 O nome do arquivo da `HOME` mudou de `STYLER.html` para `index.html`. Assim a URL do site deixou de ser [https://vilhalva.github.io/STYLER/STYLER.html](https://vilhalva.github.io/STYLER/STYLER.html); Passou a ser [https://vilhalva.github.io/STYLER/index.html](https://vilhalva.github.io/STYLER/index.html).
     * 🔸 Os arquivos de `CSS` e `JS` estão em `./03_HOME/01_INICIO`.
     * 🔸 Agora o `MENU DE ITENS` usa a tecnologia do `MENU HAMBURGUINHO`: Onde ele se espande ao máximo para telas grandes (Semelhante ao nav do `MENU PRINCIPAL`), e se oculta com telas pequenas.
-    * 🔸 Mudamos as cores de alguns componentes, dando prioridade ao uso de variveis de cores.
-* ✅O `nav` do `MENU PRINCIPAL` foi apagado.
+    * 🔸 Mudamos as cores de alguns componentes, dando prioridade ao uso de variveis de cores. Agora temos cores diferentes para cada tamanho de tela.
+* ✅Fizemos grandes mundanças nos `MENUS`:
+    * 🔸 O `nav` do `MENU PRINCIPAL` foi apagado.
+    * 🔸 Tanto o `MENU PRINCIPAL` quanto os `SUBMENUS` usam do mesmo css: `MENUS.css`.
+    * 🔸 Mudamos as cores de alguns componentes, agora temos cores diferentes para cada tamanho e tipo de tela.
+
 * ✅Agora todos os componentes do site estão organizados em seus respectivos diretórios e subdiretórios, como: `01_ENTRAR`, `02_MENU`, `03_HOME` e `04_SITE`.
 * ✅Agora o sistema de `VALIDAÇÃO DE ENTRADA` suporta o acesso via `file`. (Muito bom para fazer diversos testes no servidor local).
 * ✅Todas as músicas de `MENU DE BOAS MÚSICAS` tem o seu próprio favicon.icon.
