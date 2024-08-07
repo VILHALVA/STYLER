@@ -1,13 +1,13 @@
 # STYLER
 👨‍⚖️STYLER É UM SITE QUE RODA NO GITHUB PAGES.
 
-<img src="FOTO_2.3.png" align="center" width="500"> <br>
+<img src="FOTO_2.4.png" align="center" width="500"> <br>
 
 ## DESCRIÇÃO:
 Este site foi meticulosamente criado por um desenvolvedor independente, refletindo suas preferências pessoais, inclusive em relação ao uso expressivo de cores. Como resultado, você pode encontrar um design vibrante e expressivo, proporcionando uma experiência única aos visitantes.
 
 ### CONTEÚDO VARIADO:
-O site é um verdadeiro tesouro digital, oferecendo uma ampla gama de recursos e entretenimento. Desde músicas até jogos, aplicações, calculadoras, canais do YouTube e muito mais, você encontrará uma variedade de conteúdos para explorar e desfrutar.
+O site é um verdadeiro tesouro digital, oferecendo uma ampla gama de recursos e entretenimento. Desde músicas até jogos, aplicações, calculadoras e muito mais, você encontrará uma variedade de conteúdos para explorar e desfrutar.
 
 ### LIBERDADE DE MODIFICAÇÃO:
 Queremos que você saiba que temos total liberdade para adicionar, alterar ou remover qualquer página ou função do site sem aviso prévio. Isso nos permite manter o site dinâmico e adaptado às necessidades e interesses em constante evolução.
