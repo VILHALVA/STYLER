@@ -24,7 +24,7 @@ Este site é hospedado no GitHub Pages, o que proporciona uma maneira convenient
 Agradecemos por explorar nosso site e esperamos que você aproveite a experiência diversificada que preparamos para você!
 
 ## MAIS:
-- [CLIQUE AQUI PARA ENTRAR NO SITE](https://vilhalva.github.io/STYLER/STYLER.html)
+- [CLIQUE AQUI PARA ENTRAR NO SITE](https://vilhalva.github.io/STYLER/index.html)
 - [VEJA OS VIDEOS SOBRE ESSE SITE](https://www.youtube.com/@vilhalva100/search?query=STYLER)
 - [ESSE SITE FOI CRIADO PELO VILHALVA](https://github.com/VILHALVA)
 - [VEJA O HISTÓRICO DE ATUALIZAÇÕES](./UPDATES.md)
