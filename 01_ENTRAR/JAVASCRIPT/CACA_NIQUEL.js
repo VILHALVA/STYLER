@@ -104,8 +104,13 @@ async function changeSlotImg() {
 }
 
 function clicked() {
-    repeat = !repeat;
-    if (!repeat) changeSlotImg();
+    if (repeat) {
+        repeat = false; 
+    } 
+    else {
+        repeat = true; 
+        changeSlotImg();
+    }
 }
 
 const buttonStartStop = document.getElementById('buttonStartStop');
