@@ -26,12 +26,10 @@
 }
 
 body {
-    background-color: var(--cor6);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
@@ -86,17 +84,12 @@ menu > ul > li > a {
     color: white;
 }
 
-menu > ul > li > a:hover {
-    background-color: gray;
-}
-
 main {
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 0px;
     padding: 40px;
-    background-image: linear-gradient(to top, var(--cor2), var(--cor6));
     box-shadow: 1px 1px 15px black;
 }
 
@@ -111,7 +104,6 @@ article {
 }
 
 #BOTAO {
-    background-image: linear-gradient(to left, var(--cor2), var(--cor5));
     color: white;
     text-align: center;
     font-size: 1em;
@@ -129,8 +121,6 @@ article {
 }
 
 #BOTAO:hover {
-    background-image: linear-gradient(to left, var(--cor6), var(--cor5));
-    color: white;
     text-decoration: none;
     font-size: 19px;
 } 
@@ -159,7 +149,6 @@ article {
 }
 
 footer {
-    background-image: linear-gradient(to left, var(--cor5), var(--cor1));
     margin: 0px;
     text-align: center;
     padding: 10px;
@@ -167,6 +156,14 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+    body {
+        background-color: var(--cor6);
+    }
+
+    header {
+        background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    }
+
     span#burguer {
         display: none;
     }
@@ -189,12 +186,37 @@ footer {
         transition-duration: 0.2s;
     }
 
+    menu > ul > li > a:hover {
+        background-color: red;
+    }
+
     main {
         width: 768px;
+        background-image: linear-gradient(to top, var(--cor4), var(--cor7));
+    }
+
+    #BOTAO {
+        background-image: linear-gradient(to left, var(--cor2), var(--cor5));
+    }
+
+    #BOTAO:hover {
+        background-image: linear-gradient(to left, var(--cor1), var(--cor7));
+    }
+
+    footer {
+        background-image: linear-gradient(to left, var(--cor5), var(--cor1));
     }
 }
 
 @media screen and (max-width: 768px) { 
+    body {
+        background-color: var(--cor2);
+    }
+
+    header {
+        background-image: linear-gradient(to bottom, var(--cor3), var(--cor2));
+    }
+
     span#burguer {
         padding: 7px;
         background-color: var(--cor3);
@@ -203,6 +225,26 @@ footer {
     menu > ul > li > a {
         background-color: var(--cor3);
         border-top: 3px solid gray;
+    }
+
+    menu > ul > li > a:hover {
+        background-color: rgb(95, 7, 173);
+    }
+    
+    main {
+        background-image: linear-gradient(to top, var(--cor2), var(--cor6));
+    }
+
+    #BOTAO {
+        background-image: linear-gradient(to left, var(--cor5), var(--cor7));
+    }
+
+    #BOTAO:hover {
+        background-image: linear-gradient(to left, var(--cor2), var(--cor4));
+    }
+
+    footer {
+        background-image: linear-gradient(to left, var(--cor4), var(--cor7));
     }
 }
 
