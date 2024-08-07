@@ -1,34 +1,52 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: "TITULO";
-    src: url(../../02_MENU/FONTES/Olive\ Days.ttf);
+    font-family: "TITULO_1";
+    src: url(../../02_MENU/FONTES/Hurry\ Loves.otf);
 }
 
 @font-face {
-    font-family: "SUBTITULO";
-    src: url(../../02_MENU/FONTES/Sriracha-Regular.ttf);
+    font-family: "TITULO_2";
+    src: url(../../02_MENU/FONTES/idroid.otf);
+}
+
+@font-face {
+    font-family: "SUBTITULO_1";
+    src: url(../../02_MENU/FONTES/Happy\ Holiday.ttf);
+}
+
+@font-face {
+    font-family: "SUBTITULO_2";
+    src: url(../../02_MENU/FONTES/PassionOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "SUBTITULO_3";
+    src: url(../../02_MENU/FONTES/PassionOne-Black.ttf);
+}
+
+@font-face {
+    font-family: "SUBTITULO_4";
+    src: url(../../02_MENU/FONTES/PassionOne-Bold.ttf);
 }
 
 :root {
-    --cor1: #b41047;
-    --cor2: #0e0ca0;
-    --cor3: #208c46;
-    --cor4: #39189d;
-    --cor5: #890989;
-    --cor6: #0db413;
-    --cor7: #933a0a;
-    --cor8: #8a0b5f;
+    --cor1: #ee1414;
+    --cor2: #3417b7;
+    --cor3: #630958;
+    --cor4: #0c81db;
+    --cor5: #1a0328;
+    --cor6: #0ac12b;
+    --cor7: #2a0e8f;
 }
 
 * {
     margin: 0px;
-    padding: 0pxf;
+    padding: 0px;
     text-align: center;
 }
 
 body {
-    background-color: var(--cor6);
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
 }
@@ -38,7 +56,6 @@ body.js-enabled {
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
@@ -46,8 +63,7 @@ header {
 
 header > h1 {
     color: white;
-    font-family: "TITULO";
-    font-size: 2.4em;
+    font-size: 3em;
     margin-bottom: 20px;
     font-weight: normal;
     text-shadow: 4px 3px 2px black;
@@ -55,8 +71,6 @@ header > h1 {
 
 header > p {
     color: white;
-    font-family: "SUBTITULO";
-    font-size: 1.6em;
     color: white;
     max-width: 600px;
     padding-right: 10px;
@@ -70,17 +84,14 @@ main {
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     padding: 40px;
-    background-image: linear-gradient(to top, var(--cor4), var(--cor6));
     box-shadow: 1px 1px 15px black;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
 main > h1 {
-    font-family: Arial, Helvetica, sans-serif;  
-    font-size: 2.7em;
     color: white;
     margin-bottom: 20px;
     font-weight: normal;
@@ -88,7 +99,6 @@ main > h1 {
 }
 
 .BOTAO {
-    background-color: darkred;
     color: white;
     text-align: center;
     font-size: 1em;
@@ -106,6 +116,79 @@ main > h1 {
 }
 
 .BOTAO:hover {
-    background-color: black;
     text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-color: var(--cor6);
+    }
+
+    header {
+        background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    }
+
+    header > h1 {
+        font-family: "TITULO_1";
+        font-size: 2.5em;
+    }
+
+    header > p {
+        font-family: "SUBTITULO_1";
+        font-size: 2em;
+    }
+
+    main {
+        background-image: linear-gradient(to top, var(--cor7), var(--cor3), var(--cor1));
+    }
+
+    main > h1 {
+        font-family: "SUBTITULO_3";
+        font-size: 2.7em;
+    }
+
+    .BOTAO {
+        background-image: linear-gradient(to left, var(--cor4), var(--cor5));
+    }
+
+    .BOTAO:hover {
+        background-image: linear-gradient(to left, var(--cor1), var(--cor7));
+    }
+}
+
+@media screen and (max-width: 768px) { 
+    body {
+        background-color: var(--cor2);
+    }
+
+    header {
+        background-image: linear-gradient(to bottom, var(--cor3), var(--cor2));
+    }
+
+    header > h1 {
+        font-family: "TITULO_2";
+        font-size: 2.5em;
+    }
+
+    header > p {
+        font-family: "SUBTITULO_2";
+        font-size: 1.4em;
+    }
+    
+    main {
+        background-image: linear-gradient(to top, var(--cor2), var(--cor6));
+    }
+
+    main > h1 {
+        font-family: "SUBTITULO_4";
+        font-size: 2em;
+    }
+
+    .BOTAO {
+        background-image: linear-gradient(to left, var(--cor5), var(--cor4));
+    }
+
+    .BOTAO:hover {
+        background-image: linear-gradient(to left, var(--cor2), var(--cor1));
+    }
 }
