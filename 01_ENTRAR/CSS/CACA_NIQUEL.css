@@ -1,0 +1,173 @@
+body, main, div, h1, ul, a {
+    margin: 0;
+    padding: 0 10px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Stint Ultra Condensed', cursive;
+    background-image: url('../IMG_NIQUEL/casino-slot-machine.jpg');
+    background-position: center;
+}
+
+.header {
+    height: 80px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000036;
+}
+
+.header__logo {
+    height: 50px;
+    margin-left: 20px;
+}
+
+.header__title {
+    font-family: 'Ultra', serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+    text-shadow: 0px 0px 20px #fff5ce;
+}
+
+.mainSection {
+    background-color: #00000085;
+}
+
+.machine {
+    text-align: center;
+}
+
+.machine__display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.machine__slot {
+    border: 4px solid #894128;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    width: 110px;
+    margin: 6px 5px;
+}
+
+.machine__slot-icon {
+    width: 80%;
+}
+
+.message {
+    height: 40px;
+    border-radius: 7px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px 0px #fff, 0px 0px 0 2px #fff;
+    border: 5px dotted #e91e63;
+    padding: 5px 0;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.message span {
+    font-size: 1.2rem;
+}
+
+.message span b {
+    color: #e91e63;
+    text-shadow: 0px 0px 17px #ff0000f2;
+}
+
+#countdownContainer {
+    display: none;
+}
+
+.countdown-circle {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;    
+}
+      
+.countdown-text {
+    font-size: 1.2em;
+    color: white;
+    font-weight: bold;
+}
+
+.button {
+    margin: auto;
+    height: 30px;
+    width: 100px;
+    background-color: blue;
+    border: none;
+    font-weight: bolder;
+    border-radius: 30px;
+}
+
+.button:active {
+    box-shadow: 1px 3.5px #e91e63, 2px 2px 20px 6px #ffcb00;
+    transform: translateY(2px);
+}
+
+@media (min-width: 768px) {
+    .header__title {
+        font-size: 2.3rem;
+    }
+
+    .header__logo {
+        height: 70px;
+    }
+    .machine {
+        padding: 15px 0;
+    }
+
+    .machine__display {
+        flex-direction: row;
+    }   
+
+    .machine__slot {
+        height: 30vh;
+        width: 30vw;
+    }
+
+    .machine__slot-icon {
+        max-width: 165px;
+    }
+
+    .message {
+        margin: 25px auto;
+        height: 60px;
+        max-width: 400px;
+        padding: 9px 0;
+    }
+
+    .message span {
+        font-size: 1.8rem;
+    }
+
+    .button {
+        height: 50px;
+        width: 110px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .machine__slot {
+        width: 20vw;
+        height: 50vh;
+        border-width: 5px 13px;
+        margin: 0 20px;
+    }
+}

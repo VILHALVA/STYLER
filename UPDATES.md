@@ -10,6 +10,7 @@
     * 🔸 Tanto o `MENU PRINCIPAL` quanto os `SUBMENUS` usam do mesmo css: `MENUS.css`.
     * 🔸 Usando o recurso do css chamado `Media Queries`: As fontes e as cores dos componentes são diferentes para cada tamanho e tipo de tela (Celular/PC). (A página de `ENTRAR NO SITE` também usa essa mesma tecnologia).
 
+* ✅Foi adicionado o novo metodo de entrada, chamado [CAÇA NIQUEL](https://github.com/penguinuux/maquina-caca-niquel-ui).
 * ✅Agora todos os componentes do site estão organizados em seus respectivos diretórios e subdiretórios, como: `01_ENTRAR`, `02_MENU`, `03_HOME` e `04_SITE`.
 * ✅Agora o sistema de `VALIDAÇÃO DE ENTRADA` suporta o acesso via `file`. (Muito bom para fazer diversos testes no servidor local).
 * ✅Todas as músicas de `MENU DE BOAS MÚSICAS` tem o seu próprio favicon.icon.
