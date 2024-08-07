@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             const texto = `
             #==========🚀SOBRE O SITE:=================
-            🔵SITE: https://vilhalva.github.io/STYLER/STYLER.html
+            🔵SITE: https://vilhalva.github.io/STYLER/index.html
             🔵CRIADOR: SAMUEL MARTINS VILHALVA
             🔵GITHUB: https://github.com/VILHALVA
             🔵CANAL CODERS: https://t.me/CODIGOCN
@@ -36,10 +36,6 @@ document.addEventListener('DOMContentLoaded', function () {
             #===========👥SOBRE O USUÁRIO:================
             🔵NOME: "${nome}"
             🔵EMAIL: "${email}"
-
-            #==========🤑FAÇA UMA DOAÇÃO:==================
-            Contribua para o avanço contínuo deste projeto enviando qualquer valor via PIX para a chave a35d34e8-f02c-4e50-a2de-9315cc000739 (SAMUEL MARTINS VILHALVA). 
-            Sua generosidade nos auxilia a manter e aprimorar este projeto, permitindo o lançamento constante de novas atualizações. Agradecemos imensamente pelo seu apoio!
             `;
 
             const blob = new Blob([texto], { type: 'text/plain' });
