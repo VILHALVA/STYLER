@@ -7,7 +7,7 @@
     * 🔸 Alteramos as cores de alguns componentes, priorizando o uso de variáveis de cor. Com o uso de `Media Queries`, temos cores diferentes para cada tamanho e tipo de tela.
 * ✅ **Mudanças nos `MENUS`e `SUBMENUS`:**
     * 🔸 O `nav` do `MENU PRINCIPAL` foi removido.
-    * 🔸 Tanto o `MENU PRINCIPAL` quanto os `SUBMENUS` utilizam o mesmo arquivo CSS: `MENUS.css`.
+    * 🔸 Tanto o `MENU PRINCIPAL` quanto os `SUBMENUS` utilizam os mesmos arquivos CSS.
     * 🔸 Implementamos `Media Queries` para ajustar fontes e cores dos componentes conforme o tamanho e tipo de tela (Celular/PC).
 * ✅ **Novos Temas: Claro e Escuro:**  
   - **Adicionamos a funcionalidade de troca de tema**: Agora é possível alternar entre o tema `CLARO` e o tema `ESCURO` nas seguintes páginas:
