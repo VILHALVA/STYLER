@@ -88,12 +88,12 @@ header {
 
 #mode_icon {
     font-size: 30px; 
-    padding: 10px; 
-    border: 2px solid #ccc; 
-    border-radius: 50%; 
-    transition: background-color 0.3s, border-color 0.3s, color 0.3s; 
-    position: absolute; 
-    right: 10px; 
+    color: white;    
+    padding: 10px;   
+    border: 2px solid white;  
+    border-radius: 50%;  
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; 
+    cursor: pointer;  
 }
 
 #mode_icon:hover {
