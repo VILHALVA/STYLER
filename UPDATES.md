@@ -1,8 +1,9 @@
 # ATUALIZAÇÕES:
 ## VERSÃO 2.5 - 08/08/2024:
-* ✅ Agora o botão de `BONS JOGOS` fica oculto para telas pequenas e visivel para telas grandes (Para contornar isso, basta ativar no seu navegador: `Abrir como computador`).
-* ✅ Todos os `SUBENUS` usam icone `CSS` com favicon, e os demais projetos (Que não tem uma favicon definida), usam um icone padrão com base no tema.
-* ✅ Foi adicionado funcionalidade de troca de tema `CLARO` e o tema `ESCURO` na página `INCIAL` (Botão flutuante).
+* ✅ O botão `BONS JOGOS`, do `MENU PRINCIPAL`, agora fica oculto em telas pequenas e visível em telas grandes. Para exibi-lo em dispositivos móveis, basta ativar a opção `Abrir como computador` no navegador.
+* ✅ Todos os `SUBMENUS` agora utilizam ícones `CSS` com favicon. Para os demais projetos que não possuem um favicon definido, é usado um ícone padrão baseado no tema.
+* ✅ Foi implementada a funcionalidade de alternância entre os temas `CLARO` e `ESCURO` na página `INICIAL` através de um botão flutuante. Para suportar essa funcionalidade, foi necessário criar um novo `index.html` na raiz do repositório. Esse arquivo exibe um `spinner` de carregamento antes de redirecionar para a página inicial localizada em `./03_HOME/01_INICIO/index.html`.
+* ✅ O design do `spinner` de `VALIDAÇÃO` foi aprimorado: agora ele está maior, com novas cores e efeitos visuais adicionais.
 ---
 
 ## VERSÃO 2.4 - 07/08/2024:
