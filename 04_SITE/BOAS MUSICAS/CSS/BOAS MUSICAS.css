@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+:root {
+    --cor1: #c1057c;
+    --cor2: #b0061c;
+    --cor3: #8b9494;
+    --cor4: #044b8d;
+    --cor5: #06065f;
+    --cor6: #187514;
+    --cor7: #ff6f61;
+    --cor8: rgba(0, 0, 0, 0.6); 
+}
+
 body {
     background-color: #2c2c2c; 
     color: #fff; 
@@ -8,7 +19,7 @@ body {
 }
 
 header {
-    background: linear-gradient(to bottom, #a6076c, rgb(194, 9, 33), #8b9494), #044b8d);
+    background: linear-gradient(to bottom, var(--cor1), var(--cor2), var(--cor3)), var(--cor4);
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
@@ -36,12 +47,12 @@ main {
     margin: auto;
     margin-bottom: 20px; 
     padding: 40px;
-    background: linear-gradient(to bottom, #06065f, #187514); 
+    background: linear-gradient(to bottom, var(--cor5), var(--cor6)); 
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
 }
 
 main > h1 {
-    background-color: #ff6f61; 
+    background-color: var(--cor7); 
     color: #fff;
     text-align: center;
     font-size: 2.5em;
@@ -54,7 +65,7 @@ div {
     font-size: 1em;
     color: #fff;
     font-weight: bold;
-    background-color: rgba(0, 0, 0, 0.6); 
+    background-color: var(--cor8); 
     padding: 20px;
     border-radius: 20px;
 }
