@@ -165,6 +165,10 @@ footer {
         background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
     }
 
+    .pc {
+        display: none;
+    }
+
     span#burguer {
         display: none;
     }
@@ -217,6 +221,10 @@ footer {
 
     header {
         background-image: linear-gradient(to bottom, var(--cor3), var(--cor2));
+    }
+
+    #pc {
+        display: block;
     }
 
     span#burguer {
