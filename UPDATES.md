@@ -1,6 +1,7 @@
 # ATUALIZAÇÕES:
 ## VERSÃO 2.5 - 08/08/2024:
 * ✅ Agora o botão de `BONS JOGOS` fica oculto para telas pequenas e visivel para telas grandes (Para contornar isso, basta ativar no seu navegador: `Abrir como computador`).
+* ✅ Todos os `SUBENUS` usam icone `CSS` com favicon, e os demais projetos (Que não tem uma favicon definida), usam um icone padrão com base no tema.
 
 ---
 ## VERSÃO 2.4 - 07/08/2024:
