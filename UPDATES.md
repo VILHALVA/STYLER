@@ -2,8 +2,9 @@
 ## VERSÃO 2.5 - 08/08/2024:
 * ✅ Agora o botão de `BONS JOGOS` fica oculto para telas pequenas e visivel para telas grandes (Para contornar isso, basta ativar no seu navegador: `Abrir como computador`).
 * ✅ Todos os `SUBENUS` usam icone `CSS` com favicon, e os demais projetos (Que não tem uma favicon definida), usam um icone padrão com base no tema.
-
+* ✅ Foi adicionado funcionalidade de troca de tema `CLARO` e o tema `ESCURO` na página `INCIAL` (Botão flutuante).
 ---
+
 ## VERSÃO 2.4 - 07/08/2024:
 * ✅ **Grandes mudanças na página `HOME`:**
     * 🔸 O nome do arquivo da `HOME` foi alterado de `STYLER.html` para `index.html`. A URL do site agora é [https://vilhalva.github.io/STYLER/index.html](https://vilhalva.github.io/STYLER/index.html) em vez de [https://vilhalva.github.io/STYLER/STYLER.html](https://vilhalva.github.io/STYLER/STYLER.html).
