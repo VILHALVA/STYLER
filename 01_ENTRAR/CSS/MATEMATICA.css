@@ -15,6 +15,14 @@
     padding: 0px;
 }
 
+:root {
+    --cor1: #8b0b4b;
+    --cor2: #7714b1;
+    --cor3: rgba(0, 0, 0, 0.803);
+    --cor4: blue;
+    --cor5: red;
+}
+
 body {
     background-image: url(../MIDIAS/MATEMATICA.jpg);
     background-repeat: no-repeat;
@@ -26,7 +34,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to left, #8b0b4b, #7714b1);
+    background-image: linear-gradient(to left, var(--cor1), var(--cor2));
     width: 100%;
     text-align: center;
     padding-top: 40px;
@@ -56,7 +64,7 @@ header > p {
 }
 
 main {
-    background-color: rgba(0, 0, 0, 0.803);
+    background-color: var(--cor3);
     border: 5px solid black;
     border-radius: 30px;
     margin: 10px;
@@ -83,7 +91,7 @@ input {
     margin: 10px auto;
     text-align: center;
     font-weight: bolder;
-    background-color: blue;
+    background-color: var(--cor4);
     color: white;
     padding: 8px 16px;
     border: none;
@@ -91,7 +99,7 @@ input {
 }
 
 .BOTAO:hover {
-    background-color: red;
+    background-color: var(--cor5);
 }
 
 #countdownContainer {
@@ -101,7 +109,7 @@ input {
 .countdown-circle {
     width: 50px;
     height: 50px;
-    background-color: red;
+    background-color: var(--cor5);
     border-radius: 50%;
     display: flex;
     justify-content: center;

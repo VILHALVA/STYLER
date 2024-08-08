@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: "SUBTITULO";
-    src: url(../../02_MENU/FONTES/Sriracha-Regular.ttf);
+    src: url(../../02_MENU/FONTES/BebasNeue-Regular.ttf);
 }
 
 * {
@@ -15,8 +15,16 @@
     padding: 0px;
 }
 
+:root {
+    --cor1: #8b0b0f;
+    --cor2: #04ce36;
+    --cor3: rgba(0, 0, 0, 0.803);
+    --cor4: blue;
+    --cor5: red;
+}
+
 body {
-    background-image: url(../MIDIAS/TORRE.jpg);
+    background-image: url(../MIDIAS/MATEMATICA.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -26,7 +34,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to left, #8b0b4b, #7714b1);
+    background-image: linear-gradient(to left, var(--cor1), var(--cor2));
     width: 100%;
     text-align: center;
     padding-top: 40px;
@@ -46,7 +54,7 @@ header > h1 {
 header > p {
     color: white;
     font-family: "SUBTITULO";
-    font-size: 1em;
+    font-size: 1.4em;
     font-weight: bold;
     padding-right: 10px;
     padding-left: 10px;
@@ -56,7 +64,7 @@ header > p {
 }
 
 main {
-    background-color: rgba(0, 0, 0, 0.803);
+    background-color: var(--cor3);
     border: 5px solid black;
     border-radius: 30px;
     margin: 10px;
@@ -64,33 +72,32 @@ main {
 
 main > div {
     font-weight: bolder;
+    font-size: 1.2em;
     color: white;
     text-align: center;
     margin: 10px;
 }
 
-select {
-    border-radius: 25px;
-    padding-left: 10px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    font-weight: bold;
+#numero {
+    font-size: 1em;
+    border-radius: 20px;
 }
 
 .BOTAO {
     border-radius: 30px;
     display: block;
-    margin: auto;
-    text-align: justify;
-    margin-bottom: 10px;
+    margin: 10px auto;
+    text-align: center;
     font-weight: bolder;
-    background-color: blue;
+    background-color: var(--cor4);
     color: white;
-    padding: 8px;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
 }
 
 .BOTAO:hover {
-    background-color: red;
+    background-color: var(--cor5);
 }
 
 #countdownContainer {
@@ -100,7 +107,7 @@ select {
 .countdown-circle {
     width: 50px;
     height: 50px;
-    background-color: red;
+    background-color: var(--cor5);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -116,7 +123,7 @@ select {
 
 #res {
     color: white;
-    padding: 6px;
-    margin: 5px;
+    padding: 10px;
+    margin: 8px;
     border-radius: 20px;
 }
