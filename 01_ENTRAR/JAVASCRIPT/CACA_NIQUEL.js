@@ -36,6 +36,8 @@ async function changeSlotImg() {
     let random2 = 0;
     let random3 = 0;
 
+    jogar.style.backgroundColor = 'red'; 
+
     interval = setInterval(() => {
         console.log('iniciou setInterval');
         const userMessage = document.getElementById('userMessage');
@@ -61,6 +63,8 @@ function stopSlotImg() {
 
     const userMessage = document.getElementById('userMessage');
     
+    jogar.style.backgroundColor = 'blue'; 
+
     if (random1 === '1' && random2 === '1' && random3 === '1') {
         const span = document.createElement('span');
         span.innerHTML = '<b>7 7 7!</b> Você será direcionado para o site!';
