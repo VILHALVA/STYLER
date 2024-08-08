@@ -16,13 +16,13 @@
 }
 
 :root {
-    --cor1: #ee1414;
-    --cor2: #3417b7;
-    --cor3: #630958;
-    --cor4: #0569b6;
-    --cor5: #1a0328;
-    --cor6: #04871c;
-    --cor7: #2a0e8f;
+    --cor1: #7c0707;
+    --cor2: #150758;
+    --cor3: #400539;
+    --cor4: #042c4b;
+    --cor5: #1c022c;
+    --cor6: #04290b;
+    --cor7: #16084b;
 }
 
 body {
@@ -153,6 +153,24 @@ footer {
     text-align: center;
     padding: 10px;
     padding-bottom: 50px;
+}
+
+#mode_icon {
+    position: fixed; 
+    bottom: 20px;   
+    right: 20px;     
+    font-size: 24px; 
+    background-color: #fff;
+    border-radius: 50%; 
+    padding: 10px;   
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+#mode_icon:hover {
+    background-color: #f0f0f0; 
+    transform: scale(1.1); 
 }
 
 /* TELAS GRANDES - COMPUTADORES E TVS: */
