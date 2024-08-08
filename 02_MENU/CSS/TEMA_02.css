@@ -179,6 +179,10 @@ main > h1 {
         font-size: 2.7em;
     }
 
+    #pc {
+        display: block;
+    }
+
     .BOTAO {
         background-image: linear-gradient(to left, var(--cor4), var(--cor5));
     }
@@ -215,6 +219,10 @@ main > h1 {
     main > h1 {
         font-family: "SUBTITULO_4";
         font-size: 2em;
+    }
+
+    #pc {
+        display: none;
     }
 
     .BOTAO {

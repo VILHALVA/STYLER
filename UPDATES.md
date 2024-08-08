@@ -1,4 +1,8 @@
 # ATUALIZAÇÕES:
+## VERSÃO 2.5 - 08/08/2024:
+* ✅ Agora o botão de `BONS JOGOS` fica oculto para telas pequenas e visivel para telas grandes (Para contornar isso, basta ativar no seu navegador: `Abrir como computador`).
+
+---
 ## VERSÃO 2.4 - 07/08/2024:
 * ✅ **Grandes mudanças na página `HOME`:**
     * 🔸 O nome do arquivo da `HOME` foi alterado de `STYLER.html` para `index.html`. A URL do site agora é [https://vilhalva.github.io/STYLER/index.html](https://vilhalva.github.io/STYLER/index.html) em vez de [https://vilhalva.github.io/STYLER/STYLER.html](https://vilhalva.github.io/STYLER/STYLER.html).
