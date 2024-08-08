@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    margin: 20px;		
+}
+
+canvas {
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+
+footer {
+    font-size: 20px;
+    background-color: gray;
+    padding: 10px;
+    position: absolute;
+    min-height: 80px;
+    min-width: 800px;
+}
+
+.meio {
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+
+.hover:hover {
+    color: #FFF;
+}

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  font-family: Lato;
+  margin: 0;
+}
+
+h1 {
+    color: #000;
+    text-shadow:
+    -1px -1px 0 #fff, /* Sombra superior esquerda */
+    1px -1px 0 #fff,  /* Sombra superior direita */
+    -1px 1px 0 #fff,  /* Sombra inferior esquerda */
+    1px 1px 0 #fff;   /* Sombra inferior direita */
+    text-align: center;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+body {
+    background-image: url('../assets/back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+
+#area-de-jogo {
+  display: flex;
+  margin-top: 20px;
+  width: 80%;
+  height: auto;
+}
+
+
+
+#baralho {
+  width: 120px;
+}
+
+#cartas-jogador {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  z-index: 1;
+}
+
+.carta {
+  width: 50px;
+  height: 70px;
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+  overflow: hidden;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.img {
+  width: 100%;
+  height: 80vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#video-perdeu {
+  display: none;
+}
+
+#btn-comprar, #btn-parar {
+	box-shadow: 0px 1px 0px 0px #9acc85;
+	background:linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+	background-color:#74ad5a;
+	border-radius:12px;
+	border:2px solid #3b6e22;
+    cursor:pointer;
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	padding:10px;
+	text-decoration:none;
+    height: 1.5rem;
+    text-align: center;
+    
+}
+
+#btn-comprar {
+    margin-right: 10px;
+}
+
+#btn-comprar:hover {
+	background:linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+	background-color:#68a54b;
+}
+
+#btn-parar:hover {
+	background:linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+	background-color:#68a54b;
+}
+#btn-comprar, #btn-parar:active {
+	position:relative;
+	top:1px;    
+}
+
+#baralho {
+    display: flex;
+
+
+}

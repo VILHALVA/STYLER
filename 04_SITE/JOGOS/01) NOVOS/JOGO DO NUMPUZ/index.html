@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./img/icon/9023735_number_square_one_fill_icon.png" sizes="32x32">
+    <link rel="icon" href="./img/icon/9023735_number_square_one_fill_icon.png" sizes="57x57">
+    <link rel="icon" href="./img/icon/9023735_number_square_one_fill_icon.png" sizes="76x76">
+    <link rel="icon" href="./img/icon/9023735_number_square_one_fill_icon.png" sizes="96x96">
+    <link rel="icon" href="./img/icon/9023735_number_square_one_fill_icon.png" sizes="128x128">
+    <link rel="icon" href="./img/icon/9023735_number_square_one_fill_icon.png" sizes="192x192">
+    <link rel="icon" href="./img/icon/9023735_number_square_one_fill_icon.png" sizes="228x228">
+    <link rel="shortcut icon" href="./img/icon/9023735_number_square_one_fill_icon.png" sizes="196x196">
+    <link rel="apple-touch-icon" href="./img/icon/9023735_number_square_one_fill_icon.png" sizes="120x120">
+    <link rel="apple-touch-icon" href="./img/icon/9023735_number_square_one_fill_icon.png" sizes="152x152">
+    <link rel="apple-touch-icon" href="./img/icon/9023735_number_square_one_fill_icon.png" sizes="180x180">
+    <meta name="msapplication-TileColor" content="#4682b4">
+    <meta name="msapplication-TileImage" content="./img/icon/9023735_number_square_one_fill_icon.png">
+    <meta name="msapplication-config" content="./img/icon/browserconfig.xml" />
+
+    <title>Numpuz</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./js/lib.js" defer></script>
+    <script src="./js/hammer.min.js" defer></script>
+    <script src="./js/NPuzzleSolver.js" defer></script>
+    <script src="./js/Game.js" defer></script>
+    <script src="./js/Cell.js" defer></script>
+    <script src="./js/index.js" defer></script>
+</head>
+
+<body>
+
+    <div class="back-button">
+        <a href=""><img src="./img/3643736_back_backward_left_mark_sign_icon.png" alt=""></a>
+    </div>
+
+    <div class="container">
+        <h1>Numpuz</h1>
+        <div class="controls">
+            <div class="controls__main">
+                <button id="instructions" title="Instructions">Guides</button>
+                <button id="leaderboard" title="Leaderboard">Leaderboard</button>
+            </div>
+            <div class="controls__game none">
+                <button id="level" title="Levels list">Levels</button>
+                <button id="save" title="Save cells position">Save</button>
+                <button id="load" disabled title="Load saved cells position">Load</button>
+                <button id="solve" disabled title="Can not solve for now">Solve</button>
+            </div>
+        </div>
+        <div class="board">
+        </div>
+        <div class="game-stats hidden">
+            <div class="game-stats__moves">
+                Moves:
+                <span class="game-stats__moves--value">0</span>
+            </div>
+            <div class="game-stats__local">
+                <span class="game-stats__local--level">3x3</span> | Your best result: <span
+                    class="game-stats__local--value">-</span>
+            </div>
+            <div class="game-stats__global">
+                Global best result:
+                <span class="game-stats__global--value loading"></span> by <span
+                    class="game-stats__global--name loading"></span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="instructions popup hidden">
+        <div class="close"></div>
+        <h2>Guides</h2>
+        <p>Move the tiles in ascending order in the grid. The tile in the lower
+            right
+            corner should remain "empty". To move a tile you can click on it, use your arrow keys or swipe on mobile
+            screen.
+            The resulting order should be like:</p>
+        <div><img src="./img/guide.png" alt="15 Puzzle Game"></div>
+    </div>
+    <div class="leaderboard popup hidden">
+        <div class="close"></div>
+        <h2>Leaderboard</h2>
+    </div>
+    <div class="popupSolve"></div>
+</body>
+
+</html>
