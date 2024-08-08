@@ -12,6 +12,17 @@ function sleep(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+function entrar(message) {
+    jogar.style.display = "none";
+    const userMessage = document.getElementById('userMessage');
+    userMessage.innerHTML = ''; 
+    userMessage.appendChild(message);
+    (async () => {
+        await sleep(3000);
+        window.location.href = '../HTML/ZZZ.html';
+    })();
+}
+
 function iniciarContagemRegressiva() {
     var countdownContainer = document.getElementById("countdownContainer");
     var countdownText = document.getElementById("countdownText");
@@ -68,42 +79,22 @@ function stopSlotImg() {
     if (random1 === '1' && random2 === '1' && random3 === '1') {
         const span = document.createElement('span');
         span.innerHTML = '<b>7 7 7!</b> Você será direcionado para o site!';
-        jogar.style.display = "none";
-        userMessage.appendChild(span);
-        (async () => {
-            await sleep(3000);
-            window.location.href = '../HTML/ZZZ.html';
-        })();
+        entrar(span);       
     } 
     else if (random1 === '8' && random2 === '8' && random3 === '8') {
         const span = document.createElement('span');
         span.innerHTML = '<b>JackPot!</b> Você será direcionado para o site!';
-        jogar.style.display = "none";
-        userMessage.appendChild(span);
-        (async () => {
-            await sleep(3000);
-            window.location.href = '../HTML/ZZZ.html';
-        })();
+        entrar(span);
     } 
     else if (random1 === random2 && random2 === random3) { 
         const span = document.createElement('span');
         span.innerHTML = '<b>TRIPLE!</b> Você será direcionado para o site!';
-        jogar.style.display = "none";
-        userMessage.appendChild(span);
-        (async () => {
-            await sleep(3000);
-            window.location.href = '../HTML/ZZZ.html';
-        })();
+        entrar(span);
     } 
     else if (random1 === random2 || random1 === random3 || random2 === random3) {
         const span = document.createElement('span');
         span.innerHTML = '<b>DOUBLE!</b> Você será direcionado para o site!';
-        jogar.style.display = "none";
-        userMessage.appendChild(span);
-        (async () => {
-            await sleep(3000);
-            window.location.href = '../HTML/ZZZ.html';
-        })();
+        entrar(span);
     } 
     else {
         const span = document.createElement('span');
