@@ -15,8 +15,15 @@
     padding: 0px;
 }
 
+:root {
+    --cor1: red;
+    --cor2: blue;
+    --cor3: #117805;
+    --cor4: #0b458d;
+}
+
 body {
-    background-image: linear-gradient(to top, red, blue);
+    background-image: linear-gradient(to top, var(--cor1), var(--cor2));
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -26,7 +33,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to left, #117805, #0b458d);
+    background-image: linear-gradient(to left, var(--cor3), var(--cor4));
     width: 100%;
     text-align: center;
     padding-top: 40px;
@@ -73,12 +80,12 @@ main {
     margin-top: 5px;
     margin-bottom: 4px;
     font-weight: bolder;
-    background-color: blue;
+    background-color: var(--cor2);
     color: white;
     padding: 8px 20px 8px 20px;
     text-decoration: none;
 }
 
 .BOTAO:hover {
-    background-color: red;
+    background-color: var(--cor1);
 }
