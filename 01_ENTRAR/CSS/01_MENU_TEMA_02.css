@@ -1,3 +1,5 @@
+/* TEMA ESCURO - PERSONALISADO: */
+
 @charset "UTF-8";
 
 @font-face {
@@ -31,13 +33,13 @@
 }
 
 :root {
-    --cor1: #ee1414;
-    --cor2: #3417b7;
-    --cor3: #630958;
-    --cor4: #0c81db;
-    --cor5: #1a0328;
-    --cor6: #0ac12b;
-    --cor7: #2a0e8f;
+    --cor1: #190606;
+    --cor2: #0c0628;
+    --cor3: #31052c;
+    --cor4: #03223e;
+    --cor5: #1f0230;
+    --cor6: #0d2110;
+    --cor7: #1d0572;
 }
 
 * {
@@ -56,21 +58,49 @@ body.js-enabled {
 }
 
 header {
-    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    padding-top: 40px;
+    padding: 20px;
 }
 
-header > h1 {
+#header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    max-width: 1200px;
+    padding: 10px;
+    position: relative; 
+}
+
+#header-content h1 {
+    text-align: center;
     color: white;
-    font-size: 3em;
     margin-bottom: 20px;
+    margin-right: 10px;
     font-weight: normal;
     text-shadow: 4px 3px 2px black;
+    flex: 1; 
+}
+
+#mode_icon {
+    font-size: 30px; 
+    padding: 10px; 
+    border: 2px solid #ccc; 
+    border-radius: 50%; 
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s; 
+    position: absolute; 
+    right: 10px; 
+}
+
+#mode_icon:hover {
+    border-color: var(--cor5); 
+    cursor: pointer; 
 }
 
 header > p {
-    color: white;
     color: white;
     max-width: 600px;
     padding-right: 10px;
@@ -119,6 +149,7 @@ main > h1 {
     text-decoration: none;
 }
 
+/* TELAS GRANDES - COMPUTADORES E TVS: */
 @media screen and (min-width: 768px) {
     body {
         background-color: var(--cor6);
@@ -128,12 +159,12 @@ main > h1 {
         background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
     }
 
-    header > h1 {
+    header h1 {
         font-family: "TITULO_1";
         font-size: 2.5em;
     }
 
-    header > p {
+    header p {
         font-family: "SUBTITULO_1";
         font-size: 2em;
     }
@@ -156,6 +187,7 @@ main > h1 {
     }
 }
 
+/* TELAS PEQUENAS - TABLETES E CELULARES: */
 @media screen and (max-width: 768px) { 
     body {
         background-color: var(--cor2);
@@ -165,12 +197,12 @@ main > h1 {
         background-image: linear-gradient(to bottom, var(--cor3), var(--cor2));
     }
 
-    header > h1 {
+    header h1 {
         font-family: "TITULO_2";
-        font-size: 2.5em;
+        font-size: 1.8em;
     }
 
-    header > p {
+    header p {
         font-family: "SUBTITULO_2";
         font-size: 1.4em;
     }

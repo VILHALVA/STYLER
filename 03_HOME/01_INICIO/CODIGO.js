@@ -17,3 +17,4 @@ function mudouTamanho() {
         itens.style.display = 'none'
     }
 }
+
