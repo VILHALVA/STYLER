@@ -2,7 +2,7 @@ const slot1 = document.getElementById('slot1');
 const slot2 = document.getElementById('slot2');
 const slot3 = document.getElementById('slot3');
 const jogar = document.getElementById("buttonStartStop");
-let repeat = true;
+let interval; 
 
 function randomNumberGen() {
     return Math.floor(Math.random() * (8 + 1) + 1);
@@ -12,7 +12,7 @@ function sleep(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-function iniciarContagemRegressiva(buttonStartStop) {
+function iniciarContagemRegressiva() {
     var countdownContainer = document.getElementById("countdownContainer");
     var countdownText = document.getElementById("countdownText");
     var countdown = 30;
@@ -36,7 +36,7 @@ async function changeSlotImg() {
     let random2 = 0;
     let random3 = 0;
 
-    let interval = setInterval(() => {
+    interval = setInterval(() => {
         console.log('iniciou setInterval');
         const userMessage = document.getElementById('userMessage');
         random1 = randomNumberGen();
@@ -49,67 +49,74 @@ async function changeSlotImg() {
 
         userMessage.innerText = '';
         console.log({repeat});
-        if (!repeat) {
-            clearInterval(interval);
-
-            if (random1 === 1 && random2 === 1 && random3 === 1) {
-                const span = document.createElement('span');
-                span.innerHTML = '<b>7 7 7!</b> Você será direcionado para o site!';
-                jogar.style.display = "none";
-                userMessage.appendChild(span);
-                (async () => {
-                    await sleep(3000);
-                    window.location.href = '../HTML/ZZZ.html';
-                })();
-            } 
-            else if (random1 === 8 && random2 === 8 && random3 === 8) {
-                const span = document.createElement('span');
-                span.innerHTML = '<b>JackPot!</b> Você será direcionado para o site!';
-                jogar.style.display = "none";
-                userMessage.appendChild(span);
-                (async () => {
-                    await sleep(3000);
-                    window.location.href = '../HTML/ZZZ.html';
-                })();
-            } 
-            else if (random1 === random2 && random2 === random3) { 
-                const span = document.createElement('span');
-                span.innerHTML = '<b>TRIPLE!</b> Você será direcionado para o site!';
-                jogar.style.display = "none";
-                userMessage.appendChild(span);
-                (async () => {
-                    await sleep(3000);
-                    window.location.href = '../HTML/ZZZ.html';
-                })();
-            } 
-            else if (random1 === random2 || random1 === random3 || random2 === random3) {
-                const span = document.createElement('span');
-                span.innerHTML = '<b>DOUBLE!</b> Você será direcionado para o site!';
-                jogar.style.display = "none";
-                userMessage.appendChild(span);
-                (async () => {
-                    await sleep(3000);
-                    window.location.href = '../HTML/ZZZ.html';
-                })();
-            } 
-            else {
-                const span = document.createElement('span');
-                span.innerHTML = 'Você perdeu! Clique no Botão Novamente!';
-                jogar.style.display = "none";
-                iniciarContagemRegressiva();
-                userMessage.appendChild(span);
-            }
-        }
     }, 200);
 }
 
-function clicked() {
-    if (repeat) {
-        repeat = false; 
+function stopSlotImg() {
+    clearInterval(interval);
+    
+    const random1 = slot1.src.split('/').pop().split('.').shift();
+    const random2 = slot2.src.split('/').pop().split('.').shift();
+    const random3 = slot3.src.split('/').pop().split('.').shift();
+
+    const userMessage = document.getElementById('userMessage');
+    
+    if (random1 === '1' && random2 === '1' && random3 === '1') {
+        const span = document.createElement('span');
+        span.innerHTML = '<b>7 7 7!</b> Você será direcionado para o site!';
+        jogar.style.display = "none";
+        userMessage.appendChild(span);
+        (async () => {
+            await sleep(3000);
+            window.location.href = '../HTML/ZZZ.html';
+        })();
+    } 
+    else if (random1 === '8' && random2 === '8' && random3 === '8') {
+        const span = document.createElement('span');
+        span.innerHTML = '<b>JackPot!</b> Você será direcionado para o site!';
+        jogar.style.display = "none";
+        userMessage.appendChild(span);
+        (async () => {
+            await sleep(3000);
+            window.location.href = '../HTML/ZZZ.html';
+        })();
+    } 
+    else if (random1 === random2 && random2 === random3) { 
+        const span = document.createElement('span');
+        span.innerHTML = '<b>TRIPLE!</b> Você será direcionado para o site!';
+        jogar.style.display = "none";
+        userMessage.appendChild(span);
+        (async () => {
+            await sleep(3000);
+            window.location.href = '../HTML/ZZZ.html';
+        })();
+    } 
+    else if (random1 === random2 || random1 === random3 || random2 === random3) {
+        const span = document.createElement('span');
+        span.innerHTML = '<b>DOUBLE!</b> Você será direcionado para o site!';
+        jogar.style.display = "none";
+        userMessage.appendChild(span);
+        (async () => {
+            await sleep(3000);
+            window.location.href = '../HTML/ZZZ.html';
+        })();
     } 
     else {
-        repeat = true; 
+        const span = document.createElement('span');
+        span.innerHTML = 'Você perdeu! Clique no Botão Novamente!';
+        jogar.style.display = "none";
+        iniciarContagemRegressiva();
+        userMessage.appendChild(span);
+    }
+}
+
+function clicked() {
+    if (!interval) {
         changeSlotImg();
+    } 
+    else {
+        stopSlotImg();
+        interval = null;
     }
 }
 
