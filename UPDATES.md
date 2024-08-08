@@ -8,7 +8,13 @@
 * ✅ **Mudanças nos `MENUS`e `SUBMENUS`:**
     * 🔸 O `nav` do `MENU PRINCIPAL` foi removido.
     * 🔸 Tanto o `MENU PRINCIPAL` quanto os `SUBMENUS` utilizam o mesmo arquivo CSS: `MENUS.css`.
-    * 🔸 Implementamos `Media Queries` para ajustar fontes e cores dos componentes conforme o tamanho e tipo de tela (Celular/PC). 
+    * 🔸 Implementamos `Media Queries` para ajustar fontes e cores dos componentes conforme o tamanho e tipo de tela (Celular/PC).
+* ✅ **Novos Temas: Claro e Escuro**  
+  - **Adicionamos a funcionalidade de troca de tema**: Agora é possível alternar entre o tema `CLARO` e o tema `ESCURO` nas seguintes páginas:
+    * 🔸 **ENTRAR NO SITE**
+    * 🔸 **MENU PRINCIPAL**
+    * 🔸 **SUBMENUS**
+  - **CSS individual para cada tema**: Desenvolvi folhas de estilo (`CSS`) dedicadas para cada tema, incluindo suporte a `Media Queries`. Isso permite uma personalização eficaz e adaptativa, com a possibilidade de expandir para até 4 temas diferentes para todos os tamanhos de tela.
 * ✅ Adicionamos o novo método de Entrada, o [CAÇA NIQUEL](https://github.com/penguinuux/maquina-caca-niquel-ui).
 * ✅ Todos os componentes do site foram organizados em seus respectivos diretórios e subdiretórios: `01_ENTRAR`, `02_MENU`, `03_HOME` e `04_SITE`.
 * ✅ O sistema de `VALIDAÇÃO DE ENTRADA` agora suporta acesso via `file`, facilitando testes em servidores locais.
