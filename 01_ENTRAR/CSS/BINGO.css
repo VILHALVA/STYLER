@@ -15,6 +15,14 @@
     padding: 0px;
 }
 
+:root {
+    --cor1: #8b0b4b;
+    --cor2: #7714b1;
+    --cor3: green;
+    --cor4: red;
+    --cor5: blue;
+}
+
 body {
     background-image: url(../MIDIAS/BINGO.jpg);
     background-repeat: no-repeat;
@@ -26,7 +34,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to left, #8b0b4b, #7714b1);
+    background-image: linear-gradient(to left, var(--cor1), var(--cor2));
     width: 100%;
     text-align: center;
     padding-top: 40px;
@@ -84,7 +92,7 @@ input {
     margin: 10px auto;
     text-align: center;
     font-weight: bolder;
-    background-color: green;
+    background-color: var(--cor3);
     color: white;
     padding: 8px 16px;
     border: none;
@@ -92,7 +100,7 @@ input {
 }
 
 .BOTAO:hover {
-    background-color: red;
+    background-color: var(--cor4);
 }
 
 .bingoCard {
@@ -106,7 +114,7 @@ input {
 .bingoCell {
     width: 50px;
     height: 50px;
-    background-color: #140ddc;
+    background-color: var(--cor5);
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -116,12 +124,12 @@ input {
 }
 
 .bingoCell.marked {
-    background-color: red;
+    background-color: var(--cor4);
     color: white;
 }
 
 #numeroSorteado {
-    background-color: #7714b1;
+    background-color: var(--cor2);
     padding: 10px;
     margin: 4px;
     border-radius: 20px;
@@ -132,7 +140,7 @@ input {
 }
 
 #res {
-    background-color: green;
+    background-color: var(--cor3);
     padding: 15px;
     margin: 6px;
     border-radius: 25px;
