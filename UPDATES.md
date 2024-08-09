@@ -2,6 +2,9 @@
 ## VERSÃO 2.5 - 08/08/2024:
 * ✅ **Grandes mudanças na página `HOME`:**
     * 🔸 Foi implementada a funcionalidade de alternância entre os temas `CLARO` e `ESCURO` através de um botão flutuante. Para suportar essa funcionalidade, foi necessário criar um novo `index.html` na raiz do repositório. Esse arquivo exibe um `spinner` de carregamento antes de redirecionar para a página inicial localizada em `./03_HOME/01_INICIO/index.html`.
+* ✅ **Mudanças na validação de `CADASTRO` e `LOGIN`:**
+    * 🔸 **Botões `Desabilitados`:** Agora, os botões como `CADASTRAR`, `ENTRAR` (para `LOGIN`) e `LIMPAR` só serão habilitados quando os campos estiverem preenchidos.
+    * 🔸 **Apenas no Formulário de Login:** Agora, não é mais permitido fazer upload de múltiplos arquivos.
 * ✅ O design do `spinner` de `VALIDAÇÃO` foi aprimorado: agora ele está maior, com novas cores e efeitos visuais adicionais.
 * ✅ O `h1` do `MENU PRINCIPAL` mudou de `NESSE SITE BIZARRO VOCÊ ENCONTRARÁ DE TUDO` para `CLIQUE NOS BOTOES E SE DIVIRTA!`.
 * ✅ **Mudanças nos `SUBMENUS`:**
