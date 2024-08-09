@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     InputName.value = "";
                 } 
                 else {
-                    showError(`🤬ERRO 404: A calculadora "${formattedInput}" não foi encontrada! Pode ter ocorrido por um dos dois motivos:\n 1️⃣ Você pode ter digitado o nome incorreto. Verifique os títulos das calculadoras disponíveis no menu de calculadoras e tente novamente. (Não se esqueça do UTF-8).\n 2️⃣ A calculadora não existe neste site. Clique no botão abaixo para buscar em outros sites:`);
+                    showError(`🤬ERRO 404: A calculadora "${formattedInput}" não foi encontrada! Pode ter ocorrido por um dos dois motivos:\n 1️⃣ Você pode ter digitado o nome incorreto. Verifique os títulos das calculadoras disponíveis no menu de calculadoras e tente novamente. \n 2️⃣ A calculadora não existe neste site. Clique no botão abaixo para buscar em outros sites:`);
                     createAlternativeLinks(formattedInput);
                 }
             })
