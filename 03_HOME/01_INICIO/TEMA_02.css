@@ -3,13 +3,23 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: "TITULO";
+    font-family: "TITULO_1";
     src: url(../../02_MENU/FONTES/idroid.otf);
 }
 
 @font-face {
-    font-family: "SUBTITULO";
+    font-family: "TITULO_2";
+    src: url(../../02_MENU/FONTES/STOREB__.ttf);
+}
+
+@font-face {
+    font-family: "SUBTITULO_1";
     src: url(../../02_MENU/FONTES/PassionOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "SUBTITULO_2";
+    src: url(../../02_MENU/FONTES/PassionOne-Bold.ttf);
 }
     
 * {
@@ -39,8 +49,6 @@ header {
 
 header > h1 {
     color: white;
-    font-family: "TITULO";
-    font-size: 3em;
     margin-bottom: 20px;
     font-weight: normal;
     text-shadow: 4px 3px 2px black;
@@ -48,8 +56,6 @@ header > h1 {
 
 header > p {
     color: white;
-    font-family: "SUBTITULO";
-    font-size: 1.4em;
     max-width: 600px;
     padding-right: 10px;
     padding-left: 10px;
@@ -185,6 +191,16 @@ footer {
         background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
     }
 
+    header > h1 {
+        font-family: "TITULO_1";
+        font-size: 3em;
+    }
+
+    header > p {
+        font-family: "SUBTITULO_1";
+        font-size: 1.2em;
+    }
+
     .pc {
         display: none;
     }
@@ -243,6 +259,16 @@ footer {
         background-image: linear-gradient(to bottom, var(--cor3), var(--cor2));
     }
 
+    header > h1 {
+        font-family: "TITULO_2";
+        font-size: 2em;
+    }
+
+    header > p {
+        font-family: "SUBTITULO_2";
+        font-size: 1.0em;
+    }
+    
     #pc {
         display: block;
     }
