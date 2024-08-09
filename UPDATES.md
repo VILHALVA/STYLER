@@ -13,7 +13,7 @@
     * 🔸 **Renomeação de Arquivos Padrão:** Os arquivos padrão, como `index.html`, `style.css`, e `script.js`, foram renomeados para um formato consistente.
     * 🔸 **Remoção de Prefixos nos Nomes dos Arquivos:** Prefixos iniciais foram removidos dos nomes dos arquivos dos submenus. Por exemplo, `MENU_APLICATIVOS.html` foi alterado para `APLICATIVOS.html`.
     * 🔸 **Renomeação do Submenu `BOAS MÚSICAS`:** O submenu `BOAS MÚSICAS` foi renomeado para `MÚSICAS`.
-    * 🔸 **Adição do `BUSCADOR`:** Um novo buscador (`PESQUISADOR`) foi adicionado nos SUBMENUS: `CURSO EM VIDEO`, `MEUS SITES` `CALCULADORAS` `APLICATIVOS` e `JOGOS`, semelhante ao buscador presente no submenu `MÚSICAS` (Tem sugestões de Pesquisa).
+    * 🔸 **Adição do `BUSCADOR`:** Um novo buscador (`PESQUISADOR`) foi adicionado aos seguintes SUBMENUS: `CURSO EM VIDEO`, `MEUS SITES` `CALCULADORAS` `APLICATIVOS` e `JOGOS`, semelhante ao buscador presente no SUBMENU `MÚSICAS` (Tem sugestões de Pesquisa).
 * ✅ **Mudanças no SUBMENU `MÚSICAS`:**
     * 🔸 **Validação do `BUSCADOR`:** A validação do buscador foi atualizada. Agora, os botões `BUSCAR` e `LIMPAR` só serão habilitados quando o campo de pesquisa estiver preenchido.
 ---
