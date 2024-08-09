@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VUEJS CDN</title>
+  <link rel="shortcut icon" href="../../../02_MENU/MIDIAS/SITES.png" type="image/x-icon">
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js" defer></script>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <div class="outer-container">
+      <div class="form-container">
+        <form id="app-form" @submit.prevent="submitForm">
+          <input type="text" v-model="name" placeholder="Nome">
+          <input type="number" v-model.number="age" placeholder="Idade">
+          <input type="email" v-model="email" placeholder="Email">
+          <input type="number" v-model="phone" placeholder="Telefone">
+          <input type="submit" value="ENVIAR">
+        </form>
+      </div>
+      <div class="footer-container" v-if="submittedData" v-html="submittedData">
+      </div>
+    </div>
+  </div>
+</body>
+</html>

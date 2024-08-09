@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PALINDROMO</title>
+    <link rel="shortcut icon" href="../../../02_MENU/MIDIAS/CALCULADORAS.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>DETECTOR DE PALINDROMO</h1>
+        <p>DIGITE UMA PALAVRA OU NÚMERO.</p>
+    </header>
+    <main>
+        <div>
+            <label for="entrada">DIGITE:</label>
+            <input type="text" id="entrada">
+        </div>
+        <div>
+            <input class="BOTAO" type="button" value="VERIFICAR" onclick="verificarPalindromo()">
+            <input class="BOTAO" type="button" value="LIMPAR" onclick="limpar()">
+        </div>
+        <div id="resultado"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

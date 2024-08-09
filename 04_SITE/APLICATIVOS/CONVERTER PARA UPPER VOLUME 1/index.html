@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>CONVERSOR UPPER E LOWER</title>
+    <link rel="shortcut icon" href="../../../02_MENU/MIDIAS/APLICATIVOS.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CONVERTER TEXTO:</h1>  
+    <form>
+        <textarea id="texto" rows="5" cols="50" placeholder="Digite ou cole seu texto aqui"></textarea><br>
+        <select id="converterPara">
+            <option value="upper">UPPER</option>
+            <option value="lower">LOWER</option>
+            <option value="misto">MISTO</option>
+        </select>
+        <button type="button" onclick="converterTexto()">CONVERTER</button>
+    </form>   
+    <br>   
+    <footer id="footer">
+        <h2 id="textoConvertidoHeader">TEXTO CONVERTIDO:</h2>
+        <div class="caixa-texto" id="resultadoContainer">
+            <div id="textoConvertido"></div>
+        </div>
+        <button class="clear-btn" type="button" onclick="limparTexto()">LIMPAR</button>
+	<button class="copy-btn" type="button" onclick="copiarTexto()">COPIAR</button>
+    </footer>
+    <div id="copiadoMensagem" style="display: none;">COPIADO PARA ÁREA DE TRANSFERÊNCIA!</div>
+    <script src="script.js"></script>
+</body>
+</html>

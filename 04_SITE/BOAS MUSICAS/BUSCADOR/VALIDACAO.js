@@ -1,7 +1,7 @@
 window.onload = function () {
     const previousPage = document.referrer;
     const currentPageProtocol = window.location.protocol;
-    const requiredSubstring = 'https://vilhalva.github.io/STYLER/02_MENU/HTML/MENU_BOAS%20MUSICAS.html';
+    const requiredSubstring = 'https://vilhalva.github.io/STYLER/02_MENU/HTML/MUSICAS.html';
 
     function denyAccess() {
         document.body.style.display = 'none';

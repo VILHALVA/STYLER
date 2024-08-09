@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXPRESSÕES REGULARES</title>
+    <link rel="shortcut icon" href="../../../02_MENU/MIDIAS/SITES.png" type="image/x-icon">
+    <script src="script_1.js"></script>
+    <script src="script_2.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">      
+        <!--A-->
+        <h2>DATA (A)</h2>
+        <input type="text" id="a" value="12/09/2002" onkeypress="inserirMascara('a','99/99/9999')">
+        <input type="button" value="VALIDAR" onclick="regexa()">
+        <label for=""></label>
+        <br> 
+
+        <!--B-->
+        <h2>CPF (B)</h2>
+        <input type="text" id="b" value="123.456.789-01" onkeypress="inserirMascara('b','')">
+        <input type="button" value="VALIDAR" onclick="regexb()">
+        <label for=""></label>
+        <br> 
+
+        <!--C-->
+        <h2>DOCUMENTOS (C)</h2>
+        <input type="text" id="c" value="IFTM-123/456-AB">
+        <input type="button" value="VALIDAR" onclick="regexc()">
+        <label for=""></label>
+        <br> 
+
+        <!--D-->
+        <h2>DOCUMENTOS MASCARAS (D)</h2>
+        <input type="text" id="d" value="Mt-12.345-IFtm" onkeypress="inserirMascara('d','MT-xx.xxx-IFTM')">
+        <input type="button" value="VALIDAR" onclick="regexd()">
+        <label for=""></label>
+        <br> 
+
+        <!--E-->
+        <h2>DOCUMENTOS MASCARAS (E)</h2>
+        <input type="text" id="e" value="MT-12.345-iftm" onkeypress="inserirMascara('e','MT-xx.xxx-IFTM')">
+        <input type="button" value="VALIDAR" onclick="regexe()">
+        <label for=""></label>
+        <br> 
+
+        <!--F-->
+        <h2>DOCUMENTOS MASCARAS (F)</h2>
+        <input type="text" id="f" value="MT-12.345-ift m">
+        <input type="button" value="VALIDAR" onclick="regexf()">
+        <label for=""></label>
+        <br> 
+
+        <!--G-->
+        <h2>DOCUMENTOS MASCARAS (G)</h2>
+        <input type="text" id="g" value="MT-12.345-iftm Uberlândia Centro">
+        <input type="button" value="VALIDAR" onclick="regexg()">
+        <label for=""></label>
+        <br>
+
+        <!--H-->
+        <h2>DOCUMENTOS MASCARAS (H)</h2>
+        <input type="text" id="h" value="IFTM campus Uberlândia Centro">
+        <input type="button" value="VALIDAR" onclick="regexh()">
+        <label for=""></label>
+        <br> <br>
+
+        <!--I-->
+        <h2>TELEFONE BRASIL (I)</h2>
+        <input type="text" id="i" value="+55(34)91234-3210" onkeypress="inserirMascara('i','+yy(xx)xxxxx-xxxx')">
+        <input type="button" value="VALIDAR" onclick="regexi()">
+        <label for=""></label>
+        <br>
+
+        <!--J-->
+        <h2>TELEFONE EXTRANGEIRO (J)</h2>
+        <input type="text" id="j" value="(034)91234-3210">
+        <input type="button" value="VALIDAR" onclick="regexj()">
+        <label for=""></label>
+        <br> 
+
+        <!--K-->
+        <h2>DINHEIRO CENTAVOS (K)</h2>
+        <input type="text" id="k" value="1,76">
+        <input type="button" value="VALIDAR" onclick="regexk()">
+        <label for=""></label>
+        <br> 
+
+        <!--L-->
+        <h2>DINHEIRO REAIS (L)</h2>
+        <input type="text" id="l" value="R$5.601.478,10">
+        <input type="button" value="VALIDAR" onclick="regexl()">
+        <label for=""></label>
+        <br> 
+
+        <!--M-->
+        <h2>HORARIO (M)</h2>
+        <input type="text" id="m" value="09:16:22:11" onkeypress="inserirMascara('m','11:11:11:11')">
+        <input type="button" value="VALIDAR" onclick="regexm()">
+        <label for=""></label>
+        <br> 
+
+        <!--N-->
+        <h2>GERAL (N)</h2>
+        <input type="text" id="n" value="321a.&apMb.aei.Ab0-asf+_,/*.cq">
+        <input type="button" value="VALIDAR" onclick="regexn()">
+        <label for=""></label>
+        <br> 
+    </form>
+</body>
+</html>
