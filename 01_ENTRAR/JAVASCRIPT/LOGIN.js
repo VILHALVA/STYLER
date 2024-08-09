@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 alert('😳VOCÊ SE CADASTROU MAIS DE UMA VEZ. ISSO NÃO É PERMITIDO. APAGUE TODOS ESSES ARQUIVOS MÚLTIPLOS E SE CADASTRE NOVAMENTE!');
                 loginForm.reset();
                 verificarArquivo(); 
+                window.location.href = '../HTML/CADASTRO.html';
             } 
             else if (arquivosEnviados.length === 1 && arquivosEnviados[0].name === 'STYLER.txt') {
                 loginForm.reset(); 

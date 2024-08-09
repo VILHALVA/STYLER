@@ -7,7 +7,7 @@
     * 🔸 **Atualização no Menu de Itens:** As antigas páginas estáticas foram substituídas por modernos e interativos **POP MODAIS**. Isso vale para as opções de `LINKS`, `QRCODE`, `PARCERIA`, `CODIGO` e `CONTATO`.
 * ✅ **Mudanças na validação de `CADASTRO` e `LOGIN`:**
     * 🔸 **Botões `Desabilitados`:** Agora, os botões como `CADASTRAR`, `ENTRAR` (para `LOGIN`) e `LIMPAR` só serão habilitados quando os campos estiverem preenchidos.
-    * 🔸 **Apenas no Formulário de Login:** Agora, não é mais permitido fazer upload de múltiplos arquivos.
+    * 🔸 **Apenas no Formulário de Login:** Agora, não é mais permitido fazer upload de múltiplos arquivos. Caso o usuário envie o arquivo múltiplo, ele será redirecionado para a página de `CADASTRO` após o alert.
 * ✅ O design do `spinner` de `VALIDAÇÃO` foi aprimorado: agora ele está maior, com novas cores e efeitos visuais adicionais.
 * ✅ O `h1` do `MENU PRINCIPAL` mudou de `NESSE SITE BIZARRO VOCÊ ENCONTRARÁ DE TUDO` para `CLIQUE NOS BOTOES E SE DIVIRTA!`.
 * ✅ **Mudanças nos `SUBMENUS`:**
