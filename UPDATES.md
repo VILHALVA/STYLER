@@ -16,6 +16,7 @@
     * 🔸 **Adição do `BUSCADOR`:** Um novo buscador (`PESQUISADOR`) foi adicionado aos seguintes SUBMENUS: `CURSO EM VIDEO`, `MEUS SITES` `CALCULADORAS` `APLICATIVOS` e `JOGOS`, semelhante ao buscador presente no SUBMENU `MÚSICAS` (Tem sugestões de Pesquisa).
 * ✅ **Mudanças no SUBMENU `MÚSICAS`:**
     * 🔸 **Validação do `BUSCADOR`:** A validação do buscador foi atualizada. Agora, os botões `BUSCAR` e `LIMPAR` só serão habilitados quando o campo de pesquisa estiver preenchido.
+    * 🔸 Implementamos `Media Queries` para ajustar fontes e cores dos componentes conforme o tamanho e tipo de tela (Celular/PC).
 ---
 
 ## VERSÃO 2.4 - 07/08/2024:

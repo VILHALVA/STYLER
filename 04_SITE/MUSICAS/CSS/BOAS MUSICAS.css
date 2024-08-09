@@ -1,14 +1,24 @@
+/* ESTILO GLOBAL: */
 @charset "UTF-8";
 
-:root {
-    --cor1: #c1057c;
-    --cor2: #b0061c;
-    --cor3: #8b9494;
-    --cor4: #044b8d;
-    --cor5: #06065f;
-    --cor6: #187514;
-    --cor7: #ff6f61;
-    --cor8: rgba(0, 0, 0, 0.6); 
+@font-face {
+    font-family: "TITULO_1";
+    src: url(../../../02_MENU/FONTES/Hurry\ Loves.otf);
+}
+
+@font-face {
+    font-family: "TITULO_2";
+    src: url(../../../02_MENU/FONTES/idroid.otf);
+}
+
+@font-face {
+    font-family: "SUBTITULO_1";
+    src: url(../../../02_MENU/FONTES/Hurry\ Loves.otf);
+}
+
+@font-face {
+    font-family: "SUBTITULO_2";
+    src: url(../../../02_MENU/FONTES/PassionOne-Regular.ttf);
 }
 
 body {
@@ -19,7 +29,6 @@ body {
 }
 
 header {
-    background: linear-gradient(to bottom, var(--cor1), var(--cor2), var(--cor3)), var(--cor4);
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
@@ -27,14 +36,12 @@ header {
 }
 
 header > h1 {
-    font-size: 2.5em; 
     margin-bottom: 20px;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 header > p {
-    font-size: 1.2em; 
     max-width: 800px; 
     margin: auto;
     margin-bottom: 20px;
@@ -47,25 +54,20 @@ main {
     margin: auto;
     margin-bottom: 20px; 
     padding: 40px;
-    background: linear-gradient(to bottom, var(--cor5), var(--cor6)); 
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
 }
 
 main > h1 {
-    background-color: var(--cor7); 
     color: #fff;
     text-align: center;
-    font-size: 2.5em;
     font-weight: bold;
     padding: 15px;
     border-radius: 20px;
 }
 
 div {
-    font-size: 1em;
     color: #fff;
     font-weight: bold;
-    background-color: var(--cor8); 
     padding: 20px;
     border-radius: 20px;
 }
@@ -81,4 +83,92 @@ iframe {
     margin: auto;
     padding: 10px;
     border-radius: 20px;
+}
+
+/* CORES PERSONALISADAS*/
+:root {
+    /* TELAS GRANDES - COMPUTADORES E TVS: */
+    --cor1: #200992;
+    --cor2: #040488;
+    --cor3: #0a0f35;
+    --cor4: #11283c;
+    --cor5: #030346;
+    --cor6: #3d1a02;
+    --cor7: #ff6f61;
+    --cor8: #00000099; 
+
+    /* TELAS PEQUENAS - TABLETES E CELULARES: */
+    --cor9: #2c043c;
+    --cor10: #1a083a;
+    --cor11: #041616;
+    --cor12: #0a2640;
+    --cor13: #06065f;
+    --cor14: #21040a;
+    --cor15: #41221f;
+    --cor16: #110101b0; 
+}
+
+/* TELAS GRANDES - COMPUTADORES E TVS: */
+@media screen and (min-width: 768px) {
+    header {
+        background: linear-gradient(to bottom, var(--cor1), var(--cor2), var(--cor3)), var(--cor4);
+    }
+
+    header h1 {
+        font-family: "TITULO_1";
+        font-size: 2.5em;
+    }
+
+    header p {
+        font-family: "SUBTITULO_1";
+        font-size: 1em;
+    }
+
+    main {
+        background: linear-gradient(to bottom, var(--cor5), var(--cor6)); 
+
+    }
+
+    main > h1 {
+        background-color: var(--cor7); 
+        font-size: 2.5em;
+    }
+
+    div {
+        background-color: var(--cor8); 
+        font-size: 1.3em;
+    }
+}
+
+/* TELAS PEQUENAS - TABLETES E CELULARES: */
+@media screen and (max-width: 768px) {
+
+    header {
+        background: linear-gradient(to bottom, var(--cor9), var(--cor10), var(--cor11)), var(--cor12);
+    }
+
+    header h1 {
+        font-family: "TITULO_2";
+        font-size: 2.3em;
+    }
+
+    header p {
+        font-family: "SUBTITULO_2";
+        font-size: 1.2em;
+    }
+
+    main {
+        background: linear-gradient(to bottom, var(--cor13), var(--cor14)); 
+
+    }
+
+    main > h1 {
+        background-color: var(--cor15); 
+        font-size: 2.0em;
+    }
+
+    div {
+        background-color: var(--cor16); 
+        font-size: 0.9em;
+    }
 }
