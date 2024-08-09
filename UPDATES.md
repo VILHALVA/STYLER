@@ -2,9 +2,17 @@
 ## VERSÃO 2.5 - 08/08/2024:
 * ✅ **Grandes mudanças na página `HOME`:**
     * 🔸 Foi implementada a funcionalidade de alternância entre os temas `CLARO` e `ESCURO` através de um botão flutuante. Para suportar essa funcionalidade, foi necessário criar um novo `index.html` na raiz do repositório. Esse arquivo exibe um `spinner` de carregamento antes de redirecionar para a página inicial localizada em `./03_HOME/01_INICIO/index.html`.
-* ✅ O `h1` do `MENU PRINCIPAL` mudou de `NESSE SITE BIZARRO VOCÊ ENCONTRARÁ DE TUDO` para `CLIQUE NOS BOTOES E SE DIVIRTA!`.
-* ✅ Todos os `SUBMENUS` agora utilizam ícones `CSS` com favicon. Para os demais projetos que não possuem um favicon definido, é usado um ícone padrão baseado no tema.
 * ✅ O design do `spinner` de `VALIDAÇÃO` foi aprimorado: agora ele está maior, com novas cores e efeitos visuais adicionais.
+* ✅ O `h1` do `MENU PRINCIPAL` mudou de `NESSE SITE BIZARRO VOCÊ ENCONTRARÁ DE TUDO` para `CLIQUE NOS BOTOES E SE DIVIRTA!`.
+* ✅ **Mudanças nos `SUBMENUS`:**
+    * 🔸 **Ícones Favicon:** Todos os projetos agora utilizam ícones favicon personalizados de acordo com o tema.
+    * 🔸 **Título em Maiúsculas:** Todos os projetos têm os títulos exibidos em letras maiúsculas.
+    * 🔸 **Renomeação de Arquivos Padrão:** Os arquivos padrão, como `index.html`, `style.css`, e `script.js`, foram renomeados para um formato consistente.
+    * 🔸 **Remoção de Prefixos nos Nomes dos Arquivos:** Prefixos iniciais foram removidos dos nomes dos arquivos dos submenus. Por exemplo, `MENU_APLICATIVOS.html` foi alterado para `APLICATIVOS.html`.
+    * 🔸 **Renomeação do Submenu `BOAS MÚSICAS`:** O submenu `BOAS MÚSICAS` foi renomeado para `MÚSICAS`.
+    * 🔸 **Adição do `BUSCADOR`:** Um novo buscador (`PESQUISADOR`) foi adicionado, semelhante ao buscador presente no submenu `MÚSICAS`.
+* ✅ **Mudanças no SUBMENU `MÚSICAS`:**
+    * 🔸 **Validação do `BUSCADOR`:** A validação do buscador foi atualizada. Agora, os botões `BUSCAR` e `LIMPAR` só serão habilitados quando o campo de pesquisa estiver preenchido.
 ---
 
 ## VERSÃO 2.4 - 07/08/2024:
