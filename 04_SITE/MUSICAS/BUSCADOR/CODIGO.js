@@ -16,9 +16,13 @@ document.addEventListener('DOMContentLoaded', function () {
         clearButton.disabled = isInputEmpty;
     }
 
-    toggleButtons();
+    function updateButtonState() {
+        toggleButtons();
+    }
 
-    InputName.addEventListener('input', toggleButtons);
+    updateButtonState();
+
+    InputName.addEventListener('input', updateButtonState);
 
     searchButton.addEventListener('click', function () {
         const userInput = InputName.value.trim().toUpperCase();
@@ -26,13 +30,16 @@ document.addEventListener('DOMContentLoaded', function () {
         const URL = `${baseURL1}${formattedInput}.html`;
 
         checkMusicExistence(URL, formattedInput);
+
+        InputName.value = "";
+        updateButtonState();
     });
 
     clearButton.addEventListener('click', function () {
         InputName.value = "";
         errorMessage.textContent = "";
         errorContainer.innerHTML = ""; 
-        toggleButtons(); 
+        updateButtonState();
     });
 
     function checkMusicExistence(url, formattedInput) {
@@ -40,7 +47,6 @@ document.addEventListener('DOMContentLoaded', function () {
             .then(response => {
                 if (response.ok) {
                     window.location.href = url;
-                    InputName.value = "";
                 } 
                 else {
                     showError(`🤬ERRO 404: A música "${formattedInput}" não foi encontrada! Pode ter ocorrido por um dos dois motivos:\n 1️⃣ Você pode ter digitado o nome incorreto. Verifique os títulos das músicas disponíveis no menu de Músicas e tente novamente.\n 2️⃣ A música não existe neste site. Clique em um dos botões abaixo para buscar em outros sites:`);
@@ -71,8 +77,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     setTimeout(function () {
                         window.location.href = '../../APLICATIVOS/IFRAME DO YOUTUBE VOLUME 1/index.html';
                     }, 3000);
-
-                    InputName.value = "";
                 }
             }
         ];
