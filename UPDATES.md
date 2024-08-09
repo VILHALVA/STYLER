@@ -1,5 +1,5 @@
 # ATUALIZAÇÕES:
-## VERSÃO 2.5 - 08/08/2024:
+## VERSÃO 2.5 - 09/08/2024:
 * ✅ **Grandes mudanças na página `HOME`:**
     * 🔸 Foi implementada a funcionalidade de alternância entre os temas `CLARO` e `ESCURO` através de um botão flutuante. Para suportar essa funcionalidade, foi necessário criar um novo `index.html` na raiz do repositório. Esse arquivo exibe um `spinner` de carregamento antes de redirecionar para a página inicial localizada em `./03_HOME/01_INICIO/index.html`.
 * ✅ **Mudanças na validação de `CADASTRO` e `LOGIN`:**
