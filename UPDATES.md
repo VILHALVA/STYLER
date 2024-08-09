@@ -3,6 +3,8 @@
 * ✅ **Grandes mudanças na página `HOME`:**
     * 🔸 Foi implementada a funcionalidade de alternância entre os temas `CLARO` e `ESCURO` através de um botão flutuante. Para suportar essa funcionalidade, foi necessário criar um novo `index.html` na raiz do repositório. Esse arquivo exibe um `spinner` de carregamento antes de redirecionar para a página inicial localizada em `./03_HOME/01_INICIO/index.html`.
     * 🔸 Implementamos, através do `Media Queries`, o ajuste das fontes dos componentes conforme o tamanho e tipo de tela (Celular/PC).
+    Aqui está uma versão aprimorada e mais detalhada da sua descrição:
+    * 🔸 **Atualização no Menu de Itens:** As antigas páginas estáticas foram substituídas por modernos e interativos **POP MODAIS**. Isso vale para as opções de `LINKS`, `QRCODE`, `PARCERIA`, `CODIGO` e `CONTATO`.
 * ✅ **Mudanças na validação de `CADASTRO` e `LOGIN`:**
     * 🔸 **Botões `Desabilitados`:** Agora, os botões como `CADASTRAR`, `ENTRAR` (para `LOGIN`) e `LIMPAR` só serão habilitados quando os campos estiverem preenchidos.
     * 🔸 **Apenas no Formulário de Login:** Agora, não é mais permitido fazer upload de múltiplos arquivos.
