@@ -41,6 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 alert('🤬ARQUIVO INCORRETO. FAÇA UPLOAD DO ARQUIVO QUE VOCÊ BAIXOU AO SE CADASTRAR!');
                 loginForm.reset();
                 verificarArquivo(); 
+                window.location.href = '../HTML/CADASTRO.html';
             }
         }
     });
