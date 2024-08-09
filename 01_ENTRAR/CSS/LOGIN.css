@@ -39,10 +39,17 @@ button {
     color: #fff;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
 }
 
 button:hover {
     background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #777;
+    cursor: not-allowed;
 }
 
 #login {

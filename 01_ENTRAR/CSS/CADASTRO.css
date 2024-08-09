@@ -52,6 +52,11 @@ h1 {
     border-color: #4caf50;
 }
 
+button:disabled {
+    background-color: #777;
+    cursor: not-allowed;
+}
+
 .btn-success:hover {
     background-color: #45a049;
     border-color: #45a049;
