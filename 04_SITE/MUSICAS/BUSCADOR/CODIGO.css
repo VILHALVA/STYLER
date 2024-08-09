@@ -42,6 +42,12 @@ button {
     font-size: 1em;
 }
 
+button:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+    color: #999;
+}
+
 #errorMessage {
     color: red;
     margin-top: 10px;
@@ -56,5 +62,3 @@ button {
     padding: 10px;
     border-radius: 30px;
 }
-
-
