@@ -79,14 +79,13 @@ header {
     text-align: center;
     color: white;
     margin-bottom: 20px;
-    margin-right: 10px;
     font-weight: normal;
     text-shadow: 4px 3px 2px black;
     flex: 1; 
 }
 
 #mode_icon {
-    font-size: 30px; 
+    font-size: 20px; 
     color: white;    
     padding: 10px;   
     border: 2px solid white;  
