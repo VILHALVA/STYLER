@@ -11,24 +11,19 @@ window.onload = function () {
         window.location.href = '../../index.html';
     }
 
-    if (currentPageProtocol === 'file:') {
-        document.body.classList.add('js-enabled');
-        return;
-    }
+    // Verifica se a página anterior é válida
+    const isPreviousPageAllowed = previousPage.startsWith('https://') &&
+        requiredSubstrings.some(substring => previousPage.includes(substring));
 
-    if (!previousPage) {
+    // Verifica se a origem é file:// e não há referrer, tratando como acesso permitido para testes locais
+    const isFileProtocol = currentPageProtocol === 'file:';
+    const isValidAccess = isPreviousPageAllowed || isFileProtocol;
+
+    if (isValidAccess) {
+        document.body.classList.add('js-enabled');
+    } else {
         denyAccess();
-        return;
     }
-
-    const isAllowed = requiredSubstrings.some(substring => previousPage.includes(substring));
-
-    if ((previousPage.startsWith('https://') && isAllowed) || (currentPageProtocol === 'file:')) {
-        document.body.classList.add('js-enabled');
-    }
-     else {
-        denyAccess(); 
-    }    
 };
 
 document.addEventListener('DOMContentLoaded', () => {
