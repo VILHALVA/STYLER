@@ -11,7 +11,7 @@
 * ✅ O design do `spinner` de `VALIDAÇÃO` foi aprimorado: agora ele está maior, com novas cores e efeitos visuais adicionais.
 * ✅ **Mudanças nos `MENUS`e `SUBMENUS`:**
     * 🔸 O `h1` do `MENU PRINCIPAL` mudou de `NESSE SITE BIZARRO VOCÊ ENCONTRARÁ DE TUDO` para `CLIQUE NOS BOTOES E SE DIVIRTA!`.
-    * 🔸
+    * 🔸 O nome de `BOAS MUSICAS` mudou para `MUSICAS` e `BONS JOGOS` para `JOGOS`.
 * ✅ **Mudanças nos `SUBMENUS`:**
     * 🔸 **Ícones Favicon:** Todos os projetos agora utilizam ícones favicon personalizados de acordo com o tema.
     * 🔸 **Título em Maiúsculas:** Todos os projetos têm os títulos exibidos em letras maiúsculas.
@@ -21,7 +21,8 @@
     * 🔸 **Adição do `BUSCADOR`:** Um novo buscador (`PESQUISADOR`) foi adicionado aos seguintes SUBMENUS: `CURSO EM VIDEO`, `MEUS SITES` `CALCULADORAS` `APLICATIVOS` e `JOGOS`, semelhante ao buscador presente no SUBMENU `MÚSICAS` (Tem sugestões de Pesquisa).
 * ✅ **Mudanças no SUBMENU `MÚSICAS`:**
     * 🔸 **Validação do `BUSCADOR`:** A validação do buscador foi atualizada. Agora, os botões `BUSCAR` e `LIMPAR` só serão habilitados quando o campo de pesquisa estiver preenchido.
-    * 🔸 Implementamos `Media Queries` para ajustar fontes e cores dos componentes conforme o tamanho e tipo de tela (Celular/PC).
+    * 🔸 Mudamos as cores dos componentes do css universal (`MUSICAS.css`), deixando um pouco mais escuro e suave.
+    * 🔸 Implementamos `Media Queries` para ajustar fontes e cores dos componentes conforme o tamanho e tipo de tela no css universal para Celular/PC.
 ---
 
 ## VERSÃO 2.4 - 07/08/2024:
