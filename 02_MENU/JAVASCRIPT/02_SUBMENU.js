@@ -11,24 +11,27 @@ window.onload = function () {
         window.location.href = '../../index.html';
     }
 
-    // Permitir acesso direto pelo protocolo file:
     if (currentPageProtocol === 'file:') {
         document.body.classList.add('js-enabled');
         return;
     }
 
-    // Se a página anterior não existir, negar acesso
     if (!previousPage) {
         denyAccess();
         return;
     }
 
-    // Verificar se o acesso veio de uma página permitida
     const isAllowed = requiredSubstrings.some(substring => previousPage.includes(substring));
-    
-    if (previousPage.startsWith('https://') && isAllowed) {
+
+    if (
+        (previousPage.startsWith('https://') && isAllowed) ||
+        (previousPage.startsWith('file://') && isAllowed) ||
+        (currentPageProtocol === 'file:') ||
+        (previousPage.startsWith('file://') && currentPageProtocol === 'https:')
+    ) {
         document.body.classList.add('js-enabled');
-    } else {
+    } 
+    else {
         denyAccess();
     }
 };
