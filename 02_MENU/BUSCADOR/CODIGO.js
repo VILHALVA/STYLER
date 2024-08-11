@@ -23,11 +23,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     searchButton.addEventListener('click', function () {
         const userInput = InputName.value.trim().toUpperCase();
-
-        if (userInput === "") {
-            alert("🤬ERRO: PREENCHA O CAMPO ANTES DE CLICAR NO BOTÃO DE BUSCAR!");
-            return;
-        }
         
         const formattedInput = userInput.replace(/\s+/g, '%20');
         const URL = `${baseURL}${formattedInput}.html`;
@@ -48,6 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 if (response.ok) {
                     window.location.href = url;
                     InputName.value = ""; 
+                    updateButtonState();
                 } 
                 else {
                     showError(`🤬ERRO 404: O SUBMENU "${formattedInput}" não foi encontrado! Pode ter ocorrido por um dos dois motivos:\n 1️⃣ Você pode ter digitado o nome incorreto. Verifique os títulos dos submenus disponíveis no menu Principal e tente novamente.\n 2️⃣ O SUBMENU não existe neste site. Clique no botão abaixo para buscar em outros sites:`);
