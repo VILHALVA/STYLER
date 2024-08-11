@@ -54,8 +54,14 @@ button:disabled {
 }
 
 #errorMessage {
+    display: none; 
+    background-color: rgba(34, 34, 34, 0.8); 
+    padding: 10px;
+    margin: 10px;
     color: red;
     margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 #errorContainer a {

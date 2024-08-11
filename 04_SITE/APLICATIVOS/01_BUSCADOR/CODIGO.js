@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     clearButton.addEventListener('click', function () {
         InputName.value = "";
-        errorMessage.textContent = "";
-        errorContainer.innerHTML = ""; 
+        errorMessage.style.display = 'none';
+        errorContainer.style.display = 'none';
         toggleButtons();
     });
 
@@ -52,6 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function showError(message) {
         errorMessage.textContent = message;
+        errorMessage.style.display = 'block';
     }
 
     function createAlternativeLinks(formattedInput) {

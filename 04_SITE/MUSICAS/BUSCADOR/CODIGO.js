@@ -30,15 +30,12 @@ document.addEventListener('DOMContentLoaded', function () {
         const URL = `${baseURL1}${formattedInput}.html`;
 
         checkMusicExistence(URL, formattedInput);
-
-        InputName.value = "";
-        updateButtonState();
     });
 
     clearButton.addEventListener('click', function () {
         InputName.value = "";
-        errorMessage.textContent = "";
-        errorContainer.innerHTML = ""; 
+        errorMessage.style.display = 'none';
+        errorContainer.style.display = 'none';
         updateButtonState();
     });
 
@@ -47,6 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
             .then(response => {
                 if (response.ok) {
                     window.location.href = url;
+                    InputName.value = ""; 
                 } 
                 else {
                     showError(`🤬ERRO 404: A música "${formattedInput}" não foi encontrada! Pode ter ocorrido por um dos dois motivos:\n 1️⃣ Você pode ter digitado o nome incorreto. Verifique os títulos das músicas disponíveis no menu de Músicas e tente novamente.\n 2️⃣ A música não existe neste site. Clique em um dos botões abaixo para buscar em outros sites:`);
@@ -61,7 +59,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function showError(message) {
         errorMessage.textContent = message;
-    }
+        errorMessage.style.display = 'block'; 
+    }    
 
     function createAlternativeLinks(formattedInput) {
         errorContainer.innerHTML = ""; 
