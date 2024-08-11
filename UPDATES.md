@@ -20,7 +20,7 @@
     * 🔸 **Botões `Desabilitados`:** Agora, os botões como `CADASTRAR`, `ENTRAR` (para `LOGIN`) e `LIMPAR` só serão habilitados quando os campos estiverem preenchidos.
     * 🔸 **Apenas no Formulário de Login:** Agora, não é mais permitido fazer upload de múltiplos arquivos. Caso o usuário envie o arquivo errado ou múltiplo: Ele será redirecionado para a página de `CADASTRO` após o alert.
 * ✅ O design do `spinner` de `VALIDAÇÃO` foi aprimorado: agora ele está maior, com novas cores e efeitos visuais adicionais.
-* ✅ **Adição do `BUSCADOR`:** O Buscador/Pesquisador (O mesmo do `MUSICAS`) foi adicionado também as seguintes páginas: 
+* ✅ **Adição do `BUSCADOR`:** O Buscador/Pesquisador (O mesmo utilizado no SUBMENU `MUSICAS`) foi adicionado também as seguintes páginas: 
     * 🔸 ENTRA NO SITE
     * 🔸 MENU PRINCIPAL
     * 🔸 CURSO EM VIDEO (SUBMENU)
