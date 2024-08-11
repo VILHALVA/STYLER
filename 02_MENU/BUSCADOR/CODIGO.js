@@ -23,6 +23,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
     searchButton.addEventListener('click', function () {
         const userInput = InputName.value.trim().toUpperCase();
+
+        if (userInput === "") {
+            alert("🤬ERRO: PREENCHA O CAMPO ANTES DE CLICAR NO BOTÃO DE BUSCAR!");
+            return;
+        }
+        
         const formattedInput = userInput.replace(/\s+/g, '%20');
         const URL = `${baseURL}${formattedInput}.html`;
 
