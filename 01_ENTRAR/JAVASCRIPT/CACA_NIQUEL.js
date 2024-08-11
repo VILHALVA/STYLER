@@ -117,3 +117,7 @@ function clicked() {
 
 const buttonStartStop = document.getElementById('buttonStartStop');
 buttonStartStop.addEventListener('click', clicked);
+
+function VOLTAR() {
+    window.history.back();
+}
