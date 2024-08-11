@@ -22,6 +22,7 @@ window.onload = function () {
     if (previousPage.startsWith('https://')) {
         if (previousPage.includes(requiredSubstring)) {
             document.body.classList.add('js-enabled');
+            document.body.style.display = 'block'; 
         } 
         else {
             denyAccess();
@@ -31,4 +32,3 @@ window.onload = function () {
 
     denyAccess();
 };
-
