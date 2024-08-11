@@ -11,17 +11,14 @@ window.onload = function () {
         window.location.href = '../../index.html';
     }
 
-    // Verifica se a página anterior é válida
-    const isPreviousPageAllowed = previousPage.startsWith('https://') &&
-        requiredSubstrings.some(substring => previousPage.includes(substring));
-
-    // Verifica se a origem é file:// e não há referrer, tratando como acesso permitido para testes locais
+    const isPreviousPageAllowed = previousPage.startsWith('https://') &&requiredSubstrings.some(substring => previousPage.includes(substring));
     const isFileProtocol = currentPageProtocol === 'file:';
     const isValidAccess = isPreviousPageAllowed || isFileProtocol;
 
     if (isValidAccess) {
         document.body.classList.add('js-enabled');
-    } else {
+    } 
+    else {
         denyAccess();
     }
 };
