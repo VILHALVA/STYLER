@@ -9,7 +9,7 @@
     * 🔸 **Botões `Desabilitados`:** Agora, os botões como `CADASTRAR`, `ENTRAR` (para `LOGIN`) e `LIMPAR` só serão habilitados quando os campos estiverem preenchidos.
     * 🔸 **Apenas no Formulário de Login:** Agora, não é mais permitido fazer upload de múltiplos arquivos. Caso o usuário envie o arquivo errado ou múltiplo: Ele será redirecionado para a página de `CADASTRO` após o alert.
 * ✅ O design do `spinner` de `VALIDAÇÃO` foi aprimorado: agora ele está maior, com novas cores e efeitos visuais adicionais.
-* ✅ **Mudanças no `MENU PRINCIPAL`**
+* ✅ **Mudanças no `MENU PRINCIPAL`:**
     * 🔸 O `h1` do `MENU PRINCIPAL` mudou de `NESSE SITE BIZARRO VOCÊ ENCONTRARÁ DE TUDO` para `CLIQUE NOS BOTOES E SE DIVIRTA!`.
     * 🔸 O nome de `BOAS MUSICAS` mudou para `MUSICAS` e `BONS JOGOS` para `JOGOS`.
 * ✅ **Mudanças nos `SUBMENUS`:**
