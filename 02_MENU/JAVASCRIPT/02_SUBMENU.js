@@ -23,7 +23,7 @@ window.onload = function () {
 
     const isAllowed = requiredSubstrings.some(substring => previousPage.includes(substring));
 
-    if ((previousPage.startsWith('https://') && isAllowed) || (currentPageProtocol === 'file:') || (previousPage.startsWith('file://') && window.location.protocol === 'https:')) {
+    if ((previousPage.startsWith('https://') && isAllowed) || (currentPageProtocol === 'file:') || (previousPage.startsWith('file://') && window.location.href.startsWith('https:'))) {
         document.body.classList.add('js-enabled');
     }
      else {
