@@ -11,28 +11,26 @@ window.onload = function () {
         window.location.href = '../../index.html';
     }
 
+    // Permitir acesso direto pelo protocolo file:
     if (currentPageProtocol === 'file:') {
         document.body.classList.add('js-enabled');
         return;
     }
 
+    // Se a página anterior não existir, negar acesso
     if (!previousPage) {
         denyAccess();
         return;
     }
 
-    if (previousPage.startsWith('https://')) {
-        const isAllowed = requiredSubstrings.some(substring => previousPage.includes(substring));
-        if (isAllowed) {
-            document.body.classList.add('js-enabled');
-        } 
-        else {
-            denyAccess();
-        }
-        return;
+    // Verificar se o acesso veio de uma página permitida
+    const isAllowed = requiredSubstrings.some(substring => previousPage.includes(substring));
+    
+    if (previousPage.startsWith('https://') && isAllowed) {
+        document.body.classList.add('js-enabled');
+    } else {
+        denyAccess();
     }
-
-    denyAccess();
 };
 
 document.addEventListener('DOMContentLoaded', () => {
