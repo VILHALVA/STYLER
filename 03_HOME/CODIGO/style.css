@@ -52,7 +52,7 @@ body {
     top: 15px;
     width: 30px;
     height: 30px;
-    background: #e74c3c;
+    background: #3ce73c;
     color: #fff;
     font-size: 20px;
     font-weight: 600;
@@ -63,12 +63,12 @@ body {
 }
 
 .popup .close-btn:hover {
-    background: #c0392b;
+    background: #034e17;
 }
 
 .BOTAO {
     display: inline-block;
-    background-color: #3498db;
+    background-color: #0d77be;
     color: white;
     padding: 10px 25px;
     text-decoration: none;
@@ -80,7 +80,7 @@ body {
 }
 
 .BOTAO:hover {
-    background-color: #2980b9;
+    background-color: #043b60;
     transform: translateY(-3px);
 }
 
