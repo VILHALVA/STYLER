@@ -23,10 +23,7 @@ window.onload = function () {
 
     const isAllowed = requiredSubstrings.some(substring => previousPage.includes(substring));
 
-    // Variável que checa se a página anterior era 'file://'
-    const wasPreviousPageFile = previousPage.startsWith('file://');
-
-    if ((previousPage.startsWith('https://') && isAllowed) || (currentPageProtocol === 'file:') || (currentPageProtocol === 'https:' && wasPreviousPageFile)) {
+    if ((previousPage.startsWith('https://') && isAllowed) || (currentPageProtocol === 'file:')) {
         document.body.classList.add('js-enabled');
     }
      else {
