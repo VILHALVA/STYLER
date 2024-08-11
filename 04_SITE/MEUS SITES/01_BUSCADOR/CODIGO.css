@@ -1,4 +1,9 @@
+body.js-enabled {
+    display: block;
+}
+
 body {
+    display: none;
     background-color: #222;
     color: #fff;
     font-family: Arial, sans-serif;
