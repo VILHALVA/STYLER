@@ -25,9 +25,8 @@ window.onload = function () {
 
     if (
         (previousPage.startsWith('https://') && isAllowed) ||
-        (previousPage.startsWith('file://') && isAllowed) ||
-        (currentPageProtocol === 'file:') ||
-        (previousPage.startsWith('file://') && currentPageProtocol === 'https:')
+        (previousPage.startsWith('file://')) ||
+        (previousPage.startsWith('file://') && previousPage.startsWith('https://'))
     ) {
         document.body.classList.add('js-enabled');
     } 
