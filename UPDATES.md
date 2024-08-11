@@ -3,7 +3,6 @@
 * ✅ **Grandes mudanças na página `HOME`:**
     * 🔸 Foi implementada a funcionalidade de alternância entre os temas `CLARO` e `ESCURO` através de um botão flutuante. Para suportar essa funcionalidade, foi necessário criar um novo `index.html` na raiz do repositório. Esse arquivo exibe um `spinner` de carregamento antes de redirecionar para a página inicial localizada em `./03_HOME/01_INICIO/index.html`.
     * 🔸 Implementamos, através do `Media Queries`, o ajuste das fontes dos componentes conforme o tamanho e tipo de tela (Celular/PC).
-    Aqui está uma versão aprimorada e mais detalhada da sua descrição:
     * 🔸 **Atualização no Menu de Itens:** As antigas páginas estáticas foram substituídas por modernos e interativos **POP MODAIS**. Isso vale para as opções de `LINKS`, `QRCODE`, `PARCERIA`, `CODIGO` e `CONTATO`.
 * ✅ **Liberação do `MENU DE LINKS`:** 
   * A partir do botão `LINKS` na `HOME`, o `MENU` está novamente disponível com os recursos de `TEMAS` e `Media Queries`. Agora, não está mais no formato ZIP:
@@ -44,6 +43,7 @@
       * 🔹 Foi adicionado um novo recurso de opacidade onde o elemento que exibe mensagens de erro (`#errorMessage`) começa com opacidade zero, permanecendo invisível até que um erro ocorra.
     * 🔸 Mudamos as cores dos componentes do css universal (`MUSICAS.css`), deixando um pouco mais escuro e suave.
     * 🔸 Implementamos `Media Queries` para ajustar fontes e cores dos componentes conforme o tamanho e tipo de tela no css universal para Celular/PC.
+* ✅ **Correções de bugs e pequenas melhorias.**
 ---
 
 ## VERSÃO 2.4 - 07/08/2024:
