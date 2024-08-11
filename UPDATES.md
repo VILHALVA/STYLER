@@ -28,7 +28,7 @@
 * ✅ **Mudanças no SUBMENU `MÚSICAS`:**
     * 🔸 **Melhorias no `BUSCADOR`:** 
       * 🔹 A validação do buscador foi atualizada. Agora, os botões `BUSCAR` e `LIMPAR` só serão habilitados quando o campo de pesquisa estiver preenchido. 
-      * 🔹 Adicionei um novo recurso ao JavaScript que valida o acesso à página, garantindo que o conteúdo da página seja exibido apenas após a verificação bem-sucedida da navegação correta. Ela foi incluída para alterar o estilo do corpo da página, tornando-o visível apenas depois que a validação confirmar que o usuário o acessou por meio do submenu apropriado. Dessa forma, caso a navegação não seja validada, a página permanecerá oculta.
+      * 🔹 Adicionei um novo recurso ao JavaScript que valida o acesso à página, garantindo que o conteúdo da página seja exibido apenas após a verificação bem-sucedida da navegação correta. Ela foi incluída para alterar o estilo do corpo da página, tornando-o visível apenas depois que a validação confirmar que o usuário o acessou por meio do submenu apropriado. Dessa forma, caso a navegação não seja validada, a página permanecerá oculta (Também se o JavaScript estiver desabilitado).
       * 🔹 Foi adicionado um novo recurso de opacidade onde o elemento que exibe mensagens de erro (`#errorMessage`) começa com opacidade zero, permanecendo invisível até que um erro ocorra.
     * 🔸 Mudamos as cores dos componentes do css universal (`MUSICAS.css`), deixando um pouco mais escuro e suave.
     * 🔸 Implementamos `Media Queries` para ajustar fontes e cores dos componentes conforme o tamanho e tipo de tela no css universal para Celular/PC.
