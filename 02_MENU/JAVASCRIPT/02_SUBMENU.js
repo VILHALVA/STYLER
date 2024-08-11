@@ -1,10 +1,12 @@
 window.onload = function () {
     const previousPage = document.referrer;
     const currentPageProtocol = window.location.protocol;
-    const requiredSubstring = 'https://vilhalva.github.io/STYLER/02_MENU/HTML/01_MENU%20PRINCIPAL.html';
+    const requiredSubstrings = [
+        'https://vilhalva.github.io/STYLER/02_MENU/HTML/01_MENU%20PRINCIPAL.html',
+        'https://vilhalva.github.io/STYLER/02_MENU/BUSCADOR/CODIGO.html'
+    ];
 
     function denyAccess() {
-        document.body.style.display = 'none';
         alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSA PÁGINA SEM PASSAR PELO MENU PRINCIPAL! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
         window.location.href = '../../index.html';
     }
@@ -20,7 +22,8 @@ window.onload = function () {
     }
 
     if (previousPage.startsWith('https://')) {
-        if (previousPage.includes(requiredSubstring)) {
+        const isAllowed = requiredSubstrings.some(substring => previousPage.includes(substring));
+        if (isAllowed) {
             document.body.classList.add('js-enabled');
         } 
         else {
@@ -49,4 +52,3 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
-
