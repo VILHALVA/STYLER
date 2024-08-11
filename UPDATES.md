@@ -9,6 +9,13 @@
     * 🔸 **Botões `Desabilitados`:** Agora, os botões como `CADASTRAR`, `ENTRAR` (para `LOGIN`) e `LIMPAR` só serão habilitados quando os campos estiverem preenchidos.
     * 🔸 **Apenas no Formulário de Login:** Agora, não é mais permitido fazer upload de múltiplos arquivos. Caso o usuário envie o arquivo errado ou múltiplo: Ele será redirecionado para a página de `CADASTRO` após o alert.
 * ✅ O design do `spinner` de `VALIDAÇÃO` foi aprimorado: agora ele está maior, com novas cores e efeitos visuais adicionais.
+* ✅ **Adição do `BUSCADOR`:** O Buscador/Pesquisador (O mesmo do `MUSICAS`) foi adicionado também as seguintes páginas: 
+    * 🔸 ENTRA NO SITE
+    * 🔸 MENU PRINCIPAL
+    * 🔸 CURSO EM VIDEO (SUBMENU)
+    * 🔸 CALCULADORAS (SUBMENU)
+    * 🔸 APLICATIVOS (SUBMENU)
+    * 🔸 JOGOS (SUBMENU)
 * ✅ **Mudanças no `MENU PRINCIPAL`:**
     * 🔸 O `h1` do `MENU PRINCIPAL` mudou de `NESSE SITE BIZARRO VOCÊ ENCONTRARÁ DE TUDO` para `CLIQUE NOS BOTOES E SE DIVIRTA!`.
     * 🔸 O nome de `BOAS MUSICAS` mudou para `MUSICAS` e `BONS JOGOS` para `JOGOS`.
@@ -18,7 +25,6 @@
     * 🔸 **Renomeação de Arquivos Padrão:** Os arquivos padrão, como `index.html`, `style.css`, e `script.js`, foram renomeados para um formato consistente.
     * 🔸 **Remoção de Prefixos nos Nomes dos Arquivos:** Prefixos iniciais foram removidos dos nomes dos arquivos dos submenus. Por exemplo, `MENU_APLICATIVOS.html` foi alterado para `APLICATIVOS.html`.
     * 🔸 **Renomeação do Submenu `BOAS MÚSICAS`:** O submenu `BOAS MÚSICAS` foi renomeado para `MÚSICAS`.
-    * 🔸 **Adição do `BUSCADOR`:** Um novo buscador (`PESQUISADOR`) foi adicionado aos seguintes SUBMENUS: `CURSO EM VIDEO`, `MEUS SITES` `CALCULADORAS` `APLICATIVOS` e `JOGOS`, semelhante ao buscador presente no SUBMENU `MÚSICAS` (Tem sugestões de Pesquisa).
 * ✅ **Mudanças no SUBMENU `MÚSICAS`:**
     * 🔸 **Melhorias no `BUSCADOR`:** 
       * 🔹 A validação do buscador foi atualizada. Agora, os botões `BUSCAR` e `LIMPAR` só serão habilitados quando o campo de pesquisa estiver preenchido. 

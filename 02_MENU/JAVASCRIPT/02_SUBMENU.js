@@ -23,15 +23,11 @@ window.onload = function () {
 
     const isAllowed = requiredSubstrings.some(substring => previousPage.includes(substring));
 
-    if (
-        (previousPage.startsWith('https://') && isAllowed) || // Acesso permitido de HTTPS com URL permitida
-        (currentPageProtocol === 'file:') || // Acesso permitido se a página atual foi aberta via file://
-        (previousPage.startsWith('file://') && window.location.protocol === 'https:') // Acesso permitido de file:// para https://
-    ) {
+    if ((previousPage.startsWith('https://') && isAllowed) || (currentPageProtocol === 'file:') || (previousPage.startsWith('file://') && window.location.protocol === 'https:')) {
         document.body.classList.add('js-enabled');
     }
      else {
-        denyAccess(); // Função que nega o acesso, caso nenhuma das condições seja atendida
+        denyAccess(); 
     }    
 };
 
