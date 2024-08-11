@@ -140,6 +140,11 @@ article {
     margin-top: 20px;
 }
 
+.h1social {
+    color: white;
+    font-size: 26px;
+}
+
 .social-icons a {
     display: inline-block;
     margin: 0 10px;
@@ -151,9 +156,9 @@ article {
     filter: invert(1);
 }
 
-.h1social {
-    color: white;
-    font-size: 26px;
+.social-icons img:hover {
+    width: 34px;
+    height: 34px;
 }
 
 footer {
