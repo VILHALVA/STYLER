@@ -39,6 +39,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor6);
 }
 
 header {
@@ -232,10 +233,6 @@ footer {
 
 /* TELAS GRANDES - COMPUTADORES E TVS: */
 @media screen and (min-width: 768px) {
-    body {
-        background-color: var(--cor6);
-    }
-
     header {
         background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
     }
@@ -248,10 +245,6 @@ footer {
     header > p {
         font-family: "SUBTITULO_1";
         font-size: 1.2em;
-    }
-
-    .pc {
-        display: none;
     }
 
     span#burguer {
@@ -318,10 +311,6 @@ footer {
 
 /* TELAS PEQUENAS - TABLETES E CELULARES: */
 @media screen and (max-width: 768px) { 
-    body {
-        background-color: var(--cor2);
-    }
-
     header {
         background-image: linear-gradient(to bottom, var(--cor3), var(--cor2));
     }

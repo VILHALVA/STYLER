@@ -28,17 +28,18 @@
 }
 
 :root {
-    --cor1: #7c0707;
-    --cor2: #150758;
+    --cor1: #570606;
+    --cor2: #100645;
     --cor3: #400539;
-    --cor4: #042c4b;
-    --cor5: #1c022c;
-    --cor6: #04290b;
-    --cor7: #16084b;
+    --cor4: #05243b;
+    --cor5: #150320;
+    --cor6: #032e0b;
+    --cor7: #11053e;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor6);
 }
 
 header {
@@ -232,10 +233,6 @@ footer {
 
 /* TELAS GRANDES - COMPUTADORES E TVS: */
 @media screen and (min-width: 768px) {
-    body {
-        background-color: var(--cor6);
-    }
-
     header {
         background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
     }
@@ -248,10 +245,6 @@ footer {
     header > p {
         font-family: "SUBTITULO_1";
         font-size: 1.2em;
-    }
-
-    .pc {
-        display: none;
     }
 
     span#burguer {
@@ -318,10 +311,6 @@ footer {
 
 /* TELAS PEQUENAS - TABLETES E CELULARES: */
 @media screen and (max-width: 768px) { 
-    body {
-        background-color: var(--cor2);
-    }
-
     header {
         background-image: linear-gradient(to bottom, var(--cor3), var(--cor2));
     }
