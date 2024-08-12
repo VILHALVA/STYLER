@@ -4,7 +4,7 @@
     * 🔸 Foi implementada a funcionalidade de alternância entre os temas `CLARO` e `ESCURO` através de um botão flutuante. Para suportar essa funcionalidade, foi necessário criar um novo `index.html` na raiz do repositório. Esse arquivo exibe um `spinner` de carregamento antes de redirecionar para a página inicial localizada em `./03_HOME/01_INICIO/index.html`.
     * 🔸 Implementamos, através do `Media Queries`, o ajuste das fontes dos componentes conforme o tamanho e tipo de tela (Celular/PC).
     * 🔸 **Atualização no Menu de Itens:** As antigas páginas estáticas foram substituídas por modernos e interativos **POP MODAIS** com efeitos de transição. Isso vale para as opções de `LINKS`, `QRCODE`, `PARCERIA`, e `CODIGO`.
-    * 🔸 **Retorno do Layout de Biografia:** O campo sobre o site foi movido para o botão `SOBRE`. no lugar, foi inserido o texto `QUEM SOU EU?` com uma breve descrição e uma foto ao lado com exibição em forma de slide, com os botões `CONTATO` e `SOBRE` (Com POP MODAIS e efeitos de transição).
+    * 🔸 **Retorno do Layout de Biografia:** O campo "SOBRE" foi realocado para o botão `SOBRE`. Em seu lugar, foi adicionado o título `QUEM SOU EU?`, acompanhado de uma breve descrição e uma imagem exibida em formato de slide. Além disso, foram incluídos os botões `CONTATO` e `SOBRE`, ambos com pop-ups modais e efeitos de transição suave.
 * ✅ **Liberação do `MENU DE LINKS`:** 
   * A partir do botão `LINKS` na `HOME`, o `MENU` está novamente disponível com os recursos de `TEMAS` e `Media Queries`:
     * 🔸 IDES ONLINE (NOVO)
