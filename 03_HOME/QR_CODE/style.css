@@ -66,16 +66,23 @@ body {
     background: #0f3802;
 }
 
+img {
+    background-color: rgba(0, 0, 0, 0.57);
+    padding: 20px;
+    width: 100px;
+}
+
 .BOTAO {
     display: inline-block;
     background-color: #2f08de;
     color: white;
-    padding: 10px 25px;
+    padding: 10px 20px;
     text-decoration: none;
     border-radius: 25px;
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 20px;
+    margin-left: -30px;
     transition: background-color 200ms ease-in-out, transform 200ms ease;
 }
 
