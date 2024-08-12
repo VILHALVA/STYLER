@@ -341,7 +341,7 @@ footer {
 
     header > h1 {
         font-family: "TITULO_2";
-        font-size: 2em;
+        font-size: 2.2em;
     }
 
     header > p {
@@ -377,12 +377,12 @@ footer {
     }
 
     .titulo {
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
 
     .descricao {
-        margin-top: 10px;
-        font-size: 20px;
+        margin: 10px;
+        font-size: 18px;
     }
 
     #BOTAO {
