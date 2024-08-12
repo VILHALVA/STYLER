@@ -111,6 +111,48 @@ article {
     margin-bottom: 40px;
 }
 
+.profile {
+    background-color: var(--cor5);
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.profile-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: var(--cor4);
+}
+
+.profile img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.buttons .button {
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.buttons .button.blue {
+    background-color: #020426;
+}
+
+.buttons .button.blue:hover {
+    background-color: red;
+}
+
 #BOTAO {
     color: white;
     text-align: center;
@@ -241,6 +283,26 @@ footer {
         background-image: linear-gradient(to top, var(--cor4), var(--cor7));
     }
 
+    .profile-content {
+        flex-direction: row;
+    }
+
+    .profile img {
+        width: 300px;
+        height: 300px;
+        margin: 0 20px 0 0;
+    }
+
+    .descricao {
+        font-size: 20px;
+    }
+
+    .titulo {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 1.5em;
+    }
+
     #BOTAO {
         background-image: linear-gradient(to left, var(--cor2), var(--cor5));
     }
@@ -274,10 +336,6 @@ footer {
         font-size: 1.0em;
     }
 
-    #pc {
-        display: block;
-    }
-
     span#burguer {
         padding: 7px;
         background-color: var(--cor3);
@@ -294,6 +352,23 @@ footer {
     
     main {
         background-image: linear-gradient(to top, var(--cor2), var(--cor6));
+    }
+
+    .profile-content {
+        flex-direction: column;
+    }
+
+    .profile img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .descricao {
+        font-size: 20px;
+    }
+
+    .titulo {
+        font-size: 1.2em;
     }
 
     #BOTAO {
