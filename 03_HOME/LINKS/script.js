@@ -1,15 +1,18 @@
-function togglePopup() {
+function togglePopup(action) {
     const popup = document.getElementById("popup-1");
-    const closeButton = document.querySelector('.close-btn');
-
-    closeButton.classList.add('clicked');
+    popup.classList.add('closing');
 
     setTimeout(() => {
         popup.classList.remove("active");
-        setTimeout(() => {
+        popup.style.display = "none";
+
+        if (action === 'close') {
             window.history.back();
-        }, 300); 
-    }, 300);
+        } 
+        else if (action === 'sim') {
+            window.location.href = './MENU DE LINKS/index.html';
+        }
+    }, 300); 
 }
 
 window.onload = function() {

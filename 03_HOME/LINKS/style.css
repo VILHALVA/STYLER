@@ -19,10 +19,18 @@ body {
     display: none;
     align-items: center;
     justify-content: center;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .popup.active {
     display: flex;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.popup.closing {
+    opacity: 0;
+    transform: scale(0.9);
 }
 
 .overlay {
@@ -44,7 +52,6 @@ body {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
     max-width: 500px;
     text-align: center;
-    transition: transform 0.3s ease, opacity 0.3s ease;
     z-index: 2;
 }
 
@@ -66,6 +73,7 @@ body {
 
 .close-btn:hover {
     background: #ef5350;
+    transform: translateY(-3px);
 }
 
 h1 {
