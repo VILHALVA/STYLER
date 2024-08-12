@@ -1,11 +1,12 @@
 # ATUALIZAÇÕES:
-## VERSÃO 2.5 - 11/08/2024:
+## VERSÃO 2.5 - 12/08/2024:
 * ✅ **Grandes mudanças na página `HOME`:**
     * 🔸 Foi implementada a funcionalidade de alternância entre os temas `CLARO` e `ESCURO` através de um botão flutuante. Para suportar essa funcionalidade, foi necessário criar um novo `index.html` na raiz do repositório. Esse arquivo exibe um `spinner` de carregamento antes de redirecionar para a página inicial localizada em `./03_HOME/01_INICIO/index.html`.
     * 🔸 Implementamos, através do `Media Queries`, o ajuste das fontes dos componentes conforme o tamanho e tipo de tela (Celular/PC).
-    * 🔸 **Atualização no Menu de Itens:** As antigas páginas estáticas foram substituídas por modernos e interativos **POP MODAIS**. Isso vale para as opções de `LINKS`, `QRCODE`, `PARCERIA`, `CODIGO` e `CONTATO`.
+    * 🔸 **Atualização no Menu de Itens:** As antigas páginas estáticas foram substituídas por modernos e interativos **POP MODAIS** com efeitos de transição. Isso vale para as opções de `LINKS`, `QRCODE`, `PARCERIA`, e `CODIGO`.
+    * 🔸 **Retorno do Layout de Biografia:** O campo sobre o site foi movido para o botão `SOBRE`. no lugar, foi inserido o texto `QUEM SOU EU?` com uma breve descrição e uma foto ao lado com exibição em forma de slide, com os botões `CONTATO` e `SOBRE` (Com POP MODAIS e efeitos de transição).
 * ✅ **Liberação do `MENU DE LINKS`:** 
-  * A partir do botão `LINKS` na `HOME`, o `MENU` está novamente disponível com os recursos de `TEMAS` e `Media Queries`. Agora, não está mais no formato ZIP:
+  * A partir do botão `LINKS` na `HOME`, o `MENU` está novamente disponível com os recursos de `TEMAS` e `Media Queries`:
     * 🔸 IDES ONLINE (NOVO)
     * 🔸 SITES DE NOTÍCIAS
     * 🔸 INTELIGÊNCIAS ARTIFICIAIS
@@ -33,14 +34,13 @@
 * ✅ **Mudanças nos `SUBMENUS`:**
     * 🔸 **Ícones Favicon:** Todos os projetos agora utilizam ícones favicon personalizados de acordo com o tema.
     * 🔸 **Título em Maiúsculas:** Todos os projetos têm os títulos exibidos em letras maiúsculas.
-    * 🔸 **Renomeação de Arquivos Padrão:** Os arquivos padrão, como `index.html`, `style.css`, e `script.js`, foram renomeados para um formato consistente.
+    * 🔸 **Renomeação de Arquivos Padrão:** Os arquivos padrão, como `index.html`, `style.css`, e `script.js`, foram renomeados para um formato padrão.
     * 🔸 **Remoção de Prefixos nos Nomes dos Arquivos:** Prefixos iniciais foram removidos dos nomes dos arquivos dos submenus. Por exemplo, `MENU_APLICATIVOS.html` foi alterado para `APLICATIVOS.html`.
-    * 🔸 **Renomeação do Submenu `BOAS MÚSICAS`:** O submenu `BOAS MÚSICAS` foi renomeado para `MÚSICAS`.
 * ✅ **Mudanças no SUBMENU `MÚSICAS`:**
     * 🔸 **Melhorias no `BUSCADOR`:** 
       * 🔹 A validação do buscador foi atualizada. Agora, os botões `BUSCAR` e `LIMPAR` só serão habilitados quando o campo de pesquisa estiver preenchido. 
-      * 🔹 Adicionei um novo recurso ao JavaScript que valida o acesso à página, garantindo que o conteúdo da página seja exibido apenas após a verificação bem-sucedida da navegação correta. Ela foi incluída para alterar o estilo do corpo da página, tornando-o visível apenas depois que a validação confirmar que o usuário o acessou por meio do submenu apropriado. Dessa forma, caso a navegação não seja validada, a página permanecerá oculta (Também se o JavaScript estiver desabilitado).
-      * 🔹 Foi adicionado um novo recurso de opacidade onde o elemento que exibe mensagens de erro (`#errorMessage`) começa com opacidade zero, permanecendo invisível até que um erro ocorra.
+      * 🔹 Adicionei um novo recurso ao JavaScript que valida o acesso à página, garantindo que o conteúdo da página seja exibido apenas após a verificação bem-sucedida. Ela foi incluída para alterar o estilo do corpo da página, tornando-o visível apenas depois que a validação confirmar que o usuário o acessou por meio do submenu apropriado. Dessa forma, caso a navegação não seja validada, a página permanecerá oculta (Isso ocorre também se o JavaScript estiver desabilitado).
+      * 🔹 Foi adicionado um novo recurso de opacidade onde o elemento que exibe mensagens de erro (`#errorMessage`).
     * 🔸 Mudamos as cores dos componentes do css universal (`MUSICAS.css`), deixando um pouco mais escuro e suave.
     * 🔸 Implementamos `Media Queries` para ajustar fontes e cores dos componentes conforme o tamanho e tipo de tela no css universal para Celular/PC.
 * ✅ **Correções de bugs e pequenas melhorias.**
