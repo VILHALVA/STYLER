@@ -1,15 +1,16 @@
 function togglePopup(action) {
     const popup = document.getElementById("popup-1");
-    popup.classList.add('closing');
 
-    setTimeout(() => {
-        popup.classList.remove("active");
+    popup.classList.add('closing');
+    popup.addEventListener('transitionend', function onTransitionEnd() {
+        popup.classList.remove('active', 'closing');
         popup.style.display = "none";
+        popup.removeEventListener('transitionend', onTransitionEnd);
 
         if (action === 'close') {
             window.history.back();
-        } 
-    }, 300); 
+        }
+    }, { once: true });
 }
 
 window.onload = function() {
