@@ -127,12 +127,11 @@ article {
 }
 
 .titulo {
-    color: var(--cor4);
+    color: rgb(7, 7, 223);
     text-align: center;
     margin-bottom: 20px;
 }
 
-/* COPY: */
 .carousel-container {
     flex: 1; 
     margin-right: 20px; 
@@ -167,14 +166,15 @@ article {
 .buttons .button {
     color: white;
     display: inline-block;
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 2px;
     padding: 10px 20px;
     border-radius: 30px;
     text-decoration: none;
 }
 
 .buttons .button.blue {
-    background-color: #020426;
+    background-color: #04096c;
 }
 
 .buttons .button.blue:hover {
@@ -372,8 +372,8 @@ footer {
     }
 
     #carousel {
-        width: 120px; 
-        height: 120px; 
+        width: 150px; 
+        height: 150px; 
     }
 
     .titulo {
@@ -382,7 +382,7 @@ footer {
 
     .descricao {
         margin: 10px;
-        font-size: 18px;
+        font-size: 17px;
     }
 
     #BOTAO {

@@ -166,14 +166,15 @@ article {
 .buttons .button {
     color: white;
     display: inline-block;
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 2px;
     padding: 10px 20px;
     border-radius: 30px;
     text-decoration: none;
 }
 
 .buttons .button.blue {
-    background-color: #020426;
+    background-color: #02064f;
 }
 
 .buttons .button.blue:hover {
@@ -371,8 +372,8 @@ footer {
     }
 
     #carousel {
-        width: 120px; 
-        height: 120px; 
+        width: 150px; 
+        height: 150px; 
     }
 
     .titulo {
@@ -381,7 +382,7 @@ footer {
 
     .descricao {
         margin: 10px;
-        font-size: 18px;
+        font-size: 17px;
     }
 
     #BOTAO {
