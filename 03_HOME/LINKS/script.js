@@ -9,9 +9,6 @@ function togglePopup(action) {
         if (action === 'close') {
             window.history.back();
         } 
-        else if (action === 'sim') {
-            window.location.href = './MENU DE LINKS/index.html';
-        }
     }, 300); 
 }
 
