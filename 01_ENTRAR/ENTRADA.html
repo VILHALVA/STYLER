@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../02_MENU/MIDIAS/ICONE CSS.ico" type="image/x-icon">
+    <title>AUTENTINCADO...</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding-top: 100px;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #333;
+            border-radius: 10px;
+        }
+        
+        h1 {
+            font-size: 24px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+        }
+        
+        button {
+            padding: 10px 20px;
+            font-size: 14px;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #45a049;
+        }
+        
+        #login {
+            margin-bottom: 10px;
+        }
+        
+        #cadastrar {
+            display: block;
+            margin: 0 auto;
+            padding: 10px 20px;
+            font-size: 14px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        
+        #cadastrar:hover {
+            background-color: #2980b9;
+        }
+        
+        .loading-spinner {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: none;
+            text-align: center;
+        }
+        
+        .spinner {
+            border: 4px solid rgba(226, 14, 14, 0.849);
+            border-top: 4px solid #11c94e;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div id="loading" class="loading-spinner">
+        <div class="spinner"></div>
+    </div>
+    <script>
+        function sleep(ms) {
+            return new Promise((resolve) => setTimeout(resolve, ms));
+        }
+        
+        async function showSpinnerAndRedirect() {
+            var loading = document.querySelector('div#loading');
+            loading.style.display = 'block'; 
+        
+            await sleep(3000); 
+        
+            loading.style.display = 'none';
+            window.location.href = '../02_MENU/HTML/01_MENU PRINCIPAL.html';
+        }
+        
+        window.onload = showSpinnerAndRedirect;        
+    </script>
+</body>
+</html>

@@ -20,7 +20,7 @@ async function responder() {
         res.style.backgroundColor = 'green';
         res.innerHTML = `PARABÉNS! VOCÊ ACERTOU! O NÚMERO SORTEADO ERA ${numeroCorreto}!`;
         await sleep(2000);
-        window.location.href = '../HTML/ZZZ.html';
+        window.location.href = '../ENTRADA.html';
         setTimeout(function() {
             res.style.display = 'none';
         }, 3000);

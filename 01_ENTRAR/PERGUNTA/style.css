@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: "SUBTITULO";
-    src: url(../../02_MENU/FONTES/idroid.otf);
+    src: url(../../02_MENU/FONTES/BebasNeue-Regular.ttf);
 }
 
 * {
@@ -16,15 +16,15 @@
 }
 
 :root {
-    --cor1: #8b0b4b;
-    --cor2: #7714b1;
-    --cor3: green;
-    --cor4: red;
-    --cor5: blue;
+    --cor1: #0b8b11;
+    --cor2: #044ece;
+    --cor3: rgba(0, 0, 0, 0.803);
+    --cor4: blue;
+    --cor5: red;
 }
 
 body {
-    background-image: url(../MIDIAS/BINGO.jpg);
+    background-image: url(./FOTO.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -54,7 +54,7 @@ header > h1 {
 header > p {
     color: white;
     font-family: "SUBTITULO";
-    font-size: 0.8em;
+    font-size: 1.4em;
     font-weight: bold;
     padding-right: 10px;
     padding-left: 10px;
@@ -64,11 +64,10 @@ header > p {
 }
 
 main {
-    background-color: rgba(0, 0, 0, 0.803);
+    background-color: var(--cor3);
     border: 5px solid black;
     border-radius: 30px;
     margin: 10px;
-    padding: 20px;
 }
 
 main > div {
@@ -92,7 +91,7 @@ input {
     margin: 10px auto;
     text-align: center;
     font-weight: bolder;
-    background-color: var(--cor3);
+    background-color: var(--cor4);
     color: white;
     padding: 8px 16px;
     border: none;
@@ -100,54 +99,33 @@ input {
 }
 
 .BOTAO:hover {
-    background-color: var(--cor4);
+    background-color: var(--cor5);
 }
 
-.bingoCard {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
-    max-width: 300px;
-    margin: auto;
+#countdownContainer {
+    display: none;
 }
 
-.bingoCell {
+.countdown-circle {
     width: 50px;
     height: 50px;
     background-color: var(--cor5);
-    border-radius: 5px;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px auto;    
+}
+      
+.countdown-text {
     font-size: 1.2em;
-    cursor: pointer;
-}
-
-.bingoCell.marked {
-    background-color: var(--cor4);
     color: white;
-}
-
-#numeroSorteado {
-    background-color: var(--cor2);
-    padding: 10px;
-    margin: 4px;
-    border-radius: 20px;
-    text-align: center;
-    font-weight: bolder;
-    color: white;
-    margin-top: 20px;
+    font-weight: bold;
 }
 
 #res {
-    background-color: var(--cor3);
-    padding: 15px;
-    margin: 6px;
-    border-radius: 25px;
-    text-align: center;
-    font-weight: bolder;
-    font-size: larger;
     color: white;
-    margin-top: 20px;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 20px;
 }
-

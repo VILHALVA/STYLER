@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const numeroSorteadoElement = document.getElementById('numeroSorteado');
     const bingoNumbers = Array.from({length: 25}, (_, i) => i + 1);
     let drawnNumbers = [];
-    const WINNING_PAGE = '../HTML/ZZZ.html';  
+    const WINNING_PAGE = '../ENTRADA.html';  
 
     function generateBingoCard() {
         bingoCardElement.innerHTML = '';

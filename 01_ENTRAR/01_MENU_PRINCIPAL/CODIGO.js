@@ -6,12 +6,12 @@ document.addEventListener('DOMContentLoaded', () => {
         if (modeIcon.classList.contains('fa-moon')) {
             modeIcon.classList.remove('fa-moon');
             modeIcon.classList.add('fa-sun');
-            themeStylesheet.setAttribute('href', '../CSS/01_MENU_TEMA_02.css'); 
+            themeStylesheet.setAttribute('href', 'TEMA_02.css'); 
         } 
         else {
             modeIcon.classList.remove('fa-sun');
             modeIcon.classList.add('fa-moon');
-            themeStylesheet.setAttribute('href', '../CSS/01_MENU_TEMA_01.css'); 
+            themeStylesheet.setAttribute('href', 'TEMA_01.css'); 
         }
     });
 });

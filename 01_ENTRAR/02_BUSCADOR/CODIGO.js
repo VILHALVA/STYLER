@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const errorMessage = document.getElementById('errorMessage');
     const errorContainer = document.getElementById('errorContainer');
 
-    const baseURL = "https://vilhalva.github.io/STYLER/01_ENTRAR/HTML/";
+    const baseURL = "https://vilhalva.github.io/STYLER/01_ENTRAR/";
 
     function toggleButtons() {
         const isInputEmpty = InputName.value.trim() === "";
@@ -13,36 +13,31 @@ document.addEventListener('DOMContentLoaded', function () {
         clearButton.disabled = isInputEmpty;
     }
 
-    function updateButtonState() {
-        toggleButtons();
-    }
+    toggleButtons();
 
-    updateButtonState();
-
-    InputName.addEventListener('input', updateButtonState);
+    InputName.addEventListener('input', toggleButtons);
 
     searchButton.addEventListener('click', function () {
         const userInput = InputName.value.trim().toUpperCase();
         const formattedInput = userInput.replace(/\s+/g, '%20');
-        const URL = `${baseURL}${formattedInput}.html`;
+        const URL = `${baseURL}${formattedInput}/index.html`;
 
-        checkMusicExistence(URL, formattedInput);
+        checkGameExistence(URL, formattedInput);
     });
 
     clearButton.addEventListener('click', function () {
         InputName.value = "";
         errorMessage.style.display = 'none';
         errorContainer.style.display = 'none';
-        updateButtonState();
+        toggleButtons();
     });
 
-    function checkMusicExistence(url, formattedInput) {
+    function checkGameExistence(url, formattedInput) {
         fetch(url, { method: 'HEAD' })
             .then(response => {
                 if (response.ok) {
                     window.location.href = url;
-                    InputName.value = ""; 
-                    updateButtonState(); 
+                    InputName.value = "";
                 } 
                 else {
                     showError(`🤬ERRO 404: A ENTRADA "${formattedInput}" não foi encontrada! Pode ter ocorrido por um dos dois motivos:\n 1️⃣ Você pode ter digitado o nome incorreto. Verifique os títulos das entradas disponíveis no menu e tente novamente.\n 2️⃣ A ENTRADA não existe neste site. Clique no botão abaixo para buscar em outros sites:`);

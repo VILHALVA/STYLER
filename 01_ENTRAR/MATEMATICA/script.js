@@ -30,7 +30,7 @@ async function responder() {
         res.style.backgroundColor = 'green';
         res.innerHTML = `PARABÉNS! VOCÊ ACERTOU! A RESPOSTA É ${respostaCorreta}!`;
         await sleep(2000);
-        window.location.href = '../HTML/ZZZ.html';
+        window.location.href = '../ENTRADA.html';
         document.getElementById("VEL").value = "";
         setTimeout(function() {
             res.style.display = 'none';

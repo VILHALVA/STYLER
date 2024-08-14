@@ -19,7 +19,7 @@ function entrar(message) {
     userMessage.appendChild(message);
     (async () => {
         await sleep(3000);
-        window.location.href = '../HTML/ZZZ.html';
+        window.location.href = '../ENTRADA.html';
     })();
 }
 
@@ -56,9 +56,9 @@ async function changeSlotImg() {
         random2 = randomNumberGen();
         random3 = randomNumberGen();
 
-        slot1.src = `../IMG_NIQUEL/${random1}.png`;
-        slot2.src = `../IMG_NIQUEL/${random2}.png`;
-        slot3.src = `../IMG_NIQUEL/${random3}.png`;
+        slot1.src = `./IMG/${random1}.png`;
+        slot2.src = `./IMG/${random2}.png`;
+        slot3.src = `./IMG/${random3}.png`;
 
         userMessage.innerText = '';
         console.log({repeat});

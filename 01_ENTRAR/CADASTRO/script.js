@@ -33,6 +33,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 loading.style.display = 'block';
 
                 const texto = `
+                #===========👥SOBRE O USUÁRIO:================
+                🔵NOME: "${nome}"
+                🔵EMAIL: "${email}"
+
                 #==========🚀SOBRE O SITE:=================
                 🔵SITE: https://vilhalva.github.io/STYLER/index.html
                 🔵CRIADOR: SAMUEL MARTINS VILHALVA
@@ -44,10 +48,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 🔵PERFIL NO LINKEDIN: http://www.linkedin.com/in/vilhalva
                 🔵SOU FREELANCER: https://telegra.ph/FREELANCER-10-19-9
                 🔵PARCERIA: https://t.me/DIVULGACAO2023
-
-                #===========👥SOBRE O USUÁRIO:================
-                🔵NOME: "${nome}"
-                🔵EMAIL: "${email}"
                 `;
 
                 const blob = new Blob([texto], { type: 'text/plain' });
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 loading.style.display = 'none';
 
                 formulario.reset(); 
-                window.location.href = '../HTML/LOGIN.html';
+                window.location.href = '../LOGIN/index.html';
             } 
             else {
                 alert('😡POR FAVOR, PREENCHA TODOS OS CAMPOS CORRETAMENTE ANTES DE CADASTRAR!');
@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     loginBotao.addEventListener('click', async function () {
-        window.location.href = '../HTML/LOGIN.html';
+        window.location.href = '../LOGIN/index.html';
     });
     
     verificarCampos();

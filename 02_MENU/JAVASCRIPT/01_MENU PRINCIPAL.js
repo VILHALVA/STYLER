@@ -1,7 +1,7 @@
 window.onload = function () {
     const previousPage = document.referrer;
     const currentPageProtocol = window.location.protocol;
-    const requiredSubstring = 'https://vilhalva.github.io/STYLER/01_ENTRAR/HTML/ZZZ.html';
+    const requiredSubstring = 'https://vilhalva.github.io/STYLER/01_ENTRAR/ENTRADA.html';
 
     function denyAccess() {
         document.body.style.display = 'none';

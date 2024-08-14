@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", function() {
             res.style.backgroundColor = 'green';
             res.innerHTML = `PARABÉNS! VOCÊ ACERTOU! É ${resposta}!`;
             await sleep(2000);
-            window.location.href = '../HTML/ZZZ.html';
+            window.location.href = '../ENTRADA.html';
             document.getElementById("VEL").value = "";
             setTimeout(function() {
                 res.style.display = 'none';
