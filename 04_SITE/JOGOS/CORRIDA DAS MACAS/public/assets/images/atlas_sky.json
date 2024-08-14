@@ -1,0 +1,83 @@
+{
+	"textures": [
+		{
+			"image": "atlas_sky.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1600,
+				"h": 1320
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "background.jpg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1280,
+						"h": 720
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1280,
+						"h": 720
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 1280,
+						"h": 720
+					}
+				},
+				{
+					"filename": "background2_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 800,
+						"h": 600
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 800,
+						"h": 600
+					},
+					"frame": {
+						"x": 0,
+						"y": 720,
+						"w": 800,
+						"h": 600
+					}
+				},
+				{
+					"filename": "background_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 800,
+						"h": 600
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 800,
+						"h": 600
+					},
+					"frame": {
+						"x": 800,
+						"y": 720,
+						"w": 800,
+						"h": 600
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:d41432cafab2eb8b7df3ced6c3ae928e:33ea9d3082379fa5e89eaac2fe91f703:70d306aee832ea82a44452bd51e5a86c$"
+	}
+}
