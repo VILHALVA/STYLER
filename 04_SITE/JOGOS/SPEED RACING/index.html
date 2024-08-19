@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORRIDA MOBILE</title>
+    <link rel="shortcut icon" href="../../../02_MENU/MIDIAS/JOGOS.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/styleOne.css">
+</head>
+<body>
+    <div class="speedWay">
+        <div class="newGame">
+            <p>SPEED RACING</p>
+            <button class="init" onclick="newGame()">JOGAR</button>
+            <p class="devGame">DEV: LUCAS MOURA</p>
+        </div>
+        <div class="score"></div>
+        <div class="meters"><span>1000m</span></div>
+        <div class="btnsControls">
+            <button class="esq btns">&laquo;</button>
+            <button class="dir btns">&raquo;</button>
+        </div>
+        <img src="imagens/carro1.png" alt="A imagem não pode ser exibida" class="playerCar">
+        <div class="range"></div>
+        <div class="gameOver">
+            <p class="scoreGameOver"></p>
+            <button class="reload" onclick="reloadGame()">JOGAR NOVAMENTE</button>
+        </div>
+    </div>
+    <script src="scripts/scriptOne.js"></script>
+</body>
+</html>

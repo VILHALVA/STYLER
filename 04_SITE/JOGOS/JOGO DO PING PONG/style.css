@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body {
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgba(22, 21, 21, 0.779);
+}
+
+#dvPainel {
+    margin-top: 10px;
+    padding: 5px;
+    display: flexbox;
+    height: 50px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+    border-radius: 20px;
+}
+
+#btIniciar {
+    margin: 2px;
+    background-color: blue;
+    border-radius: 30px;
+}
+
+.itemPainel {
+    margin: 5px;
+}
+
+#dvJogo {
+    width: 960px;
+    height: 500px;
+    border: 1px solid #000;
+    background-color: #000;
+}
+
+#dvBola {
+    position: absolute;
+    top: 240px;
+    left: 475px;
+    width: 20px;
+    height: 20px;
+    background-color: #0289f888;
+}
+
+.barra {
+    position: absolute;
+    width: 20px;
+    height: 140px;
+    background-color: rgb(237, 7, 7);
+    top: 180px;
+}
+
+.esquerda {
+    left: 10px;
+}
+
+.direita {
+    left: 930px;
+}
