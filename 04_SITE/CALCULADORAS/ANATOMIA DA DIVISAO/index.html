@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANATOMIA DA DIVISÃO</title>
+    <link rel="shortcut icon" href="../../../02_MENU/MIDIAS/CALCULADORAS.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Anatomia da Divisão</h1>
+        <form id="divisionForm">
+            <label for="dividendo">Dividendo: </label>
+            <input type="number" name="dividendo" id="dividendo" required>
+            <label for="divisor">Divisor: </label>
+            <input type="number" name="divisor" id="divisor" required>
+            <input type="submit" value="Analisar">
+        </form>
+    </main>
+    <section id="resultSection" style="display: none;">
+        <h2>Estrutura da Divisão</h2>
+        <p id="error" style="color: red;"></p>
+        <table class="divisao">
+            <tr>
+                <td id="resultDividendo"></td>
+                <td id="resultDivisor"></td>
+            </tr>
+            <tr>
+                <td id="resultResto"></td>
+                <td id="resultQuociente"></td>
+            </tr>
+        </table>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
