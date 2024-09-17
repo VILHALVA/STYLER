@@ -1,4 +1,8 @@
 # ATUALIZAÇÕES:
+## VERSÃO 2.6 - 17/09/2024:
+* ✅ O SITE foi vinculado ao bot do telegram, chamado [BETABOT](https://t.me/BETA_PY_BOT), através do recurso de "Mini-Apps". [CLIQUE AQUI PARA ACESSAR](https://t.me/BETA_PY_BOT/STYLER).
+---
+
 ## VERSÃO 2.5 - 12/08/2024:
 * ✅ **Grandes mudanças na página `HOME`:**
     * 🔸 Foi implementada a funcionalidade de alternância entre os temas `CLARO` e `ESCURO` através de um botão flutuante. Para suportar essa funcionalidade, foi necessário criar um novo `index.html` na raiz do repositório. Esse arquivo exibe um `spinner` de carregamento antes de redirecionar para a página inicial localizada em `./03_HOME/01_INICIO/index.html`.
