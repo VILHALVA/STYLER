@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    scrollbar-width: none;
+}
+
+.wrapper {
+    max-width: 390px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    max-width: 115px;
+    text-align: center;
+}
+
+.amount {
+    position: absolute;
+    right: 0;
+}
+
+#amount {
+    display: block;
+    width: 20px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(255, 226, 34);
+    border-radius: 50%
+}
+
+.image img {
+    width: 60%;
+}
+
+.buttons {
+    width: 100%;
+}
+
+.add {
+    width: 60%;
+    font-size: 20px;
+    background-color: rgb(255, 226, 34);
+    border: 2px;
+    border-radius: 4px;
+    color: white;
+}
+
+.plus {
+    width: 30%;
+    font-size: 20px;
+    background-color: rgb(255, 226, 34);
+    border: 2px;
+    border-radius: 4px;
+    color: white;
+}
+
+.minus {
+    width: 30%;
+    font-size: 20px;
+    background-color: rgb(222, 45, 45);
+    border: 2px;
+    border-radius: 4px;
+    color: white;
+}
+
+.view-order {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(51, 222, 45);
+    border: 2px;
+    border-radius: 4px;
+}
+
+.check {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.checkItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nameAndAmount {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 150px;
+}
+
+.nameAndAmount > img {
+    width: 30%;
+}
+
+.payBtn {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(51, 222, 45);
+    border: 2px;
+    border-radius: 4px;
+}
+
+.hide {
+    display: none;
+}
