@@ -140,13 +140,13 @@ body {
 }
 
 .inline-button {
-    padding: 8px;
+    padding: 7px;
     margin-right: 10px;
     background-color: #141514f3;
     color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 13px;
     transition: background-color 0.3s ease;
     display: inline-block;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
