@@ -7,7 +7,7 @@ let responses = {
     "boa tarde": "Boa tarde! Espero que seu dia esteja indo bem.",
     "boa noite": "Boa noite! Precisa de alguma coisa antes de dormir?",
     "ajuda": "Claro! Em que posso ajudar?",
-    "o que você pode fazer?": "Eu posso conversar com você, responder perguntas simples e te guiar em tarefas básicas! Pergunte sobre:\n- Como estou;\n- Qual é o meu nome?\n- O que posso fazer;\n- E muito mais! Se precisar de ajuda, estou por aqui!",
+    "o que você pode fazer?": "Eu posso conversar com você, responder perguntas simples e te guiar em tarefas básicas! Pergunte sobre:\n- tecnologia.\n- ciência.\n- filosofia\n- teologia\n- E muito mais! Se precisar de ajuda, estou por aqui!",
     "como você está?": "Eu sou apenas um programa, mas estou funcionando bem!",
     "qual é o seu nome?": "Eu sou o ROBÔ ED, seu assistente virtual.",
     "até logo": "Até logo! Foi bom falar com você.",
