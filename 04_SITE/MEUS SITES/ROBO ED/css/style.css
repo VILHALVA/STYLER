@@ -135,7 +135,7 @@ body {
     display: flex;
     justify-content: flex-start;
     margin-top: 4px;
-    margin-left: 50px;
+    margin-left: 60px;
     margin-bottom: 15px;
 }
 
@@ -146,7 +146,7 @@ body {
     color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 13px;
+    font-size: 10px;
     transition: background-color 0.3s ease;
     display: inline-block;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);

@@ -30,7 +30,7 @@ function addButtons() {
 function sendMessage() {
     let userInput = $('#user-input').val().trim();
     if (userInput) {
-        addMessage('👤USUARIO', './imagens/USUARIO.jpg', userInput, 'sender-1');
+        addMessage('👤VOCÊ', './imagens/VOCE.jpg', userInput, 'sender-1');
         $('#user-input').val(''); 
 
         addTypingIndicator();
