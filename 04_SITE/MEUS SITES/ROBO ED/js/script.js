@@ -1,6 +1,6 @@
 $(document).ready(function() {
     addMessage('🤖ROBÔ ED', './imagens/ROBO.jpg', 
-    "😃Olá! Eu sou um bot conversador!\n\n🌚Você pode me fazer perguntas como:\n- qual é o seu nome?\n- como você está?\n- o que você pode fazer?\n- tchau...", 'sender-2');
+    "😃Olá! Eu sou o ROBÔ ED!\n\n🌚Você pode me fazer perguntas como:\n- qual é o seu nome?\n- como você está?\n- o que você pode fazer?\n- tchau...", 'sender-2');
 
     addButtons();
     
@@ -20,7 +20,6 @@ function addButtons() {
         <div class="button-container">
             <a href="https://t.me/VILHALVA100" class="inline-button" target="_blank">💻CRIADOR</a>
             <a href="https://t.me/VILHALVA100_CANAL" class="inline-button" target="_blank">📢CANAL</a>
-            <a href="https://t.me/EXCLUSIVOS_VILHALVA/1538" class="inline-button" target="_blank">🤑COMPRAR</a>
         </div>
     `;
     $('#chat-container').append(buttonsHtml);
