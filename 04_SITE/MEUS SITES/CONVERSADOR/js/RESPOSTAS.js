@@ -6,6 +6,10 @@ let responses = {
     "bom dia": "Bom dia! Como você está?",
     "boa tarde": "Boa tarde! Espero que seu dia esteja indo bem.",
     "boa noite": "Boa noite! Precisa de alguma coisa antes de dormir?",
+    "ajuda": "Claro! Em que posso ajudar?",
+    "o que você pode fazer?": "Eu posso conversar com você, responder perguntas simples e te guiar em tarefas básicas! Pergunte sobre:\n- tecnologia.\n- ciência.\n- filosofia.\n- teologia.\n- programação.\n- E muito mais! Se precisar de ajuda, estou por aqui!",
+    "como você está?": "Eu sou apenas um programa, mas estou funcionando bem!",
+    "qual é o seu nome?": "Eu sou o ROBÔ ED, seu assistente virtual.",
     "até logo": "Até logo! Foi bom falar com você.",
 
     // ASSUNTOS GERAIS:
@@ -149,8 +153,6 @@ let responses = {
     "machine learning": "Machine learning é um ramo da programação que se concentra em criar sistemas que aprendem e melhoram com dados.",
     "devops": "DevOps é uma abordagem que integra o desenvolvimento e as operações para melhorar a colaboração e a eficiência na entrega de software.",
     "programação web": "A programação web envolve o desenvolvimento de sites e aplicativos acessíveis pela internet, utilizando front-end e back-end.",
-
-    // VOCÊ PODE ADICIONAR MUITO MAIS DIALOGOS...
 
     // CASO DÊ ELSE:
     "default": "Desculpe, não tenho uma resposta para essa pergunta. Pode tentar outra?"
