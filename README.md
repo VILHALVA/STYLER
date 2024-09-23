@@ -34,6 +34,7 @@ Agradecemos por explorar nosso site e esperamos que você aproveite a experiênc
 Muitas das páginas utilizadas neste site também estão disponíveis no GitHub:
 - [CURSO EM VIDEO](https://github.com/VILHALVA?tab=repositories&q=+topic:CURSO-EM-VIDEO+topic:HTML)
 - [MEUS SITES](https://github.com/VILHALVA?tab=repositories&q=topic:SITE+topic:INTERFACE)
+- [CHATBOTS](https://github.com/VILHALVA?tab=repositories&q=topic:BOT+topic:WEBBOT)
 - [CALCULADORAS](https://github.com/VILHALVA?tab=repositories&q=+topic:MATEMATICA+topic:HTML)
 - [APLICATIVOS](https://github.com/VILHALVA?tab=repositories&q=+topic:APLICATION+topic:HTML)
 - [JOGOS](https://github.com/VILHALVA?tab=repositories&q=topic:JOGO+topic:HTML)
