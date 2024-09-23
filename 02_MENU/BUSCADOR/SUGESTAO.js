@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const musicNameInput = document.getElementById('InputName');
 
     const suggestions = [
-       "APLICATIVOS", "CALCULADORAS", "CURSO EM VIDEO", "JOGOS", "MEUS SITES", "MUSICAS"       
+       "APLICATIVOS", "CALCULADORAS", "CHATBOTS", "CURSO EM VIDEO", "JOGOS", "MEUS SITES", "MUSICAS"       
     ];
 
     musicNameInput.addEventListener('focus', function () {
