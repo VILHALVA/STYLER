@@ -1,6 +1,7 @@
 # ATUALIZAÇÕES:
-## VERSÃO 2.6 - 17/09/2024:
-* ✅ O SITE foi vinculado ao bot do telegram, chamado [BETABOT](https://t.me/BETA_PY_BOT), através do recurso de "Mini-Apps". [CLIQUE AQUI PARA ACESSAR](https://t.me/BETA_PY_BOT/STYLER).
+## VERSÃO 2.6 - 23/09/2024:
+* ✅ No `MENU DE LINKS` foi adicionado o SUBMENU `JOGOS`. Onde tem links de diversos portais de Jogos e Games.
+* ✅ No `MENU PRINCIPAL` foi adicionado o SUBMENU `CHATBOTS`. onde tem diversos chatBots para web.
 ---
 
 ## VERSÃO 2.5 - 12/08/2024:
