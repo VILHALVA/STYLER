@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const NameInput = document.getElementById('InputName');
 
     const suggestions = [
-        "CONVERSADOR", "MYDEBOT", "ROBO ED"
+        "CONVERSADOR", "MODERADOR", "MYDEBOT", "ROBO ED"
     ];
 
     NameInput.addEventListener('focus', function () {
