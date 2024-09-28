@@ -1,0 +1,5 @@
+const suggestions = [
+    "CONVERSADOR", "ENTREVISTADOR", "MODERADOR", "MYDEBOT", "NAMORADA VIRTUAL", "PSEUDOCRUD", "ROBO ED"
+];
+
+    

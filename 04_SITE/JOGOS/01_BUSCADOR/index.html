@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUSCADOR</title>
+    <link rel="shortcut icon" href="../../../02_MENU/MIDIAS/ICONE CSS.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>BUSCADOR DE JOGOS</h1>
+        <form id="searchForm">
+            <label for="InputName">DIGITE O NOME DO JOGO:</label>
+            <input type="text" id="InputName" required>
+
+            <button type="button" id="searchButton" disabled>BUSCAR</button>
+            <button type="button" id="clearButton" disabled>LIMPAR</button>
+
+            <p id="errorMessage"></p>
+            <div id="errorContainer"></div>
+        </form>
+    </div>
+    <script src="./js/validacao.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/sugestao.js"></script>
+</body>
+</html>
