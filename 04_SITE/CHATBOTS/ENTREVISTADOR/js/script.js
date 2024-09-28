@@ -235,7 +235,7 @@ function displayReport() {
         ⭐️NOME -> ${USER_RESPONSES[0].toUpperCase()}
         ⭐️SEXO -> ${SEXO}
         ⭐️IDADE -> ${USER_RESPONSES[2].toUpperCase()}
-        ⭐️LOCALIZAÇÃO: -> ${USER_RESPONSES[3].toUpperCase()}
+        ⭐️LOCALIZAÇÃO -> ${USER_RESPONSES[3].toUpperCase()}
         ⭐️TRABALHO -> ${USER_RESPONSES[4].toUpperCase()}
         ⭐️ESCOLARIDADE -> ${escolaridadeDetalhada}
         ⭐️METAS -> ${USER_RESPONSES[6].toUpperCase()}
