@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
         toggleButtons();
     }
 
-    updateButtonState();
+    updateButtonState(); 
 
     musicNameInput.addEventListener('input', updateButtonState);
 
@@ -62,15 +62,21 @@ document.addEventListener('DOMContentLoaded', function () {
                 if (response.ok) {
                     window.location.href = url;
                     musicNameInput.value = ""; 
+                    updateButtonState(); 
                 } 
                 else {
                     showError(`🤬ERRO 404: A música "${formattedInput}" não foi encontrada! Pode ter ocorrido por um dos dois motivos:\n 1️⃣ Você pode ter digitado o nome incorreto. Verifique os títulos das músicas disponíveis no menu de Músicas e tente novamente.\n 2️⃣ A música não existe neste site. Clique em um dos botões abaixo para buscar em outros sites:`);
                     createAlternativeLinks(formattedInput);
+                    musicNameInput.value = "";
+                    updateButtonState();
                 }
             })
             .catch(error => {
                 console.error('🥵ERRO NA REQUISIÇÃO HEAD:', error);
                 showError("🥵ERRO NA REQUISIÇÃO HEAD: PODE TER OCORRIDO ALGUMA FALHA NO SERVIDOR! ENTRE EM CONTATO COM O @VILHALVA100 NO TELEGRAM PARA REPORTAR!");
+
+                musicNameInput.value = "";
+                updateButtonState();
             });
     }
 
