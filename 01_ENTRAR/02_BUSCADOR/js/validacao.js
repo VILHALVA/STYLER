@@ -1,7 +1,7 @@
 window.onload = function () {
     const previousPage = document.referrer;
     const currentPageProtocol = window.location.protocol;
-    const requiredSubstring = 'https://vilhalva.github.io/STYLER/01_ENTRAR/01_MENU%20PRINCIPAL/CODIGO.html';
+    const requiredSubstring = 'https://vilhalva.github.io/STYLER/01_ENTRAR/01_MENU%20PRINCIPAL/index.html';
 
     function denyAccess() {
         document.body.style.display = 'none';
