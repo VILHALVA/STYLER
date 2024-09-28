@@ -3,7 +3,7 @@ window.onload = function () {
     const currentPageProtocol = window.location.protocol;
     const requiredSubstrings = [
         'https://vilhalva.github.io/STYLER/02_MENU/HTML/01_MENU%20PRINCIPAL.html',
-        'https://vilhalva.github.io/STYLER/02_MENU/BUSCADOR/CODIGO.html'
+        'https://vilhalva.github.io/STYLER/02_MENU/BUSCADOR/index.html'
     ];
 
     function denyAccess() {
