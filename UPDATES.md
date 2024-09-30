@@ -2,7 +2,7 @@
 ## VERSÃO 2.7 - 28/09/2024:
 * ✅ **Principais atualizações nos `BUSCADORES`:**
     * 🔸 Todos os arquivos foram renomeados, passando de `UPPERCASE` para `lowercase` para melhor organização e padronização.
-    * 🔸 Os arquivos foram organizados em suas respectivas pastas, como: `css/styles`, `js/script`, `js/validacao`, `js/sugestao`, e `BUSCADOR/index.html`.
+    * 🔸 Os arquivos foram organizados em suas respectivas pastas, como: `css/style`, `js/script`, `js/validacao`, `js/sugestao`, e `BUSCADOR/index.html`.
     * 🔸 O arquivo `sugestao.js` agora contém exclusivamente a lista de sugestões. A lógica de autocompletar foi movida para o `script.js`, onde também permanece toda a funcionalidade do formulário, incluindo a validação e a busca.
     * 🔸 **No Buscador de MÚSICAS**: Em caso de erro 404, o campo `musicNameInput` é limpo e os botões de busca e limpar são desabilitados até que o usuário digite algo novamente.
     * 🔸 Cada buscador agora conta com seu próprio `favicon`.  

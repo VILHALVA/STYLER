@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     InputName.value = "";
                 } 
                 else {
-                    showError(`🤬ERRO 404: A ENTRADA "${formattedInput}" não foi encontrada! Pode ter ocorrido por um dos dois motivos:\n 1️⃣ Você pode ter digitado o nome incorreto. Verifique os títulos das entradas disponíveis no menu e tente novamente.\n 2️⃣ A ENTRADA não existe neste site. Clique no botão abaixo para buscar em outros sites:`);
+                    showError(`🤬ERRO 404: A ENTRADA "${formattedInput}" não foi encontrada! Pode ter ocorrido por um dos dois motivos: 1️⃣Você pode ter digitado o nome incorreto. Verifique os títulos das entradas disponíveis no menu e tente novamente. 2️⃣A ENTRADA não existe neste site. 👇Clique no botão abaixo para buscar em outros sites:`);
                     createAlternativeLinks(formattedInput);
                 }
             })

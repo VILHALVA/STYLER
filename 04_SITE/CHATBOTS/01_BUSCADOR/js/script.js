@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     InputName.value = "";
                 } 
                 else {
-                    showError(`🤬ERRO 404: O ChatBot "${formattedInput}" não foi encontrado! Pode ter ocorrido por um dos dois motivos:\n 1️⃣ Você pode ter digitado o nome incorreto. Verifique os títulos dos ChatBots disponíveis no menu de ChatBots e tente novamente.\n 2️⃣ O ChatBot não existe neste site. Clique no botão abaixo para buscar em outros sites:`);
+                    showError(`🤬ERRO 404: O ChatBot "${formattedInput}" não foi encontrado! Pode ter ocorrido por um dos dois motivos: 1️⃣Você pode ter digitado o nome incorreto. Verifique os títulos dos ChatBots disponíveis no menu de ChatBots e tente novamente. 2️⃣O ChatBot não existe neste site. 👇Clique no botão abaixo para buscar em outros sites:`);
                     createAlternativeLinks(formattedInput);
                 }
             })

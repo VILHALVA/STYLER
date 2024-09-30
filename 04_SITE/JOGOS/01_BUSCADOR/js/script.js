@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     InputName.value = "";
                 } 
                 else {
-                    showError(`🤬ERRO 404: O jogo "${formattedInput}" não foi encontrado! Pode ter ocorrido por um dos dois motivos:\n 1️⃣ Você pode ter digitado o nome incorreto. Verifique os títulos dos jogos disponíveis no menu de Jogos e tente novamente. \n 2️⃣ O jogo não existe neste site. Clique no botão abaixo para buscar em outros sites:`);
+                    showError(`🤬ERRO 404: O jogo "${formattedInput}" não foi encontrado! Pode ter ocorrido por um dos dois motivos: 1️⃣Você pode ter digitado o nome incorreto. Verifique os títulos dos jogos disponíveis no menu de Jogos e tente novamente. 2️⃣O jogo não existe neste site. 👇Clique no botão abaixo para buscar em outros sites:`);
                     createAlternativeLinks(formattedInput);
                 }
             })

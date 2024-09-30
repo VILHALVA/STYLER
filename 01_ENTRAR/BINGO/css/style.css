@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: "TITULO";
-    src: url(../../02_MENU/FONTES/STOREB__.ttf);
+    src: url(../../../02_MENU/FONTES/STOREB__.ttf);
 }
 
 @font-face {
     font-family: "SUBTITULO";
-    src: url(../../02_MENU/FONTES/idroid.otf);
+    src: url(../../../02_MENU/FONTES/idroid.otf);
 }
 
 * {
@@ -24,7 +24,7 @@
 }
 
 body {
-    background-image: url(./FOTO.jpg);
+    background-image: url(../imagem/FOTO.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;

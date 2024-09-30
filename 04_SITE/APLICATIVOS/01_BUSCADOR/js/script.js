@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     NameInput.value = "";
                 } 
                 else {
-                    showError(`🤬ERRO 404: O aplicativo "${formattedInput}" não foi encontrado! Pode ter ocorrido por um dos dois motivos:\n 1️⃣ Você pode ter digitado o nome incorreto. Verifique os títulos dos aplicativos disponíveis no menu de aplicativos e tente novamente.\n 2️⃣ O aplicativo não existe neste site. Clique no botão abaixo para buscar em outros sites:`);
+                    showError(`🤬ERRO 404: O aplicativo "${formattedInput}" não foi encontrado! Pode ter ocorrido por um dos dois motivos: 1️⃣Você pode ter digitado o nome incorreto. Verifique os títulos dos aplicativos disponíveis no menu de aplicativos e tente novamente. 2️⃣O aplicativo não existe neste site. 👇Clique no botão abaixo para buscar em outros sites:`);
                     createAlternativeLinks(formattedInput);
                 }
             })

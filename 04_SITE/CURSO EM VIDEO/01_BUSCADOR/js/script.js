@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     InputName.value = "";
                 } 
                 else {
-                    showError(`🤬ERRO 404: O projeto "${formattedInput}" não foi encontrado! Pode ter ocorrido por um dos dois motivos:\n 1️⃣ Você pode ter digitado o nome incorreto. Verifique os títulos dos projetos disponíveis no menu do curso em video e tente novamente. \n 2️⃣ O projeto não existe neste site. Clique no botão abaixo para buscar em outros sites:`);
+                    showError(`🤬ERRO 404: O projeto "${formattedInput}" não foi encontrado! Pode ter ocorrido por um dos dois motivos: 1️⃣Você pode ter digitado o nome incorreto. Verifique os títulos dos projetos disponíveis no menu do curso em video e tente novamente. 2️⃣O projeto não existe neste site. 👇Clique no botão abaixo para buscar em outros sites:`);
                     createAlternativeLinks(formattedInput);
                 }
             })

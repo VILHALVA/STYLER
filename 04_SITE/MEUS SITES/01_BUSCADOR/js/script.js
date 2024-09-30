@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     InputName.value = "";
                 } 
                 else {
-                    showError(`🤬ERRO 404: O site "${formattedInput}" não foi encontrado! Pode ter ocorrido por um dos dois motivos:\n 1️⃣ Você pode ter digitado o nome incorreto. Verifique os títulos dos sites disponíveis no menu de sites e tente novamente. \n 2️⃣ O site não existe aqui. Clique no botão abaixo para pesquisar no google:`);
+                    showError(`🤬ERRO 404: O site "${formattedInput}" não foi encontrado! Pode ter ocorrido por um dos dois motivos: 1️⃣Você pode ter digitado o nome incorreto. Verifique os títulos dos sites disponíveis no menu de sites e tente novamente. 2️⃣O site não existe aqui. 👇Clique no botão abaixo para pesquisar no google:`);
                     createAlternativeLinks(formattedInput);
                 }
             })
