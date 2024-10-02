@@ -3,7 +3,7 @@ let lastCommand = "";
 let userToEdit = null;
 
 $(document).ready(function () {
-    addMessage('🤖ROBÔ', './imagens/ROBO.jpg', "😃CLIQUE NO MENU DE BOTÕES PARA EXPLORAR O CRUD!", 'sender-2');
+    addMessage('🤖PSEUDOCRUD', './imagens/ROBO.jpg', "😃CLIQUE NO MENU DE BOTÕES PARA EXPLORAR O CRUD!", 'sender-2');
     showMenuButtons(["LISTAR", "CRIAR", "EDITAR", "APAGAR"]);
     $('.input-container').hide();
 
@@ -29,7 +29,7 @@ function processUserInput(userInput) {
 
     setTimeout(function () {
         let botResponse = getBotResponse(userInput);
-        addMessage('🤖ROBÔ', './imagens/ROBO.jpg', botResponse.text, 'sender-2');
+        addMessage('🤖PSEUDOCRUD', './imagens/ROBO.jpg', botResponse.text, 'sender-2');
         
         if (botResponse.buttons) {
             showMenuButtons(botResponse.buttons);
