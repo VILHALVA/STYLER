@@ -34,7 +34,6 @@ document.addEventListener('DOMContentLoaded', function () {
         toggleButtons();
     }
 
-    updateButtonState(); 
     NameInput.addEventListener('input', updateButtonState);
 
     searchButton.addEventListener('click', function () {
@@ -58,7 +57,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 if (response.ok) {
                     window.location.href = url; 
                     NameInput.value = ""; 
-                    updateButtonState();
                 } 
                 else {
                     showError(`🤬ERRO 404: O SUBMENU "${formattedInput}" não foi encontrado! Pode ter ocorrido por um dos dois motivos: 1️⃣Você pode ter digitado o nome incorreto. Verifique os títulos dos submenus disponíveis no menu Principal e tente novamente. 2️⃣O SUBMENU não existe neste site. 👇Clique no botão abaixo para buscar em outros sites:`);

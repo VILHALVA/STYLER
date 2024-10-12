@@ -4,9 +4,12 @@ document.addEventListener("DOMContentLoaded", function() {
     const numeroAtualElement = document.getElementById('numeroAtual');
     const resultadoElement = document.getElementById('res');
     const numeroSorteadoElement = document.getElementById('numeroSorteado');
+    const historicoElement = document.getElementById('historico');
     const bingoNumbers = Array.from({length: 25}, (_, i) => i + 1);
     let drawnNumbers = [];
     const WINNING_PAGE = '../ENTRADA.html';  
+    const MAX_DRAWINGS = 50; 
+    let currentDrawings = 0; 
 
     function generateBingoCard() {
         bingoCardElement.innerHTML = '';
@@ -35,65 +38,53 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function sortearNumero() {
+        if (drawnNumbers.length >= MAX_DRAWINGS) {
+            alert("O LIMITE DE NÚMEROS SORTEADOS FOI ALCANÇADO!");
+            return;
+        }
+        
         if (bingoNumbers.length === 0) {
             alert("TODOS OS NÚMEROS FORAM SORTEADOS!");
             return;
         }
+
         const randomIndex = Math.floor(Math.random() * bingoNumbers.length);
         const drawnNumber = bingoNumbers.splice(randomIndex, 1)[0];
         drawnNumbers.push(drawnNumber);
         numeroAtualElement.textContent = drawnNumber;
+        addToHistory(drawnNumber);
         checkForWin();
+        currentDrawings++; 
     }
+
+    function addToHistory(number) {
+        const listItem = document.createElement('li');
+        listItem.textContent = `NÚMERO -> ${number}`;
+        
+        if (historicoElement.firstChild) {
+            historicoElement.insertBefore(listItem, historicoElement.firstChild);
+        } 
+        else {
+            historicoElement.appendChild(listItem); 
+        }
+    }    
 
     function checkForWin() {
         const cells = Array.from(document.querySelectorAll('.bingoCell'));
         const markedCells = cells.filter(cell => cell.classList.contains('marked'));
         const markedNumbers = markedCells.map(cell => parseInt(cell.textContent));
-        let win = false;
 
-        for (let i = 0; i < 5; i++) {
-            let row = cells.slice(i * 5, i * 5 + 5);
-            if (row.every(cell => markedNumbers.includes(parseInt(cell.textContent)))) {
-                win = true;
-                resultadoElement.textContent = 'VOCÊ GANHOU! LINHA COMPLETA!';
-                break;
-            }
-        }
-
-        if (!win) {
-            for (let i = 0; i < 5; i++) {
-                let column = cells.filter((_, index) => index % 5 === i);
-                if (column.every(cell => markedNumbers.includes(parseInt(cell.textContent)))) {
-                    win = true;
-                    resultadoElement.textContent = 'VOCÊ GANHOU! COLUNA COMPLETA!';
-                    break;
-                }
-            }
-        }
-
-        if (!win) {
-            let diagonal1 = cells.filter((_, index) => index % 6 === 0);
-            let diagonal2 = cells.filter((_, index) => (index % 4 === 0) && (index !== 0) && (index !== 24));
-            if (diagonal1.every(cell => markedNumbers.includes(parseInt(cell.textContent)))) {
-                win = true;
-                resultadoElement.textContent = 'VOCÊ GANHOU! DIAGONAL COMPLETA!';
-            }
-            if (!win && diagonal2.every(cell => markedNumbers.includes(parseInt(cell.textContent)))) {
-                win = true;
-                resultadoElement.textContent = 'VOCÊ GANHOU! DIAGONAL COMPLETA!';
-            }
-        }
-
-        if (win) {
+        if (markedNumbers.length === 25) { 
+            resultadoElement.textContent = 'VOCÊ GANHOU! BINGO COMPLETO!';
             numeroSorteadoElement.style.display = "none";
             resultadoElement.style.display = "block"; 
+    
             clearFieldsAndRedirect();
+        
             setTimeout(function() {
                 resultadoElement.style.display = 'none';
             }, 3000);
-            generateBingoCard();
-        }
+        }        
     }
 
     function clearFieldsAndRedirect() {

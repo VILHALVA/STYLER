@@ -46,15 +46,15 @@ document.addEventListener('DOMContentLoaded', function () {
         NameInput.value = "";
         errorMessage.style.display = 'none';
         errorContainer.style.display = 'none';
-        toggleButtons();
+        toggleButtons(); 
     });
 
     function checkGameExistence(url, formattedInput) {
         fetch(url, { method: 'HEAD' })
             .then(response => {
                 if (response.ok) {
-                    window.location.href = url;
-                    InputName.value = "";
+                    window.location.href = url; 
+                    NameInput.value = "";
                 } 
                 else {
                     showError(`🤬ERRO 404: A ENTRADA "${formattedInput}" não foi encontrada! Pode ter ocorrido por um dos dois motivos: 1️⃣Você pode ter digitado o nome incorreto. Verifique os títulos das entradas disponíveis no menu e tente novamente. 2️⃣A ENTRADA não existe neste site. 👇Clique no botão abaixo para buscar em outros sites:`);

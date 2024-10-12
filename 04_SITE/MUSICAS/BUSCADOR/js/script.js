@@ -62,13 +62,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 if (response.ok) {
                     window.location.href = url;
                     musicNameInput.value = ""; 
-                    updateButtonState(); 
                 } 
                 else {
                     showError(`🤬ERRO 404: A música "${formattedInput}" não foi encontrada! Pode ter ocorrido por um dos dois motivos: 1️⃣Você pode ter digitado o nome incorreto. Verifique os títulos das músicas disponíveis no menu de Músicas e tente novamente. 2️⃣A música não existe neste site. 👇Clique em um dos botões abaixo para buscar em outros sites:`);
                     createAlternativeLinks(formattedInput);
-                    musicNameInput.value = "";
-                    updateButtonState();
                 }
             })
             .catch(error => {
