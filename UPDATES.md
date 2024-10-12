@@ -1,5 +1,6 @@
 # ATUALIZAÇÕES:
 ## VERSÃO 2.7 - 28/09/2024:
+
 * ✅ **Principais atualizações nos `BUSCADORES`:**
     * 🔸 Todos os arquivos foram renomeados, passando de `UPPERCASE` para `lowercase` para melhor organização e padronização.
     * 🔸 Os arquivos foram organizados em suas respectivas pastas, como: `css/style`, `js/script`, `js/validacao`, `js/sugestao`, e `BUSCADOR/index.html`.
