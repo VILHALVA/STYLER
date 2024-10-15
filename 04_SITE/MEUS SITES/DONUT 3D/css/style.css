@@ -1,0 +1,74 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: black;
+  font-family: Helvetica;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.superContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  color: grey;
+}
+
+.donutContainer {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#d {
+  font-size: 1.3em;
+  color: white;
+}
+
+.controlContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.controlPanel {
+  width: 100%;
+  max-width: 300px;
+}
+
+.control {
+  margin-bottom: 20px;
+}
+
+a {
+  color: grey;
+  font-size: 0.6em;
+}
+
+.link-wrap {
+  margin-top: 20px;
+}
+
+p.label {
+  display: inline-block;
+  float: left;
+  margin: 0;
+}
+
+p.value {
+  display: inline-block;
+  float: right;
+  margin: 0;
+}
+
+.slider {
+  width: 100%;
+  margin-top: 5px;
+}
