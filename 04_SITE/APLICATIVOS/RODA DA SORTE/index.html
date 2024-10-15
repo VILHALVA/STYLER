@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RODA DA SORTE</title>
+    <link rel="shortcut icon" href="../../../02_MENU/MIDIAS/APLICATIVOS.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>GANHADOR:</h1>
+        <p id="Ganhador">NENHUM</p>
+    </div>
+    <div class="wheel">
+        <canvas class="" id="canvas" width="500" height="500"></canvas>
+        <div class="center-circle" onclick="spin()">
+            <div class="triangle"></div>
+        </div> 
+    </div>
+    <div class="inputArea" onchange="createWheel()">
+        <textarea rows="20" cols="30"></textarea>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
