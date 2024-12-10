@@ -7,14 +7,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const baseURL = "https://vilhalva.github.io/STYLER/04_SITE/CURSO%20EM%20VIDEO/";
 
-    NameInput.addEventListener('focus', function () {
-        NameInput.setAttribute('list', 'suggestions');
-    });
-
-    NameInput.addEventListener('blur', function () {
-        NameInput.removeAttribute('list');
-    });
-
     const datalist = document.createElement('datalist');
     datalist.id = 'suggestions';
     suggestions.forEach(function (suggestion) {
@@ -22,15 +14,12 @@ document.addEventListener('DOMContentLoaded', function () {
         option.value = suggestion;
         datalist.appendChild(option);
     });
+    NameInput.setAttribute('list', 'suggestions');
     document.body.appendChild(datalist);
 
     function toggleButtons() {
-        const isInputEmpty = NameInput.value.trim() === "";
-        searchButton.disabled = isInputEmpty;
-        clearButton.disabled = isInputEmpty;
+        NameInput.value.trim() === "";
     }
-
-    toggleButtons();
 
     NameInput.addEventListener('input', toggleButtons);
 
@@ -38,6 +27,11 @@ document.addEventListener('DOMContentLoaded', function () {
         const userInput = NameInput.value.trim().toUpperCase();
         const formattedInput = userInput.replace(/\s+/g, '%20');
         const URL = `${baseURL}${formattedInput}/index.html`;
+
+        if (userInput === "") {
+            alert("😡POR FAVOR, PREENCHA O CAMPO DA PESQUISA!");
+            return;
+        }
 
         checkGameExistence(URL, formattedInput);
     });
@@ -54,22 +48,21 @@ document.addEventListener('DOMContentLoaded', function () {
             .then(response => {
                 if (response.ok) {
                     window.location.href = url;
-                    InputName.value = "";
                 } 
                 else {
-                    showError(`🤬ERRO 404: O projeto "${formattedInput}" não foi encontrado! Pode ter ocorrido por um dos dois motivos: 1️⃣Você pode ter digitado o nome incorreto. Verifique os títulos dos projetos disponíveis no menu do curso em video e tente novamente. 2️⃣O projeto não existe neste site. 👇Clique no botão abaixo para buscar em outros sites:`);
+                    showError(`🤬ERRO 404: A PÁGINA \"${formattedInput}\" NÃO FOI ENCONTRADA! VERIFIQUE SE O NOME ESTÁ CORRETO COM BASE NAS SUGESTÕES OU BUSQUE EM OUTROS SITES CLICANDO NO BOTÃO ABAIXO 👇`);
                     createAlternativeLinks(formattedInput);
                 }
             })
             .catch(error => {
-                console.error('🥵ERRO NA REQUISIÇÃO HEAD:', error);
-                showError("🥵ERRO NA REQUISIÇÃO HEAD: PODE TER OCORRIDO ALGUMA FALHA NO SERVIDOR! ENTRE EM CONTATO COM O @VILHALVA100 NO TELEGRAM PARA REPORTAR!");
+                showError(`🥵ERRO NA REQUISIÇÃO HEAD: ${error} CONTATE O SUPORTE!`);
             });
     }
-    
+
     function showError(message) {
         errorMessage.textContent = message;
         errorMessage.style.display = 'block';
+        errorContainer.style.display = 'block';
     }
 
     function createAlternativeLinks(formattedInput) {

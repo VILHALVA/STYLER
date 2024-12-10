@@ -1,4 +1,12 @@
 # ATUALIZAÇÕES:
+## VERSÃO 2.8 - 10/12/2024:
+* ✅ **Atualizações realizadas nos `BUSCADORES`:**  
+    * 🔸 **Correção de bugs:** Devido a problemas em alguns navegadores, o recurso de `botões desabilitados` (que exigia preenchimento do campo antes de habilitar) foi substituído por uma validação via `alert`.  
+    * 🔸 **Campo de Input:** Agora, o campo de entrada **não será mais limpo automaticamente**, independentemente da situação.  
+    * 🔸 **Melhoria nos feedbacks:** As mensagens de retorno ao usuário foram reformuladas para maior clareza e objetividade.  
+    * 🔸 **Nova funcionalidade:** Foi adicionado o botão de `GOOGLE` no `BUSCADOR DE MÚSICAS`, oferecendo mais uma alternativa de pesquisa.  
+---
+
 ## VERSÃO 2.7 - 28/09/2024:
 * ✅ **Principais atualizações nos `BUSCADORES`:**
     * 🔸 Todos os arquivos foram renomeados, passando de `UPPERCASE` para `lowercase` para melhor organização e padronização.

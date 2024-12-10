@@ -47,12 +47,6 @@ button {
     font-size: 1em;
 }
 
-button:disabled {
-    background-color: #555;
-    cursor: not-allowed;
-    color: #999;
-}
-
 #errorMessage {
     display: none; 
     background-color: rgba(34, 34, 34, 0.8); 
