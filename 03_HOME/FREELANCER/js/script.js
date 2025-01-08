@@ -36,7 +36,7 @@ ScrollReveal().reveal("#form", {
 const contatoButton = document.querySelector('button[aria-label="submit"]');
 
 contatoButton.addEventListener('click', () => {
-  const url = 'https://t.me/VILHALVA100'; 
+  const url = 'https://wa.me/5568992561977/?text=Olá!%20Eu%20Quero%20Contratar%20Seu%20Serviço%20De%20Freelancer!'; 
   window.open(url, '_blank'); 
 });
 
