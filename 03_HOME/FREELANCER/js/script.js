@@ -33,11 +33,23 @@ ScrollReveal().reveal("#form", {
   origin: "bottom",
 });
 
-const contatoButton = document.querySelector('button[aria-label="submit"]');
+const contatoWhatsapp = document.querySelector('button[aria-label="submit1"]');
+const contatoTelegram = document.querySelector('button[aria-label="submit2"]');
+const buttonSite = document.querySelector('button[aria-label="submit3"]');
 
-contatoButton.addEventListener('click', () => {
+contatoWhatsapp.addEventListener('click', () => {
   const url = 'https://wa.me/5568992561977/?text=Olá!%20Eu%20Quero%20Contratar%20Seu%20Serviço%20De%20Freelancer!'; 
   window.open(url, '_blank'); 
 });
+
+contatoTelegram.addEventListener('click', () => {
+  const url = 'https://t.me/VILHALVA100'; 
+  window.open(url, '_blank'); 
+});
+
+buttonSite.addEventListener('click', () => {
+  window.location.href = 'https://vilhalva.github.io/STYLER/index.html';
+});
+
 
 
