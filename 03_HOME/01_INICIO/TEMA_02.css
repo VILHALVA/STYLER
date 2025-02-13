@@ -217,18 +217,7 @@ article {
 
 .social-icons a {
     display: inline-block;
-    margin: 0 10px;
-}
-
-.social-icons img {
-    width: 30px;
-    height: 30px;
-    filter: invert(1);
-}
-
-.social-icons img:hover {
-    width: 34px;
-    height: 34px;
+    margin: 0 5px;
 }
 
 footer {
@@ -239,10 +228,8 @@ footer {
 }
 
 #mode_icon {
-    position: fixed; 
-    bottom: 20px;   
+    position: fixed;  
     right: 20px;     
-    font-size: 24px; 
     background-color: #fff;
     border-radius: 50%; 
     padding: 10px;   
@@ -331,6 +318,17 @@ footer {
     footer {
         background-image: linear-gradient(to left, var(--cor5), var(--cor1));
     }
+
+    .social-icons img {
+        width: 30px;
+        height: 30px;
+        filter: invert(1);
+    }
+
+    #mode_icon {
+        bottom: 12px;       
+        font-size: 22px; 
+    }
 }
 
 /* TELAS PEQUENAS - TABLETES E CELULARES: */
@@ -395,6 +393,17 @@ footer {
 
     footer {
         background-image: linear-gradient(to left, var(--cor4), var(--cor7));
+    }
+
+    .social-icons img {
+        width: 22px;
+        height: 22px;
+        filter: invert(1);
+    }
+
+    #mode_icon {
+        bottom: 14px;       
+        font-size: 15px; 
     }
 }
 
