@@ -6,7 +6,7 @@
     * 🔸 Adição de uma nova página de "Termos e Condições".  
     * 🔸 Inclusão de botões para contato via Telegram, WhatsApp e um botão para "Voltar ao Site".
 * ✅ **Mundança realizada na página `HOME/01_INICIO`:**
-    * 🔸 Os arquivos foram organizados em suas respectivas pastas, como: `CSS/TEMA_01`, CSS/TEMA_02, `JS/script` e `JS/jquery.js`.
+    * 🔸 Os arquivos foram organizados em suas respectivas pastas, como: `CSS/TEMA_01`, `CSS/TEMA_02`, `JS/script` e `JS/jquery.js`.
 * ✅ **Correções de bugs e pequenas melhorias.**
 ---
 
