@@ -126,6 +126,10 @@ img {
   gap: 20px;
 }
 
+a {
+  color: red;
+}
+
 .item {
   max-width: 200px;
   aspect-ratio: 1/1;
