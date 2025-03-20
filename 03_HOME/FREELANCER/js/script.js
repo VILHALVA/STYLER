@@ -37,14 +37,12 @@ const contatoWhatsapp = document.querySelector('button[aria-label="submit1"]');
 const contatoTelegram = document.querySelector('button[aria-label="submit2"]');
 const buttonSite = document.querySelector('button[aria-label="submit3"]');
 
-contatoWhatsapp.addEventListener('click', () => {
-  const url = 'https://wa.me/5568992561977/?text=Olá!%20Eu%20Quero%20Contratar%20Seu%20Serviço%20De%20Freelancer!'; 
-  window.open(url, '_blank'); 
+contatoWhatsapp.addEventListener('click', () => { 
+  window.open('https://wa.me/5568992561977/?text=Olá!%20Eu%20Quero%20Contratar%20Seu%20Serviço%20De%20Freelancer!', '_blank'); 
 });
 
 contatoTelegram.addEventListener('click', () => {
-  const url = 'https://t.me/VILHALVA100'; 
-  window.open(url, '_blank'); 
+  window.open('https://t.me/VILHALVA100', '_blank'); 
 });
 
 buttonSite.addEventListener('click', () => {
