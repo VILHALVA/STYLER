@@ -1,25 +1,25 @@
-/* TEMA CLARO - PADRÃO: */
+/* TEMA ESCURO - PERSONALISADO: */
 
 @charset "UTF-8";
 
 @font-face {
     font-family: "TITULO_1";
-    src: url(../../02_MENU/FONTES/idroid.otf);
+    src: url(../../../02_MENU/FONTES/idroid.otf);
 }
 
 @font-face {
     font-family: "TITULO_2";
-    src: url(../../02_MENU/FONTES/STOREB__.ttf);
+    src: url(../../../02_MENU/FONTES/STOREB__.ttf);
 }
 
 @font-face {
     font-family: "SUBTITULO_1";
-    src: url(../../02_MENU/FONTES/PassionOne-Regular.ttf);
+    src: url(../../../02_MENU/FONTES/PassionOne-Regular.ttf);
 }
 
 @font-face {
     font-family: "SUBTITULO_2";
-    src: url(../../02_MENU/FONTES/PassionOne-Bold.ttf);
+    src: url(../../../02_MENU/FONTES/PassionOne-Bold.ttf);
 }
     
 * {
@@ -28,13 +28,13 @@
 }
 
 :root {
-    --cor1: #ee1414;
-    --cor2: #3417b7;
-    --cor3: #630958;
-    --cor4: #0569b6;
-    --cor5: #1a0328;
-    --cor6: #04871c;
-    --cor7: #2a0e8f;
+    --cor1: #570606;
+    --cor2: #100645;
+    --cor3: #400539;
+    --cor4: #05243b;
+    --cor5: #150320;
+    --cor6: #032e0b;
+    --cor7: #11053e;
 }
 
 body {
@@ -127,7 +127,7 @@ article {
 }
 
 .titulo {
-    color: rgb(7, 7, 223);
+    color: white;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -174,7 +174,7 @@ article {
 }
 
 .buttons .button.blue {
-    background-color: #04096c;
+    background-color: #02064f;
 }
 
 .buttons .button.blue:hover {
@@ -228,8 +228,8 @@ footer {
 }
 
 #mode_icon {
-    position: fixed;    
-    right: 20px;      
+    position: fixed;  
+    right: 20px;     
     background-color: #fff;
     border-radius: 50%; 
     padding: 10px;   
@@ -318,7 +318,7 @@ footer {
     footer {
         background-image: linear-gradient(to left, var(--cor5), var(--cor1));
     }
-    
+
     .social-icons img {
         width: 30px;
         height: 30px;
@@ -394,7 +394,7 @@ footer {
     footer {
         background-image: linear-gradient(to left, var(--cor4), var(--cor7));
     }
-    
+
     .social-icons img {
         width: 22px;
         height: 22px;
@@ -406,3 +406,4 @@ footer {
         font-size: 15px; 
     }
 }
+
