@@ -1,7 +1,7 @@
 # ATUALIZAÇÕES:
 
 ## VERSÃO 2.9 - 20/03/2025:
-* ✅ **Atualizações realizadas na página de [FREELANCER](https://vilhalva.github.io/STYLER/03_HOME/FREELANCER/index.html):*
+* ✅ **Atualizações realizadas na página de [FREELANCER](https://vilhalva.github.io/STYLER/03_HOME/FREELANCER/index.html):**
     * 🔸 Reestruturação das seções textuais, agora com hyperlinks para meu portfólio no GitHub.  
     * 🔸 Adição de uma nova página de "Termos e Condições".  
     * 🔸 Inclusão de botões para contato via Telegram, WhatsApp e um botão para "Voltar ao Site".
