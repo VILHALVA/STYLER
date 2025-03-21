@@ -1,12 +1,16 @@
 # ATUALIZAÇÕES:
 
-## VERSÃO 2.9 - 20/03/2025:
+## VERSÃO 2.9 - 21/03/2025:
 * ✅ **Atualizações realizadas na página de [FREELANCER](https://vilhalva.github.io/STYLER/03_HOME/FREELANCER/index.html):**
     * 🔸 Reestruturação das seções textuais, agora com hyperlinks para meu portfólio no GitHub.  
     * 🔸 Adição de uma nova página de "Termos e Condições".  
     * 🔸 Inclusão de botões para contato via Telegram, WhatsApp e um botão para "Voltar ao Site".
 * ✅ **Mundança realizada na página `HOME/01_INICIO`:**
     * 🔸 Os arquivos foram organizados em suas respectivas pastas, como: `CSS/TEMA_01`, `CSS/TEMA_02`, `JS/script` e `JS/jquery.js`.
+    * 🔸 O botão `CONTATO` e a página de Contato foram removidos.  
+    * 🔸 Foi adicionado o botão `SOBRE`, que leva a uma página com a descrição do `SITE STYLER`. Essa descrição é idêntica ao conteúdo do `README.md` e contém dois botões:  
+      - `VOLTAR`: retorna à página `index.html` anterior.  
+      - `RESUMO`: exibe o modal que anteriormente era o `SOBRE`. Esse modal foi movido para essa seção, redesenhado e agora inclui um link para o **contato** do desenvolvedor.
 * ✅ **Correções de bugs e pequenas melhorias.**
 ---
 

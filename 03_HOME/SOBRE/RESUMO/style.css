@@ -67,7 +67,7 @@ body {
     top: 15px;
     right: 15px;
     cursor: pointer;
-    background: #3603d0;
+    background: #02ac29;
     color: #fff;
     border-radius: 50%;
     width: 30px;
@@ -86,7 +86,7 @@ body {
 h1 {
     font-size: 24px;
     margin-bottom: 15px;
-    color: #1103cc;
+    color: #f90376;
 }
 
 p {
@@ -95,4 +95,9 @@ p {
     margin: 4px 0;
     margin-right: 10px;
     color: #bdbdbd;
+}
+
+a {
+    color: white;
+    font-weight: bolder;
 }

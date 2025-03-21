@@ -127,7 +127,8 @@ img {
 }
 
 a {
-  color: red;
+  font-weight: bolder;
+  color: white;
 }
 
 .item {
