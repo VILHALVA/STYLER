@@ -26,13 +26,6 @@ ScrollReveal().reveal(".paragraph", {
   origin: "top",
 });
 
-ScrollReveal().reveal("#form", {
-  delay: 300,
-  interval: 300,
-  easing: "ease-in",
-  origin: "bottom",
-});
-
 const contatoWhatsapp = document.querySelector('button[aria-label="submit1"]');
 const contatoTelegram = document.querySelector('button[aria-label="submit2"]');
 const buttonSite = document.querySelector('button[aria-label="submit3"]');
@@ -48,6 +41,5 @@ contatoTelegram.addEventListener('click', () => {
 buttonSite.addEventListener('click', () => {
   window.location.href = 'https://vilhalva.github.io/STYLER/index.html';
 });
-
 
 
