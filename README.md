@@ -13,6 +13,8 @@ Com essas informações, em `06/10/2022`, desenvolvi minha própria versão de u
 
 O visual retrô, com sua paleta de cores vibrantes, é uma homenagem à era inicial da web. É daí que vem o nome `STYLER` (um jogo de palavras com "estilo" do ".css"). Para garantir que a experiência não seja cansativa para os olhos, desde a `VERSÃO 2.4 - 07/08/2024`, adicionei um botão para alternar para o tema escuro, proporcionando uma navegação mais confortável.
 
+Se quiser conferir páginas de sites mais modernos, basta acessar o menu `MEUS SITES`.  
+
 ## CONTEÚDO VARIADO:
 O site é um verdadeiro tesouro digital, oferecendo uma ampla gama de recursos e entretenimento. Desde músicas até jogos, aplicações, calculadoras e muito mais, você encontrará uma variedade de conteúdos para explorar e desfrutar.
 
