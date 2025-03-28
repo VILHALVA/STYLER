@@ -1,4 +1,14 @@
 # ATUALIZAÇÕES:
+## VERSÃO 3.0 - 28/03/2025:
+* ✅ **Atualizações realizadas na página de [FREELANCER](https://vilhalva.github.io/STYLER/03_HOME/FREELANCER/index.html):**
+    * 🔸 A página `home` foi atualizada para incluir os novos hyperlinks. Como resultado, o botão `VOLTAR AO SITE` foi removido.
+    * 🔸 O arquivo `./index.html` foi criado com a finalidade exclusiva de redirecionar para a página inicial do site. Além disso, todas as páginas agora utilizam o mesmo favicon do diretório local.
+    * 🔸 Os arquivos foram organizados em suas respectivas pastas, como: `01_HOME`, `02_REFERENCIAS`, `03_AVALIACOES` e `04_TERMOS`.
+    * 🔸 Novas seções foram adicionadas:
+      * **[REFERENCIAS](https://github.com/VILHALVA/SLIDER-COM-SWIPERJS):** Esta página exibe uma coleção de links para projetos e sites desenvolvidos, apresentando uma variedade de conteúdos, como aplicativos, sites e bots. Usando o componente Swiper, a página apresenta cartões com imagens e descrições de cada projeto, oferecendo botões para acessá-los diretamente. Além disso, há uma opção para retornar à página inicial do site.
+      * **[AVALIACOES](https://github.com/VILHALVA/AVALIACOES-EM-CAROUSEL):** Esta página exibe uma seção de depoimentos de clientes que compartilham suas experiências com os serviços oferecidos. Utilizando o componente Swiper, a página apresenta avaliações com notas em estrelas e citações de clientes, além de incluir informações sobre os autores dos depoimentos, como nome e foto. Também há opções de navegação entre os depoimentos e um botão para retornar à página inicial do site.
+    * 🔸 A página de `TERMOS` agora inclui um hyperlink que direciona para a seção de `Contatos` da página `home`.         
+---
 
 ## VERSÃO 2.9 - 21/03/2025:
 * ✅ **Atualizações realizadas na página de [FREELANCER](https://vilhalva.github.io/STYLER/03_HOME/FREELANCER/index.html):**
