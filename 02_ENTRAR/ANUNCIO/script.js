@@ -41,7 +41,10 @@ window.onload = function () {
 };
 
 function acessar() {
-    window.location.href = "./ENTRADA.html";
     window.open("../../01_HOME/FREELANCER/index.html", "_blank");
+    setTimeout(() => {
+        window.location.href = "../ENTRADA.html";
+    }, 100);
 }
+
 
