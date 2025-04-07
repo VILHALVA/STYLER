@@ -8,7 +8,7 @@ function togglePopup(action) {
         popup.removeEventListener('transitionend', onTransitionEnd);
 
         if (action === 'close') {
-            window.location.href = "../../03_MENU/HTML/01_MENU PRINCIPAL.html";
+            window.location.href = "../ENTRADA.html";
         }
     }, { once: true });
 }
