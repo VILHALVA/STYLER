@@ -41,7 +41,7 @@ window.onload = function () {
 };
 
 function acessar() {
-    window.open("../ENTRADA.html", "_blank");
-    window.location.href = "../../01_HOME/FREELANCER/index.html";
+    window.location.href = "./ENTRADA.html";
+    window.open("../../01_HOME/FREELANCER/index.html", "_blank");
 }
 
