@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allison&family=Ultra&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&family=Ultra&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../../03_MENU/MIDIAS/ICONE CSS.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>NIQUEL</title>
+</head>
+<body>
+    <header class="header">
+        <img src="./imagens/logo.png" class="header__logo" alt="logo">
+        <h1 class="header__title">CAÇA NIQUEL</h1>
+    </header>
+    <main>
+        <section class="mainSection">
+            <div class="machine">
+                <div class="machine__display">
+                    <div class="machine__slot" ><img src="./imagens/1.png" alt="icon" id="slot1" class="machine__slot-icon"></div>
+                    <div class="machine__slot" ><img src="./imagens/1.png" alt="icon" id="slot2" class="machine__slot-icon"></div>
+                    <div class="machine__slot" ><img src="./imagens/1.png" alt="icon" id="slot3" class="machine__slot-icon"></div>
+                </div>
+                <div class="message" id="userMessage"></div> <br>
+
+                <div>
+                    <div id="countdownContainer">
+                        <div id="countdownCircle" class="countdown-circle">
+                            <div id="countdownText" class="countdown-text">30</div> 
+                        </div>       
+                    </div>
+                    <button class="button" id="buttonStartStop">JOGAR</button> <br>
+                    <button class="button" onclick="VOLTAR()">VOLTAR</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>

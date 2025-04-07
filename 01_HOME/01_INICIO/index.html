@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STYLER</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="shortcut icon" href="../../03_MENU/MIDIAS/ICONE HTML.ico" type="image/x-icon">
+    <link id="theme-stylesheet" rel="stylesheet" href="./CSS/TEMA_01.css">
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>BEM VINDO!</h1>
+        <p>CLIQUE NO MENU PARA VER AS OPÇÕES!</p>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="../LINKS/index.html">LINKS</a></li>
+                <li><a href="../QR CODE/index.html">QRCODE</a></li>
+                <li><a href="../CODIGO/index.html">CODIGO</a></li>
+            </ul>
+        </menu>
+    </header>
+    </main>
+    <main>
+        <article>
+            <div class="profile">
+                <h1 class="titulo">QUEM SOU EU?</h1>
+                <div class="profile-content">
+                    <div class="carousel-container">
+                        <div id="carousel">
+                        </div>
+                    </div>
+                    <div class="profile-text">
+                        <p class="descricao">Eu sou o Samuel Martins Vilhalva. Sou programador e desenvolvedor Full Stack. Trabalho na criação de sites, aplicativos, bots e jogos. Além de oferecer uma variedade de cursos, atuo como Freelancer!</p>
+                        <div class="buttons">
+                            <a href="../SOBRE/index.html" class="button blue">
+                                <i class="fas fa-circle-exclamation fa-rotate-180"></i> SOBRE</a>                      
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>        
+        <article>        
+            <a id="BOTAO" href="../ANUNCIO/index.html">ENTRAR NO SITE</a>
+        </article>
+    </main>
+    <footer>
+        <h1 class="h1social">REDES SOCIAIS:</h1>
+        <hr>
+        <div class="social-icons">
+            <a href="../FREELANCER/index.html"><img src="./FOOTER/FREELANCER.jpg" alt="FREELANCER"></a>
+            <a href="https://www.patreon.com/VILHALVA" target="_blank"><img src="./FOOTER/PATREON.png" alt="PATREON"></a>
+            <a href="https://github.com/VILHALVA" target="_blank"><img src="./FOOTER/GITHUB.png" alt="GITHUB"></a>
+            <a href="https://t.me/VILHALVA100_OFICIAL" target="_blank"><img src="./FOOTER/TELEGRAM.png" alt="Telegram"></a>
+            <a href="https://facebook.com/VILHALVA100" target="_blank"><img src="./FOOTER/FACEBOOK.png" alt="Facebook"></a>
+            <a href="http://www.linkedin.com/in/vilhalva" target="_blank"><img src="./FOOTER/LINKEDIN.png" alt="LINKEDIN"></a>
+            <a href="https://www.instagram.com/vilhalva100" target="_blank"><img src="./FOOTER/INSTAGRAM.png" alt="Instagram"></a>
+            <a href="https://www.youtube.com/@vilhalva100" target="_blank"><img src="./FOOTER/YOUTUBE.png" alt="YouTube"></a>
+        </div>
+    </footer>
+    <i id="mode_icon" class="fa-solid fa-moon"></i>
+    <script src="./JS/script.js" defer></script>
+    <script type="text/javascript" src="./JS/jquery.js"></script>
+</body>
+</html>

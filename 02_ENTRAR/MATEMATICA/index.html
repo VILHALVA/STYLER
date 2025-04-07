@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATEMATICA</title>
+    <link rel="shortcut icon" href="../../03_MENU/MIDIAS/ICONE CSS.ico" type="image/x-icon">
+    <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>PERGUNTA DE MATEMATICA</h1>
+        <p>RESPONDA A PERGUNTA DE MATEMATICA PARA ENTRAR!</p> 
+    </header>
+    <main>
+        <div>
+            <p id="pergunta">⭐PERGUNTA: QUAL É O RESULTADO DE <span id="numeroA"></span> X <span id="numeroB"></span>?</p><br>
+        </div>
+        <div>
+            <label for="VEL">RESPONDA:</label> 
+            <input type="number" name="VEL" id="VEL">
+        </div>
+        <div>
+            <div id="countdownContainer">
+                <div id="countdownCircle" class="countdown-circle">
+                    <div id="countdownText" class="countdown-text">30</div> 
+                </div>       
+            </div>
+            <button id="responder" class="BOTAO" onclick="responder()">RESPONDER</button>
+            <button class="BOTAO" onclick="PROXIMO()">PROXIMO</button>
+            <button class="BOTAO" onclick="VOLTAR()">VOLTAR</button>
+        </div>
+        <div id="res"></div>
+    </main>
+</body>
+</html>

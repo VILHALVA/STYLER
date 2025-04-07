@@ -1,7 +1,7 @@
 window.onload = function () {
     const previousPage = document.referrer;
     const currentPageProtocol = window.location.protocol;
-    const requiredSubstring = 'https://vilhalva.github.io/STYLER/02_MENU/HTML/CHATBOTS.html';
+    const requiredSubstring = 'https://vilhalva.github.io/STYLER/03_MENU/HTML/CHATBOTS.html';
 
     function denyAccess() {
         document.body.style.display = 'none';

@@ -3,22 +3,22 @@
 
 @font-face {
     font-family: "TITULO_1";
-    src: url(../../../02_MENU/FONTES/Hurry\ Loves.otf);
+    src: url(../../../03_MENU/FONTES/Hurry\ Loves.otf);
 }
 
 @font-face {
     font-family: "TITULO_2";
-    src: url(../../../02_MENU/FONTES/idroid.otf);
+    src: url(../../../03_MENU/FONTES/idroid.otf);
 }
 
 @font-face {
     font-family: "SUBTITULO_1";
-    src: url(../../../02_MENU/FONTES/Hurry\ Loves.otf);
+    src: url(../../../03_MENU/FONTES/Hurry\ Loves.otf);
 }
 
 @font-face {
     font-family: "SUBTITULO_2";
-    src: url(../../../02_MENU/FONTES/PassionOne-Regular.ttf);
+    src: url(../../../03_MENU/FONTES/PassionOne-Regular.ttf);
 }
 
 body {

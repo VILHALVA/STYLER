@@ -1,7 +1,7 @@
 window.onload = function () {
     const previousPage = document.referrer;
     const currentPageProtocol = window.location.protocol;
-    const requiredSubstring = 'https://vilhalva.github.io/STYLER/02_MENU/HTML/CURSO%20EM%20VIDEO.html';
+    const requiredSubstring = 'https://vilhalva.github.io/STYLER/03_MENU/HTML/CURSO%20EM%20VIDEO.html';
 
     function denyAccess() {
         document.body.style.display = 'none';

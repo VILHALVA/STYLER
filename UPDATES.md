@@ -1,4 +1,12 @@
 # ATUALIZAÇÕES:
+## VERSÃO 3.1 - 07/04/2025:
+* ✅ Todas as pastas foram renumeradas seguindo uma ordem semântica e organizada, como: `01_HOME`, `02_ENTRAR`, `03_MENU` e `04_SITE`.  
+* ✅ A seção `PARCERIA` foi removida da pasta `01_HOME`.
+* ✅ Um novo `ANÚNCIO` foi adicionado e será exibido sempre que o usuário clicar no botão **ENTRAR NO SITE**. Para acessar o `MENU DE ENTRADA`, clique no botão `X`.
+* ✅Foi adicionado um novo método para **entrar no site**, chamado **"VÊ ANÚNCIO"**. Ao selecioná-lo, será exibido um anúncio com uma contagem regressiva de **10 segundos**. Durante esse tempo, o botão de fechar (`X`) estará desabilitado. Após os 10 segundos, o botão será ativado e poderá ser clicado para redirecionar o usuário ao **MENU PRINCIPAL**. Alternativamente, se o usuário clicar no botão **SAIBA MAIS**, será levado para a página do **ANÚNCIO** na mesma aba, enquanto o **MENU PRINCIPAL** será aberto automaticamente em uma nova aba.
+* ✅ **Correções de bugs e pequenas melhorias.**
+---
+
 ## VERSÃO 3.0 - 28/03/2025:
 * ✅ **Atualizações realizadas na página de [FREELANCER](https://vilhalva.github.io/STYLER/03_HOME/FREELANCER/index.html):**
     * 🔸 A página `home` foi atualizada para incluir os novos hyperlinks. Como resultado, o botão `VOLTAR AO SITE` foi removido.
