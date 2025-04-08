@@ -8,7 +8,7 @@
 ---
 
 ## VERSÃO 3.0 - 28/03/2025:
-* ✅ **Atualizações realizadas na página de [FREELANCER](https://vilhalva.github.io/STYLER/03_HOME/FREELANCER/index.html):**
+* ✅ **Atualizações realizadas na página de [FREELANCER](https://vilhalva.github.io/STYLER/01_HOME/FREELANCER/index.html):**
     * 🔸 A página `home` foi atualizada para incluir os novos hyperlinks. Como resultado, o botão `VOLTAR AO SITE` foi removido.
     * 🔸 O arquivo `./index.html` foi criado com a finalidade exclusiva de redirecionar para a página inicial do site. Além disso, todas as páginas agora utilizam o mesmo favicon do diretório local.
     * 🔸 Os arquivos foram organizados em suas respectivas pastas, como: `01_HOME`, `02_REFERENCIAS`, `03_AVALIACOES` e `04_TERMOS`.
@@ -19,7 +19,7 @@
 ---
 
 ## VERSÃO 2.9 - 21/03/2025:
-* ✅ **Atualizações realizadas na página de [FREELANCER](https://vilhalva.github.io/STYLER/03_HOME/FREELANCER/index.html):**
+* ✅ **Atualizações realizadas na página de [FREELANCER](https://vilhalva.github.io/STYLER/01_HOME/FREELANCER/index.html):**
     * 🔸 Reestruturação das seções textuais, agora com hyperlinks para meu portfólio no GitHub.  
     * 🔸 Adição de uma nova página de "Termos e Condições".  
     * 🔸 Inclusão de botões para contato via Telegram, WhatsApp e um botão para "Voltar ao Site".

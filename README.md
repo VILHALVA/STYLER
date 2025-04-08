@@ -9,7 +9,7 @@ Este site foi meticulosamente criado por um desenvolvedor independente, refletin
 ## PARECE SITE DOS ANOS 90?
 Sim, o design deste site foi inspirado no formato dos sites dos anos 90, apesar de eu só ter descoberto a existência da internet em 2017. Para recriar a estética daquela época, assisti a vários documentários e entrevistei pessoas que vivenciaram a internet naquela década.
 
-Com essas informações, em `06/10/2022`, desenvolvi minha própria versão de um site retro, com o objetivo de mostrar à geração mais jovem como era a experiência online no passado. No entanto, não se deixe enganar pela aparência nostálgica: este site está longe de ser básico. Ele incorpora muitos recursos modernos, como validações HTTPS, Media Queries, botões de temas, buscadores, e muito mais.
+Com essas informações, em `06/10/2022`, desenvolvi minha própria versão de um site retro, com o objetivo de mostrar à geração mais jovem como era a experiência online no passado. No entanto, não se deixe enganar pela aparência nostálgica: este site está longe de ser básico. Ele incorpora muitos recursos modernos, como validações HTTPS, Anúncios, Media Queries, botões de temas, buscadores, e muito mais.
 
 O visual retrô, com sua paleta de cores vibrantes, é uma homenagem à era inicial da web. É daí que vem o nome `STYLER` (um jogo de palavras com "estilo" do ".css"). Para garantir que a experiência não seja cansativa para os olhos, desde a `VERSÃO 2.4 - 07/08/2024`, adicionei um botão para alternar para o tema escuro, proporcionando uma navegação mais confortável.
 
