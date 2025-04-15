@@ -62,7 +62,7 @@ body {
     top: 15px;
     right: 15px;
     cursor: pointer;
-    background: #135a01;
+    background: #0111ec;
     color: #fff;
     border-radius: 50%;
     width: 30px;
@@ -74,18 +74,18 @@ body {
 }
 
 .close-btn:hover {
-    background: #690505;
+    background: #b70101;
     transform: translateY(-3px);
 }
 
 .close-btn[disabled] {
     cursor: not-allowed;
-    background: #535252;
+    background: #b2b0b0;
 }
 
 .BOTAO {
     padding: 12px 24px;
-    background-color: #2b5c03;
+    background-color: #f14501;
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -95,7 +95,7 @@ body {
 }
 
 .BOTAO:hover {
-    background-color: #023116;
+    background-color: #5c021d;
     transform: translateY(-3px);
 }
 
