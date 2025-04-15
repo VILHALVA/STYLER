@@ -4,9 +4,6 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 100vh;
 }
 
@@ -16,9 +13,12 @@ body {
     left: 0;
     width: 100vw;
     height: 100vh;
-    display: none;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between; 
+    padding: 15px 10px; 
+    gap: 20px;
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
@@ -26,6 +26,77 @@ body {
     display: flex;
     opacity: 1;
     transform: scale(1);
+}
+
+.content {
+    position: relative;
+    background-image: url('imagens/freelancer.jpg');
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
+    border: 1px solid #333;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 500px;
+    height: 500px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+.content::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 15px;
+    z-index: -1;
+}
+
+.botoes-container {
+    z-index: 2;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    background: #135a01;
+    color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+.close-btn:hover {
+    background: #690505;
+    transform: translateY(-3px);
+}
+
+.close-btn[disabled] {
+    cursor: not-allowed;
+    background: #535252;
+}
+
+.BOTAO {
+    padding: 12px 24px;
+    background-color: #2b5c03;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+}
+
+.BOTAO:hover {
+    background-color: #023116;
+    transform: translateY(-3px);
 }
 
 .popup.closing {
@@ -39,69 +110,5 @@ body {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.85);
     z-index: 1;
-}
-
-.content {
-    position: relative;
-    background: #1f1f1f;
-    border: 1px solid #333;
-    border-radius: 15px;
-    padding: 30px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
-    max-width: 500px;
-    text-align: center;
-    z-index: 2;
-}
-
-.close-btn {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    cursor: pointer;
-    background: #e57373;
-    color: #fff;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
-    transition: background 0.3s ease;
-}
-
-.close-btn:hover {
-    background: #ef5350;
-    transform: translateY(-3px);
-}
-
-h1 {
-    font-size: 24px;
-    margin-bottom: 15px;
-    color: #ffcc00;
-}
-
-p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 10px 0;
-    color: #bdbdbd;
-}
-
-.BOTAO {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
-    background-color: #ff9800;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 25px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.BOTAO:hover {
-    background-color: #fb8c00;
-    transform: translateY(-3px);
 }

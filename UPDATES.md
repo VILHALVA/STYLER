@@ -1,4 +1,12 @@
 # ATUALIZAÇÕES:
+## VERSÃO 3.2 - 15/04/2025:
+* ✅ **Atualizações nos Anúncios:**
+  * 🔸 Agora o anúncio será exibido **imediatamente após o `Loading` do site**, substituindo o comportamento anterior que exigia o clique no botão `ENTRAR NO SITE` na `HOME`.
+  * 🔸 Os banners dos anúncios foram **redesenhados**, com destaque para a imagem incorporada diretamente no contêiner principal e a exibição do seu próprio `favicon`.
+  * 🔸 Todos os anúncios agora contam com uma **contagem regressiva de 10 segundos** antes que o botão de fechar (`X`) seja ativado. Durante esse período, o botão permanece desabilitado.
+  * 🔸 Ao clicar em **qualquer área da imagem** (ou no contêiner `.content`), o link do `anúncio` será aberto — com o mesmo efeito do botão `SAIBA MAIS`.
+---
+
 ## VERSÃO 3.1 - 07/04/2025:
 * ✅ Todas as pastas foram renumeradas seguindo uma ordem semântica e organizada, como: `01_HOME`, `02_ENTRAR`, `03_MENU` e `04_SITE`.  
 * ✅ A seção `PARCERIA` foi removida da pasta `01_HOME`.

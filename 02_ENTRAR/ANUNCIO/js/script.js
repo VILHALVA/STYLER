@@ -47,4 +47,12 @@ function acessar() {
     }, 100);
 }
 
+document.querySelector(".content").addEventListener("click", function (event) {
+    const isCloseBtn = event.target.closest(".close-btn");
+
+    if (!isCloseBtn) {
+        acessar();
+    }
+});
+
 
