@@ -1,4 +1,9 @@
 # ATUALIZAÇÕES:
+## VERSÃO 3.3 - 22/04/2025:
+* ✅ No método de entrada **"VÊ ANÚNCIO"**, a **contagem regressiva** foi alterada: agora é necessário aguardar **30 segundos** (em vez dos 10 segundos anteriores) para que o botão de fechar (`X`) seja ativado.
+* ✅ O botão "YOUTUBE" foi adicionado em todas as páginas de músicas com a finalidade de facilitar o acesso direto ao YouTube. Ele realiza automaticamente uma busca utilizando o nome da música e do artista, abrindo os resultados em uma nova aba. Decidi incluí-lo como alternativa útil caso o iframe incorporado da música deixe de funcionar ou não esteja mais disponível.
+---
+
 ## VERSÃO 3.2 - 15/04/2025:
 * ✅ **Atualizações nos Anúncios:**
   * 🔸 Agora o anúncio será exibido **imediatamente após o `Loading` do site**, substituindo o comportamento anterior que exigia o clique no botão `ENTRAR NO SITE` na `HOME`.

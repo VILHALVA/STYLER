@@ -85,6 +85,25 @@ iframe {
     border-radius: 20px;
 }
 
+button#youtubeBtn {
+    display: block;
+    margin: 30px auto;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: #ff0000;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 10px #00000080;
+    transition: 0.3s;
+}
+
+button#youtubeBtn:hover {
+    background-color: #cc0000;
+}
+
 /* CORES PERSONALISADAS*/
 :root {
     /* TELAS GRANDES - COMPUTADORES E TVS: */

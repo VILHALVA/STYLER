@@ -19,7 +19,7 @@ window.onload = function () {
 
     popup.style.display = "flex";
 
-    let countdown = 10;
+    let countdown = 30;
     closeBtn.style.pointerEvents = "none"; 
     closeBtn.style.opacity = "0.5"; 
 
