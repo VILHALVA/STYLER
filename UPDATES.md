@@ -1,7 +1,7 @@
 # ATUALIZAÇÕES:
 ## VERSÃO 3.4 - 05/05/2025:
-* ✅ Na seção "QUEM SOU EU?", que agora mudou para "SOBRE O VILHALVA" Agora é exibido a idade do Vilhalva de forma dinâmica, sendo atualizada com base no dia, mês e ano de nascimento.
-* ✅ Foi criado o arquivo "ERRO.html": Caso der o erro 404, ao acessar pela URL antiga, será redirecionado para essa página.
+* ✅ **Na seção "QUEM SOU EU?" (agora renomeada para "SOBRE O VILHALVA")**, a idade do Vilhalva passou a ser exibida de forma dinâmica — calculada automaticamente com base no dia, mês e ano de nascimento.
+* ✅ **Foi adicionado o arquivo `404.html`**: se alguém tentar acessar uma URL antiga que não existe mais, será exibida uma página personalizada de erro com a mensagem explicativa e um botão `VOLTAR` para retornar ao site.
 ---
 
 ## VERSÃO 3.3 - 22/04/2025:
