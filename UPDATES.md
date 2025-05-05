@@ -1,4 +1,9 @@
 # ATUALIZAÇÕES:
+## VERSÃO 3.4 - 05/05/2025:
+* ✅ Na seção "QUEM SOU EU?", que agora mudou para "SOBRE O VILHALVA" Agora é exibido a idade do Vilhalva de forma dinâmica, sendo atualizada com base no dia, mês e ano de nascimento.
+* ✅ Foi criado o arquivo "ERRO.html": Caso der o erro 404, ao acessar pela URL antiga, será redirecionado para essa página.
+---
+
 ## VERSÃO 3.3 - 22/04/2025:
 * ✅ No método de entrada **"VÊ ANÚNCIO"**, a **contagem regressiva** foi alterada: agora é necessário aguardar **30 segundos** (em vez dos 10 segundos anteriores) para que o botão de fechar (`X`) seja ativado.
 * ✅ O botão "YOUTUBE" foi adicionado em todas as páginas de músicas com a finalidade de facilitar o acesso direto ao YouTube. Ele realiza automaticamente uma busca utilizando o nome da música e do artista, abrindo os resultados em uma nova aba. Decidi incluí-lo como alternativa útil caso o iframe incorporado da música deixe de funcionar ou não esteja mais disponível.

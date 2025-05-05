@@ -18,9 +18,6 @@ Se quiser conferir páginas de sites mais modernos, basta acessar o menu `MEUS S
 ## CONTEÚDO VARIADO:
 O site é um verdadeiro tesouro digital, oferecendo uma ampla gama de recursos e entretenimento. Desde músicas até jogos, aplicações, calculadoras e muito mais, você encontrará uma variedade de conteúdos para explorar e desfrutar.
 
-## LIBERDADE DE MODIFICAÇÃO:
-Queremos que você saiba que temos total liberdade para adicionar, alterar ou remover qualquer página ou função do site sem aviso prévio. Isso nos permite manter o site dinâmico e adaptado às necessidades e interesses em constante evolução.
-
 ## ACESSIBILIDADE E RESPONSIVIDADE:
 Embora o site seja totalmente funcional em dispositivos móveis, oferecendo uma experiência responsiva, recomendamos explorá-lo em seu computador para uma experiência mais completa. Isso garante que você aproveite ao máximo todos os recursos e o layout projetado para telas maiores.
 
