@@ -2,16 +2,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const modeIcon = document.getElementById('mode_icon');
     const themeStylesheet = document.getElementById('theme-stylesheet');
 
+    document.body.classList.add('js-enabled');
+
     modeIcon.addEventListener('click', () => {
-        if (modeIcon.classList.contains('fa-moon')) {
-            modeIcon.classList.remove('fa-moon');
-            modeIcon.classList.add('fa-sun');
-            themeStylesheet.setAttribute('href', './CSS/TEMA_02.css'); 
-        } 
-        else {
+        const isDark = themeStylesheet.getAttribute('href').includes('ESCURO.css');
+
+        if (isDark) {
+            themeStylesheet.setAttribute('href', './CSS/CLARO.css');
             modeIcon.classList.remove('fa-sun');
             modeIcon.classList.add('fa-moon');
-            themeStylesheet.setAttribute('href', './CSS/TEMA_01.css'); 
+        } 
+        else {
+            themeStylesheet.setAttribute('href', './CSS/ESCURO.css');
+            modeIcon.classList.remove('fa-moon');
+            modeIcon.classList.add('fa-sun');
         }
     });
 });

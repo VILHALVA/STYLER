@@ -1,0 +1,57 @@
+/* TEMA ESCURO - PERSONALISADO: */
+
+:root {
+    --dark-1: #190606;
+    --dark-2: #0c0628;
+    --dark-3: #31052c;
+    --dark-4: #03223e;
+    --dark-5: #1f0230;
+    --dark-6: #0d2110;
+    --dark-7: #1d0572;
+}
+
+/* TELAS GRANDES - COMPUTADORES E TVS: */
+@media screen and (min-width: 768px) {
+    body {
+        background-color: var(--dark-6);
+    }
+
+    header {
+        background-image: linear-gradient(to bottom, var(--dark-1), var(--dark-2));
+    }
+
+    main {
+        background-image: linear-gradient(to top, var(--dark-7), var(--dark-3), var(--dark-1));
+    }
+
+    .BOTAO {
+        background-image: linear-gradient(to left, var(--cor4), var(--cor5));
+    }
+
+    .BOTAO:hover {
+        background-image: linear-gradient(to left, var(--dark-1), var(--dark-7));
+    }
+}
+
+/* TELAS PEQUENAS - TABLETES E CELULARES: */
+@media screen and (max-width: 768px) { 
+    body {
+        background-color: var(--dark-2);
+    }
+
+    header {
+        background-image: linear-gradient(to bottom, var(--dark-3), var(--dark-2));
+    }
+
+    main {
+        background-image: linear-gradient(to top, var(--dark-2), var(--dark-6));
+    }
+
+    .BOTAO {
+        background-image: linear-gradient(to left, var(--dark-5), var(--dark-4));
+    }
+
+    .BOTAO:hover {
+        background-image: linear-gradient(to left, var(--dark-2), var(--dark-1));
+    }
+}

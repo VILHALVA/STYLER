@@ -1,45 +1,37 @@
-/* TEMA CLARO - PADRÃO: */
-
 @charset "UTF-8";
 
 @font-face {
     font-family: "TITULO_1";
-    src: url(../FONTES/love\ story.ttf);
+    src: url(../../../03_MENU/FONTES/Hurry\ Loves.otf);
 }
 
 @font-face {
     font-family: "TITULO_2";
-    src: url(../FONTES/idroid.otf);
+    src: url(../../../03_MENU/FONTES/idroid.otf);
 }
 
 @font-face {
     font-family: "SUBTITULO_1";
-    src: url(../FONTES/Hurry\ Loves.otf);
+    src: url(../../../03_MENU/FONTES/Happy\ Holiday.ttf);
 }
 
 @font-face {
     font-family: "SUBTITULO_2";
-    src: url(../FONTES/PassionOne-Regular.ttf);
+    src: url(../../../03_MENU/FONTES/PassionOne-Regular.ttf);
 }
 
 @font-face {
     font-family: "SUBTITULO_3";
-    src: url(../FONTES/PassionOne-Black.ttf);
+    src: url(../../../03_MENU/FONTES/PassionOne-Black.ttf);
 }
 
 @font-face {
     font-family: "SUBTITULO_4";
-    src: url(../FONTES/PassionOne-Bold.ttf);
+    src: url(../../../03_MENU/FONTES/PassionOne-Bold.ttf);
 }
 
 :root {
-    --cor1: #ee1414;
-    --cor2: #3417b7;
-    --cor3: #630958;
-    --cor4: #0c81db;
-    --cor5: #1a0328;
-    --cor6: #0ac12b;
-    --cor7: #2a0e8f;
+    --geral-1: #1a0328;
 }
 
 * {
@@ -49,9 +41,9 @@
 }
 
 body {
+    display: none;
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
-    display: none;
 }
 
 body.js-enabled {
@@ -96,7 +88,7 @@ header {
 }
 
 #mode_icon:hover {
-    border-color: var(--cor5); 
+    border-color: var(--geral-1); 
     cursor: pointer; 
 }
 
@@ -151,14 +143,6 @@ main > h1 {
 
 /* TELAS GRANDES - COMPUTADORES E TVS: */
 @media screen and (min-width: 768px) {
-    body {
-        background-color: var(--cor6);
-    }
-
-    header {
-        background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
-    }
-
     header h1 {
         font-family: "TITULO_1";
         font-size: 2.5em;
@@ -166,61 +150,29 @@ main > h1 {
 
     header p {
         font-family: "SUBTITULO_1";
-        font-size: 1em;
-    }
-
-    main {
-        background-image: linear-gradient(to top, var(--cor7), var(--cor3), var(--cor1));
+        font-size: 2em;
     }
 
     main > h1 {
         font-family: "SUBTITULO_3";
         font-size: 2.7em;
     }
-
-    .BOTAO {
-        background-image: linear-gradient(to left, var(--cor4), var(--cor5));
-    }
-
-    .BOTAO:hover {
-        background-image: linear-gradient(to left, var(--cor1), var(--cor7));
-    }
 }
 
 /* TELAS PEQUENAS - TABLETES E CELULARES: */
 @media screen and (max-width: 768px) { 
-    body {
-        background-color: var(--cor2);
-    }
-
-    header {
-        background-image: linear-gradient(to bottom, var(--cor3), var(--cor2));
-    }
-
     header h1 {
         font-family: "TITULO_2";
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     header p {
         font-family: "SUBTITULO_2";
         font-size: 1.4em;
     }
-    
-    main {
-        background-image: linear-gradient(to top, var(--cor2), var(--cor6));
-    }
 
     main > h1 {
         font-family: "SUBTITULO_4";
         font-size: 2em;
-    }
-
-    .BOTAO {
-        background-image: linear-gradient(to left, var(--cor5), var(--cor4));
-    }
-
-    .BOTAO:hover {
-        background-image: linear-gradient(to left, var(--cor2), var(--cor1));
     }
 }

@@ -1,5 +1,3 @@
-/* TEMA ESCURO - PERSONALISADO: */
-
 @charset "UTF-8";
 
 @font-face {
@@ -28,19 +26,16 @@
 }
 
 :root {
-    --cor1: #570606;
-    --cor2: #100645;
-    --cor3: #400539;
-    --cor4: #05243b;
-    --cor5: #150320;
-    --cor6: #032e0b;
-    --cor7: #11053e;
+    --geral-1: #ee1414;
+    --geral-2: #1a0328;
+    --geral-3: #0707df;
+    --geral-4: #04096c;
+    --geral-5: #f20606;
 }
 
 body {
     display: none;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--cor6);
 }
 
 body.js-enabled {
@@ -78,7 +73,7 @@ span#burguer {
 }
 
 span#burguer:hover {
-    background-color: var(--cor1);
+    background-color: var(--geral-1);
     color: rgb(241, 235, 235);
 }
 
@@ -118,7 +113,7 @@ article {
 }
 
 .profile {
-    background-color: var(--cor5);
+    background-color: var(--geral-2);
     padding: 20px;
     border-radius: 30px;
     margin-top: 20px;
@@ -132,7 +127,7 @@ article {
 }
 
 .titulo {
-    color: white;
+    color: var(--geral-3);
     text-align: center;
     margin-bottom: 20px;
 }
@@ -179,11 +174,11 @@ article {
 }
 
 .buttons .button.blue {
-    background-color: #02064f;
+    background-color: var(--geral-4);
 }
 
 .buttons .button.blue:hover {
-    background-color: red;
+    background-color: var(--geral-5);
 }
 
 #BOTAO {
@@ -233,8 +228,8 @@ footer {
 }
 
 #mode_icon {
-    position: fixed;  
-    right: 20px;     
+    position: fixed;    
+    right: 20px;      
     background-color: #fff;
     border-radius: 50%; 
     padding: 10px;   
@@ -250,10 +245,6 @@ footer {
 
 /* TELAS GRANDES - COMPUTADORES E TVS: */
 @media screen and (min-width: 768px) {
-    header {
-        background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
-    }
-
     header > h1 {
         font-family: "TITULO_1";
         font-size: 3em;
@@ -270,7 +261,6 @@ footer {
 
     menu {
         display: block;
-        background-color: var(--cor3);
         padding: 3px;
     }
 
@@ -286,13 +276,8 @@ footer {
         transition-duration: 0.2s;
     }
 
-    menu > ul > li > a:hover {
-        background-color: red;
-    }
-
     main {
         width: 768px;
-        background-image: linear-gradient(to top, var(--cor4), var(--cor7));
     }
 
     .profile-content {
@@ -311,19 +296,7 @@ footer {
     .descricao {
         font-size: 20px;
     }
-
-    #BOTAO {
-        background-image: linear-gradient(to left, var(--cor2), var(--cor5));
-    }
-
-    #BOTAO:hover {
-        background-image: linear-gradient(to left, var(--cor1), var(--cor7));
-    }
-
-    footer {
-        background-image: linear-gradient(to left, var(--cor5), var(--cor1));
-    }
-
+    
     .social-icons img {
         width: 30px;
         height: 30px;
@@ -338,10 +311,6 @@ footer {
 
 /* TELAS PEQUENAS - TABLETES E CELULARES: */
 @media screen and (max-width: 768px) { 
-    header {
-        background-image: linear-gradient(to bottom, var(--cor3), var(--cor2));
-    }
-
     header > h1 {
         font-family: "TITULO_2";
         font-size: 2.2em;
@@ -354,20 +323,10 @@ footer {
 
     span#burguer {
         padding: 7px;
-        background-color: var(--cor3);
     }
 
     menu > ul > li > a {
-        background-color: var(--cor3);
         border-top: 3px solid gray;
-    }
-
-    menu > ul > li > a:hover {
-        background-color: rgb(95, 7, 173);
-    }
-    
-    main {
-        background-image: linear-gradient(to top, var(--cor2), var(--cor6));
     }
 
     .profile-content {
@@ -380,24 +339,12 @@ footer {
     }
 
     .titulo {
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
     .descricao {
         margin: 10px;
         font-size: 17px;
-    }
-
-    #BOTAO {
-        background-image: linear-gradient(to left, var(--cor5), var(--cor7));
-    }
-
-    #BOTAO:hover {
-        background-image: linear-gradient(to left, var(--cor2), var(--cor4));
-    }
-
-    footer {
-        background-image: linear-gradient(to left, var(--cor4), var(--cor7));
     }
 
     .social-icons img {
@@ -411,4 +358,3 @@ footer {
         font-size: 15px; 
     }
 }
-

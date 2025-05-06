@@ -1,4 +1,11 @@
 # ATUALIZAÇÕES:
+## VERSÃO 3.5 - 06/05/2025:
+* ✅ **Validação de `https` adicionada**: Como o anúncio é sempre exibido após o carregamento do site, agora a validação de `https` também foi implementada nas rotas `01_HOME` e `02_ENTRAR`.
+* ✅ **Refatoração dos Temas**: Anteriormente, os temas dos `MENUS` e `SUBMENUS` eram separados em dois arquivos: `TEMA_01.css` (Claro) e `TEMA_02.css` (Escuro). No entanto, muitos seletores globais se repetiam em ambos os arquivos. Com a atualização de hoje, os seletores foram reorganizados de forma mais eficiente:
+  * 🔸`GERAL.css`: contém apenas os seletores globais (sem repetição).
+  * 🔸`CLARO.css` e `ESCURO.css`: contêm exclusivamente os seletores relacionados às cores dos temas.
+---
+
 ## VERSÃO 3.4 - 05/05/2025:
 * ✅ **Na seção "QUEM SOU EU?" (agora renomeada para "SOBRE O VILHALVA")**, a idade do Vilhalva passou a ser exibida de forma dinâmica — calculada automaticamente com base no dia, mês e ano de nascimento.
 * ✅ **Foi adicionado o arquivo `404.html`**: se alguém tentar acessar uma URL antiga que não existe mais, será exibida uma página personalizada de erro com a mensagem explicativa e um botão `VOLTAR` para retornar ao site.

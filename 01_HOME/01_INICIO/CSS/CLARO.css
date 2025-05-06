@@ -1,0 +1,87 @@
+/* TEMA CLARO - PADRÃO: */
+
+:root {
+    --light-1: #ee1414;
+    --light-2: #3417b7;
+    --light-3: #630958;
+    --light-4: #0569b6;
+    --light-5: #1a0328;
+    --light-6: #04871c;
+    --light-7: #2a0e8f;
+    --light-8: #ff0000;
+    --light-9: #5f07ad;
+}
+
+/* TELAS GRANDES - COMPUTADORES E TVS: */
+@media screen and (min-width: 768px) {
+    body {
+        background-color: var(--light-6);
+    }
+
+    header {
+        background-image: linear-gradient(to bottom, var(--light-1), var(--light-2));
+    }
+
+    menu {
+        background-color: var(--light-3);
+    }
+
+    menu > ul > li > a:hover {
+        background-color: var(--light-8);
+    }
+
+    main {
+        background-image: linear-gradient(to top, var(--light-4), var(--light-7));
+    }
+
+    #BOTAO {
+        background-image: linear-gradient(to left, var(--light-2), var(--light-5));
+    }
+
+    #BOTAO:hover {
+        background-image: linear-gradient(to left, var(--light-1), var(--light-7));
+    }
+
+    footer {
+        background-image: linear-gradient(to left, var(--light-5), var(--light-1));
+    }
+}
+
+/* TELAS PEQUENAS - TABLETES E CELULARES: */
+@media screen and (max-width: 768px) { 
+    body {
+        background-color: var(--light-9);
+    }
+
+    header {
+        background-image: linear-gradient(to bottom, var(--light-3), var(--light-2));
+    }
+
+    span#burguer {
+        background-color: var(--light-3);
+    }
+
+    menu > ul > li > a {
+        background-color: var(--light-3);
+    }
+
+    menu > ul > li > a:hover {
+        background-color: var(--light-9);
+    }
+    
+    main {
+        background-image: linear-gradient(to top, var(--light-2), var(--light-6));
+    }
+
+    #BOTAO {
+        background-image: linear-gradient(to left, var(--light-5), var(--light-7));
+    }
+
+    #BOTAO:hover {
+        background-image: linear-gradient(to left, var(--light-2), var(--light-4));
+    }
+
+    footer {
+        background-image: linear-gradient(to left, var(--light-4), var(--light-7));
+    }
+}

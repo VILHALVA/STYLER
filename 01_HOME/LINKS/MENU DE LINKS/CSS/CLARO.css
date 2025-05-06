@@ -1,0 +1,57 @@
+/* TEMA CLARO - PADRÃO: */
+
+:root {
+    --light-1: #ee1414;
+    --light-2: #3417b7;
+    --light-3: #630958;
+    --light-4: #0c81db;
+    --light-5: #1a0328;
+    --light-6: #0ac12b;
+    --light-7: #2a0e8f;
+}
+
+/* TELAS GRANDES - COMPUTADORES E TVS: */
+@media screen and (min-width: 768px) {
+    body {
+        background-color: var(--light-6);
+    }
+
+    header {
+        background-image: linear-gradient(to bottom, var(--light-1), var(--light-2));
+    }
+
+    main {
+        background-image: linear-gradient(to top, var(--light-7), var(--light-3), var(--light-1));
+    }
+
+    .BOTAO {
+        background-image: linear-gradient(to left, var(--light-4), var(--light-5));
+    }
+
+    .BOTAO:hover {
+        background-image: linear-gradient(to left, var(--light-1), var(--light-7));
+    }
+}
+
+/* TELAS PEQUENAS - TABLETES E CELULARES: */
+@media screen and (max-width: 768px) { 
+    body {
+        background-color: var(--light-2);
+    }
+
+    header {
+        background-image: linear-gradient(to bottom, var(--light-3), var(--light-2));
+    }
+
+    main {
+        background-image: linear-gradient(to top, var(--light-2), var(--light-6));
+    }
+
+    .BOTAO {
+        background-image: linear-gradient(to left, var(--light-5), var(--light-4));
+    }
+
+    .BOTAO:hover {
+        background-image: linear-gradient(to left, var(--light-2), var(--light-1));
+    }
+}
