@@ -8,7 +8,7 @@ window.onload = function () {
 
     function denyAccess() {
         alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSA PÁGINA SEM PASSAR PELO MENU PRINCIPAL! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
-        window.location.href = '../../index.html';
+        window.location.href = 'https://vilhalva.github.io/STYLER/index.html';
     }
 
     const isPreviousPageAllowed = previousPage.startsWith('https://') &&requiredSubstrings.some(substring => previousPage.includes(substring));
