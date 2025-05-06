@@ -8,12 +8,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const isDark = themeStylesheet.getAttribute('href').includes('ESCURO.css');
 
         if (isDark) {
-            themeStylesheet.setAttribute('href', './css/CLARO.css');
+            themeStylesheet.setAttribute('href', '../css/CLARO.css');
             modeIcon.classList.remove('fa-sun');
             modeIcon.classList.add('fa-moon');
         } 
         else {
-            themeStylesheet.setAttribute('href', './css/ESCURO.css');
+            themeStylesheet.setAttribute('href', '../css/ESCURO.css');
             modeIcon.classList.remove('fa-moon');
             modeIcon.classList.add('fa-sun');
         }
