@@ -50,6 +50,10 @@
 
 /* TELAS PEQUENAS - TABLETES E CELULARES: */
 @media screen and (max-width: 768px) { 
+    body {
+        background-color: var(--dark-4);
+    }
+
     header {
         background-image: linear-gradient(to bottom, var(--dark-3), var(--dark-2));
     }
