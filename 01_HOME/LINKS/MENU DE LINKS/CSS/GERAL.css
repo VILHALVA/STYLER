@@ -159,17 +159,17 @@ main > h1 {
 @media screen and (max-width: 768px) { 
     header h1 {
         font-family: "TITULO_2";
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     header p {
         font-family: "SUBTITULO_2";
-        font-size: 1.4em;
+        font-size: 1.5em;
     }
 
     main > h1 {
         font-family: "SUBTITULO_4";
-        font-size: 2em;
+        font-size: 1.4em;
     }
 }
 

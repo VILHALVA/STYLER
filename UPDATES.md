@@ -4,6 +4,7 @@
 * ✅ **Refatoração dos Temas**: Anteriormente, os temas dos `MENUS` e `SUBMENUS` eram separados em dois arquivos: `TEMA_01.css` (Claro) e `TEMA_02.css` (Escuro). No entanto, muitos seletores globais se repetiam em ambos os arquivos. Com a atualização de hoje, os seletores foram reorganizados de forma mais eficiente:
   * 🔸`GERAL.css`: contém apenas os seletores globais (sem repetição).
   * 🔸`CLARO.css` e `ESCURO.css`: contêm exclusivamente os seletores relacionados às cores dos temas.
+* ✅ **Correções de bugs e pequenas melhorias.**
 ---
 
 ## VERSÃO 3.4 - 05/05/2025:

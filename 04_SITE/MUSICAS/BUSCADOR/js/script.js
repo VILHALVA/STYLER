@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         }
 
-        checkMusicExistence(URL, formattedInput);
+        checkMusicExistence(URL, formattedInput, userInput);
     });
 
     clearButton.addEventListener('click', function () {
@@ -53,21 +53,21 @@ document.addEventListener('DOMContentLoaded', function () {
         toggleButtons();
     });
 
-    function checkMusicExistence(url, formattedInput) {
+    function checkMusicExistence(url, formattedInput, originalInput) {
         fetch(url, { method: 'HEAD' })
             .then(response => {
                 if (response.ok) {
                     window.location.href = url;
                 } 
                 else {
-                    showError(`🤬ERRO 404: A MÚSICA \"${formattedInput}\" NÃO FOI ENCONTRADA! VERIFIQUE SE O NOME ESTÁ CORRETO COM BASE NAS SUGESTÕES OU BUSQUE EM OUTROS SITES CLICANDO NO BOTÃO ABAIXO 👇`);
+                    showError(`🤬ERRO 404: A MÚSICA "${originalInput}" NÃO FOI ENCONTRADA! VERIFIQUE SE O NOME ESTÁ CORRETO COM BASE NAS SUGESTÕES OU BUSQUE EM OUTROS SITES CLICANDO NO BOTÃO ABAIXO 👇`);
                     createAlternativeLinks(formattedInput);
                 }
             })
             .catch(error => {
-                showError(`🥵ERRO NA REQUISIÇÃO HEAD: ${error} CONTATE O SUPORTE!`);
+                showError(`🥵ERRO NA REQUISIÇÃO HEAD: ${error}`);
             });
-    }
+    }    
 
     function showError(message) {
         errorMessage.textContent = message;

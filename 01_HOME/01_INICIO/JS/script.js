@@ -45,8 +45,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const modeIcon = document.getElementById('mode_icon');
     const themeStylesheet = document.getElementById('theme-stylesheet');
 
-    document.body.classList.add('js-enabled');
-
     modeIcon.addEventListener('click', () => {
         const isDark = themeStylesheet.getAttribute('href').includes('ESCURO.css');
 

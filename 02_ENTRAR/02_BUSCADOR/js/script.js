@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         }
 
-        checkGameExistence(URL, formattedInput);
+        checkExistence(URL, formattedInput, userInput);
     });
 
     clearButton.addEventListener('click', function () {
@@ -50,19 +50,19 @@ document.addEventListener('DOMContentLoaded', function () {
         toggleButtons(); 
     });
 
-    function checkGameExistence(url, formattedInput) {
+    function checkExistence(url, formattedInput, originalInput) {
         fetch(url, { method: 'HEAD' })
             .then(response => {
                 if (response.ok) {
                     window.location.href = url; 
                 } 
                 else {
-                    showError(`🤬ERRO 404: A PÁGINA \"${formattedInput}\" NÃO FOI ENCONTRADA! VERIFIQUE SE O NOME ESTÁ CORRETO COM BASE NAS SUGESTÕES OU BUSQUE EM OUTROS SITES CLICANDO NO BOTÃO ABAIXO 👇`);
+                    showError(`🤬ERRO 404: O METÓDO DE ENTRADA \"${originalInput}\" NÃO FOI ENCONTRADO! VERIFIQUE SE O NOME ESTÁ CORRETO COM BASE NAS SUGESTÕES OU BUSQUE EM OUTROS SITES CLICANDO NO BOTÃO ABAIXO 👇`);
                     createAlternativeLinks(formattedInput);
                 }
             })
             .catch(error => {
-                showError(`🥵ERRO NA REQUISIÇÃO HEAD: ${error} CONTATE O SUPORTE!`);
+                showError(`🥵ERRO NA REQUISIÇÃO HEAD: ${error}`);
             });
     }
 
