@@ -12,21 +12,16 @@
 
 @font-face {
     font-family: "SUBTITULO_1";
-    src: url(../../../../03_MENU/FONTES/love\ story.ttf);
-}
-
-@font-face {
-    font-family: "SUBTITULO_2";
     src: url(../../../../03_MENU/FONTES/PassionOne-Regular.ttf);
 }
 
 @font-face {
-    font-family: "SUBTITULO_3";
+    font-family: "SUBTITULO_2";
     src: url(../../../../03_MENU/FONTES/PassionOne-Black.ttf);
 }
 
 @font-face {
-    font-family: "SUBTITULO_4";
+    font-family: "SUBTITULO_3";
     src: url(../../../../03_MENU/FONTES/PassionOne-Bold.ttf);
 }
 
@@ -141,12 +136,12 @@ main > h1 {
 
     header p {
         font-family: "SUBTITULO_1";
-        font-size: 1em;
+        font-size: 1.7em;
     }
 
     main > h1 {
         font-family: "SUBTITULO_3";
-        font-size: 2.7em;
+        font-size: 2.3em;
     }
 }
 
@@ -154,16 +149,16 @@ main > h1 {
 @media screen and (max-width: 768px) { 
     header h1 {
         font-family: "TITULO_2";
-        font-size: 1.8em;
+        font-size: 1.6em;
     }
 
     header p {
         font-family: "SUBTITULO_2";
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     main > h1 {
-        font-family: "SUBTITULO_4";
+        font-family: "SUBTITULO_3";
         font-size: 1.4em;
     }
 }
