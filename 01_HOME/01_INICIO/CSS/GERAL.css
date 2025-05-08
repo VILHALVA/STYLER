@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: "TITULO_1";
-    src: url(../../../03_MENU/FONTES/idroid.otf);
+    src: url(../../../03_MENU/FONTES/STOREB__.ttf);
 }
 
 @font-face {
     font-family: "TITULO_2";
-    src: url(../../../03_MENU/FONTES/STOREB__.ttf);
+    src: url(../../../03_MENU/FONTES/idroid.otf);
 }
 
 @font-face {
@@ -23,14 +23,6 @@
 * {
     margin: 0px;
     padding: 0px;
-}
-
-:root {
-    --geral-1: #ee1414;
-    --geral-2: #1a0328;
-    --geral-3: #0707df;
-    --geral-4: #04096c;
-    --geral-5: #f20606;
 }
 
 body {
@@ -76,8 +68,8 @@ span#burguer {
 }
 
 span#burguer:hover {
-    background-color: var(--geral-1);
-    color: rgb(241, 235, 235);
+    background-color: red;
+    color: white;
 }
 
 menu {
@@ -116,7 +108,6 @@ article {
 }
 
 .profile {
-    background-color: var(--geral-2);
     padding: 20px;
     border-radius: 30px;
     margin-top: 20px;
@@ -130,7 +121,7 @@ article {
 }
 
 .titulo {
-    color: var(--geral-3);
+    color: white;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -177,11 +168,11 @@ article {
 }
 
 .buttons .button.blue {
-    background-color: var(--geral-4);
+    background-color: blue;
 }
 
 .buttons .button.blue:hover {
-    background-color: var(--geral-5);
+    background-color: red;
 }
 
 #BOTAO {
@@ -239,7 +230,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: white;
     border-radius: 50%;
     padding: 0;
     font-size: 22px; 
@@ -249,7 +240,7 @@ footer {
   }  
 
 #mode_icon:hover {
-    background-color: #f0f0f0; 
+    background-color: bisque; 
     transform: scale(1.1); 
 }
 
@@ -301,6 +292,7 @@ footer {
 
     .titulo {
         font-size: 1.5em;
+        font-family: "TITULO_2";
     }
 
     .descricao {
@@ -350,6 +342,7 @@ footer {
 
     .titulo {
         font-size: 1em;
+        font-family: "TITULO_1";
     }
 
     .descricao {

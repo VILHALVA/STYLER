@@ -21,8 +21,7 @@
 }
 
 body {
-    background-color: #2c2c2c; 
-    color: #fff; 
+    color: white; 
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
 }
@@ -57,7 +56,7 @@ main {
 }
 
 main > h1 {
-    color: #fff;
+    color: white;
     text-align: center;
     font-weight: bold;
     padding: 15px;
@@ -65,7 +64,7 @@ main > h1 {
 }
 
 div {
-    color: #fff;
+    color: white;
     font-weight: bold;
     padding: 20px;
     border-radius: 20px;
@@ -93,10 +92,10 @@ button#youtubeBtn {
     font-weight: bold;
     border: none;
     border-radius: 10px;
-    background-color: #ff0000;
+    background-color: red;
     color: white;
     cursor: pointer;
-    box-shadow: 0 0 10px #00000080;
+    box-shadow: 0 0 10px black;
     transition: 0.3s;
 }
 
@@ -104,7 +103,7 @@ button#youtubeBtn:hover {
     background-color: #cc0000;
 }
 
-/* CORES PERSONALISADAS*/
+/* CORES PERSONALIZADAS: */
 :root {
     /* TELAS GRANDES - COMPUTADORES E TVS: */
     --cor1: #200992;
@@ -129,6 +128,10 @@ button#youtubeBtn:hover {
 
 /* TELAS GRANDES - COMPUTADORES E TVS: */
 @media screen and (min-width: 768px) {
+    body {
+        background-color: var(--cor4);
+    }
+
     header {
         background: linear-gradient(to bottom, var(--cor1), var(--cor2), var(--cor3)), var(--cor4);
     }
@@ -161,6 +164,9 @@ button#youtubeBtn:hover {
 
 /* TELAS PEQUENAS - TABLETES E CELULARES: */
 @media screen and (max-width: 768px) {
+    body {
+        background-color: var(--cor12);
+    }
 
     header {
         background: linear-gradient(to bottom, var(--cor9), var(--cor10), var(--cor11)), var(--cor12);
@@ -168,7 +174,7 @@ button#youtubeBtn:hover {
 
     header h1 {
         font-family: "TITULO_2";
-        font-size: 2.3em;
+        font-size: 1.4em;
     }
 
     header p {

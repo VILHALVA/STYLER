@@ -34,6 +34,10 @@
         background-image: linear-gradient(to top, var(--light-4), var(--light-7));
     }
 
+    .profile {
+        background-color: var(--light-3);
+    }
+
     #BOTAO {
         background-image: linear-gradient(to left, var(--light-2), var(--light-5));
     }
@@ -71,6 +75,10 @@
     
     main {
         background-image: linear-gradient(to top, var(--light-2), var(--light-6));
+    }
+
+    .profile {
+        background-color: var(--light-5);
     }
 
     #BOTAO {

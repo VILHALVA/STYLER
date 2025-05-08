@@ -30,10 +30,6 @@
     src: url(../../../03_MENU/FONTES/PassionOne-Bold.ttf);
 }
 
-:root {
-    --geral-1: #1a0328;
-}
-
 * {
     margin: 0px;
     padding: 0px;
@@ -88,7 +84,7 @@ header {
 }
 
 #mode_icon:hover {
-    border-color: var(--geral-1); 
+    border-color: black; 
     cursor: pointer; 
 }
 

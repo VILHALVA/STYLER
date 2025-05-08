@@ -1,4 +1,4 @@
-/* TEMA ESCURO - PERSONALISADO: */
+/* TEMA ESCURO - PERSONALIZADO: */
 
 :root {
     --dark-1: #570606;
@@ -11,7 +11,6 @@
     --dark-8: #ff0000;
     --dark-9: #5f07ad;
 }
-
 
 /* TELAS GRANDES - COMPUTADORES E TVS: */
 @media screen and (min-width: 768px) {
@@ -33,6 +32,10 @@
 
     main {
         background-image: linear-gradient(to top, var(--dark-4), var(--dark-7));
+    }
+
+    .profile {
+        background-color: var(--dark-2);
     }
 
     #BOTAO {
@@ -72,6 +75,10 @@
     
     main {
         background-image: linear-gradient(to top, var(--dark-2), var(--dark-6));
+    }
+
+    .profile {
+        background-color: var(--dark-7);
     }
 
     #BOTAO {
