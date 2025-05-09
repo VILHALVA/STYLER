@@ -1,23 +1,63 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: "TITULO_1";
+    font-family: "--fonte-gg-1";
+    src: url(../../../03_MENU/FONTES/CascadiaCode-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "--fonte-gg-2";
+    src: url(../../../03_MENU/FONTES/SourceSans3-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "--fonte-gg-3";
+    src: url(../FONTES/CascadiaCode-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "--fonte-g-1";
+    src: url(../../../03_MENU/FONTES/love\ story.ttf);
+}
+
+@font-face {
+    font-family: "--fonte-g-2";
+    src: url(../../../03_MENU/FONTES/Hurry\ Loves.otf);
+}
+
+@font-face {
+    font-family: "--fonte-g-3";
+    src: url(../../../03_MENU/FONTES/PassionOne-Black.ttf);
+}
+
+@font-face {
+    font-family: "--fonte-m-1";
     src: url(../../../03_MENU/FONTES/STOREB__.ttf);
 }
 
 @font-face {
-    font-family: "TITULO_2";
+    font-family: "--fonte-m-2";
+    src: url(../../../03_MENU/FONTES/Anton-Regular.ttf);
+}
+
+@font-face {
+    font-family: "--fonte-m-3";
+    src: url(../../../03_MENU/FONTES/Olive\ Days.ttf);
+}
+
+@font-face {
+    font-family: "--fonte-p-1";
     src: url(../../../03_MENU/FONTES/idroid.otf);
 }
 
 @font-face {
-    font-family: "SUBTITULO_1";
-    src: url(../../../03_MENU/FONTES/PassionOne-Regular.ttf);
+    font-family: "--fonte-p-2";
+    src: url(../../../03_MENU/FONTES/PassionOne-Bold.ttf);
 }
 
 @font-face {
-    font-family: "SUBTITULO_2";
-    src: url(../../../03_MENU/FONTES/PassionOne-Bold.ttf);
+    font-family: "--fonte-p-3";
+    src: url(../../../03_MENU/FONTES/PassionOne-Regular.ttf);
 }
     
 * {
@@ -244,16 +284,16 @@ footer {
     transform: scale(1.1); 
 }
 
-/* TELAS GRANDES - COMPUTADORES E TVS: */
-@media screen and (min-width: 768px) {
+/* TELAS GIGANTES - DESKTOP {GG}: */
+@media screen and (min-width: 1201px) {
     header > h1 {
-        font-family: "TITULO_1";
-        font-size: 3em;
+        font-family: "--fonte-gg-1";
+        font-size: 4em;
     }
 
     header > p {
-        font-family: "SUBTITULO_1";
-        font-size: 1.2em;
+        font-family: "--fonte-gg-2";
+        font-size: 2em;
     }
 
     span#burguer {
@@ -291,8 +331,75 @@ footer {
     }
 
     .titulo {
-        font-size: 1.5em;
-        font-family: "TITULO_2";
+        font-size: 2em;
+        font-family: "--fonte-gg-3";
+    }
+
+    .descricao {
+        font-size: 20px;
+    }
+    
+    .social-icons img {
+        width: 40px;
+        height: 40px;
+        filter: invert(1);
+    }
+
+    #mode_icon {
+        bottom: 22px;       
+        font-size: 20px; 
+    }
+}
+
+/* TELAS GRANDES - LAPTOP {G}: */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    header > h1 {
+        font-family: "--fonte-g-1";
+        font-size: 3em;
+    }
+
+    header > p {
+        font-family: "--fonte-g-2";
+        font-size: 1em;
+    }
+
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+        padding: 3px;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    menu > ul > li > a {
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition-duration: 0.2s;
+    }
+
+    main {
+        width: 768px;
+    }
+
+    .profile-content {
+        flex-direction: row;
+    }
+
+    #carousel {
+        width: 300px; 
+        height: 300px;
+    }
+
+    .titulo {
+        font-size: 1.8em;
+        font-family: "--fonte-g-3";
     }
 
     .descricao {
@@ -311,15 +418,66 @@ footer {
     }
 }
 
-/* TELAS PEQUENAS - TABLETES E CELULARES: */
+/* TELAS MÉDIAS - TABLET {M}: */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    header > h1 {
+        font-family: "--fonte-m-1";
+        font-size: 2.5em;
+    }
+
+    header > p {
+        font-family: "--fonte-m-2";
+        font-size: 1.4em;
+    }
+
+    span#burguer {
+        padding: 8px;
+    }
+
+    menu > ul > li > a {
+        border-top: 3px solid rgb(33, 32, 36);
+    }
+
+    .profile-content {
+        flex-direction: column;
+    }
+
+    #carousel {
+        width: 150px; 
+        height: 150px; 
+    }
+
+    .titulo {
+        font-size: 1.7em;
+        font-family: "--fonte-m-3";
+    }
+
+    .descricao {
+        margin: 10px;
+        font-size: 20px;
+    }
+
+    .social-icons img {
+        width: 30px;
+        height: 30px;
+        filter: invert(1);
+    }
+
+    #mode_icon {
+        bottom: 15px;       
+        font-size: 17px; 
+    }
+}
+
+/* TELAS PEQUENAS - SMARTPHONE {P}: */
 @media screen and (max-width: 768px) { 
     header > h1 {
-        font-family: "TITULO_2";
+        font-family: "--fonte-p-1";
         font-size: 2.2em;
     }
 
     header > p {
-        font-family: "SUBTITULO_2";
+        font-family: "--fonte-p-2";
         font-size: 1.0em;
     }
 
@@ -341,8 +499,8 @@ footer {
     }
 
     .titulo {
-        font-size: 1em;
-        font-family: "TITULO_1";
+        font-size: 1.1em;
+        font-family: "--fonte-p-3";
     }
 
     .descricao {

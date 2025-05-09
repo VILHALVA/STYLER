@@ -1,96 +1,207 @@
-/* TEMA ESCURO - PERSONALIZADO: */
+/* TEMA CLARO - PADRÃO: */
 
 :root {
-    --dark-1: #570606;
-    --dark-2: #100645;
-    --dark-3: #400539;
-    --dark-4: #05243b;
-    --dark-5: #150320;
-    --dark-6: #032e0b;
-    --dark-7: #11053e;
-    --dark-8: #ff0000;
-    --dark-9: #5f07ad;
+    --light-gg-1: #8a0707; 
+    --light-gg-2: #0d3575; 
+    --light-gg-3: #19107b; 
+    --light-gg-4: #880e6b;
+    --light-gg-5: #102b57; 
+    --light-gg-6: #063b2a; 
+    --light-gg-7: #48052d; 
+    --light-gg-8: #520a0a;
+    --light-gg-9: #421903;
+
+    --light-g-1: #6c0909;
+    --light-g-2: #170661;
+    --light-g-3: #4d0c46;
+    --light-g-4: #0a2f4b;
+    --light-g-5: #100616;
+    --light-g-6: #02490f;
+    --light-g-7: #10043e;
+    --light-g-8: #8e0909;
+    --light-g-9: #390566;
+
+    --light-m-1: #790f44; 
+    --light-m-2: #115d46; 
+    --light-m-3: #091751; 
+    --light-m-4: #5f2b07;
+    --light-m-5: #0d1d34; 
+    --light-m-6: #0a0a1a; 
+    --light-m-7: #2c0849; 
+    --light-m-8: #350a3d;
+    --light-m-9: #3b3c0e;
+
+    --light-p-1: #891010;
+    --light-p-2: #241564;
+    --light-p-3: #480f41;
+    --light-p-4: #193245;
+    --light-p-5: #2b0e3d;
+    --light-p-6: #083210;
+    --light-p-7: #190d44;
+    --light-p-8: #590f0f;
+    --light-p-9: #290f3f;
 }
 
-/* TELAS GRANDES - COMPUTADORES E TVS: */
-@media screen and (min-width: 768px) {
+/* TELAS GIGANTES - DESKTOP {GG}: */
+@media screen and (min-width: 1201px)  {
     body {
-        background-color: var(--dark-6);
+        background-color: var(--light-gg-6);
     }
 
     header {
-        background-image: linear-gradient(to bottom, var(--dark-1), var(--dark-2));
+        background-image: linear-gradient(to bottom, var(--light-gg-1), var(--light-gg-2));
     }
 
     menu {
-        background-color: var(--dark-3);
+        background-color: var(--light-gg-3);
     }
 
     menu > ul > li > a:hover {
-        background-color: var(--dark-8);
+        background-color: var(--light-gg-8);
     }
 
     main {
-        background-image: linear-gradient(to top, var(--dark-4), var(--dark-7));
+        background-image: linear-gradient(to top, var(--light-gg-4), var(--light-gg-7));
     }
 
     .profile {
-        background-color: var(--dark-2);
+        background-color: var(--light-gg-3);
     }
 
     #BOTAO {
-        background-image: linear-gradient(to left, var(--dark-2), var(--dark-5));
+        background-image: linear-gradient(to left, var(--light-gg-2), var(--light-gg-5));
     }
 
     #BOTAO:hover {
-        background-image: linear-gradient(to left, var(--dark-1), var(--dark-7));
+        background-image: linear-gradient(to left, var(--light-gg-1), var(--light-gg-7));
     }
 
     footer {
-        background-image: linear-gradient(to left, var(--dark-5), var(--dark-1));
+        background-image: linear-gradient(to left, var(--light-gg-5), var(--light-gg-1));
     }
 }
 
-/* TELAS PEQUENAS - TABLETES E CELULARES: */
-@media screen and (max-width: 768px) { 
+/* TELAS GRANDES - LAPTOP {G}: */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
     body {
-        background-color: var(--dark-4);
+        background-color: var(--light-g-6);
     }
 
     header {
-        background-image: linear-gradient(to bottom, var(--dark-3), var(--dark-2));
+        background-image: linear-gradient(to bottom, var(--light-g-1), var(--light-g-2));
     }
 
-    span#burguer {
-        background-color: var(--dark-3);
-    }
-
-    menu > ul > li > a {
-        background-color: var(--dark-3);
+    menu {
+        background-color: var(--light-g-3);
     }
 
     menu > ul > li > a:hover {
-        background-color: var(--dark-9);
+        background-color: var(--light-g-8);
     }
-    
+
     main {
-        background-image: linear-gradient(to top, var(--dark-2), var(--dark-6));
+        background-image: linear-gradient(to top, var(--light-g-4), var(--light-g-7));
     }
 
     .profile {
-        background-color: var(--dark-7);
+        background-color: var(--light-g-3);
     }
 
     #BOTAO {
-        background-image: linear-gradient(to left, var(--dark-5), var(--dark-7));
+        background-image: linear-gradient(to left, var(--light-g-2), var(--light-g-5));
     }
 
     #BOTAO:hover {
-        background-image: linear-gradient(to left, var(--dark-2), var(--dark-4));
+        background-image: linear-gradient(to left, var(--light-g-1), var(--light-g-7));
     }
 
     footer {
-        background-image: linear-gradient(to left, var(--dark-4), var(--dark-7));
+        background-image: linear-gradient(to left, var(--light-g-5), var(--light-g-1));
     }
 }
 
+/* TELAS MÉDIAS - TABLET {M}: */
+@media screen and (min-width: 769px) and (max-width: 992px) {  
+    body {
+        background-color: var(--light-m-9);
+    }
+
+    header {
+        background-image: linear-gradient(to bottom, var(--light-m-3), var(--light-m-2));
+    }
+
+    span#burguer {
+        background-color: var(--light-m-3);
+    }
+
+    menu > ul > li > a {
+        background-color: var(--light-m-3);
+    }
+
+    menu > ul > li > a:hover {
+        background-color: var(--light-m-9);
+    }
+    
+    main {
+        background-image: linear-gradient(to top, var(--light-m-2), var(--light-m-6));
+    }
+
+    .profile {
+        background-color: var(--light-m-5);
+    }
+
+    #BOTAO {
+        background-image: linear-gradient(to left, var(--light-m-5), var(--light-m-7));
+    }
+
+    #BOTAO:hover {
+        background-image: linear-gradient(to left, var(--light-m-2), var(--light-m-4));
+    }
+
+    footer {
+        background-image: linear-gradient(to left, var(--light-m-4), var(--light-m-7));
+    }
+}
+
+/* TELAS PEQUENAS - SMARTPHONE {P}: */
+@media screen and (max-width: 768px) {  
+    body {
+        background-color: var(--light-p-9);
+    }
+
+    header {
+        background-image: linear-gradient(to bottom, var(--light-p-3), var(--light-p-2));
+    }
+
+    span#burguer {
+        background-color: var(--light-p-3);
+    }
+
+    menu > ul > li > a {
+        background-color: var(--light-p-3);
+    }
+
+    menu > ul > li > a:hover {
+        background-color: var(--light-p-9);
+    }
+    
+    main {
+        background-image: linear-gradient(to top, var(--light-p-2), var(--light-p-6));
+    }
+
+    .profile {
+        background-color: var(--light-p-5);
+    }
+
+    #BOTAO {
+        background-image: linear-gradient(to left, var(--light-p-5), var(--light-p-7));
+    }
+
+    #BOTAO:hover {
+        background-image: linear-gradient(to left, var(--light-p-2), var(--light-p-4));
+    }
+
+    footer {
+        background-image: linear-gradient(to left, var(--light-p-4), var(--light-p-7));
+    }
+}

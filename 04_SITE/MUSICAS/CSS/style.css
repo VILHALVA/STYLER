@@ -1,23 +1,81 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: "TITULO_1";
+    font-family: "--fonte-gg-1";
+    src: url(../../../03_MENU/FONTES/CascadiaCode-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "--fonte-gg-2";
+    src: url(../../../03_MENU/FONTES/CascadiaCode-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "--fonte-g-1";
     src: url(../../../03_MENU/FONTES/Hurry\ Loves.otf);
 }
 
 @font-face {
-    font-family: "TITULO_2";
+    font-family: "--fonte-g-2";
+    src: url(../../../03_MENU/FONTES/Hurry\ Loves.otf);
+}
+
+@font-face {
+    font-family: "--fonte-m-1";
+    src: url(../../../03_MENU/FONTES/Sriracha-Regular.ttf);
+}
+
+@font-face {
+    font-family: "--fonte-m-2";
+    src: url(../../../03_MENU/FONTES/PassionOne-Black.ttf);
+}
+
+@font-face {
+    font-family: "--fonte-p-1";
     src: url(../../../03_MENU/FONTES/idroid.otf);
 }
 
 @font-face {
-    font-family: "SUBTITULO_1";
-    src: url(../../../03_MENU/FONTES/Hurry\ Loves.otf);
+    font-family: "--fonte-p-2";
+    src: url(../../../03_MENU/FONTES/PassionOne-Regular.ttf);
 }
 
-@font-face {
-    font-family: "SUBTITULO_2";
-    src: url(../../../03_MENU/FONTES/PassionOne-Regular.ttf);
+:root {
+    --cor-gg-1: #0743ab;
+    --cor-gg-2: #4d0488;
+    --cor-gg-3: #0a0f35;
+    --cor-gg-4: #11283c;
+    --cor-gg-5: #030346;
+    --cor-gg-6: #38052b;
+    --cor-gg-7: #660539;
+    --cor-gg-8: #5606a099; 
+
+    --cor-g-1: #200992;
+    --cor-g-2: #040488;
+    --cor-g-3: #0a0f35;
+    --cor-g-4: #11283c;
+    --cor-g-5: #030346;
+    --cor-g-6: #3d1a02;
+    --cor-g-7: #ff3b2a;
+    --cor-g-8: #00000099; 
+
+    --cor-m-1: #842108;
+    --cor-m-2: #980a0a;
+    --cor-m-3: #770c47;
+    --cor-m-4: #041a2d;
+    --cor-m-5: #030346;
+    --cor-m-6: #075f15;
+    --cor-m-7: #980d59;
+    --cor-m-8: #00000099; 
+
+    --cor-p-1: #2c043c;
+    --cor-p-2: #1a083a;
+    --cor-p-3: #041616;
+    --cor-p-4: #0a2640;
+    --cor-p-5: #06065f;
+    --cor-p-6: #21040a;
+    --cor-p-7: #41221f;
+    --cor-p-8: #110101b0; 
 }
 
 body {
@@ -100,100 +158,149 @@ button#youtubeBtn {
 }
 
 button#youtubeBtn:hover {
-    background-color: #cc0000;
+    background-color: red;
 }
 
-/* CORES PERSONALIZADAS: */
-:root {
-    /* TELAS GRANDES - COMPUTADORES E TVS: */
-    --cor1: #200992;
-    --cor2: #040488;
-    --cor3: #0a0f35;
-    --cor4: #11283c;
-    --cor5: #030346;
-    --cor6: #3d1a02;
-    --cor7: #ff6f61;
-    --cor8: #00000099; 
-
-    /* TELAS PEQUENAS - TABLETES E CELULARES: */
-    --cor9: #2c043c;
-    --cor10: #1a083a;
-    --cor11: #041616;
-    --cor12: #0a2640;
-    --cor13: #06065f;
-    --cor14: #21040a;
-    --cor15: #41221f;
-    --cor16: #110101b0; 
-}
-
-/* TELAS GRANDES - COMPUTADORES E TVS: */
-@media screen and (min-width: 768px) {
+/* TELAS GIGANTES - DESKTOP {GG}: */
+@media screen and (min-width: 1201px) {
     body {
-        background-color: var(--cor4);
+        background-color: var(--cor-gg-4);
     }
 
     header {
-        background: linear-gradient(to bottom, var(--cor1), var(--cor2), var(--cor3)), var(--cor4);
+        background: linear-gradient(to bottom, var(--cor-gg-1), var(--cor-gg-2), var(--cor-gg-3)), var(--cor-gg-4);
     }
 
     header h1 {
-        font-family: "TITULO_1";
-        font-size: 2.5em;
+        font-family: "--fonte-gg-1";
+        font-size: 3.5em;
     }
 
     header p {
-        font-family: "SUBTITULO_1";
-        font-size: 1em;
+        font-family: "--fonte-gg-2";
+        font-size: 2.5em;
     }
 
     main {
-        background: linear-gradient(to bottom, var(--cor5), var(--cor6)); 
-
+        background: linear-gradient(to bottom, var(--cor-gg-5), var(--cor-gg-6)); 
     }
 
     main > h1 {
-        background-color: var(--cor7); 
+        background-color: var(--cor-gg-7); 
         font-size: 2.5em;
     }
 
     div {
-        background-color: var(--cor8); 
+        background-color: var(--cor-gg-8); 
         font-size: 1.3em;
     }
 }
 
-/* TELAS PEQUENAS - TABLETES E CELULARES: */
-@media screen and (max-width: 768px) {
+/* TELAS GRANDES - LAPTOP {G}: */
+@media screen and (min-width: 993px) and (max-width: 1200px)  {
     body {
-        background-color: var(--cor12);
+        background-color: var(--cor-g-4);
     }
 
     header {
-        background: linear-gradient(to bottom, var(--cor9), var(--cor10), var(--cor11)), var(--cor12);
+        background: linear-gradient(to bottom, var(--cor-g-1), var(--cor-g-2), var(--cor-g-3)), var(--cor-g-4);
     }
 
     header h1 {
-        font-family: "TITULO_2";
-        font-size: 1.4em;
+        font-family: "--fonte-g-1";
+        font-size: 2.5em;
     }
 
     header p {
-        font-family: "SUBTITULO_2";
-        font-size: 1.2em;
+        font-family: "--fonte-g-2";
+        font-size: 1em;
     }
 
     main {
-        background: linear-gradient(to bottom, var(--cor13), var(--cor14)); 
-
+        background: linear-gradient(to bottom, var(--cor-g-5), var(--cor-g-6)); 
     }
 
     main > h1 {
-        background-color: var(--cor15); 
+        background-color: var(--cor-g-7); 
+        font-size: 2.5em;
+    }
+
+    div {
+        background-color: var(--cor-g-8); 
+        font-size: 1.3em;
+    }
+}
+
+/* TELAS MÉDIAS - TABLET {M}: */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    body {
+        background-color: var(--cor-m-5);
+    }
+
+    header {
+        background: linear-gradient(to bottom, var(--cor-m-1), var(--cor-m-2), var(--cor-m-3)), var(--cor-m-4);
+    }
+
+    header h1 {
+        font-family: "--fonte-m-1";
+        font-size: 2em;
+    }
+
+    header p {
+        font-family: "--fonte-m-2";
+        font-size: 1.6em;
+    }
+
+    main {
+        background: linear-gradient(to bottom, var(--cor-m-5), var(--cor-m-6)); 
+    }
+
+    main > h1 {
+        background-color: var(--cor-m-7); 
         font-size: 2.0em;
     }
 
     div {
-        background-color: var(--cor16); 
+        background-color: var(--cor-m-8); 
+        font-size: 0.9em;
+    }
+
+    div > p {
+        text-align: left;
+    }
+}
+
+/* TELAS PEQUENAS - SMARTPHONE {P}: */
+@media screen and (max-width: 768px) { 
+    body {
+        background-color: var(--cor-p-5);
+    }
+
+    header {
+        background: linear-gradient(to bottom, var(--cor-p-1), var(--cor-p-2), var(--cor-p-3)), var(--cor-p-4);
+    }
+
+    header h1 {
+        font-family: "--fonte-p-1";
+        font-size: 1.4em;
+    }
+
+    header p {
+        font-family: "--fonte-p-2";
+        font-size: 1.2em;
+    }
+
+    main {
+        background: linear-gradient(to bottom, var(--cor-p-5), var(--cor-p-6)); 
+    }
+
+    main > h1 {
+        background-color: var(--cor-p-7); 
+        font-size: 2.0em;
+    }
+
+    div {
+        background-color: var(--cor-p-8); 
         font-size: 0.9em;
     }
 

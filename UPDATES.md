@@ -1,4 +1,22 @@
 # ATUALIZAÇÕES:
+## VERSÃO 3.6 - 09/05/2025:
+* ✅ **Refatoração das Media Queries 2.0**
+  - Anteriormente, o site suportava apenas duas faixas de resolução: **telas grandes** (Computadores e TVs - `min-width: 768px`) e **telas pequenas** (Tablets e Celulares - `max-width: 768px`).
+
+  - Agora, o sistema foi expandido para **quatro tamanhos distintos**, oferecendo **maior precisão no controle de fontes e cores**:
+
+  1. **Telas Gigantes – Desktop {GG}**: `min-width: 1201px`
+  2. **Telas Grandes – Laptop {G}**: `min-width: 993px` até `max-width: 1200px`
+  3. **Telas Médias – Tablet {M}**: `min-width: 769px` até `max-width: 992px`
+  4. **Telas Pequenas – Smartphone {P}**: `max-width: 768px`
+
+  - Além disso, foi realizada uma **refatoração completa nos seletores CSS**, com nomenclaturas específicas para cada faixa de tela, como:
+`--light-gg-1`, `--black-gg-1`, `--cor-p-1`, `--fonte-m-1`, entre outras.
+
+  - **Importante**: Essa atualização está ativa apenas nas seguintes rotas:
+`01_HOME/01_INICIO`, `01_HOME/LINKS`, `02_ENTRAR/01_MENU PRINCIPAL`, `03_MENU/` e `MUSICAS`.
+---
+
 ## VERSÃO 3.5 - 06/05/2025:
 * ✅ **Validação de `https` adicionada**: Como o anúncio é sempre exibido após o carregamento do site, agora a validação de `https` também foi implementada nas rotas `01_HOME` e `02_ENTRAR`.
 * ✅ **Refatoração dos Temas**: Anteriormente, os temas dos `MENUS` e `SUBMENUS` eram separados em dois arquivos: `TEMA_01.css` (Claro) e `TEMA_02.css` (Escuro). No entanto, muitos seletores globais se repetiam em ambos os arquivos. Com a atualização de hoje, os seletores foram reorganizados de forma mais eficiente:

@@ -1,57 +1,127 @@
 /* TEMA ESCURO - PERSONALIZADO: */
 
 :root {
-    --dark-1: #190606;
-    --dark-2: #0c0628;
-    --dark-3: #31052c;
-    --dark-4: #03223e;
-    --dark-5: #1f0230;
-    --dark-6: #0d2110;
-    --dark-7: #1d0572;
+    --light-gg-1: #870606; 
+    --light-gg-2: #08409a; 
+    --light-gg-3: #3d0670; 
+    --light-gg-4: #033d45; 
+    --light-gg-5: #080f1a; 
+    --light-gg-6: #083e2c; 
+    --light-gg-7: #513e05; 
+
+    --light-g-1: #ab0b0b;
+    --light-g-2: #150656;
+    --light-g-3: #3f0839;
+    --light-g-4: #053153;
+    --light-g-5: #1a0726;
+    --light-g-6: #053d0f;
+    --light-g-7: #0c022f;
+
+    --light-m-1: #51082c; 
+    --light-m-2: #0a3427; 
+    --light-m-3: #061860; 
+    --light-m-4: #614009; 
+    --light-m-5: #0a131f; 
+    --light-m-6: #22223c; 
+    --light-m-7: #24257b; 
+
+    --light-p-1: #690808;
+    --light-p-2: #1d124f;
+    --light-p-3: #2b0827;
+    --light-p-4: #113d5f;
+    --light-p-5: #1a0328;
+    --light-p-6: #093f13;
+    --light-p-7: #0e0a1d;
 }
 
-/* TELAS GRANDES - COMPUTADORES E TVS: */
-@media screen and (min-width: 768px) {
+/* TELAS GIGANTES - DESKTOP {GG}: */
+@media screen and (min-width: 1201px)  {
     body {
-        background-color: var(--dark-6);
+        background-color: var(--light-gg-6);
     }
 
     header {
-        background-image: linear-gradient(to bottom, var(--dark-1), var(--dark-2));
+        background-image: linear-gradient(to bottom, var(--light-gg-1), var(--light-gg-2));
     }
 
     main {
-        background-image: linear-gradient(to top, var(--dark-7), var(--dark-3), var(--dark-1));
+        background-image: linear-gradient(to top, var(--light-gg-7), var(--light-gg-3), var(--light-gg-1));
     }
 
     .BOTAO {
-        background-image: linear-gradient(to left, var(--cor4), var(--cor5));
+        background-image: linear-gradient(to left, var(--light-gg-4), var(--light-gg-5));
     }
 
     .BOTAO:hover {
-        background-image: linear-gradient(to left, var(--dark-1), var(--dark-7));
+        background-image: linear-gradient(to left, var(--light-gg-1), var(--light-gg-7));
     }
 }
 
-/* TELAS PEQUENAS - TABLETES E CELULARES: */
-@media screen and (max-width: 768px) { 
+/* TELAS GRANDES - LAPTOP {G}: */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
     body {
-        background-color: var(--dark-2);
+        background-color: var(--light-g-6);
     }
 
     header {
-        background-image: linear-gradient(to bottom, var(--dark-3), var(--dark-2));
+        background-image: linear-gradient(to bottom, var(--light-g-1), var(--light-g-2));
     }
 
     main {
-        background-image: linear-gradient(to top, var(--dark-2), var(--dark-6));
+        background-image: linear-gradient(to top, var(--light-g-7), var(--light-g-3), var(--light-g-1));
     }
 
     .BOTAO {
-        background-image: linear-gradient(to left, var(--dark-5), var(--dark-4));
+        background-image: linear-gradient(to left, var(--light-g-4), var(--light-g-5));
     }
 
     .BOTAO:hover {
-        background-image: linear-gradient(to left, var(--dark-2), var(--dark-1));
+        background-image: linear-gradient(to left, var(--light-g-1), var(--light-g-7));
+    }
+}
+
+/* TELAS MÉDIAS - TABLET {M}: */
+@media screen and (min-width: 769px) and (max-width: 992px) {  
+    body {
+        background-color: var(--light-m-2);
+    }
+
+    header {
+        background-image: linear-gradient(to bottom, var(--light-m-3), var(--light-m-2));
+    }
+
+    main {
+        background-image: linear-gradient(to top, var(--light-m-2), var(--light-m-6));
+    }
+
+    .BOTAO {
+        background-image: linear-gradient(to left, var(--light-m-5), var(--light-m-4));
+    }
+
+    .BOTAO:hover {
+        background-image: linear-gradient(to left, var(--light-m-2), var(--light-m-1));
+    }
+}
+
+/* TELAS PEQUENAS - SMARTPHONE {P}: */
+@media screen and (max-width: 768px) {  
+    body {
+        background-color: var(--light-p-2);
+    }
+
+    header {
+        background-image: linear-gradient(to bottom, var(--light-p-3), var(--light-p-2));
+    }
+
+    main {
+        background-image: linear-gradient(to top, var(--light-p-2), var(--light-p-6));
+    }
+
+    .BOTAO {
+        background-image: linear-gradient(to left, var(--light-p-5), var(--light-p-4));
+    }
+
+    .BOTAO:hover {
+        background-image: linear-gradient(to left, var(--light-p-2), var(--light-p-1));
     }
 }
