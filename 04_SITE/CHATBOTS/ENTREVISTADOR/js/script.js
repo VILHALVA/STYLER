@@ -228,7 +228,6 @@ function displayReport() {
     }
 
     let report = `
-        ============================
         🔵RELATÓRIO DA ENTREVISTA:
         ⭐️TIME -> ${FORMATTED_DATE}, ${TIME}
         ⭐️NOME -> ${USER_RESPONSES[0].toUpperCase()}
@@ -240,7 +239,6 @@ function displayReport() {
         ⭐️METAS -> ${USER_RESPONSES[6].toUpperCase()}
         ⭐️EXPERIÊNCIA -> ${USER_RESPONSES[7].toUpperCase()}
         ⭐️RESULTADO FINAL => ${APPROVAL_STATUS}
-        ============================
     `;
     
     addMessage('🤖ENTREVISTADOR', './imagens/ROBO.jpg', '\n' + report, 'sender-2');
