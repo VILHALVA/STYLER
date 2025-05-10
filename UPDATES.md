@@ -11,7 +11,7 @@
   4. **Telas Pequenas – Smartphone {P}**: `max-width: 768px`
 
   - Além disso, foi realizada uma **refatoração completa nos seletores CSS**, com nomenclaturas específicas para cada faixa de tela, como:
-`--light-gg-1`, `--black-gg-1`, `--cor-p-1`, `--fonte-m-1`, entre outras.
+`--cor-gg-1`, `--cor-m-1`, `--cor-p-1`, `--fonte-m-1`, entre outras.
 
   - **Importante**: Essa atualização está ativa apenas nas seguintes rotas:
 `01_HOME/01_INICIO`, `01_HOME/LINKS`, `02_ENTRAR/01_MENU PRINCIPAL`, `03_MENU/` e `MUSICAS`.

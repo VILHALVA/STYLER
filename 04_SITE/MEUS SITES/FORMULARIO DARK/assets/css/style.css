@@ -2,8 +2,8 @@
 
 /** Variables - colors **/
 :root {
-    /* Light */
-    --color-light-50: #f8fafc;
+    /* cor */
+    --color-cor-50: #f8fafc;
 
     /* Dark */
     --color-dark-50: #797984;
@@ -40,12 +40,12 @@
     display: flex;
     flex-direction: column;
     height: fit-content;
-    background-color: var(--color-light-50);
+    background-color: var(--color-cor-50);
     padding: 30px 40px;
     border-radius: 8px;
     gap: 30px;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.336);
-    animation: dark-to-light-background 0.3s ease-in-out;
+    animation: dark-to-cor-background 0.3s ease-in-out;
 }
 
 /* Form Header */
@@ -147,7 +147,7 @@
     background: var(--color-gradient);
     padding: 7px;
     border-radius: 3px;
-    color: var(--color-light-50);
+    color: var(--color-cor-50);
     font-weight: bold;
     font-size: 18px;
     cursor: pointer;
@@ -159,28 +159,28 @@
 
 /* Dark Mode */
 .dark#login_form {
-    color: var(--color-light-50);
+    color: var(--color-cor-50);
     background-color: var(--color-dark-100);
-    animation: light-to-dark-background 0.3s ease-in-out;
+    animation: cor-to-dark-background 0.3s ease-in-out;
 }
 
 .dark#login_form .input-field input,
 .dark#login_form .input-field i {
-    color: var(--color-light-50);
+    color: var(--color-cor-50);
 }
 
-@keyframes dark-to-light-background {
+@keyframes dark-to-cor-background {
     0% {
         background-color:var(--color-dark-100);
     }
     100.0% {
-        background-color:var(--color-light-50);
+        background-color:var(--color-cor-50);
     }
 }
 
-@keyframes light-to-dark-background {
+@keyframes cor-to-dark-background {
     0% {
-        background-color:var(--color-light-50);
+        background-color:var(--color-cor-50);
     }
     100.0% {
         background-color:var(--color-dark-100); 

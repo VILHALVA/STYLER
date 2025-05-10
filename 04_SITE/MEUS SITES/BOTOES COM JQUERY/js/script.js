@@ -57,7 +57,7 @@ $(document).ready(function() {
     });
 
     $('#button10').click(function() {
-        $(this).toggle("highlight");
+        $(this).toggle("highcor");
     });
 
     $('#button11').click(function() {

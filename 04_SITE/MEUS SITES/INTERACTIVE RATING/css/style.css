@@ -8,7 +8,7 @@
 :root {
   --Orange: #fa7312;
   --White: #ffffff;
-  --Light-Grey: #959eac;
+  --cor-Grey: #959eac;
   --Medium-Grey: #7c8798;
   --Dark-Blue: #252d37;
   --Very-Dark-Blue: #121417;
@@ -64,13 +64,13 @@ body {
   border-radius: 100%;
   display: block;
   align-items: center;
-  color: var(--Light-Grey);
+  color: var(--cor-Grey);
   font-size: 18px;
   cursor: pointer;
   transition: all 0.2s;
 }
 .card .rating .rating-number:hover{
-  background-color: var(--Light-Grey);
+  background-color: var(--cor-Grey);
   color: white;
 }
 .card button {

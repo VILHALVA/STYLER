@@ -436,7 +436,7 @@ body {
   grid-area: 6 / 7 / 8 / 9;
 }
 
-.lightbox {
+.corbox {
   display: none;
   position: fixed;
   top: 0;
@@ -446,10 +446,10 @@ body {
   background: rgba(0, 0, 0, 0.8);
   padding: 0 10px;
   z-index: 20;
-  animation: openLightbox 0.6s ease-in-out 1 normal;
+  animation: opencorbox 0.6s ease-in-out 1 normal;
 }
 
-@keyframes openLightbox {
+@keyframes opencorbox {
   from {
     opacity: 0;
   }

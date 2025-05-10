@@ -3,7 +3,7 @@
   /*Resetando as configurações*/
     margin: 0; 
     padding: 0; 
-    font-family: 'open_sanslight';
+    font-family: 'open_sanscor';
     box-sizing: border-box; 
     -moz-box-sizing: border-box; 
     -webkit-box-sizing: border-box; 
@@ -53,9 +53,9 @@ input.btn{width: auto; cursor: pointer;}
 }
 
 @font-face {
-    font-family: 'open_sanslight';
-    src: url('opensans/opensans-light-webfont.woff2') format('woff2'),
-         url('opensans/opensans-light-webfont.woff') format('woff');
+    font-family: 'open_sanscor';
+    src: url('opensans/opensans-cor-webfont.woff2') format('woff2'),
+         url('opensans/opensans-cor-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 

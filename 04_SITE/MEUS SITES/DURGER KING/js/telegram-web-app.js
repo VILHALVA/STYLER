@@ -285,7 +285,7 @@
   
     var WebApp = {};
     var webAppInitData = '', webAppInitDataUnsafe = {};
-    var themeParams = {}, colorScheme = 'light';
+    var themeParams = {}, colorScheme = 'cor';
     var webAppVersion = '6.0';
     var webAppPlatform = 'unknown';
   
@@ -404,7 +404,7 @@
         if (color = parseColorToHex(theme_params[key])) {
           themeParams[key] = color;
           if (key == 'bg_color') {
-            colorScheme = isColorDark(color) ? 'dark' : 'light'
+            colorScheme = isColorDark(color) ? 'dark' : 'cor'
             setCssProperty('color-scheme', colorScheme);
           }
           key = 'theme-' + key.split('_').join('-');
@@ -1184,7 +1184,7 @@
           return hapticFeedback;
         }
         if (params.type == 'impact') {
-          if (params.impact_style != 'light' &&
+          if (params.impact_style != 'cor' &&
               params.impact_style != 'medium' &&
               params.impact_style != 'heavy' &&
               params.impact_style != 'rigid' &&

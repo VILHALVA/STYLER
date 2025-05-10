@@ -942,8 +942,8 @@ textarea.w-select {
   text-align: center;
   background: #dddddd;
   clear: both;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highcor-color: rgba(0, 0, 0, 0);
+  tap-highcor-color: rgba(0, 0, 0, 0);
 }
 .w-slider-mask {
   position: relative;
@@ -975,8 +975,8 @@ textarea.w-select {
   padding-top: 10px;
   height: 40px;
   text-align: center;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highcor-color: rgba(0, 0, 0, 0);
+  tap-highcor-color: rgba(0, 0, 0, 0);
 }
 .w-slider-nav.w-round > div {
   border-radius: 100%;
@@ -1033,8 +1033,8 @@ textarea.w-select {
   overflow: hidden;
   color: white;
   font-size: 40px;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highcor-color: rgba(0, 0, 0, 0);
+  tap-highcor-color: rgba(0, 0, 0, 0);
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -1157,13 +1157,13 @@ textarea.w-select {
  * all in `calc()`.
  */
 /**
- * Wrapper around all lightbox elements
+ * Wrapper around all corbox elements
  *
- * 1. Since the lightbox can receive focus, IE also gives it an outline.
+ * 1. Since the corbox can receive focus, IE also gives it an outline.
  * 2. Fixes flickering on Chrome when a transition is in progress
- *    underneath the lightbox.
+ *    underneath the corbox.
  */
-.w-lightbox-backdrop {
+.w-corbox-backdrop {
   color: #000;
   cursor: auto;
   font-family: serif;
@@ -1202,7 +1202,7 @@ textarea.w-select {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highcor-color: transparent;
   -webkit-transform: translate(0, 0);
   /* 2 */
 }
@@ -1210,54 +1210,54 @@ textarea.w-select {
  * Neat trick to bind the rubberband effect to our canvas instead of the whole
  * document on iOS. It also prevents a bug that causes the document underneath to scroll.
  */
-.w-lightbox-backdrop,
-.w-lightbox-container {
+.w-corbox-backdrop,
+.w-corbox-container {
   height: 100%;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
 }
-.w-lightbox-content {
+.w-corbox-content {
   position: relative;
   height: 100vh;
   overflow: hidden;
 }
-.w-lightbox-view {
+.w-corbox-view {
   position: absolute;
   width: 100vw;
   height: 100vh;
   opacity: 0;
 }
-.w-lightbox-view:before {
+.w-corbox-view:before {
   content: "";
   height: 100vh;
 }
-/* .w-lightbox-content */
-.w-lightbox-group,
-.w-lightbox-group .w-lightbox-view,
-.w-lightbox-group .w-lightbox-view:before {
+/* .w-corbox-content */
+.w-corbox-group,
+.w-corbox-group .w-corbox-view,
+.w-corbox-group .w-corbox-view:before {
   height: 86vh;
 }
-.w-lightbox-frame,
-.w-lightbox-view:before {
+.w-corbox-frame,
+.w-corbox-view:before {
   display: inline-block;
   vertical-align: middle;
 }
 /*
  * 1. Remove default margin set by user-agent on the <figure> element.
  */
-.w-lightbox-figure {
+.w-corbox-figure {
   position: relative;
   margin: 0;
   /* 1 */
 }
-.w-lightbox-group .w-lightbox-figure {
+.w-corbox-group .w-corbox-figure {
   cursor: pointer;
 }
 /**
  * IE adds image dimensions as width and height attributes on the IMG tag,
  * but we need both width and height to be set to auto to enable scaling.
  */
-.w-lightbox-img {
+.w-corbox-img {
   width: auto;
   height: auto;
   max-width: none;
@@ -1265,17 +1265,17 @@ textarea.w-select {
 /**
  * 1. Reset if style is set by user on "All Images"
  */
-.w-lightbox-image {
+.w-corbox-image {
   display: block;
   float: none;
   /* 1 */
   max-width: 100vw;
   max-height: 100vh;
 }
-.w-lightbox-group .w-lightbox-image {
+.w-corbox-group .w-corbox-image {
   max-height: 86vh;
 }
-.w-lightbox-caption {
+.w-corbox-caption {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -1287,7 +1287,7 @@ textarea.w-select {
   white-space: nowrap;
   overflow: hidden;
 }
-.w-lightbox-embed {
+.w-corbox-embed {
   position: absolute;
   top: 0;
   right: 0;
@@ -1296,7 +1296,7 @@ textarea.w-select {
   width: 100%;
   height: 100%;
 }
-.w-lightbox-control {
+.w-corbox-control {
   position: absolute;
   top: 0;
   width: 4em;
@@ -1307,14 +1307,14 @@ textarea.w-select {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-.w-lightbox-left {
+.w-corbox-left {
   display: none;
   bottom: 0;
   left: 0;
   /* <svg xmlns="http://www.w3.org/2000/svg" viewBox="-20 0 24 40" width="24" height="40"><g transform="rotate(45)"><path d="m0 0h5v23h23v5h-28z" opacity=".4"/><path d="m1 1h3v23h23v3h-26z" fill="#fff"/></g></svg> */
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0yMCAwIDI0IDQwIiB3aWR0aD0iMjQiIGhlaWdodD0iNDAiPjxnIHRyYW5zZm9ybT0icm90YXRlKDQ1KSI+PHBhdGggZD0ibTAgMGg1djIzaDIzdjVoLTI4eiIgb3BhY2l0eT0iLjQiLz48cGF0aCBkPSJtMSAxaDN2MjNoMjN2M2gtMjZ6IiBmaWxsPSIjZmZmIi8+PC9nPjwvc3ZnPg==");
 }
-.w-lightbox-right {
+.w-corbox-right {
   display: none;
   right: 0;
   bottom: 0;
@@ -1326,7 +1326,7 @@ textarea.w-select {
  * The bug does not seem to manifest itself if the elements are tall enough such as the above arrows.
  * (http://stackoverflow.com/questions/16092114/background-size-differs-in-internet-explorer)
  */
-.w-lightbox-close {
+.w-corbox-close {
   right: 0;
   height: 2.6em;
   /* <svg xmlns="http://www.w3.org/2000/svg" viewBox="-4 0 18 17" width="18" height="17"><g transform="rotate(45)"><path d="m0 0h7v-7h5v7h7v5h-7v7h-5v-7h-7z" opacity=".4"/><path d="m1 1h7v-7h3v7h7v3h-7v7h-3v-7h-7z" fill="#fff"/></g></svg> */
@@ -1336,7 +1336,7 @@ textarea.w-select {
 /**
  * 1. All IE versions add extra space at the bottom without this.
  */
-.w-lightbox-strip {
+.w-corbox-strip {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1355,7 +1355,7 @@ textarea.w-select {
  *    the parent is also rendered on the GPU (by setting translate3d for
  *    example) fixes this behavior.
  */
-.w-lightbox-item {
+.w-corbox-item {
   display: inline-block;
   width: 10vh;
   padding: 2vh 1vh;
@@ -1365,28 +1365,28 @@ textarea.w-select {
   -webkit-transform: translate3d(0, 0, 0);
   /* 2 */
 }
-.w-lightbox-active {
+.w-corbox-active {
   opacity: 0.3;
 }
-.w-lightbox-thumbnail {
+.w-corbox-thumbnail {
   position: relative;
   height: 10vh;
   background: #222;
   overflow: hidden;
 }
-.w-lightbox-thumbnail-image {
+.w-corbox-thumbnail-image {
   position: absolute;
   top: 0;
   left: 0;
 }
-.w-lightbox-thumbnail .w-lightbox-tall {
+.w-corbox-thumbnail .w-corbox-tall {
   top: 50%;
   width: 100%;
   -webkit-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
 }
-.w-lightbox-thumbnail .w-lightbox-wide {
+.w-corbox-thumbnail .w-corbox-wide {
   left: 50%;
   height: 100%;
   -webkit-transform: translate(-50%, 0);
@@ -1399,7 +1399,7 @@ textarea.w-select {
  * Absolute pixel values are used to avoid rounding errors that would cause
  * the white spinning element to be misaligned with the track.
  */
-.w-lightbox-spinner {
+.w-corbox-spinner {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1413,7 +1413,7 @@ textarea.w-select {
   -webkit-animation: spin 0.8s infinite linear;
   animation: spin 0.8s infinite linear;
 }
-.w-lightbox-spinner:after {
+.w-corbox-spinner:after {
   content: "";
   position: absolute;
   top: -4px;
@@ -1427,49 +1427,49 @@ textarea.w-select {
 /*
  * Utility classes
  */
-.w-lightbox-hide {
+.w-corbox-hide {
   display: none;
 }
-.w-lightbox-noscroll {
+.w-corbox-noscroll {
   overflow: hidden;
 }
 @media (min-width: 768px) {
-  .w-lightbox-content {
+  .w-corbox-content {
     height: 96vh;
     margin-top: 2vh;
   }
-  .w-lightbox-view,
-  .w-lightbox-view:before {
+  .w-corbox-view,
+  .w-corbox-view:before {
     height: 96vh;
   }
-  /* .w-lightbox-content */
-  .w-lightbox-group,
-  .w-lightbox-group .w-lightbox-view,
-  .w-lightbox-group .w-lightbox-view:before {
+  /* .w-corbox-content */
+  .w-corbox-group,
+  .w-corbox-group .w-corbox-view,
+  .w-corbox-group .w-corbox-view:before {
     height: 84vh;
   }
-  .w-lightbox-image {
+  .w-corbox-image {
     max-width: 96vw;
     max-height: 96vh;
   }
-  .w-lightbox-group .w-lightbox-image {
+  .w-corbox-group .w-corbox-image {
     max-width: 82.3vw;
     max-height: 84vh;
   }
-  .w-lightbox-left,
-  .w-lightbox-right {
+  .w-corbox-left,
+  .w-corbox-right {
     display: block;
     opacity: 0.5;
   }
-  .w-lightbox-close {
+  .w-corbox-close {
     opacity: 0.8;
   }
-  .w-lightbox-control:hover {
+  .w-corbox-control:hover {
     opacity: 1;
   }
 }
-.w-lightbox-inactive,
-.w-lightbox-inactive:hover {
+.w-corbox-inactive,
+.w-corbox-inactive:hover {
   opacity: 0;
 }
 .w-richtext:before,
@@ -1692,8 +1692,8 @@ textarea.w-select {
   font-size: 24px;
   display: none;
   cursor: pointer;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highcor-color: rgba(0, 0, 0, 0);
+  tap-highcor-color: rgba(0, 0, 0, 0);
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;

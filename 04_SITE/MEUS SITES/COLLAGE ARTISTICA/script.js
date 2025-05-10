@@ -56,13 +56,13 @@ ScrollReveal().reveal(".item", {
   duration: 400,
 });
 
-// Lightbox
+// corbox
 
 document.addEventListener("DOMContentLoaded", function () {
   const galleryImages = document.querySelectorAll(".item img");
-  const lightbox = document.querySelector(".lightbox");
-  const lightboxImage = document.querySelector(".img-container img");
-  const lightboxTitle = document.querySelector(".img-header p");
+  const corbox = document.querySelector(".corbox");
+  const corboxImage = document.querySelector(".img-container img");
+  const corboxTitle = document.querySelector(".img-header p");
   const prevBtn = document.querySelector(".prev");
   const nextBtn = document.querySelector(".next");
   const body = document.querySelector("body");
@@ -72,15 +72,15 @@ document.addEventListener("DOMContentLoaded", function () {
   galleryImages.forEach((img, index) => {
     img.addEventListener("click", function () {
       currentIndex = index;
-      updateLightbox();
-      lightbox.style.display = "flex";
+      updatecorbox();
+      corbox.style.display = "flex";
       body.classList.add("prevent-background-scroll");
     });
   });
 
-  lightbox.addEventListener("click", function (e) {
-    if (e.target === lightbox) {
-      lightbox.style.display = "none";
+  corbox.addEventListener("click", function (e) {
+    if (e.target === corbox) {
+      corbox.style.display = "none";
       body.classList.remove("prevent-background-scroll");
     }
   });
@@ -88,17 +88,17 @@ document.addEventListener("DOMContentLoaded", function () {
   prevBtn.addEventListener("click", function () {
     currentIndex =
       (currentIndex - 1 + galleryImages.length) % galleryImages.length;
-    updateLightbox();
+    updatecorbox();
   });
 
   nextBtn.addEventListener("click", function () {
     currentIndex = (currentIndex + 1) % galleryImages.length;
-    updateLightbox();
+    updatecorbox();
   });
 
-  function updateLightbox() {
+  function updatecorbox() {
     const currentImage = galleryImages[currentIndex];
-    lightboxImage.src = currentImage.src;
-    lightboxTitle.textContent = currentImage.alt;
+    corboxImage.src = currentImage.src;
+    corboxTitle.textContent = currentImage.alt;
   }
 });

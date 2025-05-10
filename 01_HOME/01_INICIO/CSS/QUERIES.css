@@ -1,0 +1,159 @@
+/* ESTILO DE MEDIA QUERIES: */
+
+/* TELAS GIGANTES - DESKTOP {GG}: */
+@media screen and (min-width: 1201px) {
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+        padding: 3px;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    menu > ul > li > a {
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition-duration: 0.2s;
+    }
+
+    main {
+        width: 768px;
+    }
+
+    .profile-content {
+        flex-direction: row;
+    }
+
+    #carousel {
+        width: 300px; 
+        height: 300px;
+    }
+
+    .social-icons img {
+        width: 40px;
+        height: 40px;
+        filter: invert(1);
+    }
+
+    #mode_icon {
+        bottom: 22px;       
+        font-size: 20px; 
+    }
+}
+
+/* TELAS GRANDES - LAPTOP {G}: */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+        padding: 3px;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    menu > ul > li > a {
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition-duration: 0.2s;
+    }
+
+    main {
+        width: 768px;
+    }
+
+    .profile-content {
+        flex-direction: row;
+    }
+
+    #carousel {
+        width: 300px; 
+        height: 300px;
+    }
+    
+    .social-icons img {
+        width: 30px;
+        height: 30px;
+        filter: invert(1);
+    }
+
+    #mode_icon {
+        bottom: 12px;       
+        font-size: 22px; 
+    }
+}
+
+/* TELAS MÉDIAS - TABLET {M}: */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    span#burguer {
+        padding: 8px;
+    }
+
+    menu > ul > li > a {
+        border-top: 3px solid rgb(33, 32, 36);
+    }
+
+    .profile-content {
+        flex-direction: column;
+    }
+
+    #carousel {
+        width: 150px; 
+        height: 150px; 
+    }
+
+    .social-icons img {
+        width: 30px;
+        height: 30px;
+        filter: invert(1);
+    }
+
+    #mode_icon {
+        bottom: 15px;       
+        font-size: 17px; 
+    }
+}
+
+/* TELAS PEQUENAS - SMARTPHONE {P}: */
+@media screen and (max-width: 768px) { 
+    span#burguer {
+        padding: 7px;
+    }
+
+    menu > ul > li > a {
+        border-top: 3px solid gray;
+    }
+
+    .profile-content {
+        flex-direction: column;
+    }
+
+    #carousel {
+        width: 150px; 
+        height: 150px; 
+    }
+
+    .social-icons img {
+        width: 22px;
+        height: 22px;
+        filter: invert(1);
+    }
+
+    #mode_icon {
+        bottom: 14px;       
+        font-size: 15px; 
+    }
+}

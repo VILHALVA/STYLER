@@ -17,7 +17,7 @@ body {
 }
 
 .p-orbit, #m-orbit{
-  border: 0.1vmin solid lightgrey;
+  border: 0.1vmin solid corgrey;
   opacity: 0.5;
   background: transparent;
 }
