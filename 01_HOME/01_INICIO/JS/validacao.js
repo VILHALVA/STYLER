@@ -1,42 +1,37 @@
 window.onload = function () {
     const previousPage = document.referrer;
-    const currentProtocol = window.location.protocol;
-    const requiredURL = 'https://vilhalva.github.io/STYLER/01_HOME/ANUNCIO/index.html';
-    const fallbackURL = 'https://vilhalva.github.io/STYLER/index.html';
+    const currentPageProtocol = window.location.protocol;
+    const allowedReferrers = [
+        'https://vilhalva.github.io/STYLER/01_HOME/ANUNCIO/index.html',
+        'https://vilhalva.github.io/STYLER/01_HOME/SOBRE/index.html'
+    ];
 
-    document.body.classList.add('escondido');
+    function denyAccess() {
+        document.body.style.display = 'none';
+        alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSA PÁGINA SEM PASSAR PELO ANUNCIO! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
+        window.location.href = 'https://vilhalva.github.io/STYLER/index.html';
+    }
 
-    function permitirAcesso() {
+    if (currentPageProtocol === 'file:') {
         document.body.classList.add('js-enabled');
-        document.body.classList.remove('escondido');
-    }
-
-    function negarAcesso() {
-        alert('😡 ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSA PÁGINA SEM PASSAR PELO ANÚNCIO! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
-        setTimeout(() => {
-            window.location.href = fallbackURL;
-        }, 100);
-    }
-
-    if (currentProtocol === 'file:') {
-        permitirAcesso();
         return;
     }
 
     if (!previousPage) {
-        negarAcesso();
+        denyAccess();
         return;
     }
 
     if (previousPage.startsWith('https://')) {
-        if (previousPage.includes(requiredURL)) {
-            permitirAcesso();
+        if (allowedReferrers.includes(previousPage)) {
+            document.body.classList.add('js-enabled');
+            document.body.classList.remove('escondido');
         } 
         else {
-            negarAcesso();
+            denyAccess();
         }
         return;
     }
 
-    negarAcesso();
+    denyAccess();
 };
