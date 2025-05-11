@@ -20,8 +20,8 @@
 ## VERSÃO 3.5 - 06/05/2025:
 * ✅ **Validação de `https` adicionada**: Como o anúncio é sempre exibido após o carregamento do site, agora a validação de `https` também foi implementada nas rotas `01_HOME` e `02_ENTRAR`.
 * ✅ **Refatoração dos Temas**: Anteriormente, os temas dos `MENUS` e `SUBMENUS` eram separados em dois arquivos: `TEMA_01.css` (Claro) e `TEMA_02.css` (Escuro). No entanto, muitos seletores globais se repetiam em ambos os arquivos. Com a atualização de hoje, os seletores foram reorganizados de forma mais eficiente:
-  * 🔸`geral_.css`: contém apenas os seletores globais (sem repetição).
-  * 🔸`claro_.css` e `escuro_.css`: contêm exclusivamente os seletores relacionados às cores dos temas.
+  * 🔸`geral.css`: contém apenas os seletores globais (sem repetição).
+  * 🔸`claro.css` e `escuro_.css`: contêm exclusivamente os seletores relacionados às cores dos temas.
 * ✅ **Correções de bugs e pequenas melhorias.**
 ---
 
