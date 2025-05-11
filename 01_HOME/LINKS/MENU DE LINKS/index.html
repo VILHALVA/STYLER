@@ -7,24 +7,24 @@
     <title>LINKS</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="../../../03_MENU/MIDIAS/ICONE HTML.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./CSS/GERAL.css">
-    <link id="theme-stylesheet" rel="stylesheet" href="./CSS/CLARO.css">
-    <link rel="stylesheet" href="./CSS/FONTES.css">
+    <link rel="stylesheet" href="./CSS/geral_.css">
+    <link id="theme-stylesheet" rel="stylesheet" href="./CSS/claro_.css">
+    <link rel="stylesheet" href="./CSS/fontes_.css">
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const modeIcon = document.getElementById('mode_icon');
             const themeStylesheet = document.getElementById('theme-stylesheet');
         
             modeIcon.addEventListener('click', () => {
-                const isDark = themeStylesheet.getAttribute('href').includes('ESCURO.css');
+                const isDark = themeStylesheet.getAttribute('href').includes('escuro_.css');
         
                 if (isDark) {
-                    themeStylesheet.setAttribute('href', './CSS/CLARO.css');
+                    themeStylesheet.setAttribute('href', './CSS/claro_.css');
                     modeIcon.classList.remove('fa-sun');
                     modeIcon.classList.add('fa-moon');
                 } 
                 else {
-                    themeStylesheet.setAttribute('href', './CSS/ESCURO.css');
+                    themeStylesheet.setAttribute('href', './CSS/escuro_.css');
                     modeIcon.classList.remove('fa-moon');
                     modeIcon.classList.add('fa-sun');
                 }

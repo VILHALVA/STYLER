@@ -3,15 +3,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const themeStylesheet = document.getElementById('theme-stylesheet');
 
     modeIcon.addEventListener('click', () => {
-        const isDark = themeStylesheet.getAttribute('href').includes('ESCURO.css');
+        const isDark = themeStylesheet.getAttribute('href').includes('escuro_.css');
 
         if (isDark) {
-            themeStylesheet.setAttribute('href', './css/CLARO.css');
+            themeStylesheet.setAttribute('href', './css/claro_.css');
             modeIcon.classList.remove('fa-sun');
             modeIcon.classList.add('fa-moon');
         } 
         else {
-            themeStylesheet.setAttribute('href', './css/ESCURO.css');
+            themeStylesheet.setAttribute('href', './css/escuro_.css');
             modeIcon.classList.remove('fa-moon');
             modeIcon.classList.add('fa-sun');
         }
