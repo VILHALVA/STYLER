@@ -7,7 +7,7 @@ window.onload = function () {
 
     function denyAccess() {
         document.body.style.display = 'none';
-        alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSE MENU SEM PASSAR PELA VALIDAÇÃO! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
+        alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESTE MENU SEM PASSAR PELA HOME! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
         window.location.href = 'https://vilhalva.github.io/STYLER/index.html';
     }
 

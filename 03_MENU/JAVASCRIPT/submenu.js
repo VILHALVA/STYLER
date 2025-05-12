@@ -6,7 +6,7 @@ window.onload = function () {
     const requiredSubstring = 'https://vilhalva.github.io/STYLER/03_MENU/HTML/01_MENU%20PRINCIPAL.html';
 
     function denyAccess() {
-        alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSE SUBMENU SEM PASSAR PELO MENU PRINCIPAL! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
+        alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESTE SUBMENU SEM PASSAR PELO MENU PRINCIPAL! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
         window.location.href = 'https://vilhalva.github.io/STYLER/index.html';
     }
 

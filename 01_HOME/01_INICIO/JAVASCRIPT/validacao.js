@@ -17,7 +17,7 @@ window.onload = function () {
     }
 
     function negarAcesso() {
-        alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSA PÁGINA SEM PASSAR PELO ANÚNCIO! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
+        alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESTA PÁGINA SEM PASSAR PELO ANÚNCIO! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA DO ANÚNCIO!');
         setTimeout(() => {
             window.location.href = fallbackURL;
         }, 100);
