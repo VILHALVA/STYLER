@@ -1,4 +1,4 @@
-/*  VALIDAÇÃO DE HTTPS DOS SUBMENUS: */
+/* VALIDAÇÃO DE HTTPS DOS SUBMENUS: */
 
 window.onload = function () {
     const previousPage = document.referrer;

@@ -1,4 +1,4 @@
-/*  VALIDAÇÃO DE HTTPS DO MENU PRINCIPAL: */
+/* VALIDAÇÃO DE HTTPS DO MENU PRINCIPAL: */
 
 window.onload = function () {
     const previousPage = document.referrer;
