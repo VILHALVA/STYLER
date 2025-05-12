@@ -1,0 +1,127 @@
+/* TEMA CLARO: */
+
+:root {
+    --cor-gg-1: #d20f0f; 
+    --cor-gg-2: #0d55c9; 
+    --cor-gg-3: #6b0fc1; 
+    --cor-gg-4: #076979; 
+    --cor-gg-5: #1e293b; 
+    --cor-gg-6: #09de97; 
+    --cor-gg-7: #b1870b; 
+
+    --cor-g-1: #ee1414;
+    --cor-g-2: #3417b7;
+    --cor-g-3: #630958;
+    --cor-g-4: #0c81db;
+    --cor-g-5: #1a0328;
+    --cor-g-6: #0ac12b;
+    --cor-g-7: #2a0e8f;
+
+    --cor-m-1: #d63384; 
+    --cor-m-2: #0a6c4f; 
+    --cor-m-3: #0b2eb9; 
+    --cor-m-4: #f59e0b; 
+    --cor-m-5: #1f2937; 
+    --cor-m-6: #3f3f46; 
+    --cor-m-7: #6366f1; 
+
+    --cor-p-1: #ee1414;
+    --cor-p-2: #29128f;
+    --cor-p-3: #630958;
+    --cor-p-4: #0c81db;
+    --cor-p-5: #1a0328;
+    --cor-p-6: #0ac12b;
+    --cor-p-7: #2a0e8f;
+}
+
+/* TELAS GIGANTES - DESKTOP {GG}: */
+@media screen and (min-width: 1201px)  {
+    body {
+        background-color: var(--cor-gg-6);
+    }
+
+    header {
+        background-image: linear-gradient(to bottom, var(--cor-gg-1), var(--cor-gg-2));
+    }
+
+    main {
+        background-image: linear-gradient(to top, var(--cor-gg-7), var(--cor-gg-3), var(--cor-gg-1));
+    }
+
+    .BOTAO {
+        background-image: linear-gradient(to left, var(--cor-gg-4), var(--cor-gg-5));
+    }
+
+    .BOTAO:hover {
+        background-image: linear-gradient(to left, var(--cor-gg-1), var(--cor-gg-7));
+    }
+}
+
+/* TELAS GRANDES - LAPTOP {G}: */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    body {
+        background-color: var(--cor-g-6);
+    }
+
+    header {
+        background-image: linear-gradient(to bottom, var(--cor-g-1), var(--cor-g-2));
+    }
+
+    main {
+        background-image: linear-gradient(to top, var(--cor-g-7), var(--cor-g-3), var(--cor-g-1));
+    }
+
+    .BOTAO {
+        background-image: linear-gradient(to left, var(--cor-g-4), var(--cor-g-5));
+    }
+
+    .BOTAO:hover {
+        background-image: linear-gradient(to left, var(--cor-g-1), var(--cor-g-7));
+    }
+}
+
+/* TELAS MÉDIAS - TABLET {M}: */
+@media screen and (min-width: 769px) and (max-width: 992px) {  
+    body {
+        background-color: var(--cor-m-2);
+    }
+
+    header {
+        background-image: linear-gradient(to bottom, var(--cor-m-3), var(--cor-m-2));
+    }
+
+    main {
+        background-image: linear-gradient(to top, var(--cor-m-2), var(--cor-m-6));
+    }
+
+    .BOTAO {
+        background-image: linear-gradient(to left, var(--cor-m-5), var(--cor-m-4));
+    }
+
+    .BOTAO:hover {
+        background-image: linear-gradient(to left, var(--cor-m-2), var(--cor-m-1));
+    }
+}
+
+/* TELAS PEQUENAS - SMARTPHONE {P}: */
+@media screen and (max-width: 768px) {  
+    body {
+        background-color: var(--cor-p-2);
+    }
+
+    header {
+        background-image: linear-gradient(to bottom, var(--cor-p-3), var(--cor-p-2));
+    }
+
+    main {
+        background-image: linear-gradient(to top, var(--cor-p-2), var(--cor-p-6));
+    }
+
+    .BOTAO {
+        background-image: linear-gradient(to left, var(--cor-p-5), var(--cor-p-4));
+    }
+
+    .BOTAO:hover {
+        background-image: linear-gradient(to left, var(--cor-p-2), var(--cor-p-1));
+    }
+}
