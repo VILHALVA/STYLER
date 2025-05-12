@@ -2,62 +2,62 @@
 
 @font-face {
     font-family: "--fonte-gg-1";
-    src: url(../FONTES/CascadiaCode-VariableFont_wght.ttf);
+    src: url(../../00_MODEL/FONTES/CascadiaCode-VariableFont_wght.ttf);
 }
 
 @font-face {
     font-family: "--fonte-gg-2";
-    src: url(../FONTES/SourceSans3-Italic-VariableFont_wght.ttf);
+    src: url(../../00_MODEL/FONTES/SourceSans3-Italic-VariableFont_wght.ttf);
 }
 
 @font-face {
     font-family: "--fonte-gg-3";
-    src: url(../FONTES/CascadiaCode-Italic-VariableFont_wght.ttf);
+    src: url(../../00_MODEL/FONTES/CascadiaCode-Italic-VariableFont_wght.ttf);
 }
 
 @font-face {
     font-family: "--fonte-g-1";
-    src: url(../FONTES/love\ story.ttf);
+    src: url(../../00_MODEL/FONTES/love\ story.ttf);
 }
 
 @font-face {
     font-family: "--fonte-g-2";
-    src: url(../FONTES/Hurry\ Loves.otf);
+    src: url(../../00_MODEL/FONTES/Hurry\ Loves.otf);
 }
 
 @font-face {
     font-family: "--fonte-g-3";
-    src: url(../FONTES/PassionOne-Black.ttf);
+    src: url(../../00_MODEL/FONTES/PassionOne-Black.ttf);
 }
 
 @font-face {
     font-family: "--fonte-m-1";
-    src: url(../FONTES/Anton-Regular.ttf);
+    src: url(../../00_MODEL/FONTES/Anton-Regular.ttf);
 }
 
 @font-face {
     font-family: "--fonte-m-2";
-    src: url(../FONTES/STOREB__.ttf);
+    src: url(../../00_MODEL/FONTES/STOREB__.ttf);
 }
 
 @font-face {
     font-family: "--fonte-m-3";
-    src: url(../FONTES/Olive\ Days.ttf);
+    src: url(../../00_MODEL/FONTES/Olive\ Days.ttf);
 }
 
 @font-face {
     font-family: "--fonte-p-1";
-    src: url(../FONTES/idroid.otf);
+    src: url(../../00_MODEL/FONTES/idroid.otf);
 }
 
 @font-face {
     font-family: "--fonte-p-2";
-    src: url(../FONTES/PassionOne-Bold.ttf);
+    src: url(../../00_MODEL/FONTES/PassionOne-Bold.ttf);
 }
 
 @font-face {
     font-family: "--fonte-p-3";
-    src: url(../FONTES/PassionOne-Regular.ttf);
+    src: url(../../00_MODEL/FONTES/PassionOne-Regular.ttf);
 }
 
 /* TELAS GIGANTES - DESKTOP {GG}: */

@@ -1,4 +1,15 @@
 # ATUALIZAÇÕES:
+## VERSÃO 3.7 - 12/05/2025:
+* ✅ **Reorganização dos Diretórios e Arquivos**:
+  * 🔸 **Fragmentação do JavaScript:** Anteriormente, a maior parte do código JavaScript estava centralizada em um único arquivo: `script.js`. Agora, cada funcionalidade foi separada em arquivos específicos com nomes em lowercase, como: `menu.js`, `submenu.js`, `temas.js` e `youtube.js`.
+  * 🔸 **Fragmentação do CSS:** Antes, quase todo o código CSS estava no arquivo `style.css`. Agora, foi dividido em arquivos específicos com nomes em lowercase, como: `fontes.css`, `claro.css`, `escuro.css` e `geral.css`.
+  * 🔸 **Organização do `MENU DE LINKS`:** Agora, na rota `./01_HOME/LINKS/`, todos os arquivos seguem exatamente a mesma estrutura do `./03_MENU`.
+  * 🔸 **Criação do diretório `00_MODEL`:** Anteriormente, os `favicons` e `fontes` ficavam em `03_MENU/MIDIAS` e `03_MENU/FONTES`. Agora, estão organizados em `00_MODEL/FAVICONS` e `00_MODEL/FONTES` (🤤Com o uso do CTRL + SHIFT + H no Visual Studio Code foi possível editar mais de 308 arquivos em 3 segundos!).
+  * 🔸 **Reorganização completa das imagens:** As imagens usadas como `favicon` antes estavam em formato `png`. Agora foram convertidas para `ico`, renomeadas em lowercase, e a página de `Loading` do site passou a ter seu próprio favicon.
+* ✅ **Remoção dos Buscadores:** Os `buscadores` foram removidos do `MENU DE ENTRADA` (`02_ENTRAR`) e do `MENU PRINCIPAL`, permanecendo apenas nos `SUBMENUS` em `03_MENU`.
+* ✅ **Correções de bugs e melhorias gerais foram aplicadas.**
+---
+
 ## VERSÃO 3.6 - 09/05/2025:
 * ✅ **Refatoração das Media Queries 2.0:**
   - Anteriormente, o site suportava apenas duas faixas de resolução: **telas grandes** (Computadores e TVs - `min-width: 768px`) e **telas pequenas** (Tablets e Celulares - `max-width: 768px`).

@@ -3,24 +3,33 @@
 window.onload = function () {
     const previousPage = document.referrer;
     const currentPageProtocol = window.location.protocol;
-    const requiredSubstrings = [
-        'https://vilhalva.github.io/STYLER/03_MENU/HTML/01_MENU%20PRINCIPAL.html',
-        'https://vilhalva.github.io/STYLER/03_MENU/BUSCADOR/index.html'
-    ];
+    const requiredSubstring = 'https://vilhalva.github.io/STYLER/03_MENU/HTML/01_MENU%20PRINCIPAL.html';
 
     function denyAccess() {
-        alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSA PÁGINA SEM PASSAR PELO MENU PRINCIPAL! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
+        alert('😡ATENÇÃO: FOI DETECTADO QUE VOCÊ ACESSOU ESSE SUBMENU SEM PASSAR PELO MENU PRINCIPAL! VOCÊ SERÁ REDIRECIONADO PARA A PÁGINA INICIAL!');
         window.location.href = 'https://vilhalva.github.io/STYLER/index.html';
     }
 
-    const isPreviousPageAllowed = previousPage.startsWith('https://') &&requiredSubstrings.some(substring => previousPage.includes(substring));
-    const isFileProtocol = currentPageProtocol === 'file:';
-    const isValidAccess = isPreviousPageAllowed || isFileProtocol;
-
-    if (isValidAccess) {
+    if (currentPageProtocol === 'file:') {
         document.body.classList.add('js-enabled');
-    } 
-    else {
-        denyAccess();
+        return;
     }
+
+    if (!previousPage) {
+        denyAccess();
+        return;
+    }
+
+    if (previousPage.startsWith('https://')) {
+        if (previousPage.includes(requiredSubstring)) {
+            document.body.classList.add('js-enabled');
+        } 
+        else {
+            denyAccess();
+        }
+        return;
+    }
+
+    denyAccess();
 };
+
