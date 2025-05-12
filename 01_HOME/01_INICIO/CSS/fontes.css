@@ -80,6 +80,10 @@
     .descricao {
         font-size: 20px;
     }  
+
+    .h1social {
+        font-size: 30px;
+    }    
 }
 
 /* TELAS GRANDES - LAPTOP {G}: */
@@ -102,6 +106,11 @@
     .descricao {
         font-size: 20px;
     }
+
+    .h1social {
+        font-size: 28px;
+    }
+        
 }
 
 /* TELAS MÉDIAS - TABLET {M}: */
@@ -125,6 +134,10 @@
         margin: 10px;
         font-size: 20px;
     }
+
+    .h1social {
+        font-size: 25px;
+    }
 }
 
 /* TELAS PEQUENAS - SMARTPHONE {P}: */
@@ -147,5 +160,9 @@
     .descricao {
         margin: 10px;
         font-size: 17px;
+    }
+
+    .h1social {
+        font-size: 20px;
     }
 }

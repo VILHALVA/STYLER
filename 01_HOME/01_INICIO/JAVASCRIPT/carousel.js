@@ -3,7 +3,7 @@ $(function () {
     var carousel = $('#carousel');
 
     for (var i = 1; i <= totalImages; i++) {
-        carousel.append('<img src="./VILHALVA/' + i + '.jpg" alt="VILHALVA ' + i + '">');
+        carousel.append('<img src="./IMAGENS/VILHALVA/' + i + '.jpg" alt="VILHALVA ' + i + '">');
     }
 
     $('#carousel img:eq(0)').addClass("ativo").show();
