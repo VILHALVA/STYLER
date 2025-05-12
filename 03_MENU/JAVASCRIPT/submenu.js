@@ -1,3 +1,5 @@
+/*  VALIDAÇÃO DE HTTPS DOS SUBMENUS: */
+
 window.onload = function () {
     const previousPage = document.referrer;
     const currentPageProtocol = window.location.protocol;

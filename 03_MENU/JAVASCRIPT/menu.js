@@ -1,3 +1,5 @@
+/*  VALIDAÇÃO DE HTTPS DO MENU PRINCIPAL: */
+
 window.onload = function () {
     const previousPage = document.referrer;
     const currentPageProtocol = window.location.protocol;

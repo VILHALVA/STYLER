@@ -1,3 +1,5 @@
+let menuAberto = false; 
+
 function clickMenu() {
     if (itens.style.display === 'block') {
         itens.style.display = 'none';
