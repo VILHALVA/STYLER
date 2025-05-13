@@ -68,6 +68,14 @@
         background-color: var(--cor-gg-3);
     }
 
+    .buttons .button.blue {
+        background-color: var(--cor-gg-5);
+    }
+
+    .buttons .button.blue:hover {
+        background-color: var(--cor-gg-1);
+    }
+
     #BOTAO {
         background-image: linear-gradient(to left, var(--cor-gg-2), var(--cor-gg-5));
     }
@@ -105,6 +113,14 @@
 
     .profile {
         background-color: var(--cor-g-3);
+    }
+
+    .buttons .button.blue {
+        background-color: var(--cor-g-7);
+    }
+
+    .buttons .button.blue:hover {
+        background-color: var(--cor-g-8);
     }
 
     #BOTAO {
@@ -150,6 +166,14 @@
         background-color: var(--cor-m-5);
     }
 
+    .buttons .button.blue {
+        background-color: var(--cor-m-8);
+    }
+
+    .buttons .button.blue:hover {
+        background-color: var(--cor-m-3);
+    }
+
     #BOTAO {
         background-image: linear-gradient(to left, var(--cor-m-5), var(--cor-m-7));
     }
@@ -191,6 +215,14 @@
 
     .profile {
         background-color: var(--cor-p-5);
+    }
+
+    .buttons .button.blue {
+        background-color: var(--cor-p-9);
+    }
+
+    .buttons .button.blue:hover {
+        background-color: var(--cor-p-8);
     }
 
     #BOTAO {
