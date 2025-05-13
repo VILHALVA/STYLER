@@ -196,7 +196,6 @@ footer {
     position: fixed;
     right: 22px;
     bottom: 20px;
-    margin-bottom: 20px; 
     width: 48px;
     height: 48px;
     display: flex;
@@ -212,7 +211,6 @@ footer {
   }  
 
 #mode_icon:hover {
-    background-color: chocolate; 
     transform: scale(1.1); 
 }
 
