@@ -1,0 +1,164 @@
+/* ESTILO DE TEMAS: */
+
+:root {
+    --cor-gg-1: #015d0a;
+    --cor-gg-2: #0c4613;
+    --cor-gg-3: #01170a;
+    --cor-gg-4: #11283c;
+    --cor-gg-5: #030346;
+    --cor-gg-6: #38052b;
+    --cor-gg-7: #660539;
+    --cor-gg-8: #1d053499; 
+
+    --cor-g-1: #200992;
+    --cor-g-2: #040488;
+    --cor-g-3: #0a0f35;
+    --cor-g-4: #11283c;
+    --cor-g-5: #030346;
+    --cor-g-6: #3d1a02;
+    --cor-g-7: #ff3b2a;
+    --cor-g-8: #00000099; 
+
+    --cor-m-1: #842108;
+    --cor-m-2: #980a0a;
+    --cor-m-3: #770c47;
+    --cor-m-4: #041a2d;
+    --cor-m-5: #030346;
+    --cor-m-6: #075f15;
+    --cor-m-7: #980d59;
+    --cor-m-8: #00000099; 
+
+    --cor-p-1: #2c043c;
+    --cor-p-2: #1a083a;
+    --cor-p-3: #041616;
+    --cor-p-4: #0a2640;
+    --cor-p-5: #06065f;
+    --cor-p-6: #21040a;
+    --cor-p-7: #41221f;
+    --cor-p-8: #110101b0; 
+}
+
+/* TELAS GIGANTES - DESKTOP {GG}: */
+@media screen and (min-width: 1201px) {
+    body {
+        background-color: var(--cor-gg-4);
+    }
+
+    header {
+        background: linear-gradient(to bottom, var(--cor-gg-1), var(--cor-gg-2), var(--cor-gg-3)), var(--cor-gg-4);
+    }
+
+    main {
+        background: linear-gradient(to bottom, var(--cor-gg-5), var(--cor-gg-6)); 
+    }
+
+    main > h1 {
+        background-color: var(--cor-gg-7);
+    }
+
+    div {
+        background-color: var(--cor-gg-8); 
+    }
+
+    button#youtubeBtn {
+        background-color: var(--cor-gg-8);
+    }
+
+    button#youtubeBtn:hover {
+        background-color: var(--cor-gg-6);
+    }
+}
+
+/* TELAS GRANDES - LAPTOP {G}: */
+@media screen and (min-width: 993px) and (max-width: 1200px)  {
+    body {
+        background-color: var(--cor-g-4);
+    }
+
+    header {
+        background: linear-gradient(to bottom, var(--cor-g-1), var(--cor-g-2), var(--cor-g-3)), var(--cor-g-4);
+    }
+
+    main {
+        background: linear-gradient(to bottom, var(--cor-g-5), var(--cor-g-6)); 
+    }
+
+    main > h1 {
+        background-color: var(--cor-g-7); 
+    }
+
+    div {
+        background-color: var(--cor-g-8); 
+    }
+
+    button#youtubeBtn {
+        background-color: var(--cor-g-1);
+    }
+
+    button#youtubeBtn:hover {
+        background-color: var(--cor-g-5);
+    }
+}
+
+/* TELAS MÉDIAS - TABLET {M}: */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    body {
+        background-color: var(--cor-m-5);
+    }
+
+    header {
+        background: linear-gradient(to bottom, var(--cor-m-1), var(--cor-m-2), var(--cor-m-3)), var(--cor-m-4);
+    }
+
+    main {
+        background: linear-gradient(to bottom, var(--cor-m-5), var(--cor-m-6)); 
+    }
+
+    main > h1 {
+        background-color: var(--cor-m-7); 
+    }
+
+    div {
+        background-color: var(--cor-m-8); 
+    }
+    button#youtubeBtn {
+        background-color: var(--cor-m-2);
+    }
+
+    button#youtubeBtn:hover {
+        background-color: var(--cor-m-6);
+    }
+}
+
+/* TELAS PEQUENAS - SMARTPHONE {P}: */
+@media screen and (max-width: 768px) { 
+    body {
+        background-color: var(--cor-p-5);
+    }
+
+    header {
+        background: linear-gradient(to bottom, var(--cor-p-1), var(--cor-p-2), var(--cor-p-3)), var(--cor-p-4);
+    }
+
+    main {
+        background: linear-gradient(to bottom, var(--cor-p-5), var(--cor-p-6)); 
+    }
+
+    main > h1 {
+        background-color: var(--cor-p-7); 
+        font-size: 2.0em;
+    }
+
+    div {
+        background-color: var(--cor-p-8); 
+        font-size: 0.9em;
+    }
+
+    button#youtubeBtn {
+        background-color: var(--cor-p-1);
+    }
+
+    button#youtubeBtn:hover {
+        background-color: var(--cor-p-3);
+    }
+}

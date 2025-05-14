@@ -30,7 +30,7 @@ body {
 
 .content {
     position: relative;
-    background-image: url('../imagens/freelancer.jpg');
+    background-image: url('foto.jpg');
     background-size: contain;
     background-position: center top;
     background-repeat: no-repeat;

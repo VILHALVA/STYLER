@@ -1,0 +1,125 @@
+/* ESTILO DE FONTES: */
+
+@font-face {
+    font-family: "--fonte-gg-1";
+    src: url(../../../00_MODEL/FONTES/CascadiaCode-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "--fonte-gg-2";
+    src: url(../../../00_MODEL/FONTES/CascadiaCode-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "--fonte-g-1";
+    src: url(../../../00_MODEL/FONTES/Hurry\ Loves.otf);
+}
+
+@font-face {
+    font-family: "--fonte-g-2";
+    src: url(../../../00_MODEL/FONTES/Hurry\ Loves.otf);
+}
+
+@font-face {
+    font-family: "--fonte-m-1";
+    src: url(../../../00_MODEL/FONTES/Sriracha-Regular.ttf);
+}
+
+@font-face {
+    font-family: "--fonte-m-2";
+    src: url(../../../00_MODEL/FONTES/PassionOne-Black.ttf);
+}
+
+@font-face {
+    font-family: "--fonte-p-1";
+    src: url(../../../00_MODEL/FONTES/idroid.otf);
+}
+
+@font-face {
+    font-family: "--fonte-p-2";
+    src: url(../../../00_MODEL/FONTES/PassionOne-Regular.ttf);
+}
+
+/* TELAS GIGANTES - DESKTOP {GG}: */
+@media screen and (min-width: 1201px) {
+    header h1 {
+        font-family: "--fonte-gg-1";
+        font-size: 3.0em;
+    }
+
+    header p {
+        font-family: "--fonte-gg-2";
+        font-size: 3.5em;
+    } 
+
+    main > h1 {
+        font-size: 2.5em;
+    }
+
+    div > p {
+        font-size: 1.7em;
+    }
+}
+
+/* TELAS GRANDES - LAPTOP {G}: */
+@media screen and (min-width: 993px) and (max-width: 1200px)  {
+    header h1 {
+        font-family: "--fonte-g-1";
+        font-size: 2.5em;
+    }
+
+    header p {
+        font-family: "--fonte-g-2";
+        font-size: 2em;
+    }
+
+    main > h1 {
+        font-size: 2.5em;
+    }
+
+    div > p {
+        font-size: 1.3em;
+    }
+}
+
+/* TELAS MÉDIAS - TABLET {M}: */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    header h1 {
+        font-family: "--fonte-m-1";
+        font-size: 2.4em;
+    }
+
+    header p {
+        font-family: "--fonte-m-2";
+        font-size: 1.8em;
+    }
+
+    main > h1 {
+        font-size: 2em;
+    }
+
+    div > p {
+        font-size: 1em;
+    }
+}
+
+/* TELAS PEQUENAS - SMARTPHONE {P}: */
+@media screen and (max-width: 768px) { 
+    header h1 {
+        font-family: "--fonte-p-1";
+        font-size: 1.4em;
+    }
+
+    header p {
+        font-family: "--fonte-p-2";
+        font-size: 1.2em;
+    }
+
+    main > h1 {
+        font-size: 2.0em;
+    }
+
+    div > p {
+        font-size: 1em;
+    }
+}
