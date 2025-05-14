@@ -1,11 +1,14 @@
 # ATUALIZAÇÕES:
 ## VERSÃO 3.8 - 14/05/2025:
-* ✅ Foi adicionada ao site a funcionalidade de prévia de link com título, foto e descrição, permitindo que ao compartilhar o link em redes sociais como WhatsApp, Facebook e Twitter, uma visualização personalizada com informações relevantes e imagem de destaque seja exibida automaticamente. Confira você mesmo! Compartilhe este link em suas redes sociais e veja a prévia personalizada com título, imagem e descrição em ação:
+* ✅ Foi adicionada ao site a funcionalidade de prévia de link com título, foto e descrição, permitindo que ao compartilhar o link em redes sociais como WhatsApp, Facebook e Twitter, uma visualização personalizada com informações relevantes e imagem de destaque seja exibida automaticamente. Confira você mesmo! Compartilhe estes links em suas redes sociais e veja a prévia personalizada com título, imagem e descrição em ação:
 
 ```
 https://vilhalva.github.io/STYLER/index.html
 ```
 
+```
+https://vilhalva.github.io/STYLER/01_HOME/FREELANCER/index.html
+```
 ---
 
 ## VERSÃO 3.7 - 12/05/2025:
