@@ -8,7 +8,6 @@
 
 body {
     display: none;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 body.js-enabled {
