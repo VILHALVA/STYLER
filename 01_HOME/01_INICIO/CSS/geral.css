@@ -176,7 +176,7 @@ article {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .h1social {
@@ -198,7 +198,7 @@ footer {
 #mode_icon {
     position: fixed;
     right: 22px;
-    bottom: 20px;
+    bottom: 15px;
     width: 48px;
     height: 48px;
     display: flex;

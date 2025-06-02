@@ -9,7 +9,7 @@ Este site foi meticulosamente criado por um desenvolvedor independente, refletin
 ## PARECE SITE DOS ANOS 90?
 Sim, o design deste site foi inspirado no formato dos sites dos anos 90, apesar de eu só ter descoberto a existência da internet em 2017. Para recriar a estética daquela época, assisti a vários documentários e entrevistei pessoas que vivenciaram a internet naquela década.
 
-Com essas informações, em `06/10/2022`, desenvolvi minha própria versão de um site retro, com o objetivo de mostrar à geração mais jovem como era a experiência online no passado. No entanto, não se deixe enganar pela aparência nostálgica: este site está longe de ser básico. Ele incorpora muitos recursos modernos, como validações HTTPS, Anúncios, Media Queries, botões de temas, buscadores, e muito mais.
+Com essas informações, em `06/10/2022`, desenvolvi minha própria versão de um site retrô, com o objetivo de mostrar à geração mais jovem como era a experiência online no passado. No entanto, não se deixe enganar pela aparência nostálgica: este site está longe de ser básico. Ele incorpora muitos recursos modernos, como validações HTTPS, Anúncios, Media Queries, botões de temas, buscadores, e muito mais.
 
 O visual retrô, com sua paleta de cores vibrantes, é uma homenagem à era inicial da web. É daí que vem o nome `STYLER` (um jogo de palavras com "estilo" do ".css"). Para garantir que a experiência não seja cansativa para os olhos, desde a `VERSÃO 2.4 - 07/08/2024`, adicionei um botão para alternar para o tema escuro, proporcionando uma navegação mais confortável.
 
@@ -22,7 +22,9 @@ O site é um verdadeiro tesouro digital, oferecendo uma ampla gama de recursos e
 Embora o site seja totalmente funcional em dispositivos móveis, oferecendo uma experiência responsiva, recomendamos explorá-lo em seu computador para uma experiência mais completa. Isso garante que você aproveite ao máximo todos os recursos e o layout projetado para telas maiores.
 
 ## IMPORTÂNCIA DO JAVASCRIPT:
-Observe que o conteúdo contido nos "MENU PRINCIPAL" e "SUBMENUS" será exibido apenas quando o JavaScript estiver habilitado. Desabilitar o JavaScript através de extensões pode resultar na exibição de uma página em branco. Recomendamos manter o JavaScript habilitado para desfrutar de todas as funcionalidades interativas e dinâmicas do site.
+Observe que o conteúdo de certas páginas, como `HOME`, `ENTRAR NO SITE`, `MENU PRINCIPAL`, `SUBMENUS` e `BUSCADORES`, será exibido apenas quando o JavaScript estiver habilitado.
+
+Desabilitar o JavaScript através de extensões pode resultar na exibição de uma página em branco. Recomendamos manter o JavaScript habilitado para desfrutar de todas as funcionalidades interativas e dinâmicas do site.
 
 ## LIMITAÇÃO DA HOSPEDAGEM NO GITHUB PAGES:
 Este site é hospedado no GitHub Pages, o que proporciona uma maneira conveniente e gratuita de compartilhar conteúdo online. No entanto, é importante notar que o GitHub Pages tem algumas limitações em relação a recursos avançados de servidor. Isso pode afetar a implementação de determinadas funcionalidades mais complexas que podem ser encontradas em plataformas de hospedagem mais robustas.
