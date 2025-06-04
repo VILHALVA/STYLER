@@ -1,9 +1,10 @@
 $(function () {
-    var totalImages = 10;
+    var totalImages = 68;
     var carousel = $('#carousel');
 
     for (var i = 1; i <= totalImages; i++) {
-        carousel.append('<img src="./IMAGENS/VILHALVA/' + i + '.jpg" alt="VILHALVA ' + i + '">');
+        var numeroFormatado = i.toString().padStart(2, '0');
+        carousel.append('<img src="./IMAGENS/VILHALVA/' + numeroFormatado + '.jpg" alt="VILHALVA ' + numeroFormatado + '">');
     }
 
     $('#carousel img:eq(0)').addClass("ativo").show();
@@ -20,4 +21,3 @@ $(function () {
         }
     }
 });
-
