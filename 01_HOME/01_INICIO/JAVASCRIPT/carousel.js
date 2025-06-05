@@ -1,5 +1,5 @@
 $(function () {
-    var totalImages = 68;
+    var totalImages = 54;
     var carousel = $('#carousel');
 
     for (var i = 1; i <= totalImages; i++) {
