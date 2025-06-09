@@ -91,7 +91,7 @@ main > h1 {
 .BOTAO {
     color: white;
     text-align: center;
-    font-size: 1em;
+    font-size: 15px;
     display: block;
     padding-left: 10px;
     padding-right: 10px;
@@ -108,4 +108,5 @@ main > h1 {
 .BOTAO:hover {
     text-decoration: none;
 }
+
 
