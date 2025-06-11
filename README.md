@@ -40,6 +40,13 @@ Muitas das páginas utilizadas neste site também estão disponíveis no GitHub:
 - [APLICATIVOS](https://github.com/VILHALVA?tab=repositories&q=+topic:APLICATION+topic:HTML)
 - [JOGOS](https://github.com/VILHALVA?tab=repositories&q=topic:JOGO+topic:HTML)
 
+## TECNOLOGIAS:
+* [HTML E CSS](https://github.com/VILHALVA/CURSO-DE-HTML-E-CSS)
+* [JAVASCRIPT](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT)
+* [MATERIALIZECSS](https://github.com/VILHALVA/CURSO-DE-MATERIALIZECSS)
+* [BOOTSTRAP](https://github.com/VILHALVA/CURSO-DE-BOOTSTRAP)
+
+
 ## MAIS:
 - [CLIQUE AQUI PARA ENTRAR NO SITE](https://vilhalva.github.io/STYLER/index.html)
 - [VEJA OS VIDEOS SOBRE ESSE SITE](https://www.youtube.com/@vilhalva100/search?query=STYLER)
