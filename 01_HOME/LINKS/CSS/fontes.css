@@ -76,6 +76,10 @@
         font-family: "--fonte-gg-3";
         font-size: 2.5em;
     }
+
+    .BOTAO {
+        font-size: 16px;
+    }
 }
 
 /* TELAS GRANDES - LAPTOP {G}: */
@@ -93,6 +97,10 @@
     main > h1 {
         font-family: "--fonte-g-3";
         font-size: 2.7em;
+    }
+
+    .BOTAO {
+        font-size: 15px;
     }
 }
 
@@ -112,6 +120,10 @@
         font-family: "--fonte-m-3";
         font-size: 1.9em;
     }
+
+    .BOTAO {
+        font-size: 14px;
+    }
 }
 
 /* TELAS PEQUENAS - SMARTPHONE {P}: */
@@ -129,6 +141,10 @@
     main > h1 {
         font-family: "--fonte-p-3";
         font-size: 1.7em;
+    }
+
+    .BOTAO {
+        font-size: 13px;
     }
 }
 
