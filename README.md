@@ -45,7 +45,12 @@ Muitas das páginas utilizadas neste site também estão disponíveis no GitHub:
 * [JAVASCRIPT](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT)
 * [MATERIALIZECSS](https://github.com/VILHALVA/CURSO-DE-MATERIALIZECSS)
 * [BOOTSTRAP](https://github.com/VILHALVA/CURSO-DE-BOOTSTRAP)
-
+* [CHARTJS](https://github.com/VILHALVA/CURSO-DE-CHARTJS)
+* [JQUERY](https://github.com/VILHALVA/CURSO-DE-JQUERY)
+* [SWIPER](https://github.com/VILHALVA/CURSO-DE-SWIPER)
+* [DATATABLES](https://github.com/VILHALVA/CURSO-DE-DATATABLES)
+* [VUEJS](https://github.com/VILHALVA/CURSO-DE-VUEJS)
+* [PYSCRIPT](https://github.com/VILHALVA/CURSO-DE-PYSCRIPT)
 
 ## MAIS:
 - [CLIQUE AQUI PARA ENTRAR NO SITE](https://vilhalva.github.io/STYLER/index.html)
