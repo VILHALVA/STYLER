@@ -43,6 +43,8 @@ Muitas das páginas utilizadas neste site também estão disponíveis no GitHub:
 ## TECNOLOGIAS:
 * [HTML E CSS](https://github.com/VILHALVA/CURSO-DE-HTML-E-CSS)
 * [JAVASCRIPT](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT)
+* [BOOTSTRAP](https://github.com/VILHALVA/CURSO-DE-BOOTSTRAP)
+* [JQUERY](https://github.com/VILHALVA/CURSO-DE-JQUERY)
 
 ## MAIS:
 - [CLIQUE AQUI PARA ENTRAR NO SITE](https://vilhalva.github.io/STYLER/index.html)
