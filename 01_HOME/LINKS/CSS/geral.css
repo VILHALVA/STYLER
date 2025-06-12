@@ -10,6 +10,21 @@ html, body {
     overflow-x: hidden;
 }
 
+#mode_icon {
+    font-size: 20px; 
+    color: white;    
+    padding: 10px;   
+    border: 2px solid white;  
+    border-radius: 50%;  
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; 
+    cursor: pointer;  
+}
+
+#mode_icon:hover {
+    border-color: black; 
+    cursor: pointer; 
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -28,28 +43,13 @@ header {
     position: relative; 
 }
 
-#header-content h1 {
+#header-content > h1 {
     text-align: center;
     color: white;
     margin-bottom: 20px;
     font-weight: normal;
     text-shadow: 4px 3px 2px black;
     flex: 1; 
-}
-
-#mode_icon {
-    font-size: 20px; 
-    color: white;    
-    padding: 10px;   
-    border: 2px solid white;  
-    border-radius: 50%;  
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s; 
-    cursor: pointer;  
-}
-
-#mode_icon:hover {
-    border-color: black; 
-    cursor: pointer; 
 }
 
 header > p {
@@ -81,6 +81,7 @@ main > h1 {
 }
 
 .BOTAO {
+    font-size: clamp(14px, 2.5vw, 17px);
     color: white;
     text-align: center;
     display: block;

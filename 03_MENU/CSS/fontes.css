@@ -72,14 +72,10 @@
         font-size: 1.9em;
     }
 
-    main > h1 {
+    main h1 {
         font-family: "--fonte-gg-3";
         font-size: 1.8em;
-    }
-
-    .BOTAO {
-        font-size: 17px;
-    }    
+    } 
 }
 
 /* TELAS GRANDES - LAPTOP {G}: */
@@ -94,13 +90,9 @@
         font-size: 1em;
     }
 
-    main > h1 {
+    main h1 {
         font-family: "--fonte-g-3";
         font-size: 2.7em;
-    }
-
-    .BOTAO {
-        font-size: 16px;
     }
 }
 
@@ -116,13 +108,9 @@
         font-size: 1.5em;
     }
 
-    main > h1 {
+    main h1 {
         font-family: "--fonte-m-3";
         font-size: 1.9em;
-    }
-    
-    .BOTAO {
-        font-size: 15px;
     }
 }
 
@@ -138,13 +126,8 @@
         font-size: 1.2em;
     }
 
-    main > h1 {
+    main h1 {
         font-family: "--fonte-p-3";
         font-size: 1.7em;
     }
-
-    .BOTAO {
-        font-size: 14px;
-    }
 }
-
