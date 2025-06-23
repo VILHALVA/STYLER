@@ -1,4 +1,4 @@
-# ATUALIZAÇÕES:
+# [ATUALIZAÇÕES:](./UPDATES.md#vers%C3%A3o-10---06102022)
 ## VERSÃO 3.8 - 14/05/2025:
 * ✅ Foi adicionada ao site a funcionalidade de prévia de link com título, foto e descrição, permitindo que ao compartilhar o link em redes sociais como WhatsApp, Facebook e Telegram, uma visualização personalizada com informações relevantes e imagem de destaque seja exibida automaticamente. Confira você mesmo! Compartilhe estes links em suas redes sociais e veja a prévia personalizada com título, imagem e descrição em ação. Veja:
 
