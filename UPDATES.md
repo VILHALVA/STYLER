@@ -1,4 +1,8 @@
 # [ATUALIZAÇÕES:](./UPDATES.md#vers%C3%A3o-10---06102022)
+## VERSÃO 3.9 - 14/08/2025:
+* ✅ Para proteger o conteúdo e evitar manipulação indevida dos anúncios exibidos no site, foi implementado um bloqueio contra o uso de ferramentas de desenvolvedor — incluindo o **Inspecionar elemento** (F12) e o **Exibir código-fonte da página** — bem como a desativação do **clique direito do mouse**. Esse recurso está ativo nas seguintes rotas: `01_HOME/01_INICIO`, `02_ENTRAR/01_MENU PRINCIPAL`, `03_MENU/` e `TODOS OS BUSCADORES`.
+---
+
 ## VERSÃO 3.8 - 14/05/2025:
 * ✅ Foi adicionada ao site a funcionalidade de prévia de link com título, foto e descrição, permitindo que ao compartilhar o link em redes sociais como WhatsApp, Facebook e Telegram, uma visualização personalizada com informações relevantes e imagem de destaque seja exibida automaticamente. Confira você mesmo! Compartilhe estes links em suas redes sociais e veja a prévia personalizada com título, imagem e descrição em ação. Veja:
 
